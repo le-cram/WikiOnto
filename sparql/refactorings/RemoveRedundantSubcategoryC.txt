@@ -1,0 +1,5 @@
+If a category is contained in a
+supercategory and in one of the 
+supercategory's subcategories, the
+assignment to the supercategory 
+may be redundant.

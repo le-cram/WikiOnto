@@ -1,0 +1,4 @@
+An entity may have multiple
+attributesets. In order to
+improve the structure both
+attributesets can be merged.

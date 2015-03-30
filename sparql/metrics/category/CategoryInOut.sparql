@@ -1,0 +1,25 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT ?categoryname 
+(COUNT(?subcat) as ?howManySubCategories) 
+(COUNT(?supercat) as ?howManySuperCategories) 
+(?howManySubCategories/?howManySuperCategories as ?subSuperRatio)
+WHERE {
+	?category clonto:name ?categoryname .
+	FILTER EXISTS{?category ^clonto:hasSubCategory ?scategory}
+	
+	{SELECT ?category ?subcat
+	WHERE{
+		?category clonto:hasSubCategory ?subcat . 
+	}
+    }
+	
+	UNION
+	
+	{SELECT ?category ?supercat
+	WHERE{
+		?category ^clonto:hasSubCategory ?supercat . 
+	}
+    }
+}
+GROUP BY ?categoryname
+ORDER BY ?howManySuperCategories ?subSuperRatio

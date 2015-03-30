@@ -1,0 +1,5 @@
+If an entity is contained in a
+category and in one of the 
+category's subcategories, the
+latter assignment may be 
+redundant.

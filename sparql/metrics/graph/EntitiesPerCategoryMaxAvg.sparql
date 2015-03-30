@@ -1,0 +1,21 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT (MAX(?entitiesPerCategory) as ?max) (AVG(?entitiesPerCategory) as ?avg)
+WHERE{
+	{SELECT ?category (COUNT(?entity) as ?entitiesPerCategory)
+	WHERE {
+		{SELECT ?category
+		WHERE{
+			?category clonto:name ?cname .
+			FILTER(regex(STR(?category),"Category"))
+		}
+		}
+		UNION
+		{SELECT ?category ?entity
+		WHERE{
+		?category clonto:hasEntity ?entity .
+		}
+		}
+	}
+	GROUP BY ?category
+}
+}	

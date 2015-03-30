@@ -1,0 +1,12 @@
+﻿PREFIX clonto: <http://myCLOnto.de/> 
+SELECT ?categoryname ?howMany 
+WHERE {
+	?category clonto:name ?categoryname .
+    {SELECT ?category (COUNT(?entity) AS ?howMany)  
+     WHERE  {  
+		?category clonto:hasEntity ?entity . 
+	}
+    group by ?category}
+    FILTER(?howMany > 30)
+}
+ORDER BY ?howMany

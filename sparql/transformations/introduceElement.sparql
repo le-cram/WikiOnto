@@ -1,0 +1,3 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+INSERT { ?element clonto:name ?newname . }
+WHERE{ }

@@ -1,0 +1,105 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT 
+?howManyN
+(COUNT(?ucat) as ?howManyUC)  
+(?howManyN-?howManyUC as ?howManyRN)
+?howManyE
+?howManyC 
+(?howManySCEdges+?howManyHEEdges+?howManyHASEdges+?howManyHAEdges+?howManyHasMainEntity as ?howManyEdges) 
+(?howManySCEdges+?howManyHEEdges+?howManyHASEdges+?howManyHAEdges+?howManyN+?howManyDepth+?howManyTopic+?howManyHasMainEntity as ?howManyEdgesT) 
+(?howManyN/?howManyEdges as ?ENRatio) 
+(?howManyEdges-?howManyN+1 as ?treeimpurity) 
+?howManySCEdges 
+?howManyHEEdges 
+?howManyHASEdges 
+?howManyHAEdges
+?howManyDepth
+?howManyTopic
+?howManyValue
+?howManyHasMainEntity
+WHERE {
+	
+	{SELECT (COUNT(?resource) AS ?howManyN)  
+     WHERE  {
+		?resource clonto:name ?name .
+	}
+    }
+	
+	{SELECT (COUNT(?resource) AS ?howManyC)
+	WHERE {
+		?resource clonto:name ?name .
+		FILTER(regex(STR(?resource),"Category"))
+	}
+	}
+	
+	{SELECT (COUNT(?resource) AS ?howManyE)
+	WHERE {
+		?resource clonto:name ?name .
+		FILTER(regex(STR(?resource),"Entity"))
+	}
+	}
+	
+	{SELECT DISTINCT ?ucat   
+     WHERE  {
+		?ucat clonto:hasSubCategory|clonto:hasEntity ?elem  .
+		FILTER NOT EXISTS{
+			?ucat clonto:depth ?depth .
+		}
+	}
+    }
+	
+	{SELECT (COUNT(?node2) as ?howManySCEdges)
+	WHERE {
+		?node1 clonto:hasSubCategory ?node2 .
+	}
+	}
+	
+	
+	
+	{SELECT (COUNT(?node2) as ?howManyHEEdges)
+	WHERE {
+		?node1 clonto:hasEntity ?node2 .
+	}
+	}
+	
+	
+	
+	{SELECT (COUNT(?node2) as ?howManyHASEdges)
+	WHERE {
+		?node1 clonto:hasAttributeSet ?node2 .
+	}
+	}
+	
+	
+	{SELECT (COUNT(?node2) as ?howManyHAEdges)
+	WHERE {
+		?node1 clonto:hasAttribute ?node2 .
+	}
+	}
+	
+	{SELECT (COUNT(?node2) as ?howManyDepth)
+	WHERE {
+		?node1 clonto:depth ?node2 .
+	}
+	}
+	
+	{SELECT (COUNT(?node2) as ?howManyTopic)
+	WHERE {
+		?node1 clonto:topic ?node2 .
+	}
+	}
+	
+	{SELECT (COUNT(?node2) as ?howManyValue)
+	WHERE {
+		?node1 clonto:topic ?node2 .
+	}
+	}
+	
+	{SELECT (COUNT(?node2) as ?howManyHasMainEntity)
+	WHERE {
+		?node1 clonto:hasMainEntity ?node2 .
+	}
+	}
+	
+}
+GROUP BY ?scategory ?howManyN ?howManyC ?howManyE ?howManyUC ?howManyEdges ?howManySCEdges ?howManyHEEdges ?howManyHASEdges ?howManyHAEdges ?howManyDepth ?howManyTopic ?howManyValue ?howManyHasMainEntity

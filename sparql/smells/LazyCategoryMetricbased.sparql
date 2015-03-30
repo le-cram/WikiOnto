@@ -1,0 +1,27 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT 
+?categoryname 
+(COUNT(?entity) as ?NumberOfEntities)
+(COUNT(?subcategory) as ?NumberOfSubcategories)
+(?NumberOfEntities + ?NumberOfSubcategories as ?howmany)
+WHERE {
+	?category clonto:depth ?depth .
+	?category clonto:name ?categoryname .
+	
+	{SELECT ?category ?entity
+	WHERE{
+		?category clonto:hasEntity ?entity .
+	}
+	}
+	
+	UNION
+	
+	{SELECT ?category ?subcategory
+	WHERE{
+		?category clonto:hasSubCategory ?subcategory .
+	}
+	}
+}
+GROUP BY ?categoryname
+HAVING (?howmany < 7)
+ORDER BY ?howmany

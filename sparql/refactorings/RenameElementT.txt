@@ -1,0 +1,5 @@
+1. Choose element's type
+2. Choose old name
+3. Choose new name
+4. add new name to element
+5. remove old name from element

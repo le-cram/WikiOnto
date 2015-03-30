@@ -1,0 +1,8 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+INSERT {
+  ?supercat clonto:hasSubCategory ?subcat .
+}
+WHERE{
+  FILTER(regex(STR(?subcat),"Category") && regex(STR(?supercat),"Category"))
+  ?subcat clonto:name ?subcatname .
+  ?supercat clonto:name ?newsupercatname . }

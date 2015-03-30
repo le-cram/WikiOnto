@@ -1,0 +1,13 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+INSERT {
+  ?atset1 clonto:hasAttribute ?at .
+}
+DELETE{
+  ?atset2 clonto:hasAttribute ?at .	
+}
+WHERE{ 
+  ?atset1 clonto:name ?atset1name .
+  ?atset2 clonto:name ?atset2name .
+  ?entity clonto:hasAttributeSet ?atset1 .
+  ?entity clonto:hasAttributeSet ?atset2 .
+  ?atset2 clonto:hasAttribute ?at . }

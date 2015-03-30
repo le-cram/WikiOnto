@@ -1,0 +1,13 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT DISTINCT ?categoryname ?entityAname ?asettopic1 ?entityBname ?asettopic2
+WHERE { 
+	?entityA clonto:hasAttributeSet/clonto:topic ?asettopic1 .  
+    ?entityB clonto:hasAttributeSet/clonto:topic ?asettopic2 .  
+    FILTER(LCASE(?asettopic1)!=LCASE(?asettopic2) && ?entityA != ?entityB)
+	?category clonto:hasEntity ?entityA .
+	?category clonto:hasEntity ?entityB .
+	?category clonto:name ?categoryname .
+	?entityA clonto:name ?entityAname .
+	?entityB clonto:name ?entityBname .
+}
+ORDER BY ?category

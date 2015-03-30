@@ -1,0 +1,47 @@
+PREFIX clonto: <http://myCLOnto.de/>
+SELECT 
+?cname
+?depth
+(COUNT(?dentity) as ?NOCdirectEntities) 
+(COUNT(?dcategory) as ?NOCdirectCategories)
+(COUNT(?tentity) as ?NOCtransitiveEntities) 
+(COUNT(?tcategory) as ?NOCtransitiveCategories)
+(?NOCdirectEntities*100/(?NOCdirectCategories+?NOCdirectEntities) as ?directentityRatioPercent)
+(?NOCtransitiveEntities*100/(?NOCtransitiveCategories+?NOCtransitiveEntities) as ?transitiveentityRatioPercent)
+WHERE {
+	
+	?category clonto:depth ?depth .
+	?category clonto:name ?cname .
+	
+	{SELECT ?category ?dentity
+     WHERE  {  
+		?category clonto:hasEntity ?dentity . 
+	}
+    }
+	
+	UNION
+	
+	
+	{SELECT ?category ?dcategory
+     WHERE  {  
+		?category clonto:hasSubCategory ?dcategory . 
+	}
+    }
+	
+	UNION
+	
+	{SELECT DISTINCT ?category ?tentity
+     WHERE  {  
+		?category (clonto:hasSubCategory*/clonto:hasEntity) ?tentity . 
+	}
+    }
+	UNION
+	
+	{SELECT DISTINCT ?category ?tcategory
+     WHERE  {  
+		?category (clonto:hasSubCategory+) ?tcategory . 
+	}
+    }
+}
+GROUP BY ?cname ?depth
+ORDER BY ?directentityRatioPercent

@@ -1,0 +1,9 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?categoryname ?depth
+WHERE {  
+	?category clonto:depth ?depth .
+	?category clonto:name ?categoryname .
+}
+HAVING (xsd:integer(?depth)  > 6)
+ORDER BY ?depth

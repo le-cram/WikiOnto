@@ -1,0 +1,4 @@
+1. Choose attributeset's name
+2. Choose attributeset's new topic
+3. Overwrite the current topic with
+the new topic.

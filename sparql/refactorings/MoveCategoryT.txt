@@ -1,0 +1,5 @@
+1. Choose category
+2. Choose unfit containing supercategory
+3. Choose new supercategory
+4. Insert category in new supercategory
+5. Delete category from unfit supercategory

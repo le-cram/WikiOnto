@@ -1,0 +1,5 @@
+1. Choose category
+2. Insert all outgoing relations
+from category to all supercategories.
+3. Remove all ingoing relations to
+category.

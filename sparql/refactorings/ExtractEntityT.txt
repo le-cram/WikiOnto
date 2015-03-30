@@ -1,0 +1,7 @@
+1. Choose source entity
+2. Choose new entity name
+3. Choose attributeset in source entity
+4. Create entity with new name
+5. Add to chosen categories
+6. Move attributeset from source entity
+to new entity 

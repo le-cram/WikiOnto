@@ -1,0 +1,4 @@
+If a subcategory is not needed in
+a path from a category to the
+subcategory's members, it may be
+removed. 

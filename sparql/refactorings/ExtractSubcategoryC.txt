@@ -1,0 +1,2 @@
+A new subcategory can be derived
+for a set of entities.

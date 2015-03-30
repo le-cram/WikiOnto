@@ -1,0 +1,4 @@
+1. Choose entity
+2. Remove all relations, where the 
+target corresponds to the entity
+that should be abandoned.

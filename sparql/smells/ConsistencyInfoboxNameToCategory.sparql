@@ -1,0 +1,12 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT ?entityname ?atsettopic 
+WHERE {  
+    ?entity clonto:hasAttributeSet/clonto:topic ?atsettopic.  
+    FILTER NOT EXISTS{
+		?categoryt clonto:hasEntity ?entity .
+		?category clonto:hasSubCategory* ?categoryt .
+		?category clonto:name ?name . 
+        FILTER(regex(?name, ?atsettopic, "i"))
+	}
+	?entity clonto:name ?entityname .
+}

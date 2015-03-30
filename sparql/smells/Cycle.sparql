@@ -1,0 +1,6 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT ?categoryname 
+WHERE {
+	?category clonto:name ?categoryname .
+    ?category clonto:hasSubCategory+ ?category . 
+}

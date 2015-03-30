@@ -1,0 +1,10 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT ?entityname ?subcategoryname ?categoryname 
+WHERE {  
+    ?category clonto:hasSubCategory ?subcategory . 
+    ?category clonto:hasEntity ?entity . 
+    ?subcategory clonto:hasEntity ?entity . 
+	?entity clonto:name ?entityname .
+	?category clonto:name ?categoryname .
+	?subcategory clonto:name ?subcategoryname .
+}

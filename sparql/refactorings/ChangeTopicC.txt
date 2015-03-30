@@ -1,0 +1,4 @@
+An attributeset may be identified
+that has an unfit topic. For the
+sake of consistency it may be 
+renamed.

@@ -1,0 +1,7 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+DELETE { ?element clonto:name ?oldname . }
+INSERT { ?element clonto:name ?newname . }
+WHERE { 
+	FILTER(regex(STR(?element),?type)) .
+	?element clonto:name ?oldname .
+}

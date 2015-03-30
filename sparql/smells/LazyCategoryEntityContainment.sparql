@@ -1,0 +1,14 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT DISTINCT ?lazycatname 
+WHERE {  
+	?lazycat clonto:name ?lazycatname .
+	?categoryS clonto:hasSubCategory ?lazycat .
+	FILTER EXISTS{?lazycat clonto:hasEntity ?entity .}
+	FILTER NOT EXISTS{ 
+		?lazycat clonto:hasEntity ?entity2 .
+		FILTER NOT EXISTS{
+			?lazycat clonto:hasSubCategory+ ?cat .
+			?cat clonto:hasEntity ?entity2 .
+		}
+	}
+}
