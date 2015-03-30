@@ -11,4 +11,9 @@ You may also choose another root category. We do not guarantee that the extracti
 We already provide a TDB-store in the .zip file 'clontologytdb.zip.'. You can unpack it into any folder.
 
 To start the demo tool for the revision, run Ontogui.java.
-Tipp: Every query String is read from a corresponding text file only, when you click the corresponding run button. It is quite handy to open a text-editor with a testquery file and select this file at the query. The GUI will only keep the path to the created file, but not its content.
+
+## Ontology Revision
+
+Ontogui.java has to be run to start with a revision. The implemented GUI contains metrics, bad smells, refactorings and prunings that can be tried out.
+
+Tipp: Every query String is read from a corresponding text file only, when you click the corresponding run button. It is quite handy to open a text-editor with a testquery file and select this file as a custom query. The GUI will only keep the path to the created file, but not its content.
