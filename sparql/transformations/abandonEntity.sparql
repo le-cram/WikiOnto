@@ -1,0 +1,8 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+DELETE {
+  ?n ?r ?entity .
+}
+WHERE{ 
+  ?n ?r ?entity .
+  FILTER(regex(STR(?entity),"Entity"))
+  ?entity clonto:name ?name . }

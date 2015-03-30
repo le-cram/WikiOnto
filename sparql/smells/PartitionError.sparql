@@ -1,0 +1,13 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT ?elementname ?categoryBname ?categoryCname ?categorySname  
+WHERE {
+    ?categoryB clonto:hasEntity|clonto:hasSubCategory ?elementA . 
+    ?categoryC clonto:hasEntity|clonto:hasSubCategory ?elementA . 
+    FILTER(?categoryB != ?categoryC)
+    ?categoryS clonto:hasSubCategory ?categoryB .
+    ?categoryS clonto:hasSubCategory ?categoryC .
+	?elementA clonto:name ?elementname .
+	?categoryB clonto:name ?categoryBname .
+	?categoryC clonto:name ?categoryCname .
+	?categoryS clonto:name ?categorySname .
+}

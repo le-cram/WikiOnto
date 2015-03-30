@@ -1,0 +1,13 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT ?cat1name ?cat2name (COUNT(?entity) as ?howManye)
+WHERE {  
+	?cat1 clonto:hasEntity ?entity .
+	?cat2 clonto:hasEntity ?entity .
+	FILTER NOT EXISTS{?cat1 clonto:hasSubCategory* ?cat2}
+	FILTER NOT EXISTS{?cat2 clonto:hasSubCategory+ ?cat1}
+	?cat1 clonto:name ?cat1name .
+	?cat2 clonto:name ?cat2name .
+}
+GROUP BY ?cat1name ?cat2name
+HAVING (?howManye > 8)
+ORDER BY ?howManye

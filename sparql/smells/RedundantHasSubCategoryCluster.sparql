@@ -1,0 +1,18 @@
+PREFIX clonto: <http://myCLOnto.de/>
+SELECT ?lazycatname ?categoryname 
+WHERE {
+	?scat clonto:hasSubCategory ?lazycat .
+	?lazycat clonto:hasSubCategory ?category .
+	?lazycat clonto:hasSubCategory ?category2 .
+	FILTER NOT EXISTS{ 
+		?lazycat clonto:hasSubCategory ?cat .
+		FILTER NOT EXISTS{
+			?category clonto:hasSubCategory* ?cat .
+		}
+	}
+	FILTER(?category != ?category2)
+	?scategory clonto:name "Computer languages" .
+	?scategory clonto:hasSubCategory* ?lazycat .
+	?lazycat clonto:name ?lazycatname .
+	?category clonto:name ?categoryname .
+}

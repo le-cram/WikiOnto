@@ -1,0 +1,2 @@
+delete { ?category <http://myCLOnto.de/hasMainEntity> ?entity . }
+where { }

@@ -1,0 +1,9 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT ?ename (COUNT(?aset) as ?howMany)
+WHERE {  
+	?entity clonto:hasAttributeSet ?aset .
+	?entity clonto:name ?ename .
+}
+GROUP BY ?ename
+HAVING (?howMany > 1)
+ORDER BY ?howMany

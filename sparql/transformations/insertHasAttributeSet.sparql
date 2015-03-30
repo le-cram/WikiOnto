@@ -1,0 +1,7 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+INSERT { ?entity clonto:hasAttributeSet ?attributeset . }
+WHERE { 
+	?entity clonto:name ?entityname .
+	FILTER(regex(STR(?entity),"Entity"))
+	?attributeset clonto:name ?attributesetname .
+}

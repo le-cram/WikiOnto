@@ -1,0 +1,23 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT ?ename  (COUNT(?dcat) as ?howManyd) (COUNT(?rcat) as ?howManyr)
+WHERE {
+    {SELECT DISTINCT ?entity ?dcat
+    WHERE {
+        ?entity ^clonto:hasEntity ?dcat . 
+        FILTER NOT EXISTS{ 
+			?dcat clonto:depth ?depth .
+		}
+    }
+    }
+	UNION
+	{SELECT DISTINCT ?entity ?rcat
+    WHERE {
+        ?entity ^clonto:hasEntity ?rcat . 
+        ?rcat clonto:depth ?depth .
+    }
+    }
+	?entity clonto:name ?ename .
+}
+GROUP BY ?ename
+HAVING(?howManyd > ?howManyr)
+ORDER BY ?howManyd

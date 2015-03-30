@@ -1,0 +1,6 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+DELETE { ?atset clonto:topic ?oldtopic . }
+INSERT { ?atset clonto:topic ?newtopic . }
+WHERE { 
+	?atset clonto:topic ?oldtopic .
+}

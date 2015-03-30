@@ -1,0 +1,10 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+DELETE {
+  ?cat ?r ?n .
+}
+WHERE{ 
+  FILTER(regex(STR(?cat), "Category"))
+  FILTER NOT EXISTS { ?cat ^clonto:hasSubCategory ?supercat }
+  FILTER NOT EXISTS { ?cat clonto:name "Computer languages" }
+  ?cat ?r ?n .
+}

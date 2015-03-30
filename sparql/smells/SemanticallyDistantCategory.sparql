@@ -1,0 +1,25 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT ?categoryname  (COUNT(?dcat) as ?howManyd) (COUNT(?rcat) as ?howManyr)
+WHERE {
+	?category clonto:name ?categoryname .
+    {SELECT DISTINCT ?category ?dcat
+    WHERE {
+        ?category ^clonto:hasSubCategory ?dcat . 
+        FILTER NOT EXISTS{ 
+			?dcat clonto:depth ?depth .
+		}
+    }
+    }
+	UNION
+	
+	{SELECT DISTINCT ?category ?rcat
+    WHERE {
+		
+        ?category ^clonto:hasSubCategory ?rcat . 
+        ?rcat clonto:depth ?depth .
+    }
+    }
+}
+GROUP BY ?categoryname
+HAVING(?howManyd > ?howManyr)
+ORDER BY ?howManyd
