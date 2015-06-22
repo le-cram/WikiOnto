@@ -231,25 +231,19 @@
         <Component class="javax.swing.JComboBox" name="badSmellComboBox">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="18">
+              <StringArray count="12">
                 <StringItem index="0" value="BloatedCategory"/>
-                <StringItem index="1" value="LazyCategoryEntityContainment"/>
-                <StringItem index="2" value="LazyCategoryMetricbased"/>
-                <StringItem index="3" value="DoubleEntityContainment"/>
-                <StringItem index="4" value="RedundantCategoryHasSubCategory"/>
-                <StringItem index="5" value="RedundantHasSubCategoryCluster"/>
-                <StringItem index="6" value="SpeculativeGenerality"/>
-                <StringItem index="7" value="ChainOfInheritance"/>
-                <StringItem index="8" value="ConsistencyInfoboxNameInCategory"/>
-                <StringItem index="9" value="ConsistencyInfoboxNameToCategory"/>
-                <StringItem index="10" value="Cycle"/>
-                <StringItem index="11" value="MissingCategoryPartialName"/>
-                <StringItem index="12" value="Overcategerization"/>
-                <StringItem index="13" value="PartitionError"/>
-                <StringItem index="14" value="SemanticallyDistantCategory"/>
-                <StringItem index="15" value="SemanticallyDistantEntity"/>
-                <StringItem index="16" value="TwinCategories"/>
-                <StringItem index="17" value="MultiTopic"/>
+                <StringItem index="1" value="Cycle"/>
+                <StringItem index="2" value="LazyCategoryEntityContainment"/>
+                <StringItem index="3" value="LazyCategoryMetricbased"/>
+                <StringItem index="4" value="RedundantHasEntity"/>
+                <StringItem index="5" value="RedundantHasSubcategory"/>
+                <StringItem index="6" value="MissingCategoryPartialName"/>
+                <StringItem index="7" value="Overcategorization"/>
+                <StringItem index="8" value="SemanticallyDistantCategory"/>
+                <StringItem index="9" value="SemanticallyDistantEntity"/>
+                <StringItem index="10" value="SemanticallyDistantTopic"/>
+                <StringItem index="11" value="MultiTopic"/>
               </StringArray>
             </Property>
           </Properties>

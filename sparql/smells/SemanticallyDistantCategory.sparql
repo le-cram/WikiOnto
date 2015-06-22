@@ -1,5 +1,5 @@
 PREFIX clonto: <http://myCLOnto.de/> 
-SELECT ?categoryname  (COUNT(?dcat) as ?howManyd) (COUNT(?rcat) as ?howManyr)
+SELECT ?categoryname  (COUNT(?dcat) as ?howManyd) (COUNT(?rcat) as ?howManyr) ((?howManyd-?howManyr) as ?diff)
 WHERE {
 	?category clonto:name ?categoryname .
     {SELECT DISTINCT ?category ?dcat
@@ -21,5 +21,5 @@ WHERE {
     }
 }
 GROUP BY ?categoryname
-HAVING(?howManyd > ?howManyr)
-ORDER BY ?howManyd
+HAVING(?diff > 0)
+ORDER BY ?diff

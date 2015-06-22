@@ -38,8 +38,8 @@ public class QueryProcessor implements Runnable {
         long time = System.currentTimeMillis();
         try (QueryExecution qe = QueryExecutionFactory.create(query, dataset)) {
             ResultSet results = qe.execSelect();
-            //ResultSetFormatter.outputAsCSV(stream, results);
-            ResultSetFormatter.out(stream, results, query);
+            ResultSetFormatter.outputAsCSV(stream, results);
+            //ResultSetFormatter.out(stream, results, query);
         }
         time = System.currentTimeMillis() - time;
         String timeString = "\n Performed query in: "+time+"ms";

@@ -1,0 +1,20 @@
+-2 : Eponymous Category
+-1 : misc issues (such as single flawed relations)
+0 : no issue
+1 : abandon category
+2 : abandon entity
+3 : remove has-SubCategory
+4 : remove has-Entity
+5 : remove redundant has-SubCategory
+6 : remove redundant has-Entity
+7 : collapse hierarchy
+8 : unite attributesets
+9 : extract entity
+10 : extract subcategory
+11 : Rename element
+12 : Change topic
+13 : Move Entity
+14 : Move Category
+15 : Add Missing Supercategory
+
+Rule for evaluation: Fix only the issue at hand. A bad smell match may also be caused by some other issues, that may be visible, when you inspect an element. Other issues should not be considered in a repair phase for one particular bad smell. This would not systematic enough for the evaluation.

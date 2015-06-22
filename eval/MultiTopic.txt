@@ -1,0 +1,166 @@
+ename,howMany
+AOL,2
+ASP.NET,2
+ASP.NET Razor view engine,2
+ActionScript,2
+Amnesia: The Dark Descent,2
+Anjuta,2
+Aqua (color),2
+AsciiDoc,2
+BeerXML,2
+Blitz BASIC,2
+CMSimple,2
+Chemistry Development Kit,2
+Cilk,2
+Clusterpoint,2
+CoCoA,2
+Construct (game engine),2
+Coq,2
+Cut the Rope,2
+DADiSP,2
+Dalvik (software),2
+Dr. DivX,2
+EAS3,2
+ECMAScript,2
+Elasticsearch,2
+Eve Online,2
+Facelets,2
+Falcon (programming language),2
+FileZilla,2
+Flickr,2
+G.ho.st,2
+GTK+,2
+GoldED,2
+Google Drive,2
+Google Play Books,2
+Grim Fandango,2
+HTML5,2
+Haiku Depot,2
+Haiku PackageInstaller,2
+Headhunter Redemption,2
+Hollywood (programming language),2
+Hop (software),2
+IWork,2
+Intel C++ Compiler,2
+Interactive C,2
+Ithkuil,2
+JScript .NET,2
+Janus (programming language),2
+JasperReports,2
+JavaScript,2
+Jeni Tennison,2
+K Desktop Environment 3,2
+KDE Plasma 4,2
+KDE Platform 4,2
+LaTeX,2
+Last.fm,2
+Libavcodec,2
+MATLAB,2
+Martin Gardner,2
+Metamath,2
+Microsoft Visio,2
+MinGW,2
+Netpbm,2
+Netwide Assembler,2
+Nginx,2
+Node.js,2
+Nokia PC Suite,2
+Nrrd,2
+Numbers (spreadsheet),2
+Online OS,2
+Open Inventor,2
+OpenDAM,2
+OrionVM,2
+Oxygen Project,2
+Pcap,2
+Polymorphic recursion,2
+PostScript,2
+PostgreSQL,2
+PowerDNS,2
+Processing (programming language),2
+Pure Data,2
+Purple,2
+QML,2
+ROX Desktop,2
+Rotten Tomatoes,2
+SK1 (program),2
+SQL,2
+Serendipity (software),2
+Skype for Business,2
+Speakeasy (computational environment),2
+Spotify,2
+StarUML,2
+Supreme Commander (video game),2
+TI-89 series,2
+TeX,2
+Teal,2
+Tor (anonymity network),2
+University of Kent,2
+VLC media player,2
+Vision (IRC),2
+WhatsApp,2
+WinMerge,2
+Windows PowerShell,2
+Windows Search,2
+WordPerfect,2
+WxWidgets,2
+XDXF,2
+XML,2
+wxWidgets,2
+Anki (software),3
+Battlefield 2,3
+Bitmessage,3
+CVSNT,3
+Cocos2d,3
+Direct Rendering Infrastructure,3
+GitLab,3
+Gramps,3
+Gzip,3
+IBM BASIC,3
+Inform,3
+JSON-LD,3
+L.A. Noire,3
+Libjpeg,3
+Magenta,3
+Microsoft Excel,3
+Microsoft Office XML formats,3
+Minecraft,3
+Mp3splt,3
+Office Open XML,3
+Office Open XML file formats,3
+PeerGuardian,3
+Phoronix Test Suite,3
+Portable Document Format,3
+Psychonauts,3
+Pylons project,3
+Resource Description Framework,3
+SPICE,3
+TI-92 series,3
+UltraStar,3
+Web Ontology Language,3
+Zope,3
+ARM architecture,4
+E-Sword,4
+HP 49/50 series,4
+IMacros,4
+Icy Tower,4
+Maroon,4
+OpenDocument,4
+The Elder Scrolls Travels,4
+Uncomplicated Firewall,5
+Xine,5
+File Allocation Table,6
+Haiku Applications,6
+Helix (multimedia project),6
+MySociety,6
+Olive (color),6
+One: Kagayaku Kisetsu e,6
+Serif products,6
+TI-Nspire series,6
+Kontact,7
+Navy blue,7
+Lime (color),8
+Nokia phone series,8
+Silver (color),8
+Fuchsia (color),11
+List of American Girl video games,14

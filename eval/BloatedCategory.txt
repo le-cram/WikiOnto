@@ -1,0 +1,171 @@
+categoryname,howMany
+Java programming language family,31
+Pascal programming language family,31
+Scheme (programming language) implementations,31
+Programming games,31
+Virtual memory,32
+PHP,32
+PDF software,32
+Audio programming languages,32
+Cascading Style Sheets,32
+Operators (programming),32
+Articles with example Haskell code,32
+Statically typed programming languages,32
+Method (computer programming),33
+HTML5,33
+Smalltalk programming language family,33
+BASIC compilers,33
+Automated theorem proving,33
+Free HTML editors,33
+Text-oriented programming languages,34
+GNOME,34
+Rewriting systems,34
+Cache (computing),35
+User interface markup languages,35
+Web service providers,35
+UML tools,35
+Recommender systems,36
+PHP frameworks,36
+Page description languages,36
+.NET programming languages,37
+Ecma standards,37
+KDE Software Compilation,37
+Assembly languages,38
+Programming language classification,38
+Google Chrome extensions,38
+JavaScript,38
+XML markup languages,39
+Template engines,39
+Python (programming language),39
+Parser generators,39
+Assemblers,40
+Eclipse (software),40
+Applications using D-Bus,40
+Industry-specific XML-based standards,40
+Spreadsheet software,41
+Java APIs,41
+GIS file formats,41
+Unified Modeling Language stubs,41
+Object-relational mapping,42
+Fibonacci numbers,42
+Simulation programming languages,42
+Logic programming languages,43
+Free software programmed in Ruby,43
+Free TeX software,43
+Computer algebra systems,44
+Lua-scriptable software,44
+Compiling tools,45
+Software metrics,45
+Search engine software,45
+Logic programming,45
+4GL,46
+Hardware description languages,46
+Lisp (programming language),46
+C compilers,47
+Programming language implementation,48
+Fixed points (mathematics),48
+Systems programming languages,49
+Perl,49
+Lambda calculus,49
+Specification languages,49
+Control flow,49
+Computer languages,50
+Python libraries,50
+Class-based programming languages,50
+Subroutines,51
+Free software programmed in C Sharp,51
+Array programming languages,51
+HTML editors,51
+Web mapping,52
+Ruby (programming language),53
+Programming languages,54
+Cellular automatists,54
+Freedesktop.org,54
+Articles with example code,55
+BASIC interpreters,56
+Message-oriented middleware,56
+Web service specifications,56
+COBOL,56
+GNOME stubs,56
+Data modeling languages,57
+Software that uses GTK+,57
+Python software,58
+Formal specification languages,58
+Data serialization formats,58
+C (programming language),58
+Markup language stubs,58
+Query languages,60
+Constraint programming,60
+Numerical programming languages,60
+Compiler optimizations,61
+Functional programming,61
+C programming language family,63
+Symbian software,63
+Perl software,63
+Articles with example Python code,63
+C++ software,63
+Declarative programming languages,64
+Programming language topics,64
+Free software programmed in Perl,65
+Lisp programming language family,66
+SQL,66
+Dynamically typed programming languages,68
+GNOME Applications,68
+Compilers,69
+Static program analysis tools,69
+Programming constructs,69
+Domain-specific programming languages,69
+Unified Modeling Language,71
+Common Lisp software,72
+KDE software,72
+Articles with example Java code,73
+HTML,73
+Software that uses wxWidgets,74
+Memory management,75
+Compiler construction,75
+Visual programming languages,76
+Java development tools,78
+Articles with example C++ code,79
+Ajax (programming),80
+Java specification requests,81
+Concurrent programming languages,84
+Java platform games,85
+Enterprise application integration,86
+Programming language researchers,87
+PHP programming language,88
+Programming language designers,88
+Educational programming languages,89
+Java (programming language) libraries,94
+Automata theory,100
+Service-oriented (business computing),100
+Type theory,105
+C++,105
+Data types,107
+BASIC programming language family,107
+Programming paradigms,109
+Articles with example C code,110
+Models of computation,111
+JavaScript libraries,112
+XML,114
+C libraries,116
+C++ libraries,116
+Java (programming language),119
+Software written primarily in assembly language,121
+Functional languages,121
+Articles with example pseudocode,131
+Procedural programming languages,145
+Java platform software,145
+Free compilers and interpreters,147
+Lua-scripted video games,154
+Object-oriented programming,155
+Software that uses Qt,157
+Free software programmed in PHP,159
+Object-oriented programming languages,161
+Web services,171
+Scripting languages,205
+Markup languages,217
+Free software programmed in Python,245
+XML-based standards,264
+Free software programmed in Java (programming language),285
+Free software programmed in C++,444
+Free software programmed in C,478

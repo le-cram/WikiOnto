@@ -25,18 +25,18 @@ import org.apache.commons.validator.routines.UrlValidator;
  */
 public class InfoboxParser {
 
-    public List<AttributeSet> parse(String pagetext) {
+    public List<AttributeSet> parse(String text) {
+        String pagetext = replaceHTMLComments(text);
         List<AttributeSet> setlist = new ArrayList<AttributeSet>();
 
         Pattern pattern = Pattern.compile("\\{\\{\\s*infobox",
                 Pattern.MULTILINE | Pattern.CASE_INSENSITIVE | Pattern.DOTALL);
         Matcher matcher = pattern.matcher(pagetext);
-        int i= 0;
-        while(matcher.find()){
+        while (matcher.find()) {
             int begin = matcher.start();
             int bracketnr = 2;
             int end = begin + matcher.group().length();
-            for (; end < pagetext.length(); end++) {
+            while (end < pagetext.length()) {
                 switch (pagetext.charAt(end)) {
                     case '}':
                         bracketnr--;
@@ -44,16 +44,15 @@ public class InfoboxParser {
                     case '{':
                         bracketnr++;
                         break;
-                    default:
                 }
                 if (bracketnr == 0) {
                     break;
                 }
+                end++;
             }
             String infobox = pagetext.substring(begin, end);
             AttributeSet atset = parseSet(infobox);
             setlist.add(atset);
-            i++;
         }
 
         return setlist;
@@ -98,8 +97,6 @@ public class InfoboxParser {
     }
 
     private String filterInfoboxMarkup(String text) {
-
-        text = replaceHTMLComments(text);
         text = replaceWikiAnchorsWithNames(text);
         text = removeExternalAnchors(text);
         text = removeReferences(text);

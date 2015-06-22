@@ -1,8 +1,0 @@
-PREFIX clonto: <http://myCLOnto.de/> 
-SELECT ?entity ?name ?atset ?topic
-WHERE {
-	?entity clonto:name "SQLmarcel2" .
-	?entity clonto:name ?name .
-	?entity clonto:hasAttributeSet ?atset .
-	?atset clonto:topic ?topic
-}

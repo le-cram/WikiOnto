@@ -152,7 +152,7 @@ public class Ontogui extends JFrame {
             }
         });
 
-        badSmellComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "BloatedCategory", "LazyCategoryEntityContainment", "LazyCategoryMetricbased", "DoubleEntityContainment", "RedundantCategoryHasSubCategory", "RedundantHasSubCategoryCluster", "SpeculativeGenerality", "ChainOfInheritance", "ConsistencyInfoboxNameInCategory", "ConsistencyInfoboxNameToCategory", "Cycle", "MissingCategoryPartialName", "Overcategerization", "PartitionError", "SemanticallyDistantCategory", "SemanticallyDistantEntity", "TwinCategories", "MultiTopic" }));
+        badSmellComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "BloatedCategory", "Cycle", "LazyCategoryEntityContainment", "LazyCategoryMetricbased", "RedundantHasEntity", "RedundantHasSubcategory", "MissingCategoryPartialName", "Overcategorization", "SemanticallyDistantCategory", "SemanticallyDistantEntity", "SemanticallyDistantTopic", "MultiTopic" }));
         badSmellComboBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 badSmellComboBoxActionPerformed(evt);

@@ -1,6 +1,7 @@
 ﻿PREFIX clonto: <http://myCLOnto.de/> 
 SELECT ?categoryname ?howMany 
 WHERE {
+	FILTER EXISTS{ ?cat clonto:hasSubCategory ?category . }
 	?category clonto:name ?categoryname .
     {SELECT ?category (COUNT(?entity) AS ?howMany)  
      WHERE  {  

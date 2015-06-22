@@ -10,17 +10,13 @@ import de.ist.clonto.webwiki.model.AttributeSet;
 import de.ist.clonto.webwiki.model.Category;
 import de.ist.clonto.webwiki.model.Entity;
 import info.bliki.api.Page;
-import java.io.IOException;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import org.xml.sax.SAXException;
 
 /**
  *
@@ -220,7 +216,17 @@ public class MyCrawlerTest {
         assertEquals(1,atsetlist.size());
         AttributeSet set = atsetlist.get(0);
         assertEquals("software", set.getName());
-        assertEquals(15, set.getAttributes().size());
+        assertEquals(17, set.getAttributes().size());
+    }
+    
+    @Test
+    public void testInfoboxRetrieval2GnuWin32(){
+        System.out.println("infobox of article GnuWin32");
+        Page page = WikipediaAPI.getFirstPage("GnuWin32");
+        List<AttributeSet> atsetlist = new InfoboxParser().parse(page.toString());
+        assertEquals(1,atsetlist.size());
+        AttributeSet atset = atsetlist.get(0);
+        assertEquals("",atset.getName());
     }
     
     @Test
@@ -256,7 +262,7 @@ public class MyCrawlerTest {
         List<AttributeSet> atsetlist = new InfoboxParser().parse(page.toString());
         assertEquals(1,atsetlist.size());
         AttributeSet set = atsetlist.get(0);
-        assertEquals("vg", set.getName());
+        assertEquals("video game", set.getName());
         assertEquals(set.getAttributes().size(), 8);
     }
     

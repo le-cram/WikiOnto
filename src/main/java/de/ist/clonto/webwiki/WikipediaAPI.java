@@ -8,22 +8,14 @@ package de.ist.clonto.webwiki;
 import info.bliki.api.Connector;
 import info.bliki.api.Page;
 import info.bliki.api.PageInfo;
-import info.bliki.api.SearchResult;
 import info.bliki.api.User;
 import info.bliki.api.XMLCategoryMembersParser;
-import info.bliki.api.XMLSearchParser;
-
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import org.jsoup.Jsoup;
 
 import org.xml.sax.SAXException;
 

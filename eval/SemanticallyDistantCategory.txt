@@ -1,0 +1,165 @@
+categoryname,howManyd,howManyr,diff
+Acid tests,2,1,1
+Actor model,2,1,1
+Algorithms on strings,2,1,1
+Bibliography file formats,2,1,1
+Books about Perl,2,1,1
+CSS frameworks,2,1,1
+Cache (computing),2,1,1
+Cache coherency,2,1,1
+Cairo (graphics),2,1,1
+Cellular automatists,2,1,1
+Common Object Request Broker Architecture,2,1,1
+DOS memory management,2,1,1
+Discontinued programming languages,2,1,1
+Domain theory,2,1,1
+Ecma standards,2,1,1
+Fibonacci numbers,2,1,1
+Fixed-point theorems,2,1,1
+Formal specification languages,2,1,1
+Free HTML editors,2,1,1
+Free PDF software,2,1,1
+Free R (programming language) software,2,1,1
+Free TeX software,2,1,1
+Free memory debuggers,2,1,1
+Free web crawlers,2,1,1
+GNOME Games,2,1,1
+GNOME companies,2,1,1
+GNOME developers,2,1,1
+GNOME stubs,2,1,1
+Geographical databases,2,1,1
+HTML,2,1,1
+HTML editors,2,1,1
+Hardware description languages,2,1,1
+Java APIs,2,1,1
+JavaScript libraries,2,1,1
+JavaServer Faces,2,1,1
+KDE Education Project,2,1,1
+Logic programming,2,1,1
+Mathematical induction,2,1,1
+Mathematical markup languages,2,1,1
+Memory management,2,1,1
+Mono (software),2,1,1
+Natural language parsing,2,1,1
+Non-English-based programming languages,2,1,1
+Normal forms (logic),2,1,1
+Object-relational mapping,2,1,1
+OpenDocument,2,1,1
+Package management software that uses GTK+,2,1,1
+Parsing,2,1,1
+Pattern matching,2,1,1
+Perl people,2,1,1
+Permutation patterns,2,1,1
+Programming languages by creation date,2,1,1
+Programming languages created in 2009,2,1,1
+Programming languages created in 2011,2,1,1
+Programming languages created in 2012,2,1,1
+Programming languages created in 2013,2,1,1
+Programming languages created in 2014,2,1,1
+Programming languages created in 2015,2,1,1
+Proxy servers,2,1,1
+Query languages,2,1,1
+Ranking functions,2,1,1
+Recurrence relations,2,1,1
+SAT solvers,2,1,1
+Satisfiability problems,2,1,1
+Sequence alignment algorithms,2,1,1
+Service-oriented (business computing),2,1,1
+Social Desktop,2,1,1
+Software for modeling software,2,1,1
+Software modeling language,2,1,1
+Software that uses FLTK,2,1,1
+Software that uses QML,2,1,1
+Software that uses Qt,2,1,1
+Software that uses Tk,2,1,1
+Static program analysis tools,2,1,1
+Structured English,2,1,1
+Symbian games,2,1,1
+SyncML,2,1,1
+TYPO3,2,1,1
+Theorem proving software systems,2,1,1
+Web Map Services,2,1,1
+Web syndication formats,2,1,1
+Wellfoundedness,2,1,1
+XML-based standards,2,1,1
+Zope,2,1,1
+Abstract data types,3,2,1
+Combinatory logic,3,2,1
+GNU GRUB,3,2,1
+Graph rewriting,3,2,1
+String similarity measures,3,2,1
+Denotational semantics,4,3,1
+Spreadsheet software,4,3,1
+Turing machine,4,3,1
+Audio programming languages,3,1,2
+Bifurcation theory,3,1,2
+Computer algebra systems,3,1,2
+Data search engines,3,1,2
+Data serialization formats,3,1,2
+Enterprise application integration,3,1,2
+Freedesktop.org,3,1,2
+GIS file formats,3,1,2
+Haiku (operating system),3,1,2
+Instant messaging clients programmed in Java,3,1,2
+Java platform software,3,1,2
+KDE games,3,1,2
+Limit sets,3,1,2
+Microsoft BASIC,3,1,2
+Models of computation,3,1,2
+Online Scripture Search Engine,3,1,2
+PDF software,3,1,2
+PostgreSQL,3,1,2
+Problems on strings,3,1,2
+Programming language theory stubs,3,1,2
+Resource Description Framework,3,1,2
+SMT solvers,3,1,2
+Software that uses wxWidgets,3,1,2
+Specification languages,3,1,2
+Tor hidden services,3,1,2
+Type theory,3,1,2
+Web mapping,3,1,2
+Web operating systems,3,1,2
+KDE Software Compilation,4,2,2
+KDE software,4,2,2
+LibreOffice,4,2,2
+Microformats,4,2,2
+Process calculi,4,2,2
+Computer languages,3,0,3
+Automated theorem proving,4,1,3
+Belief revision,4,1,3
+Cellular automata,4,1,3
+Code search engines,4,1,3
+Concept- and mind-mapping software programmed in Java,4,1,3
+Environment variables,4,1,3
+Fixed points (mathematics),4,1,3
+GNOME,4,1,3
+GTK+,4,1,3
+Hadoop,4,1,3
+Java platform games,4,1,3
+Program logic,4,1,3
+Programming games,4,1,3
+S60 (software platform),4,1,3
+Search engine software,4,1,3
+Simple DirectMedia Layer,4,1,3
+Symbian OS,4,1,3
+Symbian software,4,1,3
+Z notation,4,1,3
+OpenOffice,5,2,3
+Recursion,5,2,3
+Tor (anonymity network),5,2,3
+Unified Modeling Language,5,2,3
+WxWidgets,5,2,3
+Calligra Suite,5,1,4
+Google Earth,5,1,4
+Recommender systems,5,1,4
+Temporal logic,5,1,4
+Translatewiki.net,5,1,4
+Web services,5,1,4
+Google Chrome,6,1,5
+Responsive web design,7,2,5
+KDE Frameworks,8,3,5
+KDE Platform,8,3,5
+Donald Knuth,7,1,6
+OpenStreetMap,10,2,8
+Cognitive inertia,9,1,8
+Qt (framework),10,1,9

@@ -1,0 +1,21 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT ?ename ?atsettopic
+WHERE {
+	?entity clonto:name ?ename .
+    ?entity clonto:hasAttributeSet ?atset .
+    ?atset clonto:topic ?atsettopic . 
+    FILTER NOT EXISTS{ 
+        ?entity clonto:hasAttributeSet ?atset2 .
+        ?atset2 clonto:topic ?atsettopic2 .
+        FILTER (contains(?atsettopic2,"software") 
+                || contains(?atsettopic2,"program") 
+                || contains(?atsettopic2, "standard")
+                || contains(?atsettopic2, "file format"))
+    }
+    FILTER NOT EXISTS{
+        ?entity clonto:hasAttributeSet ?atset2 .
+        ?atset2 clonto:hasAttribute ?at .
+        ?at clonto:name ?atname .
+        FILTER (contains(?atname, "programming")) }
+}
+ORDER BY ?atsettopic

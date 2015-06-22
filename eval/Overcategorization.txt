@@ -1,0 +1,966 @@
+entityname,howManyc
+24SevenOffice,9
+ALGOL 68,9
+ARexx,9
+ATunes,9
+AWK,9
+Actuate Corporation,9
+Adaptxt,9
+Adblock Plus,9
+Agent-based model,9
+Agora (online marketplace),9
+Allods Online,9
+AlphaBay Market,9
+American Graphics Institute,9
+Anders Hejlsberg,9
+Andi Gutmans,9
+Andrei Toom,9
+Anthony James Barr,9
+Apache Ant,9
+Apache HTTP Server,9
+Apache Subversion,9
+Apcupsd,9
+Arthur Whitney (computer scientist),9
+Ask.com,9
+AspectJ,9
+Asterisk (PBX),9
+Atom (text editor),9
+Autodesk Maya,9
+BBj,9
+Bandits: Phoenix Rising,9
+BitTorrent (software),9
+BlackBerry 10,9
+BleachBit,9
+Bochs,9
+C++,9
+Cc65,9
+Chris Sawyer's Locomotion,9
+Chromium B.S.U.,9
+CimTrak,9
+Cn3D,9
+CodeWarrior,9
+Computer Modern,9
+Coq,9
+Cortex Command,9
+DR-OpenDOS,9
+Dasher (software),9
+DeSmuME,9
+Design of the FAT file system,9
+DeviantArt,9
+DigiKam,9
+DigitalOcean,9
+Dillo,9
+Doom II RPG,9
+Dungeons (video game),9
+E2open,9
+EXperience112,9
+Easyrec,9
+"Ed Pegg, Jr.",9
+Eggdrop,9
+Elmer FEM solver,9
+Emesene,9
+Enigma (video game),9
+EnterpriseDB,9
+Erik Meijer (computer scientist),9
+Ex Falso,9
+Extensible Application Markup Language,9
+F-Spot,9
+FASM,9
+FFmpeg,9
+FLTK,9
+Fibonacci,9
+Financial Information eXchange,9
+FlightGear,9
+Fossil (software),9
+Fpath Development,9
+Frama-C,9
+Freelancer (video game),9
+FrostWire,9
+GIMIAS,9
+GLFW,9
+GLtron,9
+GNU nano,9
+GNUstep,9
+GTKWave,9
+GThumb,9
+Gangstar 2: Kings of L.A.,9
+Genius (mathematics software),9
+George Springer (mathematician),9
+Git (software),9
+Gmsh,9
+Gnuplot,9
+Go-oo,9
+GoldSim,9
+GoldenDict,9
+Google Offers,9
+Gosu (library),9
+Gramps,9
+Greenfoot,9
+Groovy (programming language),9
+Hamilton C shell,9
+Hammerkit,9
+Hancock Cemetery,9
+Harry Mairson,9
+Hartmann pipeline,9
+Headhunter Redemption,9
+IFolder,9
+IMule,9
+ITA Software,9
+ImageMagick,9
+Impressive (presentation program),9
+Integration Objects,9
+"Introduction to Automata Theory, Languages, and Computation",9
+Irssi,9
+J (programming language),9
+J (text editor),9
+JADE (programming language),9
+JEdit,9
+James G. Mitchell,9
+Jane M. Hawkins,9
+Jeff Waugh,9
+Jerry Huang,9
+KMLDonkey,9
+Klaus Samelson,9
+Konqueror,9
+Learning Python,9
+Lego Universe,9
+Libav,9
+Libpolo,9
+Lincity,9
+Lotus 1-2-3,9
+MS-DOS,9
+Maciej Stachowiak,9
+MapQuest,9
+Mapnik,9
+Martin Odersky,9
+Matthias Felleisen,9
+Maxima (software),9
+Metacompiler,9
+Midgard (software),9
+Miguel de Icaza,9
+Monica S. Lam,9
+Monopoly City Streets,9
+Multiplan,9
+Mushroom Networks,9
+Music Construction Set,9
+Music Encoding Initiative,9
+Music Player Daemon,9
+MusicBrainz Picard,9
+Mutter (software),9
+NMath,9
+NetFront,9
+Netscape Navigator 9,9
+Nix package manager,9
+Nmap,9
+Norman Packard,9
+Norman White,9
+Nsite Software,9
+NumPy,9
+OCaml,9
+OcPortal,9
+Office Online,9
+Office Open XML,9
+OpenAutonomy,9
+OpenShot Video Editor,9
+OpenWrt,9
+"Oracle America, Inc. v. Google, Inc.",9
+OrionVM,9
+Oxford Text Archive,9
+PTGui,9
+PackageKit,9
+Padre (software),9
+PageRank,9
+Pale Moon (web browser),9
+Panoweaver,9
+PathVisio,9
+Pcap,9
+Peter Naur,9
+Phonetically Intuitive English,9
+Planck's principle,9
+Privoxy,9
+QP (framework),9
+Quake Army Knife,9
+QuteCom,9
+RealPlayer,9
+Regnum Online,9
+Roblox,9
+Roger Hui,9
+Rolando 2: Quest for the Golden Orchid,9
+SOFA Statistics,9
+Sakai Project,9
+Scilab,9
+SequenceL,9
+Shazam (service),9
+Sigil (application),9
+Software diagnosis,9
+Software visualization,9
+Sound Juicer,9
+Spacebase DF-9,9
+SparkleShare,9
+SpellForce: The Order of Dawn,9
+Squiz,9
+Standard Widget Toolkit,9
+StarDict,9
+StarOffice,9
+Stochastic cellular automaton,9
+Stormy Peters,9
+Sublime Text,9
+Sugar (software),9
+SugarCRM,9
+Sun Web Developer Pack,9
+Symbian Foundation,9
+Synchronized Multimedia Integration Language,9
+Syndie,9
+TCExam,9
+TVPaint,9
+TeX,9
+The Hessling Editor,9
+The Incredibles: When Danger Calls,9
+TigerVNC,9
+Tim Teitelbaum,9
+TimeML,9
+Toonz,9
+Traffic Server,9
+Trojitￃﾡ,9
+TrueCrypt,9
+Turing (programming language),9
+Tux Paint,9
+Tux Typing,9
+Universiti Teknologi Malaysia,9
+Uriel Frisch,9
+Vector Markup Language,9
+Vega Strike,9
+Visual FoxPro,9
+Vortexje,9
+Wakfu,9
+Wanted: Weapons of Fate,9
+WeatherBug,9
+Web (web browser),9
+Web 2.0,9
+WebORB Integration Server,9
+WebWatcher,9
+WeeChat,9
+WestHost,9
+While loop,9
+WikiMapia,9
+WinSCP,9
+Wine (software),9
+Worms: A Space Oddity,9
+XMLHttpRequest,9
+YEd,9
+ￃﾉdouard Lucas,9
+AbiWord,10
+Ada (programming language),10
+Adobe Fireworks,10
+Adobe Flash,10
+Adobe FrameMaker,10
+Adobe Illustrator,10
+Alan Jay Smith,10
+Alexey Stakhov,10
+Algorithmic skeleton,10
+AnyLogic,10
+Armadillo (C++ library),10
+Arthur Burks,10
+Asphalt 4: Elite Racing,10
+Asphalt: Urban GT 2,10
+Audrey Tang,10
+BZFlag,10
+Biniax,10
+BlackBerry,10
+BlooSee,10
+C (programming language),10
+COBOL,10
+Cascade Framework,10
+Ciao (programming language),10
+Clementine (software),10
+Coccinella (software),10
+Code Aster,10
+Confirmation bias,10
+Corona (software),10
+D-Bus,10
+DBase,10
+Damian Conway,10
+Dave Cross,10
+David Makinson,10
+David Turner (computer scientist),10
+Delta Drawing,10
+EMML (Motorola),10
+Evolution (marketplace),10
+Exaile,10
+FileZilla,10
+Foursquare,10
+FreeCol,10
+FreeDOS,10
+GNOME Videos,10
+Galeon,10
+Ganymede (software),10
+Garshasp: The Monster Slayer,10
+Generator (computer programming),10
+Go (programming language),10
+Grabilla,10
+Guitar Hero Mobile series,10
+HTTPS Everywhere,10
+Haskell (programming language),10
+Here (Nokia),10
+Hindley￢ﾀﾓMilner type system,10
+Hugin (software),10
+IBM Lotus Symphony,10
+IWork,10
+Interpress,10
+Ivar Jacobson,10
+JackBe,10
+Jaikoz,10
+Jean-Raymond Abrial,10
+John Resig,10
+KDE Education Project,10
+Kenneth E. Iverson,10
+Leonardo Bonacci,10
+Louis Hodes,10
+Luis Villa,10
+MOOSE (software),10
+MPMC,10
+MUD,10
+Mark Karpelￃﾨs,10
+Microsoft Access,10
+Mike Lesk,10
+Minimax,10
+Moodle,10
+Mozilla Sunbird,10
+Muine,10
+Nokia 5230,10
+Nokia 5250,10
+Nokia C5-00,10
+Nokia C5-03,10
+Notepad++,10
+Ole-Johan Dahl,10
+Open Mashup Alliance,10
+OpenClonk,10
+PPSSPP,10
+Parasoft,10
+Payments as a service,10
+People Finder Interchange Format,10
+Peter J. Weinberger,10
+Phatch,10
+Postini,10
+PuTTY,10
+Pygame,10
+Python (programming language),10
+Quantum computing,10
+RSSOwl,10
+Radhia Cousot,10
+RealVNC,10
+Red Hat,10
+Rift (video game),10
+Rohit Jivanlal Parikh,10
+RollerCoaster Tycoon,10
+Roy Nutt,10
+Rust (programming language),10
+SQLite,10
+Sailfish OS,10
+Schema.org,10
+Scorched 3D,10
+Search-based software engineering,10
+Sheep Marketplace,10
+Silent Storm,10
+SimCity 4,10
+Simon P. Norton,10
+SpaceChem,10
+Squeak,10
+Stellarium (computer program),10
+Steve Coast,10
+Supreme Commander: Forged Alliance,10
+Swiftype,10
+Synergy (software),10
+Synfig,10
+Tales of Maj'Eyal,10
+Talvisota: Icy Hell,10
+Textadept,10
+The Elder Scrolls Travels,10
+The Farmer's Market,10
+The Guild 2,10
+The Sims 4,10
+Thomas E. Kurtz,10
+TightVNC,10
+TippingPoint,10
+Tommaso Toffoli,10
+Topincs,10
+Toribash,10
+TrueCrypt release history,10
+Unified Modeling Language,10
+Unknown Horizons,10
+V-Play Game Engine,10
+VirtualBox,10
+VisualEditor,10
+Wake (Sawyer novel),10
+WaveMaker,10
+WeChat,10
+Web Application Messaging Protocol,10
+Why the lucky stiff,10
+Windows PowerShell,10
+Wolfram Language,10
+XBlock,10
+XEmacs,10
+Xine,10
+YaDICs,10
+Yukihiro Matsumoto,10
+Zope,10
+ALGOL 60,11
+Adobe Acrobat,11
+Adobe Photoshop,11
+Agrippa (A Book of the Dead),11
+Alfred Brousseau,11
+Amaya (web editor),11
+AndreaMosaic,11
+Andrey Ershov,11
+Angry Birds Seasons,11
+Ardour (software),11
+Asphalt 6: Adrenaline,11
+Audacity (audio editor),11
+AutoQ3D Community,11
+BOSH (bosh outer shell),11
+Ballistics (video game),11
+Beonex Communicator,11
+Blitzkrieg (video game series),11
+Blitzkrieg (video game),11
+C Sharp (programming language),11
+CURL,11
+Carl Adam Petri,11
+ChaCha (search engine),11
+Charles Leonard Hamblin,11
+ClanLib,11
+Collaber,11
+Comparison of sites using the LiveJournal codebase,11
+CouchDB,11
+Cristopher Moore,11
+Cygwin,11
+Cyn.in,11
+D (programming language),11
+DOS Plus,11
+Dart (programming language),11
+David Sayre,11
+Erlang (programming language),11
+Eufloria,11
+Firefox 4,11
+FlatOut (video game),11
+FlatOut 2,11
+Flickr,11
+Foreach loop,11
+Fuse (emulator),11
+GNOME Chess,11
+Gedit,11
+Glest,11
+"Google Docs, Sheets, and Slides",11
+Google Earth,11
+Gul Agha (computer scientist),11
+Gwibber,11
+Gwrite,11
+HandBrake,11
+Harbour (software),11
+Higher-order function,11
+Homeworld 2,11
+IBM PureQuery,11
+Independent Media Center,11
+Internet Movie Database,11
+Jean Ichbiah,11
+Joe Stoy,11
+KDE Telepathy,11
+LabVIEW,11
+Line (application),11
+Lise Getoor,11
+Lisp (programming language),11
+LyX,11
+MLDonkey,11
+MegaGlest,11
+MegaMek,11
+MeshLab,11
+Netflix,11
+Nokia 5800 XpressMusic,11
+Novell DOS,11
+Oolite (video game),11
+OpenShift,11
+Openkore,11
+Origin (digital distribution software),11
+Ourproject.org,11
+Password Safe,11
+Pinta (software),11
+Pitivi,11
+Portable Document Format,11
+Prison Architect,11
+Processing (programming language),11
+Programming with Big Data in R,11
+Proof (truth),11
+Python for S60,11
+ROOT,11
+Red Eclipse,11
+Richard Bird (computer scientist),11
+Richard Burns Rally,11
+RightNow Technologies,11
+Ring (software),11
+Rob Pike,11
+Rockbox,11
+Rosegarden,11
+Ruby (programming language),11
+RuneScape,11
+SDEP,11
+SWAD (software),11
+Scratch (programming language),11
+SecureAuth,11
+Severance: Blade of Darkness,11
+Silk Road (marketplace),11
+Simon Peyton Jones,11
+Software map,11
+Star Wars: Empire at War,11
+Susan L. Graham,11
+The Pirate Bay,11
+The Sims 2: Nightlife,11
+The Sims 4: Outdoor Retreat,11
+Theneeds,11
+Thomas W. Reps,11
+Tim O'Reilly,11
+Truviso,11
+Turing machine,11
+UFO: Afterlight,11
+Ultimate++,11
+UltraStar,11
+Urbiscript,11
+VTK,11
+WASTE,11
+"Warhammer 40,000: Dawn of War",11
+Wget,11
+Worms 4: Mayhem,11
+XML,11
+ZSNES,11
+Zimbra,11
+ￎﾜTorrent,11
+7-Zip,12
+Adenine (programming language),12
+Adium,12
+AlterGeo,12
+Alvy Ray Smith,12
+Angry Birds Space,12
+Basic For Qt,12
+C-Dogs,12
+C2Call GmbH,12
+Charles Platt (author),12
+Climacs,12
+Collanos,12
+David Gries,12
+Dublin Core,12
+Empathy (software),12
+Eric Goles,12
+Escape from Monkey Island,12
+Extempore (software),12
+Firefox 2,12
+Firefox 3,12
+Firefox 3.5,12
+Firefox 3.6,12
+Fortran,12
+Free Studio,12
+FreeMat,12
+Freedom Force (2002 video game),12
+Freedom Force vs the 3rd Reich,12
+Freedup,12
+GNU Compiler Collection,12
+Galileo affair,12
+Garry's Mod,12
+GitLab,12
+Grady Booch,12
+Heinz Zemanek,12
+Hero of Sparta,12
+HippoDraw,12
+Hollywood (programming language),12
+IBM VisualAge,12
+Icy Tower,12
+Java (programming language),12
+JavaScript,12
+Jean E. Sammet,12
+Kopete,12
+Kristen Nygaard,12
+Lazarus (IDE),12
+MDK2,12
+MUMPS,12
+Maple (software),12
+Megido (Free Pascal),12
+Mesa (computer graphics),12
+Miro (software),12
+Napoleon: Total War,12
+Nginx,12
+OGRE,12
+Open Inventor,12
+OpenDOS,12
+Opera Mini,12
+Per Brinch Hansen,12
+Peter H. Salus,12
+Peter S. Albin,12
+PostScript,12
+PoxNora,12
+Reasoning system,12
+Ren'Py,12
+Rhythmbox,12
+Ryzom,12
+SAS (software),12
+SageMath,12
+Simple DirectMedia Layer,12
+Simple and Fast Multimedia Library,12
+Sphinx and the Cursed Mummy,12
+Split/Second,12
+Stolen (video game),12
+SuperCollider,12
+Symbian,12
+The Art of Computer Programming,12
+The Temple of Elemental Evil (video game),12
+Transmission (BitTorrent client),12
+Ubuntu One,12
+Ubuntu Touch,12
+Umple,12
+Visual Basic,12
+WhatsApp,12
+Widelands,12
+3DSlicer,13
+Age of Wonders III,13
+Allegro (software),13
+Amira (software),13
+Apache OpenOffice,13
+AssaultCube,13
+Bejeweled Twist,13
+BlueJ,13
+Bos Wars,13
+Celestia,13
+Chromium (web browser),13
+Cloud Foundry,13
+Cuban Missile Crisis: The Aftermath,13
+Dia (software),13
+Driver: San Francisco,13
+Enterprise Mashup Markup Language,13
+Factorio,13
+Finch (software),13
+Foldit,13
+FriendCaller,13
+Geany,13
+Gordon Plotkin,13
+Guido van Rossum,13
+Heroes of Might and Magic V,13
+Jacket (software),13
+Jagged Alliance 2,13
+James Rumbaugh,13
+John Ousterhout,13
+LimeWire,13
+Line Mode Browser,13
+List of American Girl video games,13
+Manuel De Landa,13
+Marabunta,13
+Michael Spivey,13
+Mike Cowlishaw,13
+MonetDB,13
+Mount & Blade: Warband,13
+Mutator method,13
+NASA World Wind,13
+Natural Selection 2,13
+NetSurf,13
+OpenOffice.org,13
+Operation Flashpoint: Dragon Rising,13
+PalmDOS,13
+Paul Hudak,13
+Qualtrics,13
+Scribus,13
+Spring Engine,13
+Star Wars: Battlefront II,13
+StepMania,13
+The Fairly OddParents: Shadow Showdown,13
+Unexpected events,13
+Ushahidi,13
+Vendetta Online,13
+Visual Prolog,13
+"Warhammer 40,000: Dawn of War II",13
+Wireshark,13
+Yuuguu,13
+Zaz (computer game),13
+0 A.D. (video game),14
+Adobe Marketing Cloud,14
+AgentSheets,14
+Alan Perlis,14
+Angry Birds Rio,14
+Banshee (media player),14
+Boxee,14
+Chamilo,14
+City of Heroes,14
+Company of Heroes,14
+Cube 2: Sauerbraten,14
+DR-DOS,14
+DataViva,14
+Ekiga,14
+FIFA Street 2,14
+Fable II,14
+FlexOS,14
+FlightAware,14
+FreeBASIC,14
+Frets on Fire,14
+Frontier: Elite II,14
+GT Nexus,14
+GTK+,14
+Gambas,14
+Gustav A. Hedlund,14
+Hemachandra,14
+Ib Holm Sￃﾸrensen,14
+Jacob T. Schwartz,14
+Joomla,14
+Jump 'n Bump,14
+Komodo Edit,14
+Larry Wall,14
+Legend of Grimrock,14
+List of Hello world program examples,14
+Miner 2049er,14
+Neil J. Gunther,14
+Ninja Gaiden (NES video game),14
+OpenBroadcaster,14
+OpenFOAM,14
+OpenSeaMap,14
+PHP,14
+Permutation City,14
+Phyllis Fox,14
+Protecode,14
+Quod Libet (software),14
+R (programming language),14
+Reddit,14
+Richard P. Gabriel,14
+Rudolf Berghammer,14
+Scala (programming language),14
+Seymour Papert,14
+Shank (video game),14
+Shank 2,14
+Spotify,14
+Star Wars: Battlefront,14
+Supreme Commander (video game),14
+Tahoe-LAFS,14
+Tiki Wiki CMS Groupware,14
+Tox (software),14
+Tryton,14
+Vampire: The Masquerade ￢ﾀﾓ Bloodlines,14
+Wikiloc,14
+Yahoo! Messenger,14
+Yummly,14
+AggreGate Platform,15
+ArpON,15
+Bionic Commando (2009 video game),15
+Bionic Commando Rearmed 2,15
+Bjarne Stroustrup,15
+Bubble Ghost,15
+Calliflower,15
+Closure (computer programming),15
+Common Lisp,15
+DADiSP,15
+Edgar F. Codd,15
+Emacs,15
+Friedrich L. Bauer,15
+Frozen Bubble,15
+GNU Octave,15
+Guy L. Steele Jr.,15
+Hearts of Iron III,15
+John C. Reynolds,15
+Konrad Zuse,15
+Lemony Snicket's A Series of Unfortunate Events (video game),15
+Linphone,15
+MPlayer,15
+Mathomatic,15
+Mercenaries: Playground of Destruction,15
+Niklaus Wirth,15
+Noam Elkies,15
+Optimizely,15
+Patrick C. Fischer,15
+Pidgin (software),15
+Plotly,15
+Software Ideas Modeler,15
+Source Filmmaker,15
+Stratagus,15
+Strike Suit Zero,15
+The Great Giana Sisters,15
+WordPerfect,15
+AOL,16
+ActiveVFP,16
+Adobe Flash Professional,16
+Alfred Aho,16
+Analytica (software),16
+Ayttm,16
+Bang! Howdy,16
+Barbara Liskov,16
+Bertrand Meyer,16
+Bionic Commando Rearmed,16
+Brian Goodwin,16
+Christopher Strachey,16
+Diner Dash,16
+Docear,16
+Empire: Total War,16
+Falcon (programming language),16
+GCompris,16
+GNU Emacs,16
+Gbanga,16
+Google Chrome,16
+ILNumerics.Net,16
+Jitsi,16
+Julia (programming language),16
+LibreOffice,16
+Mozilla Thunderbird,16
+Parm AG,16
+Paul Graham (computer programmer),16
+Perl,16
+Peter Landin,16
+Puzzle Pirates,16
+Racket (programming language),16
+RetroShare,16
+Robotfindskitten,16
+Rudy Rucker,16
+Songbird (software),16
+Songza,16
+The Battle for Wesnoth,16
+TradeCard,16
+Transport Tycoon,16
+Amarok (software),17
+Baldur's Gate,17
+Battlefield 2,17
+Brￃﾼtal Legend,17
+Crackdown,17
+Crusader Kings II,17
+DOSBox,17
+David Eppstein,17
+Dennis Ritchie,17
+Don't Starve,17
+Dropbox (service),17
+Eduardo Reck Miranda,17
+Embroidermodder,17
+Gunther Schmidt,17
+I2P,17
+Inkscape,17
+Instagram,17
+Intel RealSense,17
+John Horton Conway,17
+Ken Thompson,17
+Lua (programming language),17
+MySociety,17
+OpenTTD,17
+Qt (software),17
+Rasmus Lerdorf,17
+S.T.A.L.K.E.R.: Call of Pripyat,17
+Tom Clancy's Ghost Recon Advanced Warfighter 2,17
+Tom Clancy's H.A.W.X,17
+UFO: Alien Invasion,17
+Vim (text editor),17
+World of Warcraft,17
+Amir Pnueli,18
+Amnesia: The Dark Descent,18
+Barracuda Networks,18
+Brendan Eich,18
+Brian Kernighan,18
+Comunes Collective,18
+Cut the Rope,18
+Far Cry (video game),18
+Frances E. Allen,18
+Free Pascal,18
+Fruit Ninja,18
+Last.fm,18
+Marble (software),18
+Microsoft,18
+Nightingale (software),18
+Painkiller (video game),18
+Pipeline Pilot,18
+Psychonauts,18
+Robert Kowalski,18
+SeaMonkey,18
+Serious Sam 3: BFE,18
+Sonic Unleashed,18
+Stephen R. Bourne,18
+Warzone 2100,18
+Yahoo!,18
+YouTube,18
+Alan Kay,19
+Avizo (software),19
+Broken Age,19
+Crysis,19
+David Harel,19
+Edsger W. Dijkstra,19
+Eve Online,19
+Firefox,19
+Google,19
+Google Maps,19
+Hal Abelson,19
+Mobile soft device,19
+S.T.A.L.K.E.R.: Clear Sky,19
+Saints Row 2,19
+Saints Row: The Third,19
+The Witcher (video game),19
+Bejeweled 2,20
+Elysian Shadows,20
+GIMP,20
+Gretl,20
+James Gosling,20
+John Backus,20
+Opera (web browser),20
+Philip Wadler,20
+S.T.A.L.K.E.R.: Shadow of Chernobyl,20
+Tencent,20
+Aquaria (video game),21
+DataMelt,21
+Defender (video game),21
+Gerald Jay Sussman,21
+Grim Fandango,21
+L.A. Noire,21
+Need for Speed: Undercover,21
+Qiqqa,21
+Speakeasy (computational environment),21
+Transformers: Dark of the Moon (video game),21
+Civilization IV,22
+Dark Souls,22
+Freeciv,22
+John G. Kemeny,22
+Joseph Nechvatal,22
+ScummVM,22
+Tom Clancy's Ghost Recon Advanced Warfighter,22
+Tony Hoare,22
+EXo Platform,23
+Eclipse (software),23
+FIFA 10,23
+NetBeans,23
+One: Kagayaku Kisetsu e,23
+Puzzle Quest: Challenge of the Warlords,23
+Robin Milner,23
+Saints Row IV,23
+Ultima II: The Revenge of the Enchantress,23
+Angry Birds (video game),24
+Blender (software),24
+Civilization V,24
+FIFA 09,24
+FIFA 11,24
+ND4J,24
+Stanislaw Ulam,24
+Trine (video game),24
+VLC media player,24
+Ada Lovelace,25
+Galaxian,25
+Mafia II,25
+R-Type,25
+Richard Stallman,25
+Stephen Wolfram,25
+Ultima I: The First Age of Darkness,25
+Bomb Jack,26
+Kune (software),26
+RailWorks,27
+Facebook,28
+Skype,28
+Angry Birds Star Wars,29
+Dana Scott,29
+FIFA 06,29
+Grace Hopper,29
+Minecraft,29
+John McCarthy (computer scientist),31
+Martin Gardner,31
+Lode Runner,32
+Mathematica,32
+Another World (video game),35
+Deeplearning4j,35
+MATLAB,35
+Street Fighter II: The World Warrior,35
+Richard Feynman,36
+Virtuoso Universal Server,36
+Donald Knuth,37
+Doom (1993 video game),38
+SimCity (1989 video game),39
+John von Neumann,56

@@ -75,7 +75,9 @@ public class MyCrawlerManager {
 
     private void initExclusionSet() {
         exclusionset = new HashSet<>();
-        exclusionset.add("Statistical data types");
+        exclusionset.add("Data Types");
+        exclusionset.add("Programming language topics");
+        exclusionset.add("Articles with example code");
         exclusionset.add("Internet search engines");
         exclusionset.add("Instant messaging");
         exclusionset.add("Internet search");
