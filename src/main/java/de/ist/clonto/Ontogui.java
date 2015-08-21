@@ -84,6 +84,7 @@ public class Ontogui extends JFrame {
         pruningCombobox = new javax.swing.JComboBox();
         displayPruningButton = new javax.swing.JButton();
         runPruningButton = new javax.swing.JButton();
+        checkbox1 = new java.awt.Checkbox();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setExtendedState(JFrame.MAXIMIZED_BOTH);
@@ -257,7 +258,7 @@ public class Ontogui extends JFrame {
             }
         });
 
-        pruningCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Abandon Entity", "Abandon Category", "Remove HasEntity", "Remove Subcategory", "Collapse Hierarchy", "Cleanup Unreachable", "Lift Cycle", " " }));
+        pruningCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Abandon Entity", "Abandon Category", "Remove HasEntity", "Remove Subcategory", "Collapse Hierarchy", "Cleanup Unreachable All", "Cleanup Unreachable Cat", "Cleanup Unreachable Ent", "Lift Cycle" }));
         pruningCombobox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pruningComboboxActionPerformed(evt);
@@ -324,12 +325,18 @@ public class Ontogui extends JFrame {
                     .addComponent(runPruningButton)))
         );
 
+        checkbox1.setLabel("prettyprint");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(AnalysisjPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(AnalysisjPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(27, 27, 27)
+                        .addComponent(checkbox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(TransformationjPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(3, 3, 3))
@@ -339,7 +346,10 @@ public class Ontogui extends JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(AnalysisjPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(AnalysisjPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(checkbox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(TransformationjPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(queryResultScrollPane, javax.swing.GroupLayout.DEFAULT_SIZE, 573, Short.MAX_VALUE))
@@ -446,7 +456,7 @@ public class Ontogui extends JFrame {
         }
         Query query = QueryFactory.create(queryString, Syntax.syntaxARQ);
         queryResultArea.setText("Starting query: " + queryPath.toFile().getName() + "\n");
-        Thread t = new Thread(new QueryProcessor(query, new QueryAreaStream(queryResultArea), dataset));
+        Thread t = new Thread(new QueryProcessor(query, new QueryAreaStream(queryResultArea), dataset, checkbox1.getState()));
         t.start();
     }//GEN-LAST:event_runQueryButtonActionPerformed
 
@@ -479,7 +489,7 @@ public class Ontogui extends JFrame {
         }
         Query query = QueryFactory.create(queryString, Syntax.syntaxARQ);
         queryResultArea.setText("Starting analysis: " + smellName + "\n");
-        Thread t = new Thread(new QueryProcessor(query, new QueryAreaStream(queryResultArea), dataset));
+        Thread t = new Thread(new QueryProcessor(query, new QueryAreaStream(queryResultArea), dataset, checkbox1.getState()));
         t.start();
     }//GEN-LAST:event_runSmellAnalysisButtonActionPerformed
 
@@ -545,7 +555,8 @@ public class Ontogui extends JFrame {
         }
         Query query = QueryFactory.create(queryString, Syntax.syntaxARQ);
         queryResultArea.setText("Starting analysis:" + metricName + "\n");
-        Thread t = new Thread(new QueryProcessor(query, new QueryAreaStream(queryResultArea), dataset));
+        System.err.println(checkbox1.isEnabled());
+        Thread t = new Thread(new QueryProcessor(query, new QueryAreaStream(queryResultArea), dataset, checkbox1.getState()));
         t.start();
     }//GEN-LAST:event_runMetricsButtonActionPerformed
 
@@ -591,6 +602,7 @@ public class Ontogui extends JFrame {
     private javax.swing.JPanel TransformationjPanel;
     private javax.swing.JButton backupOntologyButton;
     private javax.swing.JComboBox badSmellComboBox;
+    private java.awt.Checkbox checkbox1;
     private javax.swing.JTextArea contextArea;
     private javax.swing.JTextArea descriptionArea;
     private javax.swing.JScrollPane descriptionjScrollPane;

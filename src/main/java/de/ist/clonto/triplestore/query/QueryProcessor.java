@@ -12,6 +12,8 @@ import com.hp.hpl.jena.query.QueryExecutionFactory;
 import com.hp.hpl.jena.query.ReadWrite;
 import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.query.ResultSetFormatter;
+import com.hp.hpl.jena.sparql.algebra.Algebra;
+import com.hp.hpl.jena.sparql.algebra.Op;
 import java.io.IOException;
 import java.io.OutputStream;
 import javax.swing.JOptionPane;
@@ -25,21 +27,35 @@ public class QueryProcessor implements Runnable {
     private final Query query;
     private final OutputStream stream;
     private final Dataset dataset;
+    private final boolean pretty;
     
-    public QueryProcessor(Query query, OutputStream stream, Dataset dataset){
+    public QueryProcessor(Query query, OutputStream stream, Dataset dataset, boolean pretty){
         this.query = query;
         this.stream = stream;
         this.dataset = dataset;
+        this.pretty = pretty;
     }
+    
     
     @Override
     public void run() {
         dataset.begin(ReadWrite.READ);
+        System.out.println("------------------");
+        System.out.println(query);
+        Op op = Algebra.compile(query);
+        op = Algebra.optimize(op);
+        System.out.println(op);
+        System.out.println("------------------");
+        System.out.println(query);
         long time = System.currentTimeMillis();
         try (QueryExecution qe = QueryExecutionFactory.create(query, dataset)) {
             ResultSet results = qe.execSelect();
-            ResultSetFormatter.outputAsCSV(stream, results);
-            //ResultSetFormatter.out(stream, results, query);
+            if(pretty)
+                ResultSetFormatter.out(stream, results, query);
+            else{
+                System.out.println("Output as CSV");
+                ResultSetFormatter.outputAsCSV(stream, results);
+            }
         }
         time = System.currentTimeMillis() - time;
         String timeString = "\n Performed query in: "+time+"ms";

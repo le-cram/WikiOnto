@@ -46,7 +46,7 @@ public class Prune {
         }
     }
 
-    void cleanUpUnreachable() {
+    void cleanUpUnreachableAll() {
         Map<String, String> pmap = new HashMap<>();
         long tsize = 0;
         long size = 1;
@@ -59,6 +59,32 @@ public class Prune {
             System.out.println("cleaned up attributesets: " + size);
             size += proc.transform("cleanUpAttributes.sparql", pmap);
             System.out.println("cleaned up attributes: " + size);
+            tsize += size;
+        }
+
+        JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + tsize);
+    }
+    
+    void cleanUpUnreachableCat() {
+        Map<String, String> pmap = new HashMap<>();
+        long tsize = 0;
+        long size = 1;
+        while (size != 0) {
+            size = proc.transform("cleanUpCategories.sparql", pmap);
+            System.out.println("cleaned up categories: " + size);
+            tsize += size;
+        }
+
+        JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + tsize);
+    }
+    
+    void cleanUpUnreachableEnt() {
+        Map<String, String> pmap = new HashMap<>();
+        long tsize = 0;
+        long size = 1;
+        while (size != 0) {
+            size += proc.transform("cleanUpEntities.sparql", pmap);
+            System.out.println("cleaned up entities: " + size);
             tsize += size;
         }
 
@@ -141,8 +167,14 @@ public class Prune {
             case "Abandon Category":
                 abandonCategory();
                 break;
-            case "Cleanup Unreachable":
-                cleanUpUnreachable();
+            case "Cleanup Unreachable All":
+                cleanUpUnreachableAll();
+                break;
+            case "Cleanup Unreachable Cat":
+                cleanUpUnreachableCat();
+                break;
+            case "Cleanup Unreachable Ent" :
+                cleanUpUnreachableEnt();
                 break;
             case "Remove HasEntity":
                 removeHasEntity();

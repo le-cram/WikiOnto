@@ -249,9 +249,9 @@ public class MyCrawlerTest {
         assertEquals("cpu architecture", atsetlist.get(1).getName());
         assertEquals(14, atsetlist.get(1).getAttributes().size());
         assertEquals("cpu architecture", atsetlist.get(2).getName());
-        assertEquals(16, atsetlist.get(2).getAttributes().size());
+        assertEquals(17, atsetlist.get(2).getAttributes().size());
         assertEquals("cpu architecture", atsetlist.get(3).getName());
-        assertEquals(11, atsetlist.get(3).getAttributes().size());
+        assertEquals(12, atsetlist.get(3).getAttributes().size());
         
     }
     
