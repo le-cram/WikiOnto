@@ -1,0 +1,25 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://myCLOnto.de/> 
+SELECT ?ename ?catname ?t0name ?t1name
+WHERE {
+    ?cat :hasEntity ?entity .
+    
+    ?cl :name "Computer languages" .
+    ?cl :hasSubCategory ?t0 .
+    ?cl :hasSubCategory ?t1 .
+    FILTER (?t0 != ?t1)
+    
+    FILTER NOT EXISTS { ?t1 :hasSubCategory* ?cat . }
+    FILTER EXISTS { 
+        ?t0 :hasSubCategory* ?cat . 
+        ?t1 :hasSubCategory*/:hasEntity ?entity .
+        ?cat :hasEntity ?entity2 .
+        FILTER NOT EXISTS { ?t1 :hasSubCategory*/:hasEntity ?entity2 . }
+    }
+    
+    ?cat :name ?catname .
+    ?entity :name ?ename .
+    ?t0 :name ?t0name .
+    ?t1 :name ?t1name .
+}
+ORDER BY ?ename

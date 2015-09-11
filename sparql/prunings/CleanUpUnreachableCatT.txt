@@ -1,0 +1,3 @@
+1. Remove all outgoing relations from 
+categories without a supercategory
+except for the root category

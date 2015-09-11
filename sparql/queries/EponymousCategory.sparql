@@ -1,0 +1,9 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT DISTINCT ?cname
+WHERE {
+	?tcategory clonto:hasEntity ?entity .
+    ?entity clonto:name ?cname .
+    ?tcategory2 clonto:hasSubCategory ?category .
+    ?category clonto:name ?cname .
+}
+ORDER BY ?cname

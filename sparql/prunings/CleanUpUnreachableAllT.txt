@@ -1,0 +1,12 @@
+1. Remove all outgoing relations from 
+categories without a supercategory
+except for the root category
+2. Remove all outgoing relations from 
+entities that do not have a containing 
+category.
+3. Remove all outgoing relations from
+attributesets that are not assigned
+to any entity.
+4. Remove all outgoing relations from
+attributes that are not assigned to
+any attributeset.
