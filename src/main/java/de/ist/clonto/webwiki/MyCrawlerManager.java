@@ -64,7 +64,7 @@ public class MyCrawlerManager {
         executor.shutdown();
     }
 
-    public static void main(String[] args0) throws SAXException, IOException, InterruptedException, SAXException, SAXException, IOException {
+    public static void main(String[] args0) throws InterruptedException, SAXException, IOException {
         Category cl = new Category();
         cl.setName("Computer languages");
         MyCrawlerManager manager = new MyCrawlerManager();
@@ -75,7 +75,7 @@ public class MyCrawlerManager {
 
     private void initExclusionSet() {
         exclusionset = new HashSet<>();
-        exclusionset.add("Data Types");
+        exclusionset.add("Data types");
         exclusionset.add("Programming language topics");
         exclusionset.add("Articles with example code");
         exclusionset.add("Internet search engines");
@@ -87,6 +87,7 @@ public class MyCrawlerManager {
         exclusionset.add("Service-oriented architecture-related products");
         exclusionset.add("Programming language topic stubs");
         exclusionset.add("User BASIC");
+        exclusionset.add("Lists of computer languages");
     }
 
     public void offerCategory(Category category) {

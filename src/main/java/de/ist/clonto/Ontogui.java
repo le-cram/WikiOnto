@@ -117,11 +117,6 @@ public class Ontogui extends JFrame {
 
         smellNameField.setEditable(false);
         smellNameField.setText("<query name>");
-        smellNameField.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                none(evt);
-            }
-        });
 
         metricsCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "category:Depth", "category:CategoryInOut", "category:ComputerLanguagesDistanceMeasures", "category:NOC", "category:subdomainratio", "graph:CategoriesPerEntityMaxAvg", "graph:EntitiesPerCategoryMaxAvg", "graph:graphMetrics" }));
         metricsCombobox.addActionListener(new java.awt.event.ActionListener() {
@@ -387,10 +382,6 @@ public class Ontogui extends JFrame {
             JOptionPane.showMessageDialog(this, "Loading query failed");
         }
     }//GEN-LAST:event_loadQuery
-
-    private void none(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_none
-        // TODO add your handling code here:
-    }//GEN-LAST:event_none
 
     private void displayRefactoringButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_displayRefactoringButtonActionPerformed
         String filename = refactorName.replace(" ", "");

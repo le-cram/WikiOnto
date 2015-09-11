@@ -1,5 +1,6 @@
--2 : Eponymous Category
--1 : misc issues (such as single flawed relations)
+-2 : Eponymous Category (should not appear any longer)
+-1 : misc issues (such as single flawed relations or side effects) 
+    (should not appear any longer)
 0 : no issue
 1 : abandon category
 2 : abandon entity

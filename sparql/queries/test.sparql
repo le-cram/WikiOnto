@@ -1,37 +1,25 @@
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX : <http://myCLOnto.de/> 
-SELECT ?ename ?catname ?t0name ?t1name ?howMany
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT ?categoryname  (COUNT(?dcat) as ?howManyd) (COUNT(?rcat) as ?howManyr) ((?howManyd-?howManyr) as ?diff)
 WHERE {
-    ?cat :hasEntity ?entity .
-    ?cat :name ?catname .
-    ?entity :name ?ename .
-    
-    {SELECT ?cat (COUNT(?e2) as ?howMany)
-     WHERE {
-       ?cat :hasEntity ?e2 .
-     }
-     GROUP BY ?cat
-     HAVING (?howMany > 2)
+	?category clonto:name "Programming language topics" .
+    {SELECT DISTINCT ?category ?dcat
+    WHERE {
+        ?category ^clonto:hasSubCategory ?dcat . 
+        FILTER NOT EXISTS{ 
+			?dcat clonto:depth ?depth .
+		}
     }
-    
-    ?cl :name "Computer languages" .
-    ?cl :hasSubCategory ?t0 .
-    ?t0 :name ?t0name .
-    FILTER NOT EXISTS { ?t0 :hasSubCategory* ?cat . }
-    ?cl :hasSubCategory ?t1 .
-    ?t1 :name ?t1name .
-    FILTER (?t0 != ?t1)
-    
-    FILTER EXISTS { ?t1 :hasSubCategory* ?cat . }
-    
-    FILTER EXISTS { 
-        ?entity ^:hasEntity ?temp .
-        ?t0 :hasSubCategory* ?temp . }
-        
-    FILTER NOT EXISTS { 
-        ?cat :hasEntity ?e2 .
-        FILTER(?e2 != ?entity)
-        FILTER EXISTS {?t0 :hasSubCategory*/:hasEntity ?e2 . }
+    }
+	UNION
+	
+	{SELECT DISTINCT ?category ?rcat
+    WHERE {
+		
+        ?category ^clonto:hasSubCategory ?rcat . 
+        ?rcat clonto:depth ?depth .
+    }
     }
 }
-ORDER BY ?howManyEntities ?ename
+GROUP BY ?categoryname
+HAVING(?diff > 0)
+ORDER BY ?diff

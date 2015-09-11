@@ -25,11 +25,11 @@ import javax.swing.JOptionPane;
 public class QueryProcessor implements Runnable {
 
     private final Query query;
-    private final OutputStream stream;
+    private final QueryAreaStream stream;
     private final Dataset dataset;
     private final boolean pretty;
     
-    public QueryProcessor(Query query, OutputStream stream, Dataset dataset, boolean pretty){
+    public QueryProcessor(Query query, QueryAreaStream stream, Dataset dataset, boolean pretty){
         this.query = query;
         this.stream = stream;
         this.dataset = dataset;
@@ -50,17 +50,24 @@ public class QueryProcessor implements Runnable {
         long time = System.currentTimeMillis();
         try (QueryExecution qe = QueryExecutionFactory.create(query, dataset)) {
             ResultSet results = qe.execSelect();
-            if(pretty)
+            if(pretty){
+                System.out.println("Output as pretty printed text");
                 ResultSetFormatter.out(stream, results, query);
-            else{
+                
+            }else{
                 System.out.println("Output as CSV");
                 ResultSetFormatter.outputAsCSV(stream, results);
+
             }
+        }catch (Exception e){
+            JOptionPane.showMessageDialog(null, "Writting to textarea failed!");
+            e.printStackTrace();
         }
         time = System.currentTimeMillis() - time;
         String timeString = "\n Performed query in: "+time+"ms";
         try {
             stream.write(timeString.getBytes());
+            stream.showText();
         } catch (IOException ex) {
             JOptionPane.showMessageDialog(null, "Writting to textarea failed!");
         }

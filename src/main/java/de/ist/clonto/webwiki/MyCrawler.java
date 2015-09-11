@@ -13,6 +13,7 @@ import de.ist.clonto.webwiki.model.Entity;
 import info.bliki.api.Page;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -58,7 +59,7 @@ public class MyCrawler implements Runnable {
             Logger.getLogger(MyCrawler.class.getName()).log(Level.SEVERE, null, ex);
         }
         for (String name : subcats) {
-            if (manager.isExcludedCategoryName(name)) {
+            if (manager.isExcludedCategoryName(name.trim())) {
                 continue;
             }
             Category subcat = manager.getCategoryFromCategoryMap(name);
@@ -129,7 +130,7 @@ public class MyCrawler implements Runnable {
     }
 
     private void processCategory() {
-        Page page = WikipediaAPI.getFirstPage("Category:"+category.getName());
+        Page page = WikipediaAPI.getFirstPage("Category:" + category.getName());
         retrieveMainEntity(page.toString());
         retrieveSuperCategories(page.toString(), category);
     }
