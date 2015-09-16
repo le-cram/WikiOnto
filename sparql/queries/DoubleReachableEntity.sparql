@@ -12,6 +12,8 @@ WHERE {
     }
     FILTER NOT EXISTS{
         ?topcategory1 :hasSubCategory* ?topcategory2 .
+    }
+    FILTER NOT EXISTS{
         ?topcategory2 :hasSubCategory* ?topcategory1 .
     }
     ?topcategory1 :name ?t1name .

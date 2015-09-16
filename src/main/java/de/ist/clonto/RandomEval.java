@@ -26,11 +26,15 @@ public class RandomEval {
     }
 
     public static Set<Integer> genRandom(int linenumber){
-        int n=50 + linenumber/100;
-        int y=linenumber;
+        int n;
+        if(linenumber>50)
+            n=50+linenumber/100;
+        else
+            n = linenumber-1;
+        int y=linenumber-1;
         Set<Integer> numbers = new HashSet<>();
         while(numbers.size()<n) {
-            int x = (int) (1 + Math.floor(y * Math.random()));
+            int x = (int) (1+Math.floor(y * Math.random()));
             assert(x<y);
             if(!numbers.contains(x))
                 numbers.add(x);
