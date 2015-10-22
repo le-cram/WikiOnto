@@ -10,10 +10,14 @@ import com.hp.hpl.jena.query.Dataset;
 import com.hp.hpl.jena.query.ParameterizedSparqlString;
 import com.hp.hpl.jena.query.ReadWrite;
 import com.hp.hpl.jena.tdb.TDB;
+import com.hp.hpl.jena.tdb.TDBFactory;
 import com.hp.hpl.jena.update.UpdateAction;
+
+import javax.swing.*;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
@@ -59,6 +63,24 @@ public class TransformationProcessor {
         size = graph.size() - size;
         dataset.commit();
         return size;
+    }
+
+    public static void main(String[] args0){
+        //load dataset
+        JFileChooser fc = new JFileChooser();
+        fc.setCurrentDirectory(new File(System.getProperty("user.dir")));
+        fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+        int returnVal = fc.showOpenDialog(null);
+        Dataset dataset = null;
+        if (returnVal == JFileChooser.APPROVE_OPTION) {
+            dataset = TDBFactory.createDataset(fc.getSelectedFile().toString());
+        }
+        //start transformation
+        TransformationProcessor tp = new TransformationProcessor(dataset);
+        tp.transform("renameSubtype.sparql", new HashMap<>());
+        tp.transform("renameInstance.sparql",new HashMap<>());
+        tp.transform("renameProperty.sparql",new HashMap<>());
+        tp.transform("renameTopic.sparql", new HashMap<>());
     }
 
 }

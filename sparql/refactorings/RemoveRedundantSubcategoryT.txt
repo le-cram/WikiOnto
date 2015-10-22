@@ -1,3 +1,0 @@
-1. Choose category
-2. Choose subcategory
-3. Remove subcategory relation

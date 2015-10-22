@@ -1,9 +1,0 @@
-PREFIX clonto: <http://myCLOnto.de/> 
-SELECT ?entityname (COUNT(?cat) as ?howManyc)
-WHERE {  
-	?entity ^clonto:hasEntity ?cat .
-	?entity clonto:name ?entityname .
-}
-GROUP BY ?entityname
-HAVING (?howManyc > 8)
-ORDER BY ?howManyc

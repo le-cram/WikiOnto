@@ -1,9 +1,0 @@
-PREFIX clonto: <http://myCLOnto.de/> 
-DELETE {
-  ?attribute ?r ?n .
-}
-WHERE{ 
-  ?attribute clonto:value ?v .
-  FILTER NOT EXISTS { ?atset clonto:hasAttribute ?attribute }
-  ?attribute ?r ?n .
-}

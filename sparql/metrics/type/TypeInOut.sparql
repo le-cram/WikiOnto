@@ -1,0 +1,25 @@
+PREFIX : <http://myCLOnto.de/> 
+SELECT ?typename 
+(COUNT(?subtype) as ?howManySubTypes) 
+(COUNT(?supertype) as ?howManySuperTypes) 
+(?howManySubTypes/?howManySuperTypes as ?subSuperRatio)
+WHERE {
+	?type :name ?typename .
+	FILTER EXISTS{?type ^:hasSubtype ?stype}
+	
+	{SELECT ?type ?subtype
+	WHERE{
+		?type :hasSubtype ?subtype .
+	}
+    }
+	
+	UNION
+	
+	{SELECT ?type ?supertype
+	WHERE{
+		?type ^:hasSubtype ?supertype .
+	}
+    }
+}
+GROUP BY ?typename
+ORDER BY ?howManySuperTypes ?subSuperRatio

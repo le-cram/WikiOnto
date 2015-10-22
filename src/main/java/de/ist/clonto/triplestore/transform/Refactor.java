@@ -28,7 +28,7 @@ public class Refactor {
 
     void renameElement() {
         String type = JOptionPane.showInputDialog(null, "Specifiy the element's type \n"
-                + "(Category,Entity,AttributeSet,Attribute):");
+                + "(Type,Entity,Information,Property):");
         String oldname = JOptionPane.showInputDialog(null, "Insert the current element's name:");
         String newname = JOptionPane.showInputDialog(null, "Insert the new name:");
         if (null != type & null != oldname & null != newname) {
@@ -201,7 +201,7 @@ public class Refactor {
         }
         pmap = new HashMap<>();
         if (atsetname != null && atsettopic != null) {
-            pmap.put("element", "clonto:AttributeSet#" + atsetname);
+            pmap.put("element", "clonto:Information#" + atsetname);
             pmap.put("newname", atsetname);
             proc.transform("introduceElement.sparql", pmap);
             pmap = new HashMap<>();
@@ -234,7 +234,7 @@ public class Refactor {
         String categoryname = JOptionPane.showInputDialog(null, "Specify category's name:");
         pmap.put("newname", categoryname);
         String index = JOptionPane.showInputDialog(null, "How many categories exist right now?:");
-        pmap.put("element", "clonto:Category#" + index);
+        pmap.put("element", "clonto:Type#" + index);
         proc.transform("introduceElement.sparql", pmap);
         pmap = new HashMap<>();
         String newname = "";
@@ -319,10 +319,10 @@ public class Refactor {
             case "Move Entity":
                 moveEntity();
                 break;
-            case "Move Category":
+            case "Move Type":
                 moveCategory();
                 break;
-            case "Add Missing Category":
+            case "Add Missing Type":
                 addMissingCategory();
                 break;
             case "Unite Attributesets":

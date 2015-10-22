@@ -1,4 +1,0 @@
-1. Choose category
-2. Remove all relations, where the 
-target corresponds to the category
-that should be abandoned.

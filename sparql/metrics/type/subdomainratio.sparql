@@ -1,0 +1,37 @@
+PREFIX : <http://myCLOnto.de/>
+SELECT 
+?typename 
+?subtypename
+?typetentitycount
+?subtypetentitycount
+(?typetentitycount-?subtypetentitycount as ?entitydifference)
+WHERE {
+	?type :depth ?depth .
+	?type :hasSubtype ?subtype .
+	?type :name ?typename .
+	?subtype :name ?subtypename .
+	
+	{SELECT ?type (COUNT(?tentity) as ?typetentitycount)
+	WHERE{
+	{SELECT DISTINCT ?type ?tentity
+     WHERE  {  
+		?type (:hasSubtype*/:hasEntity) ?tentity .
+	}
+    }
+	}
+	group by ?type
+	}
+	
+	{SELECT ?subtype (COUNT(?tsentity) as ?subtypetentitycount)
+	WHERE{
+	{SELECT DISTINCT ?subtype ?tsentity
+     WHERE  {  
+		?subtype (:hasSubtype*/:hasEntity) ?tsentity . 
+	}
+    }
+	}
+	group by ?subtype
+	}
+}
+GROUP BY ?typename ?subtypename ?typetentitycount ?subtypetentitycount
+ORDER BY ?entitydifference

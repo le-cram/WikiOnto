@@ -164,7 +164,7 @@ public class Prune {
             case "Abandon Entity":
                 abandonEntity();
                 break;
-            case "Abandon Category":
+            case "Abandon Type":
                 abandonCategory();
                 break;
             case "Cleanup Unreachable All":

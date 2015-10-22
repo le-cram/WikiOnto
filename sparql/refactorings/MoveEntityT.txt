@@ -1,5 +1,5 @@
 1. Choose entity
-2. Choose unfit containing category
-3. Choose new category
-4. Insert entity in new category
-5. Delete entity from unfit category
+2. Choose unfit type
+3. Choose new type
+4. Insert entity in new type
+5. Delete entity from unfit type

@@ -1,0 +1,10 @@
+PREFIX : <http://myCLOnto.de/> 
+SELECT (MAX(?typePerEntity) as ?max) (AVG(?typePerEntity) as ?avg)
+WHERE{
+	{SELECT ?entity (COUNT(?type) as ?typePerEntity)
+	WHERE {
+		?type :hasEntity ?entity .
+	}
+	GROUP BY ?entity
+}
+}	

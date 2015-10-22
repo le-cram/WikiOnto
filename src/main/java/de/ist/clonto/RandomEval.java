@@ -43,7 +43,7 @@ public class RandomEval {
     }
 
     public static void eval() throws IOException {
-        //File Chooser öffnen
+        //open File Chooser
         JFileChooser fc = new JFileChooser();
         fc.setCurrentDirectory(new File(System.getProperty("user.dir")));
         fc.setFileSelectionMode(JFileChooser.FILES_ONLY);
@@ -52,49 +52,33 @@ public class RandomEval {
         File newcsv=null;
         if (returnVal == JFileChooser.APPROVE_OPTION) {
             csv = fc.getSelectedFile();
-            newcsv = new File(csv.getPath().replace(csv.getName(), csv.getName() + "new"));
+            newcsv = new File(csv.getPath().replace(csv.getName().split("\\.")[0], "Eval"+csv.getName().split("\\.")[0] ));
         }
         List<String> lines = FileUtils.readLines(csv);
+        String[] headlines = lines.get(0).split(",");
+
         Set<Integer> numbers = genRandom(lines.size());
         int i=1;
+        //for each random number
+        //   show dialog
+        //   request value
         for(int n: numbers){
             String line = lines.get(n);
             String text="";
-            for(String part : line.split(","))
-                text+=part+"\n";
+            String[] parts = line.split(",");
+            for(int j = 0;j<parts.length;j++)
+                text += headlines[j] + " : " + parts[j] + "\n";
             String eval = JOptionPane.showInputDialog(null, text+"\n"+i+"/"+numbers.size());
             String newline= line+",,"+eval;
             lines.set(n,newline);
             i++;
         }
+        //save in copied csv via replace
         Writer fw = new FileWriter(newcsv);
         for(String line : lines){
-            fw.append(line+"\n");
+            fw.append(line + "\n");
         }
-        //Zufallszahlen generieren
-        //für jede Zufallszahl
-        //   Zeile anzeigen
-        //   Wert angeben
-        //   speichern in kopierter csv via replace
-    }
-
-    public static void repair() throws IOException {
-        File newf = new File("C:\\Programmierung\\Repos\\WikiOnto\\eval\\new\\DoubleReachableEntitynew.txt");
-        String fixtext = "";
-
-        for(String line : FileUtils.readLines(newf)){
-            fixtext+=line+"\n";
-        }
-        Pattern p = Pattern.compile("\n,,\\d+");
-        Matcher m = p.matcher(fixtext);
-        while (m.find()){
-            String t = m.group();
-            String r = t.trim()+"\n";
-            fixtext.replaceAll(t,r);
-        }
-
-        Writer fw = new FileWriter(newf);
-        fw.write(fixtext);
         fw.close();
     }
+
 }

@@ -1,0 +1,9 @@
+PREFIX : <http://myCLOnto.de/> 
+SELECT DISTINCT ?name
+WHERE {
+	?type :hasInstance ?entity .
+    FILTER EXISTS { ?type2 :hasSubtype ?type . }
+    ?entity :name ?name .
+    ?type :name ?name .
+}
+ORDER BY ?name

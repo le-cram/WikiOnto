@@ -8,24 +8,17 @@ package de.ist.clonto.triplestore;
 import com.hp.hpl.jena.query.Dataset;
 import com.hp.hpl.jena.query.ReadWrite;
 import com.hp.hpl.jena.rdf.model.Model;
-import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.tdb.TDBFactory;
-import de.ist.clonto.webwiki.model.Attribute;
-import de.ist.clonto.webwiki.model.AttributeSet;
-import de.ist.clonto.webwiki.model.Category;
-import de.ist.clonto.webwiki.model.Element;
-import de.ist.clonto.webwiki.model.Entity;
+import de.ist.clonto.webwiki.model.*;
+import de.ist.clonto.webwiki.model.Property;
+
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.commons.io.FileUtils;
@@ -38,19 +31,19 @@ import org.jsoup.Jsoup;
 public class CLModelToJena {
 
     private final String URI = "http://myCLOnto.de/";
-    private final String cURI = URI + "Category#";
+    private final String tURI = URI + "Type#";
     private final String eURI = URI + "Entity#";
-    private final String aURI = URI + "Attribute#";
-    private final String asURI = URI + "AttributeSet#";
+    private final String pURI = URI + "Property#";
+    private final String iURI = URI + "Information#";
 
     private Model model;
 
-    private Map<String, Resource> catResMap;
+    private Map<String, Resource> typeResMap;
     private Map<String, Resource> entityResMap;
-    private int attributesetcount;
-    private int attributecount;
+    private int informationcount;
+    private int propertycount;
 
-    public void createTripleStore(Category rootCategory) throws FileNotFoundException {
+    public void createTripleStore(Type rootType) throws FileNotFoundException {
         String directory = "./clontologytdb";
         try {
             FileUtils.cleanDirectory(new File(directory));
@@ -62,127 +55,125 @@ public class CLModelToJena {
 
         dataset.begin(ReadWrite.WRITE);
         model = dataset.getDefaultModel();
-        catResMap = new HashMap<>();
+        typeResMap = new HashMap<>();
         entityResMap = new HashMap<>();
 
-        Resource rootResource = model.getResource(cURI + catResMap.size());
-        catResMap.put(rootCategory.getURIName(), rootResource);
-        rootResource.addProperty(model.getProperty(URI + "name"), rootCategory.getName());
+        Resource rootResource = model.getResource(tURI + typeResMap.size());
+        typeResMap.put(rootType.getURIName(), rootResource);
+        rootResource.addProperty(model.getProperty(URI + "name"), rootType.getName());
         rootResource.addProperty(model.getProperty(URI + "depth"),
-                Integer.toString(rootCategory.getMinDepth()));
+                Integer.toString(rootType.getMinDepth()));
 
-        transformCategory(rootCategory);
+        transformType(rootType);
 
         // put outputstream instead of null
         dataset.commit();
         dataset.end();
     }
 
-    private void transformCategory(Category category) {
-        Resource categoryResource = catResMap.get(category.getURIName());
+    private void transformType(Type type) {
+        Resource typeResource = typeResMap.get(type.getURIName());
 
-        if (null != category.getMainEntity()) {
+        if (null != type.getMainEntity()) {
             Resource mainentityResource;
-            if (!entityResMap.containsKey(category.getMainEntity().getURIName())) {
+            if (!entityResMap.containsKey(type.getMainEntity().getURIName())) {
                 mainentityResource = model.createResource(eURI + entityResMap.size());
-                mainentityResource.addProperty(model.getProperty(URI + "name"), category.getMainEntity().getName());
-                entityResMap.put(category.getMainEntity().getURIName(), mainentityResource);
-                categoryResource.addProperty(model.getProperty(URI + "hasMainEntity"), mainentityResource);
-                categoryResource.addProperty(model.getProperty(URI + "hasEntity"), mainentityResource);
-                transformentity(category.getMainEntity());
+                mainentityResource.addProperty(model.getProperty(URI + "name"), type.getMainEntity().getName());
+                entityResMap.put(type.getMainEntity().getURIName(), mainentityResource);
+                typeResource.addProperty(model.getProperty(URI + "definedBy"), mainentityResource);
+                transformEntity(type.getMainEntity());
             } else {
-                mainentityResource = entityResMap.get(category.getMainEntity().getURIName());
-                categoryResource.addProperty(model.getProperty(URI + "hasMainEntity"), mainentityResource);
-                categoryResource.addProperty(model.getProperty(URI + "hasEntity"), mainentityResource);
+                mainentityResource = entityResMap.get(type.getMainEntity().getURIName());
+                typeResource.addProperty(model.getProperty(URI + "definedBy"), mainentityResource);
             }
 
         }
 
-        for (Entity entity : category.getEntities()) {
+        for (Entity entity : type.getEntities()) {
             Resource entityResource;
             if (!entityResMap.containsKey(entity.getURIName())) {
                 entityResource = model.createResource(eURI + entityResMap.size());
                 entityResMap.put(entity.getURIName(), entityResource);
                 entityResource.addProperty(model.getProperty(URI + "name"), entity.getName());
-                categoryResource.addProperty(model.getProperty(URI + "hasEntity"), entityResource);
-                transformentity(entity);
+                typeResource.addProperty(model.getProperty(URI + "hasInstance"), entityResource);
+                transformEntity(entity);
             } else {
                 entityResource = entityResMap.get(entity.getURIName());
-                categoryResource.addProperty(model.getProperty(URI + "hasEntity"), entityResource);
+                typeResource.addProperty(model.getProperty(URI + "hasInstance"), entityResource);
             }
 
         }
 
-        transformSubcategories(category);
-        transformSupercategories(category, false);
+        transformSubtypes(type);
+        transformSupertypes(type, false);
     }
 
-    private void transformSubcategories(Category category) {
-        for (Category subcategory : category.getSubCategories()) {
-            Resource subcategoryResource;
-            if (!catResMap.containsKey(subcategory.getURIName())) {
-                subcategoryResource = model.createResource(cURI + catResMap.size());
-                catResMap.put(subcategory.getURIName(), subcategoryResource);
-                subcategoryResource.addProperty(model.getProperty(URI + "name"), subcategory.getName());
-                transformCategory(subcategory);
+    private void transformSubtypes(Type type) {
+        for (Type subtype : type.getSubtypes()) {
+            Resource subtypeResource;
+            if (!typeResMap.containsKey(subtype.getURIName())) {
+                subtypeResource = model.createResource(tURI + typeResMap.size());
+                typeResMap.put(subtype.getURIName(), subtypeResource);
+                subtypeResource.addProperty(model.getProperty(URI + "name"), subtype.getName());
+                transformType(subtype);
             } else {
-                subcategoryResource = catResMap.get(subcategory.getURIName());
+                subtypeResource = typeResMap.get(subtype.getURIName());
             }
-            Resource categoryResource = catResMap.get(category.getURIName());
-            categoryResource.addProperty(model.getProperty(URI + "hasSubCategory"), subcategoryResource);
-            if(!subcategoryResource.hasProperty(model.getProperty(URI + "depth"))){
-                subcategoryResource.addProperty(model.getProperty(URI + "depth"),
-                        Integer.toString(subcategory.getMinDepth()));
-                transformCategory(subcategory);
+            Resource typeResource = typeResMap.get(type.getURIName());
+            typeResource.addProperty(model.getProperty(URI + "hasSubtype"), subtypeResource);
+            if(!subtypeResource.hasProperty(model.getProperty(URI + "depth"))){
+                subtypeResource.addProperty(model.getProperty(URI + "depth"),
+                        Integer.toString(subtype.getMinDepth()));
+                transformType(subtype);
             }
         }
     }
 
-    private void transformSupercategories(Element element, boolean isEntity) {
-        for (String supercat : element.getSupercategories()) {
-            Resource supercategoryResource;
-            if (!catResMap.containsKey(replaceWhitespaceByUnderscore(supercat))) {
-                supercategoryResource = model.createResource(cURI + catResMap.size());
-                catResMap.put(replaceWhitespaceByUnderscore(supercat), supercategoryResource);
-                supercategoryResource.addProperty(model.getProperty(URI + "name"), removeUnderscore(supercat));
+    private void transformSupertypes(Element element, boolean isEntity) {
+        for (String supertype : element.getTypes()) {
+            Resource supertypeResource;
+            if (!typeResMap.containsKey(replaceWhitespaceByUnderscore(supertype))) {
+                supertypeResource = model.createResource(tURI + typeResMap.size());
+                typeResMap.put(replaceWhitespaceByUnderscore(supertype), supertypeResource);
+                supertypeResource.addProperty(model.getProperty(URI + "name"), removeUnderscore(supertype));
             } else {
-                supercategoryResource = catResMap.get(replaceWhitespaceByUnderscore(supercat));
+                supertypeResource = typeResMap.get(replaceWhitespaceByUnderscore(supertype));
             }
             if (isEntity) {
                 Resource elementResource = entityResMap.get(element.getURIName());
-                supercategoryResource.addProperty(model.getProperty(URI + "hasEntity"), elementResource);
+                supertypeResource.addProperty(model.getProperty(URI + "hasInstance"), elementResource);
             } else {
-                Resource elementResource = catResMap.get(element.getURIName());
-                supercategoryResource.addProperty(model.getProperty(URI + "hasSubCategory"), elementResource);
+                Resource elementResource = typeResMap.get(element.getURIName());
+                supertypeResource.addProperty(model.getProperty(URI + "hasSubtype"), elementResource);
             }
         }
     }
 
-    private void transformentity(Entity entity) {
-        transformSupercategories(entity, true);
+    private void transformEntity(Entity entity) {
+        transformSupertypes(entity, true);
 
-        List<AttributeSet> attributeSetList = entity.getAttributeSetList();
+        List<Information> informationList = entity.getInformationList();
 
-        for (AttributeSet attributeSet : attributeSetList) {
-            Resource attributeSetResource = model.createResource(asURI + attributesetcount);
-            attributeSetResource.addProperty(model.getProperty(URI + "name"), Integer.toString(attributesetcount));
-            attributeSetResource.addProperty(model.getProperty(URI + "topic"), attributeSet.getName());
-            attributesetcount++;
+        for (Information information : informationList) {
+            Resource informationResource = model.createResource(iURI + informationcount);
+            informationResource.addProperty(model.getProperty(URI + "name"), Integer.toString(informationcount));
+            informationResource.addProperty(model.getProperty(URI + "topic"), information.getName());
+            informationcount++;
             Resource entityResource = entityResMap.get(entity.getURIName());
-            entityResource.addProperty(model.getProperty(URI + "hasAttributeSet"), attributeSetResource);
+            entityResource.addProperty(model.getProperty(URI + "hasInformation"), informationResource);
 
-            transformAttributeSet(attributeSet, attributeSetResource);
+            transformInformation(information, informationResource);
         }
     }
 
-    private void transformAttributeSet(AttributeSet attributeSet, Resource attributeSetResource) {
-        List<Attribute> attributes = attributeSet.getAttributes();
-        for (Attribute attribute : attributes) {
-            Resource attributeResource = model.createResource(aURI + attributecount);
-            attributecount++;
-            attributeResource.addProperty(model.getProperty(URI + "name"), filterHTML(attribute.getName()));
-            attributeResource.addProperty(model.getProperty(URI + "value"), filterHTML(attribute.getValue()));
-            attributeSetResource.addProperty(model.getProperty(URI + "hasAttribute"), attributeResource);
+    private void transformInformation(Information information, Resource informationResource) {
+        List<Property> properties = information.getProperties();
+        for (Property property : properties) {
+            Resource propertyResource = model.createResource(pURI + propertycount);
+            propertycount++;
+            propertyResource.addProperty(model.getProperty(URI + "name"), filterHTML(property.getName()));
+            propertyResource.addProperty(model.getProperty(URI + "value"), filterHTML(property.getValue()));
+            informationResource.addProperty(model.getProperty(URI + "hasProperty"), propertyResource);
         }
     }
 

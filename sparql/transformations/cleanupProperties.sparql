@@ -1,0 +1,9 @@
+PREFIX clonto: <http://myCLOnto.de/> 
+DELETE {
+  ?property ?r ?n .
+}
+WHERE{ 
+  ?property clonto:value ?v .
+  FILTER NOT EXISTS { ?atset clonto:hasAttribute ?property }
+  ?property ?r ?n .
+}

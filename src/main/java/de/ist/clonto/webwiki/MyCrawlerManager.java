@@ -6,7 +6,7 @@
 package de.ist.clonto.webwiki;
 
 import de.ist.clonto.triplestore.CLModelToJena;
-import de.ist.clonto.webwiki.model.Category;
+import de.ist.clonto.webwiki.model.Type;
 import de.ist.clonto.webwiki.model.Entity;
 import java.io.IOException;
 import java.util.Collections;
@@ -27,16 +27,16 @@ import org.xml.sax.SAXException;
  */
 public class MyCrawlerManager {
 
-    private final Map<String, Category> categoryMap;
-    private final Queue<Category> categoryQueue;
+    private final Map<String, Type> typeMap;
+    private final Queue<Type> typeQueue;
     private final Map<String, Entity> entityMap;
     private Set<String> exclusionset;
 
     private int threadcounter;
 
     public MyCrawlerManager() {
-        categoryQueue = new ConcurrentLinkedQueue<>();
-        categoryMap = Collections.synchronizedMap(new HashMap<String, Category>());
+        typeQueue = new ConcurrentLinkedQueue<>();
+        typeMap = Collections.synchronizedMap(new HashMap<String, Type>());
         entityMap = Collections.synchronizedMap(new HashMap<String, Entity>());
         initExclusionSet();
 
@@ -50,12 +50,12 @@ public class MyCrawlerManager {
         ExecutorService executor = Executors.newFixedThreadPool(corenr);
         while (true) {
             
-            if (!categoryQueue.isEmpty()) {
-                executor.execute(new MyCrawler(this, popCategory()));
+            if (!typeQueue.isEmpty()) {
                 incthreadcounter();
+                executor.execute(new MyCrawler(this, popType()));
             }else{
                 if(threadcounter == 0){
-                    System.out.println("Stopping at "+categoryMap.size()+"C, "+entityMap.size()+"E");
+                    System.out.println("Stopping at "+ typeMap.size()+"C, "+entityMap.size()+"E");
                     break;
                 }
             }
@@ -65,10 +65,10 @@ public class MyCrawlerManager {
     }
 
     public static void main(String[] args0) throws InterruptedException, SAXException, IOException {
-        Category cl = new Category();
+        Type cl = new Type();
         cl.setName("Computer languages");
         MyCrawlerManager manager = new MyCrawlerManager();
-        manager.offerCategory(cl);
+        manager.offerType(cl);
         manager.crawl();
         new CLModelToJena().createTripleStore(cl);
     }
@@ -77,11 +77,9 @@ public class MyCrawlerManager {
         exclusionset = new HashSet<>();
         exclusionset.add("Data types");
         exclusionset.add("Programming language topics");
-        exclusionset.add("Articles with example code");
         exclusionset.add("Internet search engines");
         exclusionset.add("Instant messaging");
         exclusionset.add("Internet search");
-        //from Programming language topics -> Programming Paradigms
         exclusionset.add("Google services");
         exclusionset.add("Net-centric");
         exclusionset.add("Service-oriented architecture-related products");
@@ -90,29 +88,29 @@ public class MyCrawlerManager {
         exclusionset.add("Lists of computer languages");
     }
 
-    public void offerCategory(Category category) {
-        if(categoryMap.size() % 100 ==0)
-            System.out.println("#C:"+categoryMap.size()+", #E"+entityMap.size());
-        categoryQueue.offer(category);
+    public void offerType(Type type) {
+        if(typeMap.size() % 100 ==0)
+            System.out.println("#C:"+ typeMap.size()+", #E"+entityMap.size());
+        typeQueue.offer(type);
     }
 
-    public Category popCategory() {
-        return categoryQueue.poll();
+    public Type popType() {
+        return typeQueue.poll();
     }
 
-    public Category getCategoryFromCategoryMap(String title) {
-        return categoryMap.get(title);
+    public Type getTypeFromTypeMap(String title) {
+        return typeMap.get(title);
     }
 
-    public void putInCategoryMap(String name, Category category) {
-        categoryMap.put(name, category);
+    public void putInTypeMap(String name, Type type) {
+        typeMap.put(name, type);
     }
 
     public Entity getEntityFromEntityMap(String title) {
         return entityMap.get(title);
     }
 
-    public void putInentityMap(String name, Entity entity) {
+    public void putInEntityMap(String name, Entity entity) {
         entityMap.put(name, entity);
     }
 

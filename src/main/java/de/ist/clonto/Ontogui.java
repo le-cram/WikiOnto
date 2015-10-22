@@ -246,14 +246,14 @@ public class Ontogui extends JFrame {
             }
         });
 
-        refactorCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Rename Element", "Change Topic", "Move Entity", "Move Category", "Add Missing Category", "Unite Attributesets", "Extract Entity", "Extract Subcategory", "Remove Redundant HasEntity", "Remove Redundant SubCategory" }));
+        refactorCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Rename Element", "Change Topic", "Move Entity", "Move Type", "Add Missing Type", "Unite Attributesets", "Extract Entity", "Extract Subcategory", "Remove Redundant HasEntity", "Remove Redundant SubCategory" }));
         refactorCombobox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 refactorComboboxActionPerformed(evt);
             }
         });
 
-        pruningCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Abandon Entity", "Abandon Category", "Remove HasEntity", "Remove Subcategory", "Collapse Hierarchy", "Cleanup Unreachable All", "Cleanup Unreachable Cat", "Cleanup Unreachable Ent", "Lift Cycle" }));
+        pruningCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Abandon Entity", "Abandon Type", "Remove HasEntity", "Remove Subcategory", "Collapse Hierarchy", "Cleanup Unreachable All", "Cleanup Unreachable Cat", "Cleanup Unreachable Ent", "Lift Cycle" }));
         pruningCombobox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pruningComboboxActionPerformed(evt);

@@ -1,0 +1,4 @@
+1. Choose type
+2. Remove all relations, where the 
+target corresponds to the type
+that should be abandoned.

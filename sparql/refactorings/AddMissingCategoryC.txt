@@ -1,4 +1,0 @@
-The name of an entity may imply
-that it belongs to a certain
-category, but this relation
-is not established yet.

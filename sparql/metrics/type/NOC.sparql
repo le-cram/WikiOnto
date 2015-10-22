@@ -1,0 +1,47 @@
+PREFIX : <http://myCLOnto.de/>
+SELECT 
+?cname
+?depth
+(COUNT(?dentity) as ?NOCdirectEntities) 
+(COUNT(?dtype) as ?NOCdirectTypes)
+(COUNT(?tentity) as ?NOCtransitiveEntities) 
+(COUNT(?ttype) as ?NOCtransitiveTypes)
+(?NOCdirectEntities*100/(?NOCdirectTypes+?NOCdirectEntities) as ?directentityRatioPercent)
+(?NOCtransitiveEntities*100/(?NOCtransitiveTypes+?NOCtransitiveEntities) as ?transitiveentityRatioPercent)
+WHERE {
+	
+	?type :depth ?depth .
+	?type :name ?cname .
+	
+	{SELECT ?type ?dentity
+     WHERE  {  
+		?type :hasEntity ?dentity .
+	}
+    }
+	
+	UNION
+	
+	
+	{SELECT ?type ?dtype
+     WHERE  {  
+		?type :hasSubtype ?dtype .
+	}
+    }
+	
+	UNION
+	
+	{SELECT DISTINCT ?type ?tentity
+     WHERE  {  
+		?type (:hasSubtype*/:hasEntity) ?tentity .
+	}
+    }
+	UNION
+	
+	{SELECT DISTINCT ?type ?ttype
+     WHERE  {  
+		?type (:hasSubtype+) ?ttype .
+	}
+    }
+}
+GROUP BY ?cname ?depth
+ORDER BY ?directentityRatioPercent

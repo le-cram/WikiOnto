@@ -1,0 +1,40 @@
+notes:
+
+Negative example:
+
+Entity:  Rust (programming language) 
+
+
+| "Systems programming languages"              | "Rust (programming language)" |
+| "Statically typed programming languages"     | "Rust (programming language)" |
+| "Concurrent programming languages"           | "Rust (programming language)" |
+| "Procedural programming languages"           | "Rust (programming language)" |
+| "Functional languages"                       | "Rust (programming language)" |
+| "Pattern matching programming languages"     | "Rust (programming language)" |
+| "Multi-paradigm programming languages"       | "Rust (programming language)" |
+| "Programming languages created in the 2010s" | "Rust (programming language)" |
+| "Rust (programming language)"                | "Rust (programming language)" |
+
+
+Entity : Servo (layout engine)
+
+-----------------------------------------------------------
+| cname                         | ename                   |
+===========================================================
+| "Rust (programming language)" | "Servo (layout engine)" |
+-----------------------------------------------------------
+
+
+-------------------------------------
+
+Delphi (programming language)
+
+Entities:
+|       | "Object Pascal"                 |
+|       | "Delphi (programming language)" |
+|       | "FastCode"                      |
+|       | "Project Jedi"                  |
+
+
+
+Entity : Project Jedi

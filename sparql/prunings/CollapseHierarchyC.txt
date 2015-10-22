@@ -1,4 +1,4 @@
-If a subcategory is not needed in
-a path from a category to the
-subcategory's members, it may be
+If a subtype is not needed in
+a path from a type to the
+subtype's members, it may be
 removed. 

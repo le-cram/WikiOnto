@@ -1,6 +1,0 @@
-Starting analysis: Cycle
-categoryname
-Data-centric programming languages
-Persistent programming languages
-
- Performed query in: 660ms

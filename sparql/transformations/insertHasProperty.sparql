@@ -1,0 +1,2 @@
+insert { ?information <http://myCLOnto.de/hasAttribute> ?property . }
+where { }

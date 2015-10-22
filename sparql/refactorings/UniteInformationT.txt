@@ -1,0 +1,8 @@
+1. Choose Entity
+2. Choose secondary information
+3. Choose main information
+4. Rename main information
+5. Move all relations from
+secondary information to main
+information
+6. Remove secondary information

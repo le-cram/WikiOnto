@@ -1,0 +1,9 @@
+PREFIX : <http://myCLOnto.de/> 
+SELECT ?entityname (COUNT(?type) as ?howManytypes)
+WHERE {  
+	?entity ^:hasInstance ?type .
+	?entity :name ?entityname .
+}
+GROUP BY ?entityname
+HAVING (?howManytypes > 8)
+ORDER BY ?howManytypes

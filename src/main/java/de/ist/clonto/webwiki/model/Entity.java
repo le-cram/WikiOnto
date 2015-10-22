@@ -15,19 +15,19 @@ import java.util.List;
  */
 public class Entity extends Element{
     
-    private final List<AttributeSet> attributeSetList;
+    private final List<Information> informationList;
 
     public Entity(){
         super();
-        attributeSetList = new ArrayList<>();
+        informationList = new ArrayList<>();
     }
     
-    public List<AttributeSet> getAttributeSetList() {
-        return Collections.unmodifiableList(attributeSetList);
+    public List<Information> getInformationList() {
+        return Collections.unmodifiableList(informationList);
     }
 
-    public void addAttributeSet(AttributeSet attributeSet) {
-        attributeSetList.add(attributeSet);
+    public void addInformation(Information information) {
+        informationList.add(information);
     }
     
 }

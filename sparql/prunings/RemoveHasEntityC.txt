@@ -1,3 +1,0 @@
-If an entity is not relevant to a
-containing category, then it may 
-be removed from it.

@@ -1,0 +1,5 @@
+1. Choose type
+2. Choose unfit supertype
+3. Choose new supertype
+4. Insert type in new supertype
+5. Delete type from unfit supertype

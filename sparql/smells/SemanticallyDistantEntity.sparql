@@ -1,23 +1,23 @@
-PREFIX clonto: <http://myCLOnto.de/> 
-SELECT ?ename  (COUNT(?dcat) as ?howManyd) (COUNT(?rcat) as ?howManyr) ((?howManyd-?howManyr) as ?diff)
+PREFIX : <http://myCLOnto.de/> 
+SELECT ?entityname  (COUNT(?dtype) as ?howManyDistantTypes) (COUNT(?rtype) as ?howManyReachableTypes) ((?howManyDistantTypes-?howManyReachableTypes) as ?difference)
 WHERE {
-    {SELECT DISTINCT ?entity ?dcat
+    {SELECT DISTINCT ?entity ?dtype
     WHERE {
-        ?entity ^clonto:hasEntity ?dcat . 
+        ?entity ^:hasInstance ?dtype . 
         FILTER NOT EXISTS{ 
-			?dcat clonto:depth ?depth .
+			?dtype :depth ?depth .
 		}
     }
     }
 	UNION
-	{SELECT DISTINCT ?entity ?rcat
+	{SELECT DISTINCT ?entity ?rtype
     WHERE {
-        ?entity ^clonto:hasEntity ?rcat . 
-        ?rcat clonto:depth ?depth .
+        ?entity ^:hasInstance ?rtype . 
+        ?rtype :depth ?depth .
     }
     }
-	?entity clonto:name ?ename .
+	?entity :name ?entityname .
 }
-GROUP BY ?ename
+GROUP BY ?entityname
 HAVING(?diff>0)
 ORDER BY ?diff

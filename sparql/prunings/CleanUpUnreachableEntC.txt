@@ -1,4 +1,4 @@
 Entities may exist that are not reachable
-from the root category in the ontology's 
+from the root type in the ontology's
 tree. These have to be removed from the 
 ontology.

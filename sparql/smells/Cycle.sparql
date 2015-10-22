@@ -1,6 +1,6 @@
-PREFIX clonto: <http://myCLOnto.de/> 
-SELECT ?categoryname 
+PREFIX : <http://myCLOnto.de/> 
+SELECT ?typename 
 WHERE {
-	?category clonto:name ?categoryname .
-    ?category clonto:hasSubCategory+ ?category . 
+	?type :name ?typename .
+    ?type :hasSubtype+ ?type .
 }

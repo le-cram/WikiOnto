@@ -1,8 +1,0 @@
-1. Choose Entity
-2. Choose secondary attributeset
-3. Choose main attributeset
-4. Rename main attributeset
-5. Move all relations from
-secondary attributeset to main
-attributeset
-6. Remove secondary attributeset

@@ -1,0 +1,36 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://myCLOnto.de/> 
+SELECT ?subname ?supername ?t0name ?t1name (COUNT(?cat) as ?howManySuperCat)
+WHERE {
+    ?super :hasSubtype ?sub .
+    ?super :name ?supername .
+    ?sub :name ?subname .
+    
+    ?cl :name "Computer languages" .
+    ?cl :hasSubtype ?t0 .
+    ?t0 :name ?t0name .
+    ?t0 :hasSubtype* ?super .
+    ?cl :hasSubtype ?t1 .
+    ?t1 :name ?t1name .
+    
+    ?cat :hasSubtype ?sub .
+    FILTER (?cat != ?super)
+    FILTER NOT EXISTS {
+        ?cat2 :hasSubtype ?sub .
+        ?cat :hasSubtype+ ?cat2 .
+    }
+    FILTER (?t0 != ?t1)
+    FILTER NOT EXISTS {
+        ?dist :hasSubtype ?sub .
+        FILTER (?dist != ?super)
+        FILTER NOT EXISTS {
+            ?t1 :hasSubtype* ?dist .
+        }
+        FILTER EXISTS { 
+            ?t0 :hasSubtype* ?dist .
+        }
+    }
+}
+GROUP BY ?subname ?supername ?t0name ?t1name
+HAVING (?howManySuperCat > 1)
+ORDER BY ?howManySuperCat ?subname

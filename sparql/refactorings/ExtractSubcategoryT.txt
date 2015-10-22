@@ -1,8 +1,0 @@
-1. Choose new category name
-2. Create category
-3. Choose supercategories
-4. Add category to supercategories
-5. Choose subcategories
-6. Add subcategories to category
-7. Choose Entities
-8. Add Entities to category

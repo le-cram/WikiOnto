@@ -1,0 +1,5 @@
+If a type is contained in a
+supertype and in one of the 
+supertype's subtypes, the
+assignment to the supertype 
+may be redundant.

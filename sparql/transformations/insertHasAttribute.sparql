@@ -1,2 +1,0 @@
-insert { ?attributeSet <http://myCLOnto.de/hasAttribute> ?attribute . }
-where { }

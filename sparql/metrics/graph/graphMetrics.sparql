@@ -1,105 +1,105 @@
-PREFIX clonto: <http://myCLOnto.de/> 
+PREFIX : <http://myCLOnto.de/> 
 SELECT 
-?howManyN
-(COUNT(?ucat) as ?howManyUC)  
-(?howManyN-?howManyUC as ?howManyRN)
-?howManyE
-?howManyC 
-(?howManySCEdges+?howManyHEEdges+?howManyHASEdges+?howManyHAEdges+?howManyHasMainEntity as ?howManyEdges) 
-(?howManySCEdges+?howManyHEEdges+?howManyHASEdges+?howManyHAEdges+?howManyN+?howManyDepth+?howManyTopic+?howManyHasMainEntity as ?howManyEdgesT) 
-(?howManyN/?howManyEdges as ?ENRatio) 
-(?howManyEdges-?howManyN+1 as ?treeimpurity) 
-?howManySCEdges 
-?howManyHEEdges 
-?howManyHASEdges 
-?howManyHAEdges
+?howManyNodes
+(COUNT(?UnreachableType) as ?howManyUT)  
+(?howManyNodes-?howManyUT as ?howManyReachableTypes)
+?howManyEntities
+?howManyTypes 
+(?howManySubtypes+?howManyInstances+?howManyInformation+?howManyProperties+?howManyHasMainEntity as ?howManyEdges) 
+(?howManySubtypes+?howManyInstances+?howManyInformation+?howManyProperties+?howManyNodes+?howManyDepth+?howManyTopic+?howManyHasMainEntity as ?howManyEdgesTotal) 
+(?howManyN/?howManyEdges as ?EdgeNodeRatio) 
+(?howManyEdges-?howManyN+1 as ?Treeimpurity) 
+?howManySubtypes 
+?howManyInstances 
+?howManyInformation
+?howManyProperties
 ?howManyDepth
 ?howManyTopic
 ?howManyValue
 ?howManyHasMainEntity
 WHERE {
 	
-	{SELECT (COUNT(?resource) AS ?howManyN)  
+	{SELECT (COUNT(?resource) AS ?howManyNodes)  
      WHERE  {
-		?resource clonto:name ?name .
+		?resource :name ?name .
 	}
     }
 	
-	{SELECT (COUNT(?resource) AS ?howManyC)
+	{SELECT (COUNT(?resource) AS ?howManyTypes)
 	WHERE {
-		?resource clonto:name ?name .
-		FILTER(regex(STR(?resource),"Category"))
+		?resource :name ?name .
+		FILTER(regex(STR(?resource),"Type"))
 	}
 	}
 	
-	{SELECT (COUNT(?resource) AS ?howManyE)
+	{SELECT (COUNT(?resource) AS ?howManyEntities)
 	WHERE {
-		?resource clonto:name ?name .
+		?resource :name ?name .
 		FILTER(regex(STR(?resource),"Entity"))
 	}
 	}
 	
-	{SELECT DISTINCT ?ucat   
+	{SELECT DISTINCT ?UnreachableType   
      WHERE  {
-		?ucat clonto:hasSubCategory|clonto:hasEntity ?elem  .
+		?UnreachableType :hasSubtype|:hasEntity ?elem  .
 		FILTER NOT EXISTS{
-			?ucat clonto:depth ?depth .
+			?UnreachableType :depth ?depth .
 		}
 	}
     }
 	
-	{SELECT (COUNT(?node2) as ?howManySCEdges)
+	{SELECT (COUNT(?node2) as ?howManySubtypes)
 	WHERE {
-		?node1 clonto:hasSubCategory ?node2 .
+		?node1 :hasSubtype ?node2 .
 	}
 	}
 	
 	
 	
-	{SELECT (COUNT(?node2) as ?howManyHEEdges)
+	{SELECT (COUNT(?node2) as ?howManyInstances)
 	WHERE {
-		?node1 clonto:hasEntity ?node2 .
+		?node1 :hasEntity ?node2 .
 	}
 	}
 	
 	
 	
-	{SELECT (COUNT(?node2) as ?howManyHASEdges)
+	{SELECT (COUNT(?node2) as ?howManyInformation)
 	WHERE {
-		?node1 clonto:hasAttributeSet ?node2 .
+		?node1 :hasInformation ?node2 .
 	}
 	}
 	
 	
-	{SELECT (COUNT(?node2) as ?howManyHAEdges)
+	{SELECT (COUNT(?node2) as ?howManyProperties)
 	WHERE {
-		?node1 clonto:hasAttribute ?node2 .
+		?node1 :hasAttribute ?node2 .
 	}
 	}
 	
 	{SELECT (COUNT(?node2) as ?howManyDepth)
 	WHERE {
-		?node1 clonto:depth ?node2 .
+		?node1 :depth ?node2 .
 	}
 	}
 	
 	{SELECT (COUNT(?node2) as ?howManyTopic)
 	WHERE {
-		?node1 clonto:topic ?node2 .
+		?node1 :topic ?node2 .
 	}
 	}
 	
 	{SELECT (COUNT(?node2) as ?howManyValue)
 	WHERE {
-		?node1 clonto:topic ?node2 .
+		?node1 :topic ?node2 .
 	}
 	}
 	
 	{SELECT (COUNT(?node2) as ?howManyHasMainEntity)
 	WHERE {
-		?node1 clonto:hasMainEntity ?node2 .
+		?node1 :hasMainEntity ?node2 .
 	}
 	}
 	
 }
-GROUP BY ?scategory ?howManyN ?howManyC ?howManyE ?howManyUC ?howManyEdges ?howManySCEdges ?howManyHEEdges ?howManyHASEdges ?howManyHAEdges ?howManyDepth ?howManyTopic ?howManyValue ?howManyHasMainEntity
+GROUP BY ?howManyNodes ?howManyTypes ?howManyEntities ?howManyUT ?howManyEdges ?howManySubtypes ?howManyInstances ?howManyInformation ?howManyProperties ?howManyDepth ?howManyTopic ?howManyValue ?howManyHasMainEntity

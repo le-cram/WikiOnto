@@ -1,12 +1,11 @@
 1. Remove all outgoing relations from 
-categories without a supercategory
-except for the root category
+types without a supertype
+except for the root type
 2. Remove all outgoing relations from 
-entities that do not have a containing 
-category.
+entities that do not have a type.
 3. Remove all outgoing relations from
-attributesets that are not assigned
+information that is not assigned
 to any entity.
 4. Remove all outgoing relations from
-attributes that are not assigned to
-any attributeset.
+properties that are not assigned to
+any information.

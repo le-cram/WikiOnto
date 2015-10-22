@@ -1,0 +1,3 @@
+A type may have to be moved from
+one type to the other if the new
+type suits it better.

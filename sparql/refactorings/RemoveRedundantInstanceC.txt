@@ -1,0 +1,5 @@
+If an entity is instance of a
+type and of one of the
+type's subtypes, the
+latter assignment may be 
+redundant.

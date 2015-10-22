@@ -1,0 +1,13 @@
+PREFIX : <http://myCLOnto.de/> 
+SELECT ?typename
+(COUNT(?mtype) as ?mediatorDepth)
+?depth
+WHERE {
+	?stype :name "Computer languages" .
+	?stype :hasSubtype* ?mtype .
+	?mtype :hasSubtype+ ?type .
+	?type :depth ?depth .
+	?type :name ?typename .
+}
+GROUP BY ?typename ?depth
+ORDER BY ?howManym

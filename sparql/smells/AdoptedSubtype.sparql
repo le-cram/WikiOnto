@@ -1,0 +1,29 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://myCLOnto.de/> 
+SELECT ?subname ?typename ?commontoptypename ?distanttoptypename
+WHERE {
+    
+    ?cl :name "Computer languages" .
+    ?cl :hasSubtype ?commontoptype .
+    ?cl :hasSubtype ?distanttoptype .
+    FILTER NOT EXISTS{ ?commontoptype :hasSubtype* ?distanttoptype . }
+    FILTER NOT EXISTS{ ?distanttoptype :hasSubtype* ?commontoptype . }
+    
+    ?type :hasSubtype ?sub .
+    FILTER NOT EXISTS { ?distanttoptype :hasSubtype* ?type . }
+    FILTER EXISTS { ?commontoptype :hasSubtype* ?type . }
+    FILTER EXISTS { ?distanttoptype :hasSubtype* ?sub . }
+    
+    FILTER NOT EXISTS { 
+        ?type :hasSubtype ?sub2 .
+        FILTER(?sub2 != ?sub)
+        FILTER EXISTS { ?distanttoptype :hasSubtype* ?sub2 . }
+    }
+    
+    
+    ?type :name ?typename .
+    ?sub :name ?subname .
+    ?commontoptype :name ?commontoptypename .
+    ?distanttoptype :name ?distanttoptypename .
+}
+ORDER BY ?subname ?typename

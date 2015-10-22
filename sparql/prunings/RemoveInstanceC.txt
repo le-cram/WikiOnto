@@ -1,0 +1,3 @@
+If an entity is not relevant to a
+type, then it may
+be removed from it.

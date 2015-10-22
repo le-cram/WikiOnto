@@ -1,0 +1,25 @@
+PREFIX : <http://myCLOnto.de/> 
+SELECT ?typename  (COUNT(?dtype) as ?howManyDistantTypes) (COUNT(?rtype) as ?howManyReachableTypes) ((?howManyDistantTypes-?howManyReachableTypes) as ?difference)
+WHERE {
+	?type :name ?typename .
+    {SELECT DISTINCT ?type ?dtype
+    WHERE {
+        ?type ^:hasSubtype ?dtype .
+        FILTER NOT EXISTS{ 
+			?dtype :depth ?depth .
+		}
+    }
+    }
+	UNION
+	
+	{SELECT DISTINCT ?type ?rtype
+    WHERE {
+		
+        ?type ^:hasSubtype ?rtype .
+        ?rtype :depth ?depth .
+    }
+    }
+}
+GROUP BY ?typename
+HAVING(?diff > 0)
+ORDER BY ?diff

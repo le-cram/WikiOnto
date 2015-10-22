@@ -1,0 +1,22 @@
+Semantic Flaw 1:
+
+Search for an entity that is reachable from two of the root's subcategories
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://myCLOnto.de/> 
+SELECT DISTINCT ?ename ?t1name ?t2name
+WHERE {
+    ?cl :name "Computer languages" .
+    ?cl :hasSubCategory ?topcategory1 .
+    ?cl :hasSubCategory ?topcategory2 .
+    FILTER(?topcategory1 != ?topcategory2)
+    FILTER EXISTS{
+        ?topcategory1 :hasSubCategory*/:hasEntity ?entity .
+        ?topcategory2 :hasSubCategory*/:hasEntity ?entity .
+    }
+    ?topcategory1 :name ?t1name .
+    ?topcategory2 :name ?t2name .
+    ?entity :name ?ename .
+}
+
+Result nr: 18685

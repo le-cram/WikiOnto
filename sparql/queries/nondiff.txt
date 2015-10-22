@@ -1,0 +1,28 @@
+Not all subcategories serve the "diffusion" function described above; some are simply subsets which have some special characteristic of interest, such as Best Actor Academy Award winners as a subcategory of Film actors, Toll bridges in New York City as a subcategory of Bridges in New York City, and Musical films as a subcategory of Musicals. These are called non-diffusing subcategories. They provide an exception to the general rule that pages are not placed in both a type and its subcategory: there is no need to take pages out of the parent type purely because of their membership of a non-diffusing subcategory. (Of course, if the pages also belong to other subcategories that do cause diffusion, then they will not appear in the parent type directly.)
+
+
+Ziel : Non-diffusing subcategories l�schen
+
+Identifikation 1:
+
+Der Name der Superkategorie ist enthalten im Namen der Subkategorie.
+
+
+PREFIX : <http://myCLOnto.de/> 
+SELECT ?aname ?bname
+WHERE {
+    ?a :hasSubCategory ?b .
+    ?a :name ?aname .
+    ?b :name ?bname .
+    FILTER contains(?bname, ?aname)
+}
+
+Notiz : Man identifiziert sehr viele eponyme Kategorien. Allerdings findet man auch
+sehr viele korrekte Subclass Relationen.
+
+
+--------------------------------------------------------------
+Identifikation 2:
+
+Jedes Wort im Namen der Superkategorie ist enthalten im Namen der Subkategorie
+

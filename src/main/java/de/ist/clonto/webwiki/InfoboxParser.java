@@ -5,12 +5,14 @@
  */
 package de.ist.clonto.webwiki;
 
-import de.ist.clonto.webwiki.model.Attribute;
-import de.ist.clonto.webwiki.model.AttributeSet;
+import de.ist.clonto.webwiki.model.Information;
+import de.ist.clonto.webwiki.model.Property;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 import org.apache.commons.validator.routines.UrlValidator;
 
 /**
@@ -25,9 +27,9 @@ import org.apache.commons.validator.routines.UrlValidator;
  */
 public class InfoboxParser {
 
-    public List<AttributeSet> parse(String text) {
+    public List<Information> parse(String text) {
         String pagetext = replaceHTMLComments(text);
-        List<AttributeSet> setlist = new ArrayList<AttributeSet>();
+        List<Information> setlist = new ArrayList<Information>();
 
         Pattern pattern = Pattern.compile("\\{\\{\\s*infobox",
                 Pattern.MULTILINE | Pattern.CASE_INSENSITIVE | Pattern.DOTALL);
@@ -51,21 +53,21 @@ public class InfoboxParser {
                 end++;
             }
             String infobox = pagetext.substring(begin, end);
-            AttributeSet atset = parseSet(infobox);
-            setlist.add(atset);
+            Information info = parseSet(infobox);
+            setlist.add(info);
         }
 
         return setlist;
     }
 
-    public AttributeSet parseSet(String infoboxtext) {
+    public Information parseSet(String infoboxtext) {
 
-        AttributeSet attributeSet = new AttributeSet();
+        Information information = new Information();
 
         String text = filterInfoboxMarkup(infoboxtext);
 
         String ibname = retrieveInfoboxName(text);
-        attributeSet.setName(ibname);
+        information.setName(ibname);
 
         //Match attributes
         Pattern pattern = Pattern.compile("[^|]*=.*");
@@ -86,14 +88,14 @@ public class InfoboxParser {
             String value = parts[1].trim();
 
             for (String val : value.split(",")) {
-                Attribute at = new Attribute();
+                Property at = new Property();
                 at.setName(name);
                 at.setValue(val.trim());
-                attributeSet.addAttribute(at);
+                information.addProperty(at);
             }
         }
 
-        return attributeSet;
+        return information;
     }
 
     private String filterInfoboxMarkup(String text) {

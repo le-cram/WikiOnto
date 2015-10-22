@@ -1,0 +1,27 @@
+Try 1:
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://myCLOnto.de/> 
+SELECT ?subname ?supername ?depth (COUNT(?cat) as ?howManySuperCat)
+WHERE {
+    ?super :hasSubCategory ?sub .
+    ?super :name ?supername .
+    ?super :depth ?depth .
+    FILTER (xsd:integer(?depth) > 0)
+    ?sub :name ?subname .
+    ?cat :hasSubCategory ?sub .
+    FILTER (?cat != ?super) .
+    FILTER NOT EXISTS{
+        ?dist :hasSubCategory ?sub .
+        FILTER (?dist != ?super)
+        FILTER EXISTS{
+            ?dist :hasSubCategory+ ?super .
+        }
+    }
+}
+GROUP BY ?supername ?subname ?depth
+HAVING (?howManySuperCat > 1)
+ORDER BY ?subname
+
+
+Problem: Interesting, but returns too many results that are totally fine.

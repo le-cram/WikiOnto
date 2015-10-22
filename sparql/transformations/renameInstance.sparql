@@ -1,0 +1,5 @@
+PREFIX : <http://myCLOnto.de/> 
+DELETE{ ?cat :hasEntity ?e . }
+INSERT { ?cat :hasInstance ?e . }
+WHERE{ 
+  ?cat :hasEntity ?e .}

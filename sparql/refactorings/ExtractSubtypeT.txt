@@ -1,0 +1,8 @@
+1. Choose new type name
+2. Create type
+3. Choose supertypes
+4. Add type to supertypes
+5. Choose subtypes
+6. Add subtypes to type
+7. Choose Entities
+8. Add Entities to type

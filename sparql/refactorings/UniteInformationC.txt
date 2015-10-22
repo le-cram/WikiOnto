@@ -1,0 +1,4 @@
+An entity may have multiple
+information collections. In 
+order to improve the structure 
+the information can be merged.

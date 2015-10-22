@@ -1,2 +1,2 @@
-insert { ?category <http://myCLOnto.de/hasMainEntity> ?entity . }
+insert { ?type <http://myCLOnto.de/hasMainEntity> ?entity . }
 where { }

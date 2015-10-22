@@ -1,0 +1,24 @@
+PREFIX : <http://myCLOnto.de/> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?typename 
+?depth
+(COUNT(?type2) as ?NrOfReachedCategories)
+(MAX(?c2depth) as ?maxc2depth)
+(AVG(?c2depth) as ?avgc2depth)
+(MAX(?NrOfmediators) as ?maxdepthmediators)
+(AVG(?NrOfmediators) as ?avgdepthmediators) 
+ 
+WHERE {
+	?type :depth ?depth .
+	?type :name ?typename .
+	
+	{SELECT DISTINCT ?type ?type2 (xsd:integer(?type2depth) as ?c2depth) (COUNT(?type3) as ?NrOfmediators)
+     WHERE  {  
+		?type :hasSubtype* ?type3 .
+		?type3 :hasSubtype+ ?type2 .
+		?type2 :depth ?type2depth .
+	}
+    group by ?type ?type2 ?type2depth}
+}
+GROUP BY ?typename ?depth
+ORDER BY ?depth ?maxc2depth ?maxdepthmediators

@@ -1,0 +1,4 @@
+PREFIX : <http://myCLOnto.de/> 
+DELETE{ ?e :hasAttributeSet ?as .}
+INSERT { ?e :hasInformation ?as . }
+WHERE{ ?e :hasAttributeSet ?as . }

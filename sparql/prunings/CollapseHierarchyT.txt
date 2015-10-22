@@ -1,5 +1,5 @@
-1. Choose category
+1. Choose type
 2. Insert all outgoing relations
-from category to all supercategories.
+from type to all supertypes.
 3. Remove all ingoing relations to
-category.
+type.

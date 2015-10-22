@@ -1,22 +1,21 @@
-PREFIX clonto: <http://myCLOnto.de/> 
-SELECT ?ename ?atsettopic
+PREFIX : <http://myCLOnto.de/> 
+SELECT ?entityname ?topic
 WHERE {
-	?entity clonto:name ?ename .
-    ?entity clonto:hasAttributeSet ?atset .
-    ?atset clonto:topic ?atsettopic . 
+	?entity :name ?entityname .
+    ?entity :hasInformation ?information .
+    ?information :topic ?topic . 
     FILTER NOT EXISTS{ 
-        ?entity clonto:hasAttributeSet ?atset2 .
-        ?atset2 clonto:topic ?atsettopic2 .
-        FILTER (contains(?atsettopic2,"software") 
-                || contains(?atsettopic2,"program") 
-                || contains(?atsettopic2, "standard")
-                || contains(?atsettopic2, "file format")
-                || contains(?atsettopic2, "os"))
+        ?entity :hasInformation ?information2 .
+        ?information2 :topic ?topic2 .
+        FILTER (contains(?topic2,"program") 
+                || contains(?topic2, "standard")
+                || contains(?topic2, "file format"))
     }
     FILTER NOT EXISTS{
-        ?entity clonto:hasAttributeSet ?atset2 .
-        ?atset2 clonto:hasAttribute ?at .
-        ?at clonto:name ?atname .
-        FILTER (contains(?atname, "programming")) }
+        ?entity :hasInformation ?information2 .
+        ?information2 :hasProperty ?at .
+        ?at :name ?atname .
+        FILTER (contains(?atname, "programming")) 
+    }
 }
-ORDER BY ?atsettopic
+ORDER BY ?topic

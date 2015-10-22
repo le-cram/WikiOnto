@@ -1,0 +1,3 @@
+If a subtype is not relevant 
+to a supertype, then the 
+relation may be removed.

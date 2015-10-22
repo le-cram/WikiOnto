@@ -1,5 +1,5 @@
 1. Choose the relation, where the 
 cycle should be broken.
-1 a) Choose category
-1 b) Choose subcategory
-2. Remove subcategory relation
+1 a) Choose type
+1 b) Choose subtype
+2. Remove subtype relation

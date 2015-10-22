@@ -1,0 +1,13 @@
+﻿PREFIX : <http://my.de/> 
+SELECT ?typename ?howMany 
+WHERE {
+    ?type :name ?typename .
+	FILTER EXISTS{ ?type :hasSubtype ?sub . }
+    {SELECT ?type (COUNT(?entity) AS ?howMany)
+     WHERE  {  
+		?type :hasInstance ?entity .
+	}
+    group by ?type}
+    FILTER(?howMany > 30)
+}
+ORDER BY ?howMany

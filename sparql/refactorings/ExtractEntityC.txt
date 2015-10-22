@@ -1,5 +1,5 @@
 An entity can be split into two 
 entities for example if it has
-multiple attributesets or if it
-covers two topics such as compiler
+multiple information collections or 
+if it covers two topics such as compiler
 and language in one entity.

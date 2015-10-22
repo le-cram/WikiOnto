@@ -1,0 +1,14 @@
+PREFIX : <http://myCLOnto.de/> 
+SELECT DISTINCT ?lazytypename 
+WHERE {  
+	?lazytype :name ?lazytypename .
+	?typeS :hasSubtype ?lazytype .
+	FILTER EXISTS{?lazytype :hasInstance ?entity .}
+	FILTER NOT EXISTS{ 
+		?lazytype :hasInstance ?entity2 .
+		FILTER NOT EXISTS{
+			?lazytype :hasSubtype+ ?type .
+			?type :hasInstance ?entity2 .
+		}
+	}
+}

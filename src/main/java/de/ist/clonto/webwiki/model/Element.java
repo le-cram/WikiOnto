@@ -15,23 +15,23 @@ import java.util.Set;
  */
 public class Element extends NamedElement{
     
-    private final Set<String> supercategories;
+    private final Set<String> types;
     
     public Element(){
-        supercategories = new HashSet<>();
+        types = new HashSet<>();
     }
 
     /**
-     * @return the supercategories
+     * @return the types
      */
-    public Set<String> getSupercategories() {
-        return Collections.unmodifiableSet(supercategories);
+    public Set<String> getTypes() {
+        return Collections.unmodifiableSet(types);
     }
     
-    public void addSuperCategory(String supercat){
-        if(supercat.contains("|"))
-            System.out.println(getName()+" flawed with supercategory:"+supercat);
-        supercategories.add(supercat);
+    public void addType(String type){
+        if(type.contains("|"))
+            System.err.println(getName()+" flawed with type:"+type);
+        types.add(type);
     }
     
 }

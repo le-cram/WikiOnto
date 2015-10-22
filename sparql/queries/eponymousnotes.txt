@@ -1,0 +1,190 @@
+Getting rid of Eponymous Categories :
+
+Summary:
+
+Ausgangsproblem
+Kategorie und Entität mit exakt gleichem Namen.
+
+Unterprobleme:
+Fehlende Eltern der Entität
+Kinder der eponymen Kategorie
+    Wohin gehören die?
+    Oberkategorien?
+    Erkennung über externe und interne semantische Distanz
+    
+Fix Strategie:
+1) Füge fehlende Eltern der Entität hinzu
+2) Inspiziere Kinder einzeln:
+    Prüfe externe Distanz
+    Prüfe interne Distanz
+    Wenn Kinder in Oberkategorien können
+      Move Entity in Oberkategorien
+    Sonst
+      Move Entity irgendwo anders hin
+      oder tue nichts
+3) Abandon Category
+4) Cleanup
+
+
+-------------------------------------
+Part 1:
+
+
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT DISTINCT ?cname
+WHERE {
+	?tcategory clonto:hasEntity ?entity .
+    ?entity clonto:name ?cname .
+    ?tcategory2 clonto:hasSubCategory ?type .
+    ?type clonto:name ?cname .
+}
+ORDER BY ?cname
+
+This first version simply searches for a pair of (Entity, Category),
+where each element has the same name.
+
+
+
+Problem:
+Now we want to get rid of the matching ?type. In this type
+there may be childs that should not be pushed into the type's
+parents. Remember, that everything that is in some way related to
+an eponymous type, is pushed inside.
+
+
+---------------------------------------
+Part 2:
+
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT DISTINCT ?cname
+WHERE {
+	?tcategory clonto:hasEntity ?entity .
+    ?entity clonto:name ?cname .
+    ?tcategory clonto:hasSubCategory ?type .
+    ?type clonto:name ?cname .
+}
+ORDER BY ?cname
+
+This second version searches for eponymous categories that have a common
+parent with their corresponding entity.
+
+
+Problem:
+We may miss eponymous categories, where parents are simply missing for either
+the type or the entity.
+
+
+--------------------------------------
+Part 3:
+
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT DISTINCT ?cname ?t2name
+WHERE {
+	?tcategory clonto:hasEntity ?entity . 
+    ?entity clonto:name ?cname .
+    ?tcategory2 clonto:hasSubCategory ?type .
+    ?tcategory2 clonto:name ?t2name .
+    ?type clonto:name ?cname .
+    FILTER NOT EXISTS { ?tcategory2 clonto:hasSubCategory+ ?tempcat .
+                        FILTER(?tempcat != ?type)
+                        ?tempcat clonto:hasEntity ?entity . }
+}
+ORDER BY ?cname
+
+This third version searches for eponymous categories and specific supercats.
+There is no way from those supercats to the corresponding eponymous entity.
+
+Solution:
+This is a first step into a solving direction. We can identify categories that 
+may be simply missing as parents for the entity. These categories would have to
+be added to the entity.
+
+-----------------------------------------
+Part 4:
+
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT DISTINCT ?cname
+WHERE {
+	?tcategory clonto:hasEntity ?entity .
+    ?entity clonto:name ?ename .
+    ?tcategory2 clonto:hasSubCategory ?type .
+    ?type clonto:name ?cname .
+    BIND(CONCAT(?ename, "", "s") AS ?name)
+    FILTER ( ?cname = ?name )
+}
+ORDER BY ?cname
+
+This fourth version looks for categories, whose name corresponds to the entity's name 
+concatenated with `s'.
+
+Solution:
+These are not real eponymous categories. All of these categories are abstract concepts,
+that may definetely serve as real categories.
+-----------------------------------------
+Part 5:
+
+PREFIX clonto: <http://myCLOnto.de/> 
+SELECT DISTINCT ?cname ?e2name
+WHERE {
+	?tcategory clonto:hasEntity ?entity .
+    ?entity clonto:name ?cname .
+    ?tcategory2 clonto:hasSubCategory ?type .
+    ?type clonto:name ?cname .
+    ?type clonto:hasEntity ?entity2 .
+    ?entity2 clonto:name ?e2name .
+    FILTER NOT EXISTS { ?entity2 ^clonto:hasEntity ?supercat .
+        FILTER (?supercat != ?type) }
+}
+ORDER BY ?cname
+
+The fifth version looks at entities in eponymous categories that do not have any other
+parents than the eponymous type itself.
+
+Problem :
+There are several eponymous categories that are not really eponymous. As a result we may 
+lose entities that we do not want to miss, such as 'Rank (J programming language)'
+-------------------------------------------
+Part 6:
+
+PREFIX : <http://myCLOnto.de/> 
+SELECT ?epocname ?ename  (COUNT(?dcat) as ?howManyd) (COUNT(?rcat) as ?howManyr) ((?howManyd-?howManyr) as ?diff)
+WHERE {
+    {SELECT DISTINCT ?epocname ?ename ?dcat
+    WHERE {
+        ?temp :hasSubCategory ?epoc .
+        ?epoc :name ?epocname .
+        ?temp2 :hasEntity ?epoe .
+        ?epoe :name ?epocname .
+        ?epoc :hasEntity ?e .
+        ?e :name ?ename .
+        ?e ^:hasEntity ?dcat .
+        FILTER NOT EXISTS { ?dcat :hasSubCategory* ?epoc . }
+    }
+    }
+	UNION
+    {SELECT DISTINCT ?epocname ?ename ?rcat
+    WHERE {
+        ?temp :hasSubCategory ?epoc .
+        ?epoc :name ?epocname .
+        ?temp2 :hasEntity ?epoe .
+        ?epoe :name ?epocname .
+        ?epoc :hasEntity ?e .
+        ?e :name ?ename .
+        ?e ^:hasEntity ?rcat .
+        ?rcat :name ?rcatname .
+        FILTER( ?rcatname != ?epocname )
+        FILTER EXISTS { ?rcat :hasSubCategory* ?epoc . }
+    }
+    }
+}
+GROUP BY ?epocname ?ename
+HAVING (?diff > 0)
+ORDER BY ?diff ?epocname
+
+The sixth version targets internally distant entities. With this query one can at least get a hold of entities in 
+eponymous categories that do not belong in the type's supercats.
+This is one of the first steps towards flawed relations.
+
+Problem:
+We still get a lot of hits, where epoc is not really an eponymous type, but on an abstract level instead.
+------------------------------------------
