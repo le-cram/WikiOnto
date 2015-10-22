@@ -2,3 +2,6 @@
 /.idea/
 /clontologytdb/
 /backup/
+nbactions.xml
+backupold/
+sparql/queries/test.sparql
