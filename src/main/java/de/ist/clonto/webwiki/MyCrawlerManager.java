@@ -77,13 +77,8 @@ public class MyCrawlerManager {
         exclusionset = new HashSet<>();
         exclusionset.add("Data types");
         exclusionset.add("Programming language topics");
-        exclusionset.add("Internet search engines");
-        exclusionset.add("Instant messaging");
-        exclusionset.add("Internet search");
-        exclusionset.add("Google services");
-        exclusionset.add("Net-centric");
-        exclusionset.add("Service-oriented architecture-related products");
-        exclusionset.add("Programming language topic stubs");
+        exclusionset.add("Web services");
+        //Google services, Net-centric, Service-oriented architecture-related products, Programming language topic stubs
         exclusionset.add("User BASIC");
         exclusionset.add("Lists of computer languages");
     }
