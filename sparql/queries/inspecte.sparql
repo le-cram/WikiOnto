@@ -1,0 +1,8 @@
+PREFIX : <http://myCLOnto.de/> 
+SELECT DISTINCT ?name
+WHERE {
+    ?el :name "JModelica.org" .
+    ?t :hasInstance ?el .
+    ?t2 :hasSubtype ?t .
+    ?t :name ?name .
+}

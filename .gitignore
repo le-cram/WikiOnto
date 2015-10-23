@@ -5,3 +5,4 @@
 nbactions.xml
 backupold/
 sparql/queries/test.sparql
+cleanedOntology/

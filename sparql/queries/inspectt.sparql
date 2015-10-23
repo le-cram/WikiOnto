@@ -1,0 +1,8 @@
+PREFIX : <http://myCLOnto.de/> 
+SELECT DISTINCT ?name
+WHERE {
+    ?el :name "GIS file formats" .
+	?t ^:hasInstance ?el .
+    ?t :name ?name .
+}
+ORDER BY ?name

@@ -52,28 +52,6 @@ parents. Remember, that everything that is in some way related to
 an eponymous type, is pushed inside.
 
 
----------------------------------------
-Part 2:
-
-PREFIX clonto: <http://myCLOnto.de/> 
-SELECT DISTINCT ?cname
-WHERE {
-	?tcategory clonto:hasEntity ?entity .
-    ?entity clonto:name ?cname .
-    ?tcategory clonto:hasSubCategory ?type .
-    ?type clonto:name ?cname .
-}
-ORDER BY ?cname
-
-This second version searches for eponymous categories that have a common
-parent with their corresponding entity.
-
-
-Problem:
-We may miss eponymous categories, where parents are simply missing for either
-the type or the entity.
-
-
 --------------------------------------
 Part 3:
 
@@ -144,47 +122,3 @@ Problem :
 There are several eponymous categories that are not really eponymous. As a result we may 
 lose entities that we do not want to miss, such as 'Rank (J programming language)'
 -------------------------------------------
-Part 6:
-
-PREFIX : <http://myCLOnto.de/> 
-SELECT ?epocname ?ename  (COUNT(?dcat) as ?howManyd) (COUNT(?rcat) as ?howManyr) ((?howManyd-?howManyr) as ?diff)
-WHERE {
-    {SELECT DISTINCT ?epocname ?ename ?dcat
-    WHERE {
-        ?temp :hasSubCategory ?epoc .
-        ?epoc :name ?epocname .
-        ?temp2 :hasEntity ?epoe .
-        ?epoe :name ?epocname .
-        ?epoc :hasEntity ?e .
-        ?e :name ?ename .
-        ?e ^:hasEntity ?dcat .
-        FILTER NOT EXISTS { ?dcat :hasSubCategory* ?epoc . }
-    }
-    }
-	UNION
-    {SELECT DISTINCT ?epocname ?ename ?rcat
-    WHERE {
-        ?temp :hasSubCategory ?epoc .
-        ?epoc :name ?epocname .
-        ?temp2 :hasEntity ?epoe .
-        ?epoe :name ?epocname .
-        ?epoc :hasEntity ?e .
-        ?e :name ?ename .
-        ?e ^:hasEntity ?rcat .
-        ?rcat :name ?rcatname .
-        FILTER( ?rcatname != ?epocname )
-        FILTER EXISTS { ?rcat :hasSubCategory* ?epoc . }
-    }
-    }
-}
-GROUP BY ?epocname ?ename
-HAVING (?diff > 0)
-ORDER BY ?diff ?epocname
-
-The sixth version targets internally distant entities. With this query one can at least get a hold of entities in 
-eponymous categories that do not belong in the type's supercats.
-This is one of the first steps towards flawed relations.
-
-Problem:
-We still get a lot of hits, where epoc is not really an eponymous type, but on an abstract level instead.
-------------------------------------------

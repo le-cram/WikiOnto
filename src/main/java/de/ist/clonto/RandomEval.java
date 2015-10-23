@@ -28,7 +28,7 @@ public class RandomEval {
     public static Set<Integer> genRandom(int linenumber){
         int n;
         if(linenumber>50)
-            n=50+linenumber/100;
+            n=50;
         else
             n = linenumber-1;
         int y=linenumber-1;
