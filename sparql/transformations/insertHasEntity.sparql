@@ -1,8 +1,0 @@
-PREFIX clonto: <http://myCLOnto.de/> 
-INSERT {
-  ?cat clonto:hasEntity ?entity .
-}
-WHERE{ 
-  FILTER(regex(STR(?cat),"Category") && regex(STR(?entity),"Entity"))
-  ?cat clonto:name ?newcatname .
-  ?entity clonto:name ?entityname . }

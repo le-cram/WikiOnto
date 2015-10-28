@@ -1,7 +1,0 @@
-PREFIX clonto: <http://myCLOnto.de/> 
-INSERT { ?supercat clonto:hasSubCategory ?subcat .
-		 ?supercat clonto:hasEntity ?entity . }
-WHERE{ ?oldcat clonto:name ?oldcatname .
-	   ?supercat clonto:hasSubCategory ?oldcat . 
-       ?oldcat clonto:hasSubCategory ?subcat . 
-       ?oldcat clonto:hasEntity ?entity . }

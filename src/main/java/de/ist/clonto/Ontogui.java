@@ -45,8 +45,8 @@ public class Ontogui extends JFrame {
      */
     public Ontogui() {
         initComponents();
-        metricName = "category:Depth";
-        smellName = "BloatedCategory";
+        metricName = "type:Depth";
+        smellName = "Depth of Inheritance";
         refactorName = "Rename Element";
         pruneName = "Abandon Entity";
     }
@@ -99,18 +99,10 @@ public class Ontogui extends JFrame {
 
         loadOntologyButton.setText("load ontology");
         loadOntologyButton.setToolTipText("Load an existing tdb dataset");
-        loadOntologyButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                loadOntology(evt);
-            }
-        });
+        loadOntologyButton.addActionListener(evt -> loadOntology(evt));
 
         loadQueryButton.setText("load query");
-        loadQueryButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                loadQuery(evt);
-            }
-        });
+        loadQueryButton.addActionListener(evt -> loadQuery(evt));
 
         ontologyNameField.setEditable(false);
         ontologyNameField.setText("<ontology name>");
@@ -118,49 +110,25 @@ public class Ontogui extends JFrame {
         smellNameField.setEditable(false);
         smellNameField.setText("<query name>");
 
-        metricsCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "category:Depth", "category:CategoryInOut", "category:ComputerLanguagesDistanceMeasures", "category:NOC", "category:subdomainratio", "graph:CategoriesPerEntityMaxAvg", "graph:EntitiesPerCategoryMaxAvg", "graph:graphMetrics" }));
-        metricsCombobox.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                metricsComboboxActionPerformed(evt);
-            }
-        });
+        metricsCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "type:Depth", "type:CategoryInOut", "type:ComputerLanguagesDistanceMeasures", "type:NOC", "type:subdomainratio", "graph:CategoriesPerEntityMaxAvg", "graph:EntitiesPerCategoryMaxAvg", "graph:graphMetrics" }));
+        metricsCombobox.addActionListener(evt -> metricsComboboxActionPerformed(evt));
 
         backupOntologyButton.setText("backup ontology");
         backupOntologyButton.setToolTipText("Create a backup of the selected tdb dataset."
             + "Selected folder will be cleaned first.");
-        backupOntologyButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                backupOntologyButtonActionPerformed(evt);
-            }
-        });
+        backupOntologyButton.addActionListener(evt -> backupOntologyButtonActionPerformed(evt));
 
         runQueryButton.setText("run query");
-        runQueryButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                runQueryButtonActionPerformed(evt);
-            }
-        });
+        runQueryButton.addActionListener(evt -> runQueryButtonActionPerformed(evt));
 
         runMetricsButton.setText("run metric");
-        runMetricsButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                runMetricsButtonActionPerformed(evt);
-            }
-        });
+        runMetricsButton.addActionListener(evt -> runMetricsButtonActionPerformed(evt));
 
-        badSmellComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "BloatedCategory", "Cycle", "LazyCategoryEntityContainment", "LazyCategoryMetricbased", "RedundantHasEntity", "RedundantHasSubcategory", "MissingCategoryPartialName", "Overcategorization", "SemanticallyDistantCategory", "SemanticallyDistantEntity", "SemanticallyDistantTopic", "MultiTopic" }));
-        badSmellComboBox.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                badSmellComboBoxActionPerformed(evt);
-            }
-        });
+        badSmellComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Depth Of Inheritance", "Eponymous Type", "Semantically Distant Type", "Semantically Distant Entity", "Multi Topic", "Off Topic", "Double Reachable Type", "Double Reachable Entity", "Cycle", "Lazy Type Metric based", "Lazy Type Instance Containment", "Missing Type", "Redundant Subtype", "Redundant Instance" }));
+        badSmellComboBox.addActionListener(evt -> badSmellComboBoxActionPerformed(evt));
 
         runSmellAnalysisButton.setText("run smell analysis");
-        runSmellAnalysisButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                runSmellAnalysisButtonActionPerformed(evt);
-            }
-        });
+        runSmellAnalysisButton.addActionListener(evt -> runSmellAnalysisButtonActionPerformed(evt));
 
         javax.swing.GroupLayout AnalysisjPanelLayout = new javax.swing.GroupLayout(AnalysisjPanel);
         AnalysisjPanel.setLayout(AnalysisjPanelLayout);
@@ -233,46 +201,22 @@ public class Ontogui extends JFrame {
         descriptionjScrollPane.setViewportView(descriptionArea);
 
         displayRefactoringButton.setText("Display Refactoring");
-        displayRefactoringButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                displayRefactoringButtonActionPerformed(evt);
-            }
-        });
+        displayRefactoringButton.addActionListener(evt -> displayRefactoringButtonActionPerformed(evt));
 
         runRefactoringButton.setText("Execute Refactoring");
-        runRefactoringButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                runRefactoringButtonActionPerformed(evt);
-            }
-        });
+        runRefactoringButton.addActionListener(evt -> runRefactoringButtonActionPerformed(evt));
 
-        refactorCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Rename Element", "Change Topic", "Move Entity", "Move Type", "Add Missing Type", "Unite Attributesets", "Extract Entity", "Extract Subcategory", "Remove Redundant HasEntity", "Remove Redundant SubCategory" }));
-        refactorCombobox.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                refactorComboboxActionPerformed(evt);
-            }
-        });
+        refactorCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Rename Element", "Change Topic", "Move Entity", "Move Type", "Add Missing Subtype", "Add Missing Instance", "Unite Information", "Extract Entity", "Extract Subtype", "Remove Redundant Instance", "Remove Redundant Subtype" }));
+        refactorCombobox.addActionListener(evt -> refactorComboboxActionPerformed(evt));
 
-        pruningCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Abandon Entity", "Abandon Type", "Remove HasEntity", "Remove Subcategory", "Collapse Hierarchy", "Cleanup Unreachable All", "Cleanup Unreachable Cat", "Cleanup Unreachable Ent", "Lift Cycle" }));
-        pruningCombobox.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                pruningComboboxActionPerformed(evt);
-            }
-        });
+        pruningCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Abandon Entity", "Abandon Type", "Remove Instance", "Remove Subtype", "Collapse Hierarchy", "Cleanup Unreachable All", "Cleanup Unreachable Type", "Cleanup Unreachable Ent", "Lift Cycle" }));
+        pruningCombobox.addActionListener(evt -> pruningComboboxActionPerformed(evt));
 
         displayPruningButton.setText("Display Pruning");
-        displayPruningButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                displayPruningButtonActionPerformed(evt);
-            }
-        });
+        displayPruningButton.addActionListener(evt -> displayPruningButtonActionPerformed(evt));
 
         runPruningButton.setText("Execute Pruning");
-        runPruningButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                runPruningButtonActionPerformed(evt);
-            }
-        });
+        runPruningButton.addActionListener(evt -> runPruningButtonActionPerformed(evt));
 
         javax.swing.GroupLayout TransformationjPanelLayout = new javax.swing.GroupLayout(TransformationjPanel);
         TransformationjPanel.setLayout(TransformationjPanelLayout);
@@ -465,12 +409,12 @@ public class Ontogui extends JFrame {
 
     private void runSmellAnalysisButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_runSmellAnalysisButtonActionPerformed
         String filename = smellName;
-        File metricFile = new File(System.getProperty("user.dir") + "/sparql/smells/" + filename + ".sparql");
+        File smellFile = new File(System.getProperty("user.dir") + "/sparql/smells/" + filename.replaceAll(" ", "") + ".sparql");
 
         List<String> lines = null;
 
         try {
-            lines = Files.readAllLines(metricFile.toPath());
+            lines = Files.readAllLines(smellFile.toPath());
         } catch (IOException ex) {
             Logger.getLogger(Ontogui.class.getName()).log(Level.SEVERE, null, ex);
         }

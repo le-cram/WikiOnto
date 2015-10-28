@@ -1,7 +1,7 @@
-PREFIX clonto: <http://myCLOnto.de/> 
-DELETE { ?element clonto:name ?oldname . }
-INSERT { ?element clonto:name ?newname . }
+PREFIX : <http://myCLOnto.de/> 
+DELETE { ?element :name ?oldname . }
+INSERT { ?element :name ?newname . }
 WHERE { 
 	FILTER(regex(STR(?element),?type)) .
-	?element clonto:name ?oldname .
+	?element :name ?oldname .
 }

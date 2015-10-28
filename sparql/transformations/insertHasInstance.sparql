@@ -1,0 +1,8 @@
+PREFIX : <http://myCLOnto.de/> 
+INSERT {
+  ?type :hasInstance ?entity .
+}
+WHERE{ 
+  FILTER(regex(STR(?type),"Type") && regex(STR(?entity),"Entity"))
+  ?type :name ?newtypename .
+  ?entity :name ?entityname . }

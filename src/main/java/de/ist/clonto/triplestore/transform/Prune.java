@@ -34,12 +34,12 @@ public class Prune {
         }
     }
 
-    void abandonCategory() {
-        String name = JOptionPane.showInputDialog("Name the category that should be deleted:");
+    void abandonType() {
+        String name = JOptionPane.showInputDialog("Name the type that should be deleted:");
         if (null != name) {
             Map<String, String> pmap = new HashMap<>();
             pmap.put("name", name);
-            long size = proc.transform("abandonCategory.sparql", pmap);
+            long size = proc.transform("abandonType.sparql", pmap);
             JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
         } else {
             JOptionPane.showMessageDialog(null, "Transformation failed!");
@@ -51,27 +51,27 @@ public class Prune {
         long tsize = 0;
         long size = 1;
         while (size != 0) {
-            size = proc.transform("cleanUpCategories.sparql", pmap);
-            System.out.println("cleaned up categories: " + size);
+            size = proc.transform("cleanUpTypes.sparql", pmap);
+            System.out.println("cleaned up types: " + size);
             size += proc.transform("cleanUpEntities.sparql", pmap);
             System.out.println("cleaned up entities: " + size);
-            size += proc.transform("cleanUpAttributeSets.sparql", pmap);
-            System.out.println("cleaned up attributesets: " + size);
-            size += proc.transform("cleanUpAttributes.sparql", pmap);
-            System.out.println("cleaned up attributes: " + size);
+            size += proc.transform("cleanUpInformation.sparql", pmap);
+            System.out.println("cleaned up information: " + size);
+            size += proc.transform("cleanUpProperties.sparql", pmap);
+            System.out.println("cleaned up properties: " + size);
             tsize += size;
         }
 
         JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + tsize);
     }
     
-    void cleanUpUnreachableCat() {
+    void cleanUpUnreachableType() {
         Map<String, String> pmap = new HashMap<>();
         long tsize = 0;
         long size = 1;
         while (size != 0) {
-            size = proc.transform("cleanUpCategories.sparql", pmap);
-            System.out.println("cleaned up categories: " + size);
+            size = proc.transform("cleanUpTypes.sparql", pmap);
+            System.out.println("cleaned up types: " + size);
             tsize += size;
         }
 
@@ -91,15 +91,15 @@ public class Prune {
         JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + tsize);
     }
 
-    void removeHasEntity() {
-        String name = JOptionPane.showInputDialog("Name the entity that corresponds to the target of the relation:");
+    void removeInstance() {
+        String name = JOptionPane.showInputDialog("Name the entity:");
         if (null != name) {
-            String name2 = JOptionPane.showInputDialog("Name the category that corresponds to the source of the relation:");
+            String name2 = JOptionPane.showInputDialog("Name the type:");
             if (null != name2) {
                 Map<String, String> pmap = new HashMap<>();
-                pmap.put("catname", name2);
+                pmap.put("typename", name2);
                 pmap.put("entityname", name);
-                long size = proc.transform("deleteHasEntity.sparql", pmap);
+                long size = proc.transform("deleteHasInstance.sparql", pmap);
                 JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
             } else {
                 JOptionPane.showMessageDialog(null, "Transformation failed!");
@@ -109,15 +109,15 @@ public class Prune {
         }
     }
 
-    void removeHasSubcategory() {
-        String name = JOptionPane.showInputDialog("Name the containing category:");
+    void removeSubtype() {
+        String name = JOptionPane.showInputDialog("Name the supertype:");
         if (null != name) {
-            String name2 = JOptionPane.showInputDialog("Name the subcategory that should be removed from the category:");
+            String name2 = JOptionPane.showInputDialog("Name the subtype that should be removed from the type:");
             if (null != name2) {
                 Map<String, String> pmap = new HashMap<>();
-                pmap.put("subcatname", name2);
-                pmap.put("oldsupercatname", name);
-                long size = proc.transform("deleteHasSubCategory.sparql", pmap);
+                pmap.put("subtypename", name2);
+                pmap.put("oldsupertypename", name);
+                long size = proc.transform("deleteHasSubtype.sparql", pmap);
                 JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
             } else {
                 JOptionPane.showMessageDialog(null, "Transformation failed!");
@@ -128,13 +128,13 @@ public class Prune {
     }
 
     void collapseHierarchy() {
-        String name = JOptionPane.showInputDialog("Name the dissolvable category:");
+        String name = JOptionPane.showInputDialog("Name the dissolvable type:");
         if (null != name) {
             Map<String, String> pmap = new HashMap<>();
-            pmap.put("oldcatname", name);
-            long size = proc.transform("dissolveCategory.sparql", pmap);
+            pmap.put("oldtypename", name);
+            long size = proc.transform("collapseType.sparql", pmap);
             pmap.put("name", name);
-            size += proc.transform("abandonCategory.sparql", pmap);
+            size += proc.transform("abandonType.sparql", pmap);
             JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
         } else {
             JOptionPane.showMessageDialog(null, "Transformation failed!");
@@ -142,14 +142,14 @@ public class Prune {
     }
 
     void liftCycle() {
-        String name = JOptionPane.showInputDialog("Name the containing category:");
+        String name = JOptionPane.showInputDialog("Name the supertype:");
         if (null != name) {
-            String name2 = JOptionPane.showInputDialog("Name the subcategory that should be removed from the category:");
+            String name2 = JOptionPane.showInputDialog("Name the subtype that should be removed:");
             if (null != name2) {
                 Map<String, String> pmap = new HashMap<>();
-                pmap.put("subcatname", name2);
-                pmap.put("oldsupercatname", name);
-                long size = proc.transform("deleteHasSubCategory.sparql", pmap);
+                pmap.put("subtypename", name2);
+                pmap.put("oldsupertypename", name);
+                long size = proc.transform("deleteHasSubtype.sparql", pmap);
                 JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
             } else {
                 JOptionPane.showMessageDialog(null, "Transformation failed!");
@@ -165,22 +165,22 @@ public class Prune {
                 abandonEntity();
                 break;
             case "Abandon Type":
-                abandonCategory();
+                abandonType();
                 break;
             case "Cleanup Unreachable All":
                 cleanUpUnreachableAll();
                 break;
-            case "Cleanup Unreachable Cat":
-                cleanUpUnreachableCat();
+            case "Cleanup Unreachable Type":
+                cleanUpUnreachableType();
                 break;
             case "Cleanup Unreachable Ent" :
                 cleanUpUnreachableEnt();
                 break;
-            case "Remove HasEntity":
-                removeHasEntity();
+            case "Remove Instance":
+                removeInstance();
                 break;
-            case "Remove Subcategory":
-                removeHasSubcategory();
+            case "Remove Subtype":
+                removeSubtype();
                 break;
             case "Collapse Hierarchy":
                 collapseHierarchy();

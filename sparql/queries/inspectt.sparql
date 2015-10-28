@@ -1,8 +1,10 @@
 PREFIX : <http://myCLOnto.de/> 
-SELECT DISTINCT ?name
+SELECT DISTINCT ("https://en.wikipedia.org/wiki/" + 
+  replace(?name," ","_","i") as ?fname)
 WHERE {
-    ?el :name "GIS file formats" .
-	?t ^:hasInstance ?el .
+    ?el :name "Programming languages created in 1978" .
+	?t :hasSubtype ?el .
+    ?t2 :hasSubtype ?t .
     ?t :name ?name .
 }
 ORDER BY ?name

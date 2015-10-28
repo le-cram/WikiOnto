@@ -25,35 +25,35 @@
 
   <Layout>
     <DimensionLayout dim="0">
-      <Group type="103" groupAlignment="0" properties="0">
-          <Group type="102" properties="0">
-              <Group type="103" groupAlignment="0" properties="0">
-                  <Component id="AnalysisjPanel" min="-2" max="-2" properties="0"/>
-                  <Group type="102" alignment="0" properties="0">
-                      <EmptySpace min="-2" pref="27" max="-2" properties="0"/>
-                      <Component id="checkbox1" min="-2" max="-2" properties="0"/>
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="AnalysisjPanel" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="checkbox1" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace max="-2" properties="0"/>
-              <Component id="TransformationjPanel" max="32767" properties="0"/>
-              <EmptySpace min="-2" pref="3" max="-2" properties="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="TransformationjPanel" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
           </Group>
-          <Component id="queryResultScrollPane" alignment="0" max="32767" properties="0"/>
+          <Component id="queryResultScrollPane" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
-      <Group type="103" groupAlignment="0" properties="0">
-          <Group type="102" alignment="0" properties="0">
-              <Group type="103" groupAlignment="0" properties="0">
-                  <Group type="102" properties="0">
-                      <Component id="AnalysisjPanel" min="-2" max="-2" properties="0"/>
-                      <EmptySpace max="-2" properties="0"/>
-                      <Component id="checkbox1" min="-2" max="-2" properties="0"/>
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="AnalysisjPanel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="checkbox1" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="TransformationjPanel" min="-2" max="-2" properties="0"/>
+                  <Component id="TransformationjPanel" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" max="-2" properties="0"/>
-              <Component id="queryResultScrollPane" pref="573" max="32767" properties="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="queryResultScrollPane" pref="573" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -89,72 +89,72 @@
 
       <Layout>
         <DimensionLayout dim="0">
-          <Group type="103" groupAlignment="0" properties="0">
-              <Group type="102" alignment="0" properties="0">
-                  <EmptySpace min="-2" pref="20" max="-2" properties="0"/>
-                  <Group type="103" groupAlignment="0" properties="0">
-                      <Group type="102" properties="0">
-                          <Group type="103" groupAlignment="1" max="-2" properties="0">
-                              <Component id="ontologyNameField" pref="137" max="32767" properties="0"/>
-                              <Component id="smellNameField" max="32767" properties="0"/>
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="ontologyNameField" pref="137" max="32767" attributes="0"/>
+                              <Component id="smellNameField" max="32767" attributes="0"/>
                           </Group>
-                          <Group type="103" groupAlignment="0" max="-2" properties="0">
-                              <Group type="102" properties="0">
-                                  <EmptySpace max="-2" properties="0"/>
-                                  <Component id="loadOntologyButton" min="-2" max="-2" properties="0"/>
-                                  <EmptySpace max="-2" properties="0"/>
-                                  <Component id="backupOntologyButton" min="-2" pref="115" max="-2" properties="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="loadOntologyButton" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="backupOntologyButton" min="-2" pref="115" max="-2" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="1" properties="0">
-                                  <EmptySpace max="32767" properties="0"/>
-                                  <Component id="loadQueryButton" min="-2" pref="97" max="-2" properties="0"/>
-                                  <EmptySpace min="-2" pref="121" max="-2" properties="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="loadQueryButton" min="-2" pref="97" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="121" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
-                      <Group type="102" properties="0">
-                          <Group type="103" groupAlignment="0" max="-2" properties="0">
-                              <Component id="metricsCombobox" pref="0" max="32767" properties="0"/>
-                              <Component id="badSmellComboBox" pref="240" max="32767" properties="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="metricsCombobox" pref="0" max="32767" attributes="0"/>
+                              <Component id="badSmellComboBox" pref="240" max="32767" attributes="0"/>
                           </Group>
-                          <EmptySpace max="-2" properties="0"/>
-                          <Group type="103" groupAlignment="0" properties="0">
-                              <Component id="runMetricsButton" min="-2" pref="115" max="-2" properties="0"/>
-                              <Component id="runQueryButton" min="-2" pref="115" max="-2" properties="0"/>
-                              <Component id="runSmellAnalysisButton" alignment="0" min="-2" max="-2" properties="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="runMetricsButton" min="-2" pref="115" max="-2" attributes="0"/>
+                              <Component id="runQueryButton" min="-2" pref="115" max="-2" attributes="0"/>
+                              <Component id="runSmellAnalysisButton" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
-                  <EmptySpace min="0" pref="0" max="32767" properties="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
-          <Group type="103" groupAlignment="0" properties="0">
-              <Group type="102" alignment="0" properties="0">
-                  <EmptySpace max="-2" properties="0"/>
-                  <Group type="103" groupAlignment="3" properties="0">
-                      <Component id="ontologyNameField" alignment="3" min="-2" max="-2" properties="0"/>
-                      <Component id="backupOntologyButton" alignment="3" min="-2" max="-2" properties="0"/>
-                      <Component id="loadOntologyButton" alignment="3" min="-2" max="-2" properties="0"/>
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ontologyNameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="backupOntologyButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="loadOntologyButton" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace min="-2" pref="3" max="-2" properties="0"/>
-                  <Group type="103" groupAlignment="3" properties="0">
-                      <Component id="smellNameField" alignment="3" min="-2" max="-2" properties="0"/>
-                      <Component id="loadQueryButton" alignment="3" min="-2" max="-2" properties="0"/>
-                      <Component id="runQueryButton" alignment="3" min="-2" max="-2" properties="0"/>
+                  <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="smellNameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="loadQueryButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="runQueryButton" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" properties="0"/>
-                  <Group type="103" groupAlignment="3" properties="0">
-                      <Component id="metricsCombobox" alignment="3" min="-2" max="-2" properties="0"/>
-                      <Component id="runMetricsButton" alignment="3" min="-2" max="-2" properties="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="metricsCombobox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="runMetricsButton" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" properties="0"/>
-                  <Group type="103" groupAlignment="3" properties="0">
-                      <Component id="badSmellComboBox" alignment="3" min="-2" max="-2" properties="0"/>
-                      <Component id="runSmellAnalysisButton" alignment="3" min="-2" max="-2" properties="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="badSmellComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="runSmellAnalysisButton" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="32767" properties="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -241,19 +241,21 @@
         <Component class="javax.swing.JComboBox" name="badSmellComboBox">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="12">
-                <StringItem index="0" value="BloatedCategory"/>
-                <StringItem index="1" value="Cycle"/>
-                <StringItem index="2" value="LazyCategoryEntityContainment"/>
-                <StringItem index="3" value="LazyCategoryMetricbased"/>
-                <StringItem index="4" value="RedundantHasEntity"/>
-                <StringItem index="5" value="RedundantHasSubcategory"/>
-                <StringItem index="6" value="MissingCategoryPartialName"/>
-                <StringItem index="7" value="Overcategorization"/>
-                <StringItem index="8" value="SemanticallyDistantCategory"/>
-                <StringItem index="9" value="SemanticallyDistantEntity"/>
-                <StringItem index="10" value="SemanticallyDistantTopic"/>
-                <StringItem index="11" value="MultiTopic"/>
+              <StringArray count="14">
+                <StringItem index="0" value="Depth Of Inheritance"/>
+                <StringItem index="1" value="Eponymous Type"/>
+                <StringItem index="2" value="Semantically Distant Type"/>
+                <StringItem index="3" value="Semantically Distant Entity"/>
+                <StringItem index="4" value="Multi Topic"/>
+                <StringItem index="5" value="Off Topic"/>
+                <StringItem index="6" value="Double Reachable Type"/>
+                <StringItem index="7" value="Double Reachable Entity"/>
+                <StringItem index="8" value="Cycle"/>
+                <StringItem index="9" value="Lazy Type Metric based"/>
+                <StringItem index="10" value="Lazy Type Instance Containment"/>
+                <StringItem index="11" value="Missing Type"/>
+                <StringItem index="12" value="Redundant Subtype"/>
+                <StringItem index="13" value="Redundant Instance"/>
               </StringArray>
             </Property>
           </Properties>
@@ -282,58 +284,58 @@
 
       <Layout>
         <DimensionLayout dim="0">
-          <Group type="103" groupAlignment="0" properties="0">
-              <Group type="102" properties="0">
-                  <EmptySpace min="-2" max="-2" properties="0"/>
-                  <Group type="103" groupAlignment="0" properties="0">
-                      <Group type="102" properties="0">
-                          <Group type="103" groupAlignment="0" properties="0">
-                              <Component id="pruningCombobox" alignment="0" min="-2" pref="147" max="-2" properties="0"/>
-                              <Component id="refactorCombobox" alignment="0" min="-2" pref="147" max="-2" properties="0"/>
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="pruningCombobox" alignment="0" min="-2" pref="147" max="-2" attributes="0"/>
+                              <Component id="refactorCombobox" alignment="0" min="-2" pref="147" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace type="separate" max="-2" properties="0"/>
-                          <Group type="103" groupAlignment="1" max="-2" properties="0">
-                              <Component id="displayPruningButton" alignment="0" max="32767" properties="0"/>
-                              <Component id="displayRefactoringButton" alignment="0" max="32767" properties="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="displayPruningButton" alignment="0" max="32767" attributes="0"/>
+                              <Component id="displayRefactoringButton" alignment="0" max="32767" attributes="0"/>
                           </Group>
-                          <EmptySpace max="-2" properties="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" properties="0">
-                              <Component id="runRefactoringButton" max="32767" properties="0"/>
-                              <Component id="runPruningButton" max="32767" properties="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="runRefactoringButton" max="32767" attributes="0"/>
+                              <Component id="runPruningButton" max="32767" attributes="0"/>
                           </Group>
-                          <EmptySpace min="0" pref="19" max="32767" properties="0"/>
+                          <EmptySpace min="0" pref="19" max="32767" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="0" properties="0">
-                          <Component id="ContextjScrollPane" max="32767" properties="0"/>
-                          <EmptySpace min="-2" max="-2" properties="0"/>
-                          <Component id="descriptionjScrollPane" max="32767" properties="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="ContextjScrollPane" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Component id="descriptionjScrollPane" max="32767" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace min="-2" max="-2" properties="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
-          <Group type="103" groupAlignment="0" properties="0">
-              <Group type="102" alignment="0" properties="0">
-                  <EmptySpace max="32767" properties="0"/>
-                  <Group type="103" groupAlignment="0" properties="0">
-                      <Component id="descriptionjScrollPane" alignment="0" min="-2" max="-2" properties="0"/>
-                      <Group type="102" alignment="0" properties="0">
-                          <Component id="ContextjScrollPane" min="-2" max="-2" properties="0"/>
-                          <EmptySpace type="unrelated" max="-2" properties="0"/>
-                          <Group type="103" groupAlignment="3" properties="0">
-                              <Component id="refactorCombobox" alignment="3" min="-2" max="-2" properties="0"/>
-                              <Component id="displayRefactoringButton" alignment="3" min="-2" max="-2" properties="0"/>
-                              <Component id="runRefactoringButton" alignment="3" min="-2" max="-2" properties="0"/>
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="descriptionjScrollPane" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="ContextjScrollPane" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="refactorCombobox" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="displayRefactoringButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="runRefactoringButton" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
-                  <EmptySpace min="-2" pref="2" max="-2" properties="0"/>
-                  <Group type="103" groupAlignment="3" properties="0">
-                      <Component id="pruningCombobox" alignment="3" min="-2" max="-2" properties="0"/>
-                      <Component id="displayPruningButton" alignment="3" min="-2" max="-2" properties="0"/>
-                      <Component id="runPruningButton" alignment="3" min="-2" max="-2" properties="0"/>
+                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="pruningCombobox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="displayPruningButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="runPruningButton" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -397,13 +399,13 @@
                 <StringItem index="0" value="Rename Element"/>
                 <StringItem index="1" value="Change Topic"/>
                 <StringItem index="2" value="Move Entity"/>
-                <StringItem index="3" value="Move Category"/>
-                <StringItem index="4" value="Add Missing Category"/>
-                <StringItem index="5" value="Unite Attributesets"/>
+                <StringItem index="3" value="Move Type"/>
+                <StringItem index="4" value="Add Missing Type"/>
+                <StringItem index="5" value="Unite Information"/>
                 <StringItem index="6" value="Extract Entity"/>
-                <StringItem index="7" value="Extract Subcategory"/>
-                <StringItem index="8" value="Remove Redundant HasEntity"/>
-                <StringItem index="9" value="Remove Redundant SubCategory"/>
+                <StringItem index="7" value="Extract Subtype"/>
+                <StringItem index="8" value="Remove Redundant Instance"/>
+                <StringItem index="9" value="Remove Redundant Subtype"/>
               </StringArray>
             </Property>
           </Properties>
@@ -416,12 +418,12 @@
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="9">
                 <StringItem index="0" value="Abandon Entity"/>
-                <StringItem index="1" value="Abandon Category"/>
-                <StringItem index="2" value="Remove HasEntity"/>
-                <StringItem index="3" value="Remove Subcategory"/>
+                <StringItem index="1" value="Abandon Type"/>
+                <StringItem index="2" value="Remove Instance"/>
+                <StringItem index="3" value="Remove Subtype"/>
                 <StringItem index="4" value="Collapse Hierarchy"/>
                 <StringItem index="5" value="Cleanup Unreachable All"/>
-                <StringItem index="6" value="Cleanup Unreachable Cat"/>
+                <StringItem index="6" value="Cleanup Unreachable Type"/>
                 <StringItem index="7" value="Cleanup Unreachable Ent"/>
                 <StringItem index="8" value="Lift Cycle"/>
               </StringArray>

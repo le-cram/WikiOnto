@@ -1,0 +1,7 @@
+PREFIX : <http://myCLOnto.de/> 
+INSERT { ?supertype :hasSubtype ?subtype .
+		 ?supertype :hasInstance ?entity . }
+WHERE{ ?oldtype :name ?oldtypename .
+	   ?supertype :hasSubtype ?oldtype . 
+       ?oldtype :hasSubtype ?subtype . 
+       ?oldtype :hasInstance ?entity . }

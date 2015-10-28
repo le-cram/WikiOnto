@@ -1,7 +1,7 @@
-PREFIX clonto: <http://myCLOnto.de/> 
-DELETE { ?atset clonto:hasAttribute ?property . }
+PREFIX : <http://myCLOnto.de/> 
+DELETE { ?info :hasProperty ?property . }
 WHERE{ 
-	?atset clonto:name ?atsetname .
-	?property clonto:name ?attributename .
-	?atset clonto:hasAttribute ?property .
+	?info :name ?infoname .
+	?property :name ?propertyname .
+	?info :hasProperty ?property .
 }

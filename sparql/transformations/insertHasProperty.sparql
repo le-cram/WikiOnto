@@ -1,2 +1,5 @@
-insert { ?information <http://myCLOnto.de/hasAttribute> ?property . }
-where { }
+insert { ?information <http://myCLOnto.de/hasProperty> ?property . }
+where {
+    ?information :name ?infoname .
+    ?property :name ?propertyname .
+}

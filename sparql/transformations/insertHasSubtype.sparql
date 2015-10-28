@@ -1,8 +1,8 @@
-PREFIX clonto: <http://myCLOnto.de/> 
+PREFIX : <http://myCLOnto.de/> 
 INSERT {
-  ?supercat clonto:hasSubCategory ?subcat .
+  ?supertype :hasSubtype ?subtype .
 }
 WHERE{
-  FILTER(regex(STR(?subcat),"Category") && regex(STR(?supercat),"Category"))
-  ?subcat clonto:name ?subcatname .
-  ?supercat clonto:name ?newsupercatname . }
+  FILTER(regex(STR(?subtype),"Type") && regex(STR(?supertype),"Type"))
+  ?subtype :name ?subtypename .
+  ?supertype :name ?newsupertypename . }

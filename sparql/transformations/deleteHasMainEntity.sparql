@@ -1,2 +1,5 @@
 delete { ?type <http://myCLOnto.de/hasMainEntity> ?entity . }
-where { }
+where {
+    ?type :name ?typename .
+    ?entity :name ?entityname .
+}

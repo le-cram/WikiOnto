@@ -1,8 +1,8 @@
-PREFIX clonto: <http://myCLOnto.de/> 
+PREFIX : <http://myCLOnto.de/> 
 DELETE {
-  ?supercat clonto:hasSubCategory ?subcat .
+  ?supertype :hasSubtype ?subtype .
 }
 WHERE{ 
-  ?supercat clonto:hasSubCategory ?subcat .
-  ?subcat clonto:name ?subcatname .
-  ?supercat clonto:name ?oldsupercatname . }
+  ?supertype :hasSubtype ?subtype .
+  ?subtype :name ?subtypename .
+  ?supertype :name ?oldsupertypename . }

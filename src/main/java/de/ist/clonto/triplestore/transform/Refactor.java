@@ -44,10 +44,10 @@ public class Refactor {
     }
 
     void changeTopic() {
-        String atsetname = JOptionPane.showInputDialog(null, "Insert the attributeset's name\n (index behind the # in the URI):");
+        String atsetname = JOptionPane.showInputDialog(null, "Insert the information's name:");
         String newtopic = JOptionPane.showInputDialog(null, "Insert the new topic:");
         Map<String, String> pmap = new HashMap<>();
-        pmap.put("atsetname", atsetname);
+        pmap.put("infoname", atsetname);
         pmap.put("newtopic", newtopic);
         long size = proc.transform("changeTopic.sparql", pmap);
         JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
@@ -55,69 +55,84 @@ public class Refactor {
 
     void moveEntity() {
         String entityname = JOptionPane.showInputDialog(null, "Insert the entity's name:");
-        String oldname = JOptionPane.showInputDialog(null, "Insert the category's name, where \n"
+        String oldname = JOptionPane.showInputDialog(null, "Insert the type's name, where \n"
                 + "the entity should be removed:");
-        String newname = JOptionPane.showInputDialog(null, "Insert the category's name, where \n"
+        String newname = JOptionPane.showInputDialog(null, "Insert the type's name, where \n"
                 + "the entity should be added:");
         if (null != entityname & null != oldname & null != newname) {
             Map<String, String> pmap = new HashMap<>();
             pmap.put("entityname", entityname);
-            pmap.put("catname", oldname);
-            pmap.put("newcatname", newname);
-            long size = proc.transform("insertHasEntity.sparql", pmap);
-            size += proc.transform("deleteHasEntity.sparql", pmap);
+            pmap.put("typename", oldname);
+            pmap.put("newtypename", newname);
+            long size = proc.transform("insertHasInstance.sparql", pmap);
+            size += proc.transform("deleteHasInstance.sparql", pmap);
             JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
         } else {
             JOptionPane.showMessageDialog(null, "Transformation failed!");
         }
     }
 
-    void moveCategory() {
-        String categoryname = JOptionPane.showInputDialog(null, "Insert the category's name:");
-        String oldname = JOptionPane.showInputDialog(null, "Insert the category's name, where \n"
-                + "the category should be removed:");
-        String newname = JOptionPane.showInputDialog(null, "Insert the category's name, where \n"
-                + "the category should be added:");
-        if (null != categoryname & null != oldname & null != newname) {
+    void moveType() {
+        String subtypename = JOptionPane.showInputDialog(null, "Insert the type's name:");
+        String oldname = JOptionPane.showInputDialog(null, "Insert the type's name, where \n"
+                + "the subtype should be removed:");
+        String newname = JOptionPane.showInputDialog(null, "Insert the type's name, where \n"
+                + "the subtype should be added:");
+        if (null != subtypename & null != oldname & null != newname) {
             Map<String, String> pmap = new HashMap<>();
-            pmap.put("subcatname", categoryname);
-            pmap.put("oldsupercatname", oldname);
-            pmap.put("newsupercatname", newname);
-            long size = proc.transform("insertHasSubCategory.sparql", pmap);
-            size += proc.transform("deleteHasSubCategory.sparql", pmap);
+            pmap.put("subtypename", subtypename);
+            pmap.put("oldsupertypename", oldname);
+            pmap.put("newsupertypename", newname);
+            long size = proc.transform("insertHasSubtype.sparql", pmap);
+            size += proc.transform("deleteHasSubtype.sparql", pmap);
             JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
         } else {
             JOptionPane.showMessageDialog(null, "Transformation failed!");
         }
     }
 
-    void addMissingCategory() {
-        String categoryname = JOptionPane.showInputDialog(null, "Insert the category's name:");
+    void addMissingInstance() {
+        String typename = JOptionPane.showInputDialog(null, "Insert the type's name:");
         String entityname = JOptionPane.showInputDialog(null, "Insert the entity's name:");
         Map<String, String> pmap = new HashMap<>();
-        pmap.put("newcatname", categoryname);
+        pmap.put("newtypename", typename);
         pmap.put("entityname", entityname);
-        if (null != categoryname && null != entityname) {
-            long size = proc.transform("insertHasEntity.sparql", pmap);
+        if (null != typename && null != entityname) {
+            long size = proc.transform("insertHasInstance.sparql", pmap);
             JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
         } else {
             JOptionPane.showMessageDialog(null, "Transformation failed!");
         }
     }
 
-    void uniteAttributesets() {
-        String index = JOptionPane.showInputDialog(null, "Specify the main attributeset's index:");
-        String index2 = JOptionPane.showInputDialog(null, "Specify the secondary attributeset's index:");
+    void addMissingSubtype(){
+        String typename = JOptionPane.showInputDialog(null, "Insert the supertype's name:");
+        String subtypename = JOptionPane.showInputDialog(null, "Insert the subtype's name:");
         Map<String, String> pmap = new HashMap<>();
-        pmap.put("atset1name", index);
-        pmap.put("atset2name", index2);
-        pmap.put("attributeSetname", index2);
-        String newname = JOptionPane.showInputDialog(null, "Specify the main attributeset's new topic:");
-        pmap.put("newtopic", newname);
-        pmap.put("atsetname", index);
+        pmap.put("newsupertypename", typename);
+        pmap.put("subtypename", subtypename);
+        if (null != typename && null != subtypename) {
+            long size = proc.transform("insertHasSubtype.sparql", pmap);
+            JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
+        } else {
+            JOptionPane.showMessageDialog(null, "Transformation failed!");
+        }
+    }
+
+    void uniteInformation() {
+        String index = JOptionPane.showInputDialog(null, "Specify the main information's id:");
+        String index2 = JOptionPane.showInputDialog(null, "Specify the secondary information's id:");
+        String newname = JOptionPane.showInputDialog(null, "Specify the main information's new topic:");
+        Map<String, String> pmap = new HashMap<>();
+
         if (index != null && index2 != null && newname != null) {
-            long size = proc.transform("moveallattributes.sparql", pmap);
-            size += proc.transform("deleteHasAttributeSet.sparql", pmap);
+            pmap.put("sinfoname", index2);
+            pmap.put("tinfoname", index);
+            long size = proc.transform("moveProperty.sparql", pmap);
+            pmap.clear();
+            pmap.put("infoname",index);
+            size += proc.transform("deleteHasInformation.sparql", pmap);
+            pmap.put("newtopic",newname);
             size += proc.transform("changeTopic.sparql", pmap);
             JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
         } else {
@@ -127,11 +142,11 @@ public class Refactor {
 
     void extractEntity() {
         String sourceentityname = JOptionPane.showInputDialog("Specify the source entity!");
-        String index = JOptionPane.showInputDialog(null, "How many entities exist right now?:");
+        long index = System.nanoTime();
         String entityname = JOptionPane.showInputDialog(null, "Specify entity's name:");
         Map<String, String> pmap = new HashMap<>();
         pmap.put("newname", entityname);
-        pmap.put("element", "clonto:Entity#" + index);
+        pmap.put("element", ":Entity#" + index);
         long size = proc.transform("introduceElement.sparql", pmap);
         if (size == 0) {
             JOptionPane.showMessageDialog(null, "Transformation failed!");
@@ -140,147 +155,111 @@ public class Refactor {
             JOptionPane.showMessageDialog(null, "Entity created! \n Model size difference: " + size);
         }
 
-        List<String> categories = new ArrayList<>();
+        List<String> types = new ArrayList<>();
         while (true) {
-            String category = JOptionPane.showInputDialog(null, "Specify a category that should be added to the entity\n"
-                    + "or press cancel after at least one category has been added!");
-            if (category == null) {
+            String type = JOptionPane.showInputDialog(null, "Specify a type that should be added to the entity\n"
+                    + "or press cancel after at least one type has been added!");
+            if (type == null) {
                 break;
             }
-            categories.add(category);
+            types.add(type);
         }
-        List<String> rcategories = new ArrayList<>();
+        List<String> rtypes = new ArrayList<>();
         while (true) {
-            String category = JOptionPane.showInputDialog(null, "Specify a category that should be removed from the source entity"
+            String type = JOptionPane.showInputDialog(null, "Specify a type that should be removed from the source entity"
                     + "or press cancel");
-            if (category == null) {
+            if (type == null) {
                 break;
             }
-            rcategories.add(category);
+            rtypes.add(type);
         }
-        String atsetname = JOptionPane.showInputDialog(null, "How many attributesets exist now?");
-        String atsettopic = JOptionPane.showInputDialog(null, "Specify a topic for an attributeset\n"
+
+        long infoname = System.nanoTime();
+        String infotopic = JOptionPane.showInputDialog(null, "Specify a topic for an information collection that\n"
                 + "you want to introduce or press cancel:");
-        List<String> atsetindices = new ArrayList<>();
+        List<String> infoindices = new ArrayList<>();
         while (true) {
-            String atsetindex = JOptionPane.showInputDialog(null, "Specify an attributeset's index that you\n "
+            String infoindex = JOptionPane.showInputDialog(null, "Specify an information's id that you\n "
                     + "want to move to the new entity:");
-            if (atsetindex == null) {
+            if (infoindex == null) {
                 break;
             }
-            atsetindices.add(atsetindex);
+            infoindices.add(infoindex);
         }
-        Queue<String> atmovequeue = new LinkedList();
+        Queue<String> propmovequeue = new LinkedList();
         while (true) {
-            String satset = JOptionPane.showInputDialog(null, "Specify the name of an attributeset\n"
-                    + "where you want to remove an attribute:");
-            String tatset = JOptionPane.showInputDialog(null, "Specify the name of an attributeset\n"
-                    + "where you want to add an attribute:");
-            String at = JOptionPane.showInputDialog(null, "Specify the name of an attribute that\n"
+            String sinfo = JOptionPane.showInputDialog(null, "Specify the information id\n"
+                    + "where you want to remove a property:");
+            String tinfo = JOptionPane.showInputDialog(null, "Specify the information id\n"
+                    + "where you want to add a property:");
+            String at = JOptionPane.showInputDialog(null, "Specify the name of a property that\n"
                     + "you want to move:");
-            if (satset != null && tatset != null && at != null) {
-                atmovequeue.add(satset);
-                atmovequeue.add(tatset);
-                atmovequeue.add(at);
+            if (sinfo != null && tinfo != null && at != null) {
+                propmovequeue.add(sinfo);
+                propmovequeue.add(tinfo);
+                propmovequeue.add(at);
             } else {
                 break;
             }
         }
 
         pmap = new HashMap<>();
-        for (String category : categories) {
-            pmap.put("newcatname", category);
+        for (String type : types) {
+            pmap.put("newtypename", type);
             pmap.put("entityname", entityname);
-            proc.transform("insertHasEntity.sparql", pmap);
+            proc.transform("insertHasInstance.sparql", pmap);
         }
         pmap = new HashMap<>();
-        for (String category : rcategories) {
-            pmap.put("catname", category);
+        for (String category : rtypes) {
+            pmap.put("typename", category);
             pmap.put("entityname", sourceentityname);
-            proc.transform("deleteHasEntity.sparql", pmap);
+            proc.transform("deleteHasInstance.sparql", pmap);
         }
         pmap = new HashMap<>();
-        if (atsetname != null && atsettopic != null) {
-            pmap.put("element", "clonto:Information#" + atsetname);
-            pmap.put("newname", atsetname);
+        if (infotopic != null) {
+            pmap.put("element", ":Information#" + infoname);
+            pmap.put("newname", String.valueOf(infoname));
             proc.transform("introduceElement.sparql", pmap);
             pmap = new HashMap<>();
-            pmap.put("atsetname", atsetname);
-            pmap.put("newtopic", atsettopic);
+            pmap.put("infoname", String.valueOf(infoname));
+            pmap.put("newtopic", infotopic);
             pmap = new HashMap<>();
         }
-        for (String matset : atsetindices) {
+        for (String matset : infoindices) {
             pmap.put("entityname", sourceentityname);
-            pmap.put("attributesetname", matset);
-            proc.transform("deleteHasAttributeSet.sparql", pmap);
+            pmap.put("infoname", matset);
+            proc.transform("deleteHasInformation.sparql", pmap);
             pmap = new HashMap<>();
             pmap.put("entityname", entityname);
-            pmap.put("attributesetname", matset);
-            proc.transform("insertHasAttributeSet.sparql", pmap);
+            pmap.put("infoname", matset);
+            proc.transform("insertHasInformation.sparql", pmap);
             pmap = new HashMap<>();
         }
-        while (!atmovequeue.isEmpty()) {
-            pmap.put("atset2name", atmovequeue.poll());
-            pmap.put("atset1name", atmovequeue.poll());
-            pmap.put("atname", atmovequeue.poll());
-            proc.transform("moveallattributes.sparql", pmap);
+        while (!propmovequeue.isEmpty()) {
+            String info2name = propmovequeue.poll();
+            String info1name = propmovequeue.poll();
+            String propname = propmovequeue.poll();
+
+
+            pmap.put("infoname", info2name);
+            pmap.put("propname", propname);
+            proc.transform("deleteHasProperty.sparql", pmap);
+            pmap.put("infoname", info1name);
+            proc.transform("insertHasProperty.sparql", pmap);
             pmap = new HashMap<>();
         }
         JOptionPane.showMessageDialog(null, "Extracting Entity finished!");
     }
 
-    void extractSubcategory() {
-        Map<String, String> pmap = new HashMap<>();
-        String categoryname = JOptionPane.showInputDialog(null, "Specify category's name:");
-        pmap.put("newname", categoryname);
-        String index = JOptionPane.showInputDialog(null, "How many categories exist right now?:");
-        pmap.put("element", "clonto:Type#" + index);
-        proc.transform("introduceElement.sparql", pmap);
-        pmap = new HashMap<>();
-        String newname = "";
-        while (true) {
-            newname = JOptionPane.showInputDialog(null, "Insert the category's name, where \n"
-                    + "the category should be added or cancel:");
-            if (newname == null) {
-                break;
-            }
-            pmap.put("newsupercatname", newname);
-            pmap.put("subcatname", categoryname);
-            proc.transform("insertHasSubCategory.sparql", pmap);
-        }
-        pmap = new HashMap<>();
-        newname = "";
-        while (true) {
-            newname = JOptionPane.showInputDialog(null, "Insert a subcategory's name that should be added or cancel:");
-            if (newname == null) {
-                break;
-            }
-            pmap.put("subcatname", newname);
-            pmap.put("newsupercatname", categoryname);
-            proc.transform("insertHasSubCategory.sparql", pmap);
-        }
-        pmap = new HashMap<>();
-        newname = "";
-        while (true) {
-            newname = JOptionPane.showInputDialog(null, "Insert an entity's name that should be added or cancel:");
-            if (newname == null) {
-                break;
-            }
-            pmap.put("newcatname", categoryname);
-            pmap.put("entityname", newname);
-            proc.transform("insertHasEntity.sparql", pmap);
-        }
-    }
-
-    void removeRedundantHasEntity() {
-        String entityname = JOptionPane.showInputDialog(null, "Name the entity that corresponds to the target of the relation:");
+    void removeRedundantInstance() {
+        String entityname = JOptionPane.showInputDialog(null, "Name the entity:");
         if (null != entityname) {
-            String name2 = JOptionPane.showInputDialog("Name the category that corresponds to the source of the relation:");
+            String name2 = JOptionPane.showInputDialog("Name the type:");
             if (null != name2) {
                 Map<String, String> pmap = new HashMap<>();
                 pmap.put("catname", name2);
                 pmap.put("entityname", entityname);
-                long size = proc.transform("deleteHasEntity.sparql", pmap);
+                long size = proc.transform("deleteHasInstance.sparql", pmap);
                 JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
             } else {
                 JOptionPane.showMessageDialog(null, "Transformation failed!");
@@ -290,15 +269,15 @@ public class Refactor {
         }
     }
 
-    void removeRedundantHasSucategory() {
-        String entityname = JOptionPane.showInputDialog(null, "Name the containing category:");
-        if (null != entityname) {
-            String name2 = JOptionPane.showInputDialog("Name the subcategory that should be removed from the category:");
+    void removeRedundantSubtype() {
+        String supertypename = JOptionPane.showInputDialog(null, "Name the supertype:");
+        if (null != supertypename) {
+            String name2 = JOptionPane.showInputDialog("Name the subtype:");
             if (null != name2) {
                 Map<String, String> pmap = new HashMap<>();
-                pmap.put("subcatname", name2);
-                pmap.put("oldsupercatname", entityname);
-                long size = proc.transform("deleteHasSubCategory.sparql", pmap);
+                pmap.put("subtypename", name2);
+                pmap.put("oldsupertypename", supertypename);
+                long size = proc.transform("deleteHasSubtype.sparql", pmap);
                 JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
             } else {
                 JOptionPane.showMessageDialog(null, "Transformation failed!");
@@ -320,25 +299,25 @@ public class Refactor {
                 moveEntity();
                 break;
             case "Move Type":
-                moveCategory();
+                moveType();
                 break;
-            case "Add Missing Type":
-                addMissingCategory();
+            case "Add Missing Instance":
+                addMissingInstance();
                 break;
-            case "Unite Attributesets":
-                uniteAttributesets();
+            case "Add Missing Subtype":
+                addMissingSubtype();
+                break;
+            case "Unite Information":
+                uniteInformation();
                 break;
             case "Extract Entity":
                 extractEntity();
                 break;
-            case "Extract Subcategory":
-                extractSubcategory();
+            case "Remove Redundant Instance":
+                removeRedundantInstance();
                 break;
-            case "Remove Redundant HasEntity":
-                removeRedundantHasEntity();
-                break;
-            case "Remove Redundant SubCategory":
-                removeRedundantHasSucategory();
+            case "Remove Redundant Subtype":
+                removeRedundantSubtype();
                 break;
         }
     }

@@ -1,8 +1,8 @@
-PREFIX clonto: <http://myCLOnto.de/> 
+PREFIX : <http://myCLOnto.de/> 
 DELETE {
-  ?cat clonto:hasEntity ?entity .
+  ?type :hasInstance ?entity .
 }
 WHERE{ 
-  ?cat clonto:hasEntity ?entity .
-  ?cat clonto:name ?catname .
-  ?entity clonto:name ?entityname . }
+  ?type :hasInstance ?entity .
+  ?type :name ?typename .
+  ?entity :name ?entityname . }

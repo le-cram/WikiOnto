@@ -1,3 +1,3 @@
-PREFIX clonto: <http://myCLOnto.de/> 
-INSERT { ?element clonto:name ?newname . }
+PREFIX : <http://myCLOnto.de/> 
+INSERT { ?element :name ?newname . }
 WHERE{ }

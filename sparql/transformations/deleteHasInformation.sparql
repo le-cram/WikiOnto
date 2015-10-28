@@ -1,6 +1,6 @@
-PREFIX clonto: <http://myCLOnto.de/> 
-DELETE { ?entity clonto:hasAttributeSet ?attributeset . }
-WHERE { ?attributeset clonto:name ?attributesetname .
-		?entity clonto:hasAttributeSet ?attributeset .
-		?entity clonto:name ?entityname .
+PREFIX : <http://myCLOnto.de/> 
+DELETE { ?entity :hasInformation ?info . }
+WHERE { ?info :name ?infoname .
+		?entity :hasInformation ?info .
+		?entity :name ?entityname .
 }

@@ -1,5 +1,0 @@
-PREFIX : <http://myCLOnto.de/> 
-DELETE{ ?super :hasSubcategory ?sub . }
-INSERT { ?super :hasSubtype ?sub . }
-WHERE{ 
-  ?super :hasSubCategory ?sub .}
