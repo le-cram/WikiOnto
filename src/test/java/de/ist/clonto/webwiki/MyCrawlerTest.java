@@ -48,9 +48,9 @@ public class MyCrawlerTest {
      */
     @Test
     public void testSuperCategories() {
-        System.out.println("supercategories of Type:SQL");
+        System.out.println("supercategories of Category:SQL");
         MyCrawler instance = new MyCrawler(null, null);
-        Page page = WikipediaAPI.getFirstPage("Type:SQL");
+        Page page = WikipediaAPI.getFirstPage("Category:SQL");
         Entity e = new Entity();
         instance.retrieveSuperCategories(page.toString(), e);
         assertTrue(e.getTypes().size() == 2);
@@ -81,7 +81,7 @@ public class MyCrawlerTest {
     public void testSuperCategories2() {
         System.out.println("supercategories of Type:Free compilers and interpreters");
         MyCrawler instance = new MyCrawler(null, null);
-        Page page = WikipediaAPI.getFirstPage("Type:Free_compilers_and_interpreters");
+        Page page = WikipediaAPI.getFirstPage("Category:Free_compilers_and_interpreters");
         Entity e = new Entity();
         instance.retrieveSuperCategories(page.toString(), e);
         assertTrue(e.getTypes().size() == 3);
@@ -143,16 +143,15 @@ public class MyCrawlerTest {
     public void testSuperCategories6() {
         System.out.println("supercategories of Type:LibreOffice");
         MyCrawler instance = new MyCrawler(null, null);
-        Page page = WikipediaAPI.getFirstPage("Type:LibreOffice");
+        Page page = WikipediaAPI.getFirstPage("Category:LibreOffice");
         Entity e = new Entity();
         instance.retrieveSuperCategories(page.toString(), e);
-        assertEquals(6, e.getTypes().size());
+        assertEquals(5, e.getTypes().size());
         assertTrue(e.getTypes().contains("Cross-platform free software"));
         assertTrue(e.getTypes().contains("Free software programmed in C++"));
         assertTrue(e.getTypes().contains("Office suites for Linux"));
         assertTrue(e.getTypes().contains("OpenDocument"));
         assertTrue(e.getTypes().contains("Open-source office suites"));
-        assertTrue(e.getTypes().contains("Free software"));
     }
 
     /**
@@ -294,7 +293,7 @@ public class MyCrawlerTest {
     @Test
     public void testMainEntityRetrieval1() {
         System.out.println("Main entity computer languages");
-        Page page = WikipediaAPI.getFirstPage("Type:Computer languages");
+        Page page = WikipediaAPI.getFirstPage("Category:Computer languages");
         Type testcl = new Type();
         testcl.setName("Computer languages");
         MyCrawler instance = new MyCrawler(null, testcl);
@@ -310,7 +309,7 @@ public class MyCrawlerTest {
     @Test
     public void testMainEntityRetrieval2() {
         System.out.println("Main entity XML");
-        Page page = WikipediaAPI.getFirstPage("Type:XML");
+        Page page = WikipediaAPI.getFirstPage("Category:XML");
         Type testcl = new Type();
         testcl.setName("XML");
         MyCrawler instance = new MyCrawler(null, testcl);
@@ -326,7 +325,7 @@ public class MyCrawlerTest {
     @Test
     public void testMainEntityRetrieval3() {
         System.out.println("Main entity PostgreSQL");
-        Page page = WikipediaAPI.getFirstPage("Type:PostgreSQL");
+        Page page = WikipediaAPI.getFirstPage("Category:PostgreSQL");
         Type testcl = new Type();
         testcl.setName("PostgreSQL");
         MyCrawler instance = new MyCrawler(null, testcl);

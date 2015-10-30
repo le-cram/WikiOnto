@@ -2,14 +2,14 @@ package de.ist.clonto.triplestore.query;
 
 import java.io.IOException;
 import java.io.OutputStream;
- 
-import javax.swing.JTextArea;
+
+import javax.swing.*;
 
 public class QueryAreaStream extends OutputStream {
-    private final JTextArea textArea;
+    private final JEditorPane textArea;
     private String text;
      
-    public QueryAreaStream(JTextArea textArea) {
+    public QueryAreaStream(JEditorPane textArea) {
         this.textArea = textArea;
         text = "";
     }

@@ -24,6 +24,9 @@ import java.util.logging.Logger;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
+import javax.swing.event.HyperlinkEvent;
+import javax.swing.event.HyperlinkListener;
+
 import org.apache.commons.io.FileUtils;
 
 /**
@@ -60,8 +63,6 @@ public class Ontogui extends JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        queryResultScrollPane = new javax.swing.JScrollPane();
-        queryResultArea = new javax.swing.JTextArea();
         AnalysisjPanel = new javax.swing.JPanel();
         loadOntologyButton = new javax.swing.JButton();
         loadQueryButton = new javax.swing.JButton();
@@ -85,24 +86,34 @@ public class Ontogui extends JFrame {
         displayPruningButton = new javax.swing.JButton();
         runPruningButton = new javax.swing.JButton();
         checkbox1 = new java.awt.Checkbox();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        queryResultArea = new javax.swing.JEditorPane();
+        queryResultArea.addHyperlinkListener(new HyperlinkListener() {
+            @Override
+            public void hyperlinkUpdate(HyperlinkEvent e) {
+                System.out.print(e.getURL());
+            }
+        });
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setExtendedState(JFrame.MAXIMIZED_BOTH);
-
-        queryResultArea.setEditable(false);
-        queryResultArea.setColumns(20);
-        queryResultArea.setFont(new java.awt.Font("Monospaced", 0, 11)); // NOI18N
-        queryResultArea.setRows(5);
-        queryResultScrollPane.setViewportView(queryResultArea);
 
         AnalysisjPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Analysis"));
 
         loadOntologyButton.setText("load ontology");
         loadOntologyButton.setToolTipText("Load an existing tdb dataset");
-        loadOntologyButton.addActionListener(evt -> loadOntology(evt));
+        loadOntologyButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                loadOntology(evt);
+            }
+        });
 
         loadQueryButton.setText("load query");
-        loadQueryButton.addActionListener(evt -> loadQuery(evt));
+        loadQueryButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                loadQuery(evt);
+            }
+        });
 
         ontologyNameField.setEditable(false);
         ontologyNameField.setText("<ontology name>");
@@ -110,80 +121,104 @@ public class Ontogui extends JFrame {
         smellNameField.setEditable(false);
         smellNameField.setText("<query name>");
 
-        metricsCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "type:Depth", "type:CategoryInOut", "type:ComputerLanguagesDistanceMeasures", "type:NOC", "type:subdomainratio", "graph:CategoriesPerEntityMaxAvg", "graph:EntitiesPerCategoryMaxAvg", "graph:graphMetrics" }));
-        metricsCombobox.addActionListener(evt -> metricsComboboxActionPerformed(evt));
+        metricsCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[]{"type:Depth", "type:CategoryInOut", "type:ComputerLanguagesDistanceMeasures", "type:NOC", "type:subdomainratio", "graph:CategoriesPerEntityMaxAvg", "graph:EntitiesPerCategoryMaxAvg", "graph:graphMetrics"}));
+        metricsCombobox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                metricsComboboxActionPerformed(evt);
+            }
+        });
 
         backupOntologyButton.setText("backup ontology");
         backupOntologyButton.setToolTipText("Create a backup of the selected tdb dataset."
-            + "Selected folder will be cleaned first.");
-        backupOntologyButton.addActionListener(evt -> backupOntologyButtonActionPerformed(evt));
+                + "Selected folder will be cleaned first.");
+        backupOntologyButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                backupOntologyButtonActionPerformed(evt);
+            }
+        });
 
         runQueryButton.setText("run query");
-        runQueryButton.addActionListener(evt -> runQueryButtonActionPerformed(evt));
+        runQueryButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                runQueryButtonActionPerformed(evt);
+            }
+        });
 
         runMetricsButton.setText("run metric");
-        runMetricsButton.addActionListener(evt -> runMetricsButtonActionPerformed(evt));
+        runMetricsButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                runMetricsButtonActionPerformed(evt);
+            }
+        });
 
-        badSmellComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Depth Of Inheritance", "Eponymous Type", "Semantically Distant Type", "Semantically Distant Entity", "Multi Topic", "Off Topic", "Double Reachable Type", "Double Reachable Entity", "Cycle", "Lazy Type Metric based", "Lazy Type Instance Containment", "Missing Type", "Redundant Subtype", "Redundant Instance" }));
-        badSmellComboBox.addActionListener(evt -> badSmellComboBoxActionPerformed(evt));
+        badSmellComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[]{"Depth Of Inheritance", "Eponymous Type", "Semantically Distant Type", "Semantically Distant Entity", "Multi Topic", "Off Topic", "Double Reachable Type", "Double Reachable Entity", "Cycle", "Lazy Type Metric based", "Lazy Type Instance Containment", "Missing Type", "Redundant Subtype", "Redundant Instance"}));
+        badSmellComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                badSmellComboBoxActionPerformed(evt);
+            }
+        });
 
         runSmellAnalysisButton.setText("run smell analysis");
-        runSmellAnalysisButton.addActionListener(evt -> runSmellAnalysisButtonActionPerformed(evt));
+        runSmellAnalysisButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                runSmellAnalysisButtonActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout AnalysisjPanelLayout = new javax.swing.GroupLayout(AnalysisjPanel);
         AnalysisjPanel.setLayout(AnalysisjPanelLayout);
         AnalysisjPanelLayout.setHorizontalGroup(
-            AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AnalysisjPanelLayout.createSequentialGroup()
-                .addGap(20, 20, 20)
-                .addGroup(AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(AnalysisjPanelLayout.createSequentialGroup()
-                        .addGroup(AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(ontologyNameField, javax.swing.GroupLayout.DEFAULT_SIZE, 137, Short.MAX_VALUE)
-                            .addComponent(smellNameField))
-                        .addGroup(AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(AnalysisjPanelLayout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(loadOntologyButton)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(backupOntologyButton, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, AnalysisjPanelLayout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(loadQueryButton, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(121, 121, 121))))
-                    .addGroup(AnalysisjPanelLayout.createSequentialGroup()
-                        .addGroup(AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(metricsCombobox, 0, 1, Short.MAX_VALUE)
-                            .addComponent(badSmellComboBox, 0, 240, Short.MAX_VALUE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(runMetricsButton, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(runQueryButton, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(runSmellAnalysisButton))))
-                .addGap(0, 0, Short.MAX_VALUE))
+                AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(AnalysisjPanelLayout.createSequentialGroup()
+                                .addGap(20, 20, 20)
+                                .addGroup(AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(AnalysisjPanelLayout.createSequentialGroup()
+                                                .addGroup(AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                                        .addComponent(ontologyNameField, javax.swing.GroupLayout.DEFAULT_SIZE, 137, Short.MAX_VALUE)
+                                                        .addComponent(smellNameField))
+                                                .addGroup(AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                                        .addGroup(AnalysisjPanelLayout.createSequentialGroup()
+                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                                .addComponent(loadOntologyButton)
+                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                                .addComponent(backupOntologyButton, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, AnalysisjPanelLayout.createSequentialGroup()
+                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                                .addComponent(loadQueryButton, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                .addGap(121, 121, 121))))
+                                        .addGroup(AnalysisjPanelLayout.createSequentialGroup()
+                                                .addGroup(AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                                        .addComponent(metricsCombobox, 0, 1, Short.MAX_VALUE)
+                                                        .addComponent(badSmellComboBox, 0, 240, Short.MAX_VALUE))
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addGroup(AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                        .addComponent(runMetricsButton, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(runQueryButton, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(runSmellAnalysisButton))))
+                                .addGap(0, 0, Short.MAX_VALUE))
         );
         AnalysisjPanelLayout.setVerticalGroup(
-            AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AnalysisjPanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(ontologyNameField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(backupOntologyButton)
-                    .addComponent(loadOntologyButton))
-                .addGap(3, 3, 3)
-                .addGroup(AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(smellNameField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(loadQueryButton)
-                    .addComponent(runQueryButton))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(metricsCombobox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(runMetricsButton))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(badSmellComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(runSmellAnalysisButton))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(AnalysisjPanelLayout.createSequentialGroup()
+                                .addContainerGap()
+                                .addGroup(AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(ontologyNameField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(backupOntologyButton)
+                                        .addComponent(loadOntologyButton))
+                                .addGap(3, 3, 3)
+                                .addGroup(AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(smellNameField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(loadQueryButton)
+                                        .addComponent(runQueryButton))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(metricsCombobox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(runMetricsButton))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(AnalysisjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(badSmellComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(runSmellAnalysisButton))
+                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         TransformationjPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Transformation"));
@@ -201,70 +236,97 @@ public class Ontogui extends JFrame {
         descriptionjScrollPane.setViewportView(descriptionArea);
 
         displayRefactoringButton.setText("Display Refactoring");
-        displayRefactoringButton.addActionListener(evt -> displayRefactoringButtonActionPerformed(evt));
+        displayRefactoringButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                displayRefactoringButtonActionPerformed(evt);
+            }
+        });
 
         runRefactoringButton.setText("Execute Refactoring");
-        runRefactoringButton.addActionListener(evt -> runRefactoringButtonActionPerformed(evt));
+        runRefactoringButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                runRefactoringButtonActionPerformed(evt);
+            }
+        });
 
-        refactorCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Rename Element", "Change Topic", "Move Entity", "Move Type", "Add Missing Subtype", "Add Missing Instance", "Unite Information", "Extract Entity", "Extract Subtype", "Remove Redundant Instance", "Remove Redundant Subtype" }));
-        refactorCombobox.addActionListener(evt -> refactorComboboxActionPerformed(evt));
+        refactorCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[]{"Rename Element", "Change Topic", "Move Entity", "Move Type", "Add Missing Subtype", "Add Missing Instance", "Unite Information", "Extract Entity", "Extract Subtype", "Remove Redundant Instance", "Remove Redundant Subtype"}));
+        refactorCombobox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                refactorComboboxActionPerformed(evt);
+            }
+        });
 
         pruningCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Abandon Entity", "Abandon Type", "Remove Instance", "Remove Subtype", "Collapse Hierarchy", "Cleanup Unreachable All", "Cleanup Unreachable Type", "Cleanup Unreachable Ent", "Lift Cycle" }));
-        pruningCombobox.addActionListener(evt -> pruningComboboxActionPerformed(evt));
+        pruningCombobox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pruningComboboxActionPerformed(evt);
+            }
+        });
 
         displayPruningButton.setText("Display Pruning");
-        displayPruningButton.addActionListener(evt -> displayPruningButtonActionPerformed(evt));
+        displayPruningButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                displayPruningButtonActionPerformed(evt);
+            }
+        });
 
         runPruningButton.setText("Execute Pruning");
-        runPruningButton.addActionListener(evt -> runPruningButtonActionPerformed(evt));
+        runPruningButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                runPruningButtonActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout TransformationjPanelLayout = new javax.swing.GroupLayout(TransformationjPanel);
         TransformationjPanel.setLayout(TransformationjPanelLayout);
         TransformationjPanelLayout.setHorizontalGroup(
-            TransformationjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(TransformationjPanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(TransformationjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(TransformationjPanelLayout.createSequentialGroup()
-                        .addGroup(TransformationjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(pruningCombobox, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(refactorCombobox, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
-                        .addGroup(TransformationjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(displayPruningButton, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(displayRefactoringButton, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(TransformationjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(runRefactoringButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(runPruningButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGap(0, 19, Short.MAX_VALUE))
-                    .addGroup(TransformationjPanelLayout.createSequentialGroup()
-                        .addComponent(ContextjScrollPane)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(descriptionjScrollPane)))
-                .addContainerGap())
+                TransformationjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(TransformationjPanelLayout.createSequentialGroup()
+                                .addContainerGap()
+                                .addGroup(TransformationjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(TransformationjPanelLayout.createSequentialGroup()
+                                                .addGroup(TransformationjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                        .addComponent(pruningCombobox, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(refactorCombobox, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                .addGap(18, 18, 18)
+                                                .addGroup(TransformationjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                                        .addComponent(displayPruningButton, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                        .addComponent(displayRefactoringButton, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addGroup(TransformationjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                                        .addComponent(runRefactoringButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                        .addComponent(runPruningButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                                .addGap(0, 0, Short.MAX_VALUE))
+                                        .addGroup(TransformationjPanelLayout.createSequentialGroup()
+                                                .addComponent(ContextjScrollPane)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(descriptionjScrollPane)))
+                                .addContainerGap())
         );
         TransformationjPanelLayout.setVerticalGroup(
-            TransformationjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(TransformationjPanelLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(TransformationjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(descriptionjScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(TransformationjPanelLayout.createSequentialGroup()
-                        .addComponent(ContextjScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(TransformationjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(refactorCombobox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(displayRefactoringButton)
-                            .addComponent(runRefactoringButton))))
-                .addGap(2, 2, 2)
-                .addGroup(TransformationjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(pruningCombobox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(displayPruningButton)
-                    .addComponent(runPruningButton)))
+                TransformationjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(TransformationjPanelLayout.createSequentialGroup()
+                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGroup(TransformationjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(descriptionjScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGroup(TransformationjPanelLayout.createSequentialGroup()
+                                                .addComponent(ContextjScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                                .addGroup(TransformationjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                                        .addComponent(refactorCombobox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(displayRefactoringButton)
+                                                        .addComponent(runRefactoringButton))))
+                                .addGap(2, 2, 2)
+                                .addGroup(TransformationjPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(pruningCombobox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(displayPruningButton)
+                                        .addComponent(runPruningButton)))
         );
 
         checkbox1.setLabel("prettyprint");
+
+        queryResultArea.setEditable(false);
+        jScrollPane1.setViewportView(queryResultArea);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -279,19 +341,23 @@ public class Ontogui extends JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(TransformationjPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(3, 3, 3))
-            .addComponent(queryResultScrollPane)
+            .addGroup(layout.createSequentialGroup()
+                    .addContainerGap()
+                    .addComponent(jScrollPane1)
+                    .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(AnalysisjPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(checkbox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(TransformationjPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createSequentialGroup()
+                                .addComponent(AnalysisjPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(checkbox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(TransformationjPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(queryResultScrollPane, javax.swing.GroupLayout.DEFAULT_SIZE, 573, Short.MAX_VALUE))
+                .addComponent(jScrollPane1)
+                .addContainerGap())
         );
 
         pack();
@@ -543,13 +609,13 @@ public class Ontogui extends JFrame {
     private javax.swing.JScrollPane descriptionjScrollPane;
     private javax.swing.JButton displayPruningButton;
     private javax.swing.JButton displayRefactoringButton;
+    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JButton loadOntologyButton;
     private javax.swing.JButton loadQueryButton;
     private javax.swing.JComboBox metricsCombobox;
     private javax.swing.JTextField ontologyNameField;
     private javax.swing.JComboBox pruningCombobox;
-    private javax.swing.JTextArea queryResultArea;
-    private javax.swing.JScrollPane queryResultScrollPane;
+    private javax.swing.JEditorPane queryResultArea;
     private javax.swing.JComboBox refactorCombobox;
     private javax.swing.JButton runMetricsButton;
     private javax.swing.JButton runPruningButton;

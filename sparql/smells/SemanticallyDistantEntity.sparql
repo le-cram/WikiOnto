@@ -1,11 +1,14 @@
 PREFIX : <http://myCLOnto.de/> 
 SELECT ?entityname  (COUNT(?dtype) as ?howManyDistantTypes) (COUNT(?rtype) as ?howManyReachableTypes) ((?howManyDistantTypes-?howManyReachableTypes) as ?difference)
 WHERE {
+
     {SELECT DISTINCT ?entity ?dtype
     WHERE {
-        ?entity ^:hasInstance ?dtype . 
+        ?entity ^:hasInstance ?dtype .
+        
         FILTER NOT EXISTS{ 
-			?dtype :depth ?depth .
+			?cl :name "Computer languages" .
+			?cl :hasSubtype* ?dtype .
 		}
     }
     }
@@ -13,11 +16,13 @@ WHERE {
 	{SELECT DISTINCT ?entity ?rtype
     WHERE {
         ?entity ^:hasInstance ?rtype . 
-        ?rtype :depth ?depth .
+        ?cl :name "Computer languages" .
+		?cl :hasSubtype* ?rtype .
     }
     }
 	?entity :name ?entityname .
+    FILTER EXISTS{?type :hasInstance ?entity . }
 }
 GROUP BY ?entityname
-HAVING(?diff>0)
-ORDER BY ?diff
+HAVING(?difference>0 && ?howManyReachableTypes>0)
+ORDER BY ?difference

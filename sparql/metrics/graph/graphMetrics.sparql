@@ -7,8 +7,8 @@ SELECT
 ?howManyTypes 
 (?howManySubtypes+?howManyInstances+?howManyInformation+?howManyProperties+?howManyHasMainEntity as ?howManyEdges) 
 (?howManySubtypes+?howManyInstances+?howManyInformation+?howManyProperties+?howManyNodes+?howManyDepth+?howManyTopic+?howManyHasMainEntity as ?howManyEdgesTotal) 
-(?howManyN/?howManyEdges as ?EdgeNodeRatio) 
-(?howManyEdges-?howManyN+1 as ?Treeimpurity) 
+(?howManyNodes/?howManyEdges as ?EdgeNodeRatio) 
+(?howManyEdges-?howManyNodes+1 as ?Treeimpurity) 
 ?howManySubtypes 
 ?howManyInstances 
 ?howManyInformation
@@ -41,9 +41,11 @@ WHERE {
 	
 	{SELECT DISTINCT ?UnreachableType   
      WHERE  {
-		?UnreachableType :hasSubtype|:hasEntity ?elem  .
+        ?UnreachableType :name ?name .
+		FILTER(regex(STR(?UnreachableType),"Type"))
 		FILTER NOT EXISTS{
-			?UnreachableType :depth ?depth .
+            ?cl :name "Computer languages" .
+            ?cl :hasSubtype* ?UnreachableType .
 		}
 	}
     }
