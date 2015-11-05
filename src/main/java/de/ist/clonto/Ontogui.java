@@ -256,7 +256,7 @@ public class Ontogui extends JFrame {
             }
         });
 
-        pruningCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Abandon Entity", "Abandon Type", "Remove Instance", "Remove Subtype", "Collapse Hierarchy", "Cleanup Unreachable All", "Cleanup Unreachable Type", "Cleanup Unreachable Ent", "Lift Cycle" }));
+        pruningCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Abandon Entity", "Abandon Type", "Abandon Information", "Remove Instance", "Remove Subtype", "Collapse Hierarchy", "Cleanup Unreachable All", "Cleanup Unreachable Type", "Cleanup Unreachable Ent", "Lift Cycle", "Custom" }));
         pruningCombobox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pruningComboboxActionPerformed(evt);

@@ -52,10 +52,15 @@ public class TransformationProcessor {
         ParameterizedSparqlString pss = new ParameterizedSparqlString();
         pss.setCommandText(transformation);
         for(String key: parameter.keySet()){
-            if(!parameter.get(key).contains("clonto:")){
+            String query = pss.asUpdate().toString();
+            if(!parameter.get(key).contains(":")){
                 pss.setLiteral(key, parameter.get(key).trim());
             }else{
                 pss.setIri(key, parameter.get(key).trim());
+            }
+            if(query.equals(pss.asUpdate().toString())) {
+                JOptionPane.showMessageDialog(null,"Querynames are flawed. This should not happen.");
+                return 0;
             }
         }
         System.out.println(pss.toString());
@@ -67,20 +72,17 @@ public class TransformationProcessor {
 
     public static void main(String[] args0){
         //load dataset
+        Dataset dataset;
         JFileChooser fc = new JFileChooser();
         fc.setCurrentDirectory(new File(System.getProperty("user.dir")));
         fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
         int returnVal = fc.showOpenDialog(null);
-        Dataset dataset = null;
         if (returnVal == JFileChooser.APPROVE_OPTION) {
             dataset = TDBFactory.createDataset(fc.getSelectedFile().toString());
+            TransformationProcessor tp = new TransformationProcessor(dataset);
+            Map<String,String> pmap = new HashMap<>();
+            tp.transform("deletex.sparql",pmap);
         }
-        //start transformation
-        TransformationProcessor tp = new TransformationProcessor(dataset);
-        tp.transform("renameSubtype.sparql", new HashMap<>());
-        tp.transform("renameInstance.sparql",new HashMap<>());
-        tp.transform("renameProperty.sparql",new HashMap<>());
-        tp.transform("renameTopic.sparql", new HashMap<>());
     }
 
 }

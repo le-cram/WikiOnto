@@ -46,11 +46,15 @@ public class Refactor {
     void changeTopic() {
         String atsetname = JOptionPane.showInputDialog(null, "Insert the information's name:");
         String newtopic = JOptionPane.showInputDialog(null, "Insert the new topic:");
-        Map<String, String> pmap = new HashMap<>();
-        pmap.put("infoname", atsetname);
-        pmap.put("newtopic", newtopic);
-        long size = proc.transform("changeTopic.sparql", pmap);
-        JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
+        if(atsetname!=null && newtopic!=null) {
+
+            Map<String, String> pmap = new HashMap<>();
+            pmap.put("infoname", atsetname);
+            pmap.put("newtopic", newtopic);
+            long size = proc.transform("changeTopic.sparql", pmap);
+            JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
+        }else
+            JOptionPane.showMessageDialog(null, "Transformation failed!");
     }
 
     void moveEntity() {
@@ -120,6 +124,7 @@ public class Refactor {
     }
 
     void uniteInformation() {
+        JOptionPane.showMessageDialog(null,"Please look up all information ids!");
         String index = JOptionPane.showInputDialog(null, "Specify the main information's id:");
         String index2 = JOptionPane.showInputDialog(null, "Specify the secondary information's id:");
         String newname = JOptionPane.showInputDialog(null, "Specify the main information's new topic:");
@@ -128,10 +133,11 @@ public class Refactor {
         if (index != null && index2 != null && newname != null) {
             pmap.put("sinfoname", index2);
             pmap.put("tinfoname", index);
-            long size = proc.transform("moveProperty.sparql", pmap);
+            long size = proc.transform("moveProperties.sparql", pmap);
             pmap.clear();
-            pmap.put("infoname",index);
+            pmap.put("informationname", index);
             size += proc.transform("deleteHasInformation.sparql", pmap);
+            pmap.clear();
             pmap.put("newtopic",newname);
             size += proc.transform("changeTopic.sparql", pmap);
             JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
@@ -141,7 +147,7 @@ public class Refactor {
     }
 
     void extractEntity() {
-        String sourceentityname = JOptionPane.showInputDialog("Specify the source entity!");
+        String sourceentityname = JOptionPane.showInputDialog(null,"Specify the source entity!");
         long index = System.nanoTime();
         String entityname = JOptionPane.showInputDialog(null, "Specify entity's name:");
         Map<String, String> pmap = new HashMap<>();
@@ -227,11 +233,11 @@ public class Refactor {
         }
         for (String matset : infoindices) {
             pmap.put("entityname", sourceentityname);
-            pmap.put("infoname", matset);
+            pmap.put("informationname", matset);
             proc.transform("deleteHasInformation.sparql", pmap);
             pmap = new HashMap<>();
             pmap.put("entityname", entityname);
-            pmap.put("infoname", matset);
+            pmap.put("informationname", matset);
             proc.transform("insertHasInformation.sparql", pmap);
             pmap = new HashMap<>();
         }
@@ -254,7 +260,7 @@ public class Refactor {
     void removeRedundantInstance() {
         String entityname = JOptionPane.showInputDialog(null, "Name the entity:");
         if (null != entityname) {
-            String name2 = JOptionPane.showInputDialog("Name the type:");
+            String name2 = JOptionPane.showInputDialog(null,"Name the type:");
             if (null != name2) {
                 Map<String, String> pmap = new HashMap<>();
                 pmap.put("catname", name2);
@@ -272,7 +278,7 @@ public class Refactor {
     void removeRedundantSubtype() {
         String supertypename = JOptionPane.showInputDialog(null, "Name the supertype:");
         if (null != supertypename) {
-            String name2 = JOptionPane.showInputDialog("Name the subtype:");
+            String name2 = JOptionPane.showInputDialog(null,"Name the subtype:");
             if (null != name2) {
                 Map<String, String> pmap = new HashMap<>();
                 pmap.put("subtypename", name2);

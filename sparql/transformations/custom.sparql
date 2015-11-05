@@ -1,0 +1,6 @@
+PREFIX : <http://myCLOnto.de/> 
+DELETE { ?entity :hasInformation ?info . }
+WHERE { ?info :name "68" .
+        ?info :hasProperty ?p .
+		?entity :name "HTML5" .
+}

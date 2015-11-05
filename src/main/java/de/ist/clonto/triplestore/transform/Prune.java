@@ -23,7 +23,7 @@ public class Prune {
     }
 
     void abandonEntity() {
-        String name = JOptionPane.showInputDialog("Name the entity that should be deleted:");
+        String name = JOptionPane.showInputDialog(null,"Name the entity that should be deleted:");
         if (null != name) {
             Map<String, String> pmap = new HashMap<>();
             pmap.put("name", name);
@@ -35,7 +35,7 @@ public class Prune {
     }
 
     void abandonType() {
-        String name = JOptionPane.showInputDialog("Name the type that should be deleted:");
+        String name = JOptionPane.showInputDialog(null,"Name the type that should be deleted:");
         if (null != name) {
             Map<String, String> pmap = new HashMap<>();
             pmap.put("name", name);
@@ -110,9 +110,9 @@ public class Prune {
     }
 
     void removeSubtype() {
-        String name = JOptionPane.showInputDialog("Name the supertype:");
+        String name = JOptionPane.showInputDialog(null,"Name the supertype:");
         if (null != name) {
-            String name2 = JOptionPane.showInputDialog("Name the subtype that should be removed from the type:");
+            String name2 = JOptionPane.showInputDialog(null,"Name the subtype that should be removed from the type:");
             if (null != name2) {
                 Map<String, String> pmap = new HashMap<>();
                 pmap.put("subtypename", name2);
@@ -128,7 +128,7 @@ public class Prune {
     }
 
     void collapseHierarchy() {
-        String name = JOptionPane.showInputDialog("Name the dissolvable type:");
+        String name = JOptionPane.showInputDialog(null,"Name the dissolvable type:");
         if (null != name) {
             Map<String, String> pmap = new HashMap<>();
             pmap.put("oldtypename", name);
@@ -142,9 +142,9 @@ public class Prune {
     }
 
     void liftCycle() {
-        String name = JOptionPane.showInputDialog("Name the supertype:");
+        String name = JOptionPane.showInputDialog(null,"Name the supertype:");
         if (null != name) {
-            String name2 = JOptionPane.showInputDialog("Name the subtype that should be removed:");
+            String name2 = JOptionPane.showInputDialog(null,"Name the subtype that should be removed:");
             if (null != name2) {
                 Map<String, String> pmap = new HashMap<>();
                 pmap.put("subtypename", name2);
@@ -159,6 +159,24 @@ public class Prune {
         }
     }
 
+    private void abandonInformation() {
+        String name = JOptionPane.showInputDialog(null,"Name the information id that should be deleted:");
+        if (null != name) {
+            Map<String, String> pmap = new HashMap<>();
+            pmap.put("informationname", name);
+            long size = proc.transform("deleteHasInformation.sparql", pmap);
+            JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
+        } else {
+            JOptionPane.showMessageDialog(null, "Transformation failed!");
+        }
+    }
+
+    private void custom() {
+        Map<String, String> pmap = new HashMap<>();
+        long size = proc.transform("custom.sparql", pmap);
+        JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
+    }
+
     public void execute(String pruneName) {
         switch (pruneName) {
             case "Abandon Entity":
@@ -166,6 +184,9 @@ public class Prune {
                 break;
             case "Abandon Type":
                 abandonType();
+                break;
+            case "Abandon Information":
+                abandonInformation();
                 break;
             case "Cleanup Unreachable All":
                 cleanUpUnreachableAll();
@@ -188,6 +209,13 @@ public class Prune {
             case "Lift Cycle":
                 liftCycle();
                 break;
+            case "Custom":
+                custom();
+                break;
         }
     }
+
+
+
+
 }

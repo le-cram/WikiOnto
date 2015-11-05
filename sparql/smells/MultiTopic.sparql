@@ -1,5 +1,5 @@
 PREFIX : <http://myCLOnto.de/> 
-SELECT ?entityname (COUNT(?information) as ?howMany)
+SELECT ("https://en.wikipedia.org/wiki/" + replace(?entityname," ","_")+" " as ?fname) (COUNT(?information) as ?howMany)
 WHERE {  
 	?entity :hasInformation ?information .
 	?entity :name ?entityname .

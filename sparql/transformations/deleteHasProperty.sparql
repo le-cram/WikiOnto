@@ -1,7 +1,7 @@
 PREFIX : <http://myCLOnto.de/> 
 DELETE { ?info :hasProperty ?property . }
 WHERE{ 
-	?info :name ?infoname .
+	?info :name ?informationname .
 	?property :name ?propertyname .
 	?info :hasProperty ?property .
 }

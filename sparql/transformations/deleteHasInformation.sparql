@@ -1,6 +1,6 @@
 PREFIX : <http://myCLOnto.de/> 
 DELETE { ?entity :hasInformation ?info . }
-WHERE { ?info :name ?infoname .
+WHERE { ?info :name ?informationname .
 		?entity :hasInformation ?info .
 		?entity :name ?entityname .
 }

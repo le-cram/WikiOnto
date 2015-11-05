@@ -2,7 +2,7 @@ PREFIX : <http://myCLOnto.de/>
 DELETE { ?sinfo :hasProperty ?property . }
 INSERT { ?tinfo :hasProperty ?property . }
 WHERE{ 
-	?sinfo :name ?infoname .
+	?sinfo :name ?sinfoname .
 	?property :name ?propertyname .
 	?sinfo :hasProperty ?property .
     ?tinfo :name ?tinfoname .
