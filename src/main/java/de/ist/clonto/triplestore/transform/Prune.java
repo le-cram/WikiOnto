@@ -133,6 +133,7 @@ public class Prune {
             Map<String, String> pmap = new HashMap<>();
             pmap.put("oldtypename", name);
             long size = proc.transform("collapseType.sparql", pmap);
+            pmap.clear();
             pmap.put("name", name);
             size += proc.transform("abandonType.sparql", pmap);
             JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);

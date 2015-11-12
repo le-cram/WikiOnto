@@ -152,7 +152,7 @@ public class Refactor {
         String entityname = JOptionPane.showInputDialog(null, "Specify entity's name:");
         Map<String, String> pmap = new HashMap<>();
         pmap.put("newname", entityname);
-        pmap.put("element", ":Entity#" + index);
+        pmap.put("element", "http://myCLOnto.de/Entity#" + index);
         long size = proc.transform("introduceElement.sparql", pmap);
         if (size == 0) {
             JOptionPane.showMessageDialog(null, "Transformation failed!");

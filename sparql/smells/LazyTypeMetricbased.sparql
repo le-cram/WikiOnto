@@ -1,6 +1,6 @@
 PREFIX : <http://myCLOnto.de/> 
 SELECT 
-?typename 
+("https://en.wikipedia.org/wiki/Category:" + replace(?typename," ","_")+" " as ?fname) 
 (COUNT(?entity) as ?NumberOfEntities)
 (COUNT(?subtype) as ?NumberOfSubtypes)
 (?NumberOfEntities + ?NumberOfSubtypes as ?howmany)
@@ -23,5 +23,5 @@ WHERE {
 	}
 }
 GROUP BY ?typename
-HAVING (?howmany < 7)
+HAVING (?howmany < 5)
 ORDER BY ?howmany
