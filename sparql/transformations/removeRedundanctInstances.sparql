@@ -1,0 +1,10 @@
+PREFIX : <http://myCLOnto.de/> 
+DELETE { ?type :hasInstance ?entity }
+WHERE {  
+    ?type :hasSubtype+ ?subtype .
+    ?type :hasInstance ?entity .
+    ?subtype :hasInstance ?entity . 
+	?entity :name ?entityname .
+	?type :name ?typename .
+	?subtype :name ?subtypename .
+}
