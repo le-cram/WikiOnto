@@ -1,6 +1,6 @@
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX : <http://myCLOnto.de/> 
-SELECT ?toptype1name ?toptype2name ("https://en.wikipedia.org/wiki/" + replace(?entityname," ","_")+" " as ?fname) 
+SELECT ?toptype1name ?toptype2name ?entityname
 WHERE {
     ?cl :name "Computer languages" .
     ?cl :hasSubtype ?toptype1 .
@@ -18,4 +18,4 @@ WHERE {
     FILTER(?toptype1name < ?toptype2name && (?toptype1name!="Data modeling languages"||?toptype2name!="Markup languages"))
     ?entity :name ?entityname .
 }
-ORDER BY ?toptype1name ?toptype2name ?fname
+ORDER BY ?toptype1name ?toptype2name

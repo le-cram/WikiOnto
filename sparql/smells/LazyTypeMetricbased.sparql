@@ -1,6 +1,6 @@
 PREFIX : <http://myCLOnto.de/> 
 SELECT 
-("https://en.wikipedia.org/wiki/Category:" + replace(?typename," ","_")+" " as ?fname) 
+?typename 
 (COUNT(?entity) as ?NumberOfEntities)
 (COUNT(?subtype) as ?NumberOfSubtypes)
 (?NumberOfEntities + ?NumberOfSubtypes as ?howmany)

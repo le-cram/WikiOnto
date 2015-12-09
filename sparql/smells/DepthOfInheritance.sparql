@@ -1,8 +1,0 @@
-PREFIX : <http://myCLOnto.de/> 
-SELECT DISTINCT ?name
-WHERE {
-    ?t :depth ?d .
-    FILTER(?d > "5") 
-    ?t :name ?name .
-}
-ORDER BY ?name

@@ -1,0 +1,10 @@
+PREFIX : <http://myCLOnto.de/> 
+SELECT DISTINCT ?name ?depth
+WHERE {
+    ?cl :name "Computer languages" .
+    ?t :depth ?depth .
+    FILTER(?depth > "5") 
+    ?t :name ?name .
+    ?cl :hasSubtype* ?t.
+}
+ORDER BY ?depth

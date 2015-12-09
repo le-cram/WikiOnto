@@ -32,6 +32,7 @@ import org.apache.commons.io.FileUtils;
 /**
  *
  * @author Marcel
+ * Some quickly coded GUI to support our approach to ontology engineering
  */
 public class Ontogui extends JFrame {
 
@@ -49,9 +50,9 @@ public class Ontogui extends JFrame {
     public Ontogui() {
         initComponents();
         metricName = "type:Depth";
-        smellName = "Depth of Inheritance";
+        smellName = "Distant Type";
         refactorName = "Rename Element";
-        pruneName = "Abandon Entity";
+        pruneName = "Dissolve Type";
     }
 
     /**
@@ -151,7 +152,7 @@ public class Ontogui extends JFrame {
             }
         });
 
-        badSmellComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[]{"Depth Of Inheritance", "Eponymous Type", "Semantically Distant Type", "Semantically Distant Entity", "Multi Topic", "Off Topic", "Double Reachable Type", "Double Reachable Entity", "Cycle", "Lazy Type Metric based", "Lazy Type Instance Containment", "Missing Type", "Redundant Subtype", "Redundant Instance"}));
+        badSmellComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[]{"Distant Type", "Eponymous Type", "Semantically Distant Type", "Semantically Distant Entity", "Multi Topic", "Off Topic", "Double Reachable Type", "Double Reachable Entity", "Cycle", "Lazy Type Metric based", "Lazy Type Instance Containment", "Missing Type", "Redundant Subtype", "Redundant Instance"}));
         badSmellComboBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 badSmellComboBoxActionPerformed(evt);
@@ -256,7 +257,7 @@ public class Ontogui extends JFrame {
             }
         });
 
-        pruningCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Abandon Entity", "Abandon Type", "Abandon Information", "Remove Instance", "Remove Subtype", "Collapse Hierarchy", "Cleanup Unreachable All", "Cleanup Unreachable Type", "Cleanup Unreachable Ent", "Lift Cycle", "Custom" }));
+        pruningCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Dissolve Type", "Abandon Entity", "Abandon Type", "Abandon Information", "Remove Instance", "Remove Subtype", "Collapse Hierarchy", "Cleanup Unreachable All", "Cleanup Unreachable Type", "Cleanup Unreachable Ent", "Lift Cycle", "Custom" }));
         pruningCombobox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pruningComboboxActionPerformed(evt);

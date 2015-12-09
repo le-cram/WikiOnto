@@ -1,4 +1,4 @@
-package de.ist.clonto;
+package de.ist.clonto.evaluation;
 
 import org.apache.commons.io.FileUtils;
 

@@ -1,5 +1,5 @@
 PREFIX : <http://myCLOnto.de/> 
-SELECT ("https://en.wikipedia.org/wiki/" + replace(?entityname," ","_")+" " as ?fname)  (COUNT(?dtype) as ?howManyDistantTypes) (COUNT(?rtype) as ?howManyReachableTypes) ((?howManyDistantTypes-?howManyReachableTypes) as ?difference)
+SELECT ?entityname  (COUNT(?dtype) as ?howManyDistantTypes) (COUNT(?rtype) as ?howManyReachableTypes) ((?howManyDistantTypes-?howManyReachableTypes) as ?difference)
 WHERE {
 
     {SELECT DISTINCT ?entity ?dtype

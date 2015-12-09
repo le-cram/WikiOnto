@@ -1,0 +1,7 @@
+PREFIX : <http://myCLOnto.de/> 
+SELECT ?sname
+WHERE {
+    ?type :name ?typename .
+    ?type :hasSubtype ?subtype .
+    ?subtype :name ?sname .
+}

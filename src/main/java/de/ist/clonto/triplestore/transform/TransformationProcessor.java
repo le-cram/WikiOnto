@@ -44,7 +44,7 @@ public class TransformationProcessor {
                 transformation+=line+"\n";
             }
         } catch (IOException ex) {
-            Logger.getLogger(TransformationProcessor.class.getName()).log(Level.SEVERE, null, ex);
+            System.err.println("Exception transforming:"+tfilename);;
         }
         dataset.begin(ReadWrite.WRITE);
         Graph graph = dataset.asDatasetGraph().getDefaultGraph();
@@ -53,23 +53,30 @@ public class TransformationProcessor {
         pss.setCommandText(transformation);
         for(String key: parameter.keySet()){
             String query = pss.asUpdate().toString();
-            if(!parameter.get(key).contains(":")){
+            if(!parameter.get(key).contains("http://")){
                 pss.setLiteral(key, parameter.get(key).trim());
             }else{
                 pss.setIri(key, parameter.get(key).trim());
             }
             if(query.equals(pss.asUpdate().toString())) {
                 JOptionPane.showMessageDialog(null,"Querynames are flawed. This should not happen.");
+                System.err.println(pss.toString());
                 return 0;
             }
         }
-        System.out.println(pss.toString());
         UpdateAction.execute(pss.asUpdate(), graph);
         size = graph.size() - size;
         dataset.commit();
         return size;
     }
+    
+	public Dataset getDataset() {
+		return dataset;
+	}
 
+    /*
+     * This executes redundancy removal
+     */
     public static void main(String[] args0){
         //load dataset
         Dataset dataset;
@@ -84,5 +91,7 @@ public class TransformationProcessor {
             tp.transform("deletex.sparql",pmap);
         }
     }
+
+
 
 }
