@@ -235,10 +235,13 @@ public class Prune {
 				"Transformation successful! \n Model size difference: " + size);
 	}
 
-	private void dissolveType() {
-		// TODO Auto-generated method stub
-		String name = JOptionPane.showInputDialog(null,
+	public void dissolveType(String tname) {
+		String name = "";
+		if(tname == null)
+			 name = JOptionPane.showInputDialog(null,
 				"Name the type you want to dissolve:");
+		else
+			name = tname;
 		new DissolveGUI(proc.getDataset(), name).setVisible(true);
 		;
 	}
@@ -246,7 +249,7 @@ public class Prune {
 	public void execute(String pruneName) {
 		switch (pruneName) {
 		case "Dissolve Type":
-			dissolveType();
+			dissolveType(null);
 			break;
 		case "Abandon Entity":
 			abandonEntity(null);

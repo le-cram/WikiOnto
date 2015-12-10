@@ -2,7 +2,12 @@ PREFIX : <http://myCLOnto.de/>
 SELECT ?typename  (COUNT(?dtype) as ?howManyDistantTypes) (COUNT(?rtype) as ?howManyReachableTypes) ((?howManyDistantTypes-?howManyReachableTypes) as ?difference)
 WHERE {
 	?type :name ?typename .
-    FILTER EXISTS{?types :hasSubtype ?type . }
+    
+    FILTER EXISTS{
+        ?cl :name "Computer languages" .
+        ?cl :hasSubtype* ?type . 
+    }
+    
     {SELECT DISTINCT ?type ?dtype
     WHERE {
         ?type ^:hasSubtype ?dtype .

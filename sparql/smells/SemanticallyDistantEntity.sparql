@@ -21,7 +21,11 @@ WHERE {
     }
     }
 	?entity :name ?entityname .
-    FILTER EXISTS{?type :hasInstance ?entity . }
+    FILTER EXISTS{
+        ?type :hasInstance ?entity .
+        ?cl :name "Computer languages" .
+		?cl :hasSubtype* ?type .
+    }
 }
 GROUP BY ?entityname
 HAVING(?difference>0 && ?howManyReachableTypes>0)
