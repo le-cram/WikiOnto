@@ -43,6 +43,8 @@ public class DissolveGUI extends JFrame {
 	private JToggleButton[] sbuttons;
 	private String[] instances;
 	private String[] subtypes;
+	private JToggleButton[] ributtons;
+	private JToggleButton[] rsbuttons;
 
 	public DissolveGUI(Dataset data, String typename) {
 		this.data = data;
@@ -136,6 +138,7 @@ public class DissolveGUI extends JFrame {
 		scrollInstances.setViewportView(paneinstances);
 		scrollSubtypes.setViewportView(panesubtypes);
 		ibuttons = new JToggleButton[instances.length];
+		ributtons = new JToggleButton[instances.length];
 		for (int j = 0; j < instances.length; j++) {
 			GridBagConstraints ci = new GridBagConstraints();
 			ci.fill = GridBagConstraints.HORIZONTAL;
@@ -144,12 +147,18 @@ public class DissolveGUI extends JFrame {
 			JLabel label = new javax.swing.JLabel();
 			label.setText(instances[j]);
 			paneinstances.add(label, ci);
-			JToggleButton tbutton = new javax.swing.JToggleButton("Abandon");
+			JToggleButton tbutton = new javax.swing.JToggleButton("Aba");
 			tbutton.setToolTipText("The member is abandoned, if this button is toggled.");
 			ibuttons[j] = tbutton;
 			ci.gridx = 1;
 			ci.insets = new Insets(10, 10, 10, 10);
 			paneinstances.add(tbutton, ci);
+			JToggleButton ributton = new javax.swing.JToggleButton("Del");
+			ributton.setToolTipText("Removes relation to this member.");
+			ributtons[j] = ributton;
+			ci.gridx = 2;
+			ci.insets = new Insets(10, 10, 10, 10);
+			paneinstances.add(ributton,ci);
 			JButton helpbutton = new JButton("?");
 			helpbutton.addActionListener(new ActionListener() {
 				@Override
@@ -162,10 +171,11 @@ public class DissolveGUI extends JFrame {
 					}
 				}
 			});
-			ci.gridx = 2;
+			ci.gridx = 3;
 			paneinstances.add(helpbutton, ci);
 		}
 		sbuttons = new JToggleButton[subtypes.length];
+		rsbuttons = new JToggleButton[subtypes.length];
 		for (int j = 0; j < subtypes.length; j++) {
 			GridBagConstraints ci = new GridBagConstraints();
 			ci.fill = GridBagConstraints.HORIZONTAL;
@@ -174,12 +184,18 @@ public class DissolveGUI extends JFrame {
 			JLabel label = new javax.swing.JLabel();
 			label.setText(subtypes[j]);
 			panesubtypes.add(label, ci);
-			JToggleButton tbutton = new javax.swing.JToggleButton("Abandon");
+			JToggleButton tbutton = new javax.swing.JToggleButton("Aba");
 			tbutton.setToolTipText("The member is abandoned, if this button is toggled.");
 			sbuttons[j] = tbutton;
 			ci.gridx = 1;
 			ci.insets = new Insets(10, 10, 10, 10);
 			panesubtypes.add(tbutton, ci);
+			JToggleButton rsbutton = new javax.swing.JToggleButton("Del");
+			rsbutton.setToolTipText("Removes relation to this member.");
+			rsbuttons[j] = rsbutton;
+			ci.gridx = 2;
+			ci.insets = new Insets(10, 10, 10, 10);
+			panesubtypes.add(rsbutton,ci);
 			JButton helpbutton = new JButton("?");
 			helpbutton.addActionListener(e -> {
 				try {
@@ -189,7 +205,7 @@ public class DissolveGUI extends JFrame {
 					e1.printStackTrace();
 				}
 			});
-			ci.gridx = 2;
+			ci.gridx = 3;
 			panesubtypes.add(helpbutton, ci);
 		}
 		JButton collapseButton = new JButton("Collapse Hierarchy");
@@ -240,6 +256,22 @@ public class DissolveGUI extends JFrame {
 				System.out.print("'"+subtypes[j]+"'");
 			}
 		}
+		System.out.println(";Remove instances:");
+		for(int j = 0; j < instances.length; j++){
+			if(ributtons[j].isSelected()){
+				prune.removeInstance(instances[j], this.typename);
+				System.out.print(" '"+instances[j]+"'");
+			}
+		}
+		
+		System.out.println(";Remove subtypes:");
+		for(int j = 0; j<subtypes.length;j++){
+			if(rsbuttons[j].isSelected()){
+				prune.removeSubtype(typename, subtypes[j]);
+				System.out.println(" '"+subtypes[j]+"'");
+			}
+		}
+		
 		System.out.println(";Collapse Hierarchy");
 		prune.collapseHierarchy(typename);
 		this.dispose();
@@ -247,7 +279,7 @@ public class DissolveGUI extends JFrame {
 
 	public static void main(String[] args) {
 		Dataset dataset = TDBFactory.createDataset("./cleanedOntology");
-		DissolveGUI g = new DissolveGUI(dataset, "C (programming language)");
+		DissolveGUI g = new DissolveGUI(dataset, "JavaScript");
 		g.setVisible(true);
 
 	}

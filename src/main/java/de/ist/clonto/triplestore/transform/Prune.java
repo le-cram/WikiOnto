@@ -30,15 +30,19 @@ public class Prune {
 		if (n != null)
 			name = n;
 		else
-			name = JOptionPane.showInputDialog(null, "Name the entity that should be deleted:");
+			name = JOptionPane.showInputDialog(null,
+					"Name the entity that should be deleted:");
 		if (null != name) {
 			Map<String, String> pmap = new HashMap<>();
 			pmap.put("name", name);
 			long size = proc.transform("abandonEntity.sparql", pmap);
-			if(n==null)
-				JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
+			if (n == null)
+				JOptionPane.showMessageDialog(null,
+						"Transformation successful! \n Model size difference: "
+								+ size);
 		} else {
-			JOptionPane.showMessageDialog(null, "Transformation failed! "+name);
+			JOptionPane.showMessageDialog(null, "Transformation failed! "
+					+ name);
 		}
 	}
 
@@ -47,15 +51,19 @@ public class Prune {
 		if (n != null)
 			name = n;
 		else
-			name = JOptionPane.showInputDialog(null, "Name the type that should be deleted:");
+			name = JOptionPane.showInputDialog(null,
+					"Name the type that should be deleted:");
 		if (null != name) {
 			Map<String, String> pmap = new HashMap<>();
 			pmap.put("name", name);
 			long size = proc.transform("abandonType.sparql", pmap);
-			if(n==null)
-				JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
+			if (n == null)
+				JOptionPane.showMessageDialog(null,
+						"Transformation successful! \n Model size difference: "
+								+ size);
 		} else {
-			JOptionPane.showMessageDialog(null, "Transformation failed! "+name);
+			JOptionPane.showMessageDialog(null, "Transformation failed! "
+					+ name);
 		}
 	}
 
@@ -75,7 +83,10 @@ public class Prune {
 			tsize += size;
 		}
 
-		JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + tsize);
+		JOptionPane
+				.showMessageDialog(null,
+						"Transformation successful! \n Model size difference: "
+								+ tsize);
 	}
 
 	void cleanUpUnreachableType() {
@@ -88,7 +99,10 @@ public class Prune {
 			tsize += size;
 		}
 
-		JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + tsize);
+		JOptionPane
+				.showMessageDialog(null,
+						"Transformation successful! \n Model size difference: "
+								+ tsize);
 	}
 
 	void cleanUpUnreachableEnt() {
@@ -101,40 +115,54 @@ public class Prune {
 			tsize += size;
 		}
 
-		JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + tsize);
+		JOptionPane
+				.showMessageDialog(null,
+						"Transformation successful! \n Model size difference: "
+								+ tsize);
 	}
 
-	void removeInstance() {
-		String name = JOptionPane.showInputDialog("Name the entity:");
-		if (null != name) {
-			String name2 = JOptionPane.showInputDialog("Name the type:");
-			if (null != name2) {
-				Map<String, String> pmap = new HashMap<>();
-				pmap.put("typename", name2);
-				pmap.put("entityname", name);
-				long size = proc.transform("deleteHasInstance.sparql", pmap);
-				JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
-			} else {
-				JOptionPane.showMessageDialog(null, "Transformation failed!");
-			}
+	public void removeInstance(String ename, String tname) {
+		String namee = "";
+		String namet = "";
+		if (ename == null || tname == null) {
+			namee = JOptionPane.showInputDialog("Name the entity:");
+			namet = JOptionPane.showInputDialog("Name the type:");
+		} else {
+			namee = ename;
+			namet = tname;
+		}
+		if (null != namee && null != namet) {
+			Map<String, String> pmap = new HashMap<>();
+			pmap.put("typename", namet);
+			pmap.put("entityname", namee);
+			long size = proc.transform("deleteHasInstance.sparql", pmap);
+			if (ename == null && tname == null)
+				JOptionPane.showMessageDialog(null,
+						"Transformation successful! \n Model size difference: "
+								+ size);
+
 		} else {
 			JOptionPane.showMessageDialog(null, "Transformation failed!");
 		}
 	}
 
-	void removeSubtype() {
-		String name = JOptionPane.showInputDialog(null, "Name the supertype:");
-		if (null != name) {
-			String name2 = JOptionPane.showInputDialog(null, "Name the subtype that should be removed from the type:");
-			if (null != name2) {
-				Map<String, String> pmap = new HashMap<>();
-				pmap.put("subtypename", name2);
-				pmap.put("oldsupertypename", name);
-				long size = proc.transform("deleteHasSubtype.sparql", pmap);
-				JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
-			} else {
-				JOptionPane.showMessageDialog(null, "Transformation failed!");
-			}
+	public void removeSubtype(String sup, String sub) {
+		String supname = "";
+		String subname = "";
+		if (sup == null || sub == null) {
+			supname = JOptionPane.showInputDialog(null, "Name the supertype:");
+			subname = JOptionPane.showInputDialog(null,
+					"Name the subtype that should be removed from the type:");
+		}
+		if (supname != null && subname != null) {
+			Map<String, String> pmap = new HashMap<>();
+			pmap.put("subtypename", subname);
+			pmap.put("oldsupertypename", supname);
+			long size = proc.transform("deleteHasSubtype.sparql", pmap);
+			if (sup == null && sub == null)
+				JOptionPane.showMessageDialog(null,
+						"Transformation successful! \n Model size difference: "
+								+ size);
 		} else {
 			JOptionPane.showMessageDialog(null, "Transformation failed!");
 		}
@@ -145,7 +173,8 @@ public class Prune {
 		if (n != null)
 			name = n;
 		else
-			name = JOptionPane.showInputDialog(null, "Name the dissolvable type:");
+			name = JOptionPane.showInputDialog(null,
+					"Name the dissolvable type:");
 		if (null != name) {
 			Map<String, String> pmap = new HashMap<>();
 			pmap.put("oldtypename", name);
@@ -153,23 +182,29 @@ public class Prune {
 			pmap.clear();
 			pmap.put("name", name);
 			size += proc.transform("abandonType.sparql", pmap);
-			if(n==null)
-				JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
+			if (n == null)
+				JOptionPane.showMessageDialog(null,
+						"Transformation successful! \n Model size difference: "
+								+ size);
 		} else {
-			JOptionPane.showMessageDialog(null, "Transformation failed!"+name);
+			JOptionPane
+					.showMessageDialog(null, "Transformation failed!" + name);
 		}
 	}
 
 	void liftCycle() {
 		String name = JOptionPane.showInputDialog(null, "Name the supertype:");
 		if (null != name) {
-			String name2 = JOptionPane.showInputDialog(null, "Name the subtype that should be removed:");
+			String name2 = JOptionPane.showInputDialog(null,
+					"Name the subtype that should be removed:");
 			if (null != name2) {
 				Map<String, String> pmap = new HashMap<>();
 				pmap.put("subtypename", name2);
 				pmap.put("oldsupertypename", name);
 				long size = proc.transform("deleteHasSubtype.sparql", pmap);
-				JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
+				JOptionPane.showMessageDialog(null,
+						"Transformation successful! \n Model size difference: "
+								+ size);
 			} else {
 				JOptionPane.showMessageDialog(null, "Transformation failed!");
 			}
@@ -179,12 +214,15 @@ public class Prune {
 	}
 
 	private void abandonInformation() {
-		String name = JOptionPane.showInputDialog(null, "Name the information id that should be deleted:");
+		String name = JOptionPane.showInputDialog(null,
+				"Name the information id that should be deleted:");
 		if (null != name) {
 			Map<String, String> pmap = new HashMap<>();
 			pmap.put("informationname", name);
 			long size = proc.transform("deleteHasInformation.sparql", pmap);
-			JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
+			JOptionPane.showMessageDialog(null,
+					"Transformation successful! \n Model size difference: "
+							+ size);
 		} else {
 			JOptionPane.showMessageDialog(null, "Transformation failed!");
 		}
@@ -193,14 +231,16 @@ public class Prune {
 	private void custom() {
 		Map<String, String> pmap = new HashMap<>();
 		long size = proc.transform("custom.sparql", pmap);
-		JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
+		JOptionPane.showMessageDialog(null,
+				"Transformation successful! \n Model size difference: " + size);
 	}
-	
 
 	private void dissolveType() {
 		// TODO Auto-generated method stub
-		String name = JOptionPane.showInputDialog(null, "Name the type you want to dissolve:");
-		new DissolveGUI(proc.getDataset(), name).setVisible(true);;
+		String name = JOptionPane.showInputDialog(null,
+				"Name the type you want to dissolve:");
+		new DissolveGUI(proc.getDataset(), name).setVisible(true);
+		;
 	}
 
 	public void execute(String pruneName) {
@@ -227,10 +267,10 @@ public class Prune {
 			cleanUpUnreachableEnt();
 			break;
 		case "Remove Instance":
-			removeInstance();
+			removeInstance(null, null);
 			break;
 		case "Remove Subtype":
-			removeSubtype();
+			removeSubtype(null, null);
 			break;
 		case "Collapse Hierarchy":
 			collapseHierarchy(null);
