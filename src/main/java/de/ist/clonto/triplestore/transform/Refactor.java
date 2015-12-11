@@ -95,29 +95,46 @@ public class Refactor {
         }
     }
 
-    void addMissingInstance() {
-        String typename = JOptionPane.showInputDialog(null, "Insert the type's name:");
-        String entityname = JOptionPane.showInputDialog(null, "Insert the entity's name:");
+    public void addMissingInstance(String tname, String ename) {
+    	String typename = "";
+    	String entityname = "";
+    	if(tname==null&&ename==null){
+    		typename = JOptionPane.showInputDialog(null, "Insert the type's name:");
+            entityname = JOptionPane.showInputDialog(null, "Insert the entity's name:");
+    	}else{
+    		typename = tname;
+    		entityname = ename;
+    	}
+        
         Map<String, String> pmap = new HashMap<>();
         pmap.put("newtypename", typename);
         pmap.put("entityname", entityname);
         if (null != typename && null != entityname) {
             long size = proc.transform("insertHasInstance.sparql", pmap);
-            JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
+            if(tname==null&&ename==null)
+            	JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
         } else {
             JOptionPane.showMessageDialog(null, "Transformation failed!");
         }
     }
 
-    void addMissingSubtype(){
-        String typename = JOptionPane.showInputDialog(null, "Insert the supertype's name:");
-        String subtypename = JOptionPane.showInputDialog(null, "Insert the subtype's name:");
+    public void addMissingSubtype(String supname, String subname){
+    	String typename = "";
+    	String subtypename = "";
+    	if(supname==null&&subname == null){
+    		typename = JOptionPane.showInputDialog(null, "Insert the supertype's name:");
+            subtypename = JOptionPane.showInputDialog(null, "Insert the subtype's name:");
+    	}else{
+    		typename = supname;
+    		subtypename = subname;
+    	}
         Map<String, String> pmap = new HashMap<>();
         pmap.put("newsupertypename", typename);
         pmap.put("subtypename", subtypename);
         if (null != typename && null != subtypename) {
             long size = proc.transform("insertHasSubtype.sparql", pmap);
-            JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
+            if(supname==null&&subname == null)
+            	JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
         } else {
             JOptionPane.showMessageDialog(null, "Transformation failed!");
         }
@@ -308,10 +325,10 @@ public class Refactor {
                 moveType();
                 break;
             case "Add Missing Instance":
-                addMissingInstance();
+                addMissingInstance(null,null);
                 break;
             case "Add Missing Subtype":
-                addMissingSubtype();
+                addMissingSubtype(null,null);
                 break;
             case "Unite Information":
                 uniteInformation();

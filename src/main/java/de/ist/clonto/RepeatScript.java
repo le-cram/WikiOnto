@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
@@ -13,8 +14,15 @@ import com.hp.hpl.jena.query.Dataset;
 import com.hp.hpl.jena.tdb.TDBFactory;
 
 import de.ist.clonto.triplestore.transform.Prune;
+import de.ist.clonto.triplestore.transform.Refactor;
 import de.ist.clonto.triplestore.transform.TransformationProcessor;
 
+/**
+ * 
+ * @author heinz
+ *
+ * Deprecated repeater of old log files
+ */
 public class RepeatScript {
 
 	private final Dataset dataset;
@@ -25,7 +33,7 @@ public class RepeatScript {
     
     public static void main(String[] args) {
 		try {
-			repeatSemDistEntity();
+			repeatDoubleReachableEntity();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -81,6 +89,48 @@ public class RepeatScript {
     			String typename = sign.replace("Eponymous Type","").replaceAll("\"", "").trim();
     			System.out.println(line.replace(sign, "").trim()+"Dissolve Type "+typename);
     			p.dissolveType(typename);
+    		}
+    	}
+    }
+    
+    public static void repeatDoubleReachableEntity() throws IOException{
+    	Dataset dataset = TDBFactory.createDataset("./cleanedOntology/");
+    	List<String> lines = Files.readAllLines(new File("C:/Forschung/Publikation/wikionto/ESWC/eval/old/cleaning/05.2DoubleReachableEntityLog.txt").toPath());
+    	Prune p = new Prune(dataset);
+    	Refactor r = new Refactor(dataset);
+    	for(int j = 0;j<lines.size();j++){
+    		String line = lines.get(j);
+    		String iname = line.split(",")[0].trim();
+    		//solange beginn mit spaces, lese nächste Zeile und führe Zeile aus.
+    		while(j+1<lines.size()&&lines.get(j+1).startsWith(" ")){
+    			j++;
+    			String cmd = lines.get(j);
+    			if(cmd.contains("6")){
+    				System.out.println(iname+", Abandon Entity");
+    				p.abandonEntity(iname);
+    				continue;
+    			}
+    			String sign = cmd.split("->")[0].trim();
+    			String[] tnames = cmd.split("->")[1].split(",");
+    			if(sign.contains("9")){
+    				for(String t : tnames){
+    					System.out.println(iname+" , Remove instance from '"+t+"'");
+    					p.removeInstance(iname, t.trim());
+    				}
+    			}
+    			if(sign.contains("7")){
+    				System.out.println(iname+", Remove subtype, where '"+tnames[0]+"' is subtype of '"+tnames[1]+"'");
+    				p.removeSubtype(tnames[1].trim(), tnames[0].trim());
+    			}
+    			if(sign.contains("8")){
+    				if(tnames.length==1){
+    					System.out.println(iname+", Add Missing Instance to '"+tnames[0]+"'");
+    					r.addMissingInstance(tnames[0].trim(), iname);
+    				}else{
+    					System.out.println(iname+", Add Missing Subtype '"+tnames[0]+"' to '"+tnames[1]+"'");
+    					r.addMissingSubtype(tnames[1].trim(), tnames[0].trim());
+    				}
+    			}
     		}
     	}
     }
