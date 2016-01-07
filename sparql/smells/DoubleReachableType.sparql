@@ -14,7 +14,7 @@ WHERE {
     }
     
     ?toptype1 :name ?toptype1name .
-    FILTER(?toptype1name < ?toptype2name)
+    FILTER(?toptype1name < ?toptype2name && (?toptype1name!="Data modeling languages"||?toptype2name!="Markup languages"))
     ?toptype2 :name ?toptype2name .
     ?type :name ?typename .
 }

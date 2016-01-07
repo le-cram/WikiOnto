@@ -1,8 +1,8 @@
 PREFIX : <http://myCLOnto.de/> 
 SELECT DISTINCT ("https://en.wikipedia.org/wiki/Category:" + 
-  replace(?sname," ","_","i") as ?fname)
+  replace(?typename," ","_","i") as ?fname)
 WHERE {
-    ?type :name "Industry-specific XML-based standards" .
+    ?type :name ?typename .
     ?type :hasSubtype ?subtype .
-    ?subtype :name ?sname .
+    ?subtype :name "Industry-specific XML-based standards" .
 }

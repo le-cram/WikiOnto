@@ -1,0 +1,8 @@
+PREFIX : <http://myCLOnto.de/> 
+SELECT DISTINCT ("https://en.wikipedia.org/wiki/Category:" + 
+  replace(?typename," ","_","i") as ?fname) 
+WHERE {
+    ?type :name ?typename .
+    ?type :hasInstance ?instance .
+    ?instance :name "IBM Workplace" .
+}

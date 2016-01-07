@@ -1,10 +1,12 @@
 PREFIX : <http://myCLOnto.de/> 
-DELETE { ?type :hasInstance ?entity }
+INSERT { 
+		<http://myCLOnto.de/Entity#1387> :name "MetaPost" .
+		?type1 :hasInstance <http://myCLOnto.de/Entity#1387> .
+		?type2 :hasInstance <http://myCLOnto.de/Entity#1387> .
+		?type3 :hasInstance <http://myCLOnto.de/Entity#1387> .
+}
 WHERE {  
-    ?type :hasSubtype+ ?subtype .
-    ?type :hasInstance ?entity .
-    ?subtype :hasInstance ?entity . 
-	?entity :name ?entityname .
-	?type :name ?typename .
-	?subtype :name ?subtypename .
+    ?type1 :name "Declarative programming languages" .
+	?type2 :name "Vector graphics markup languages" .
+	?type3 :name "Domain-specific programming languages" .
 }
