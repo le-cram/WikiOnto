@@ -168,7 +168,7 @@ public class Prune {
 		}
 	}
 
-	public void collapseHierarchy(String n) {
+	public void abandonTypeRescueAll(String n) {
 		String name = "";
 		if (n != null)
 			name = n;
@@ -235,7 +235,7 @@ public class Prune {
 				"Transformation successful! \n Model size difference: " + size);
 	}
 
-	public void dissolveType(String tname) {
+	public void abandonTypeSelectiveRescue(String tname) {
 		String name = "";
 		if(tname == null)
 			 name = JOptionPane.showInputDialog(null,
@@ -248,8 +248,8 @@ public class Prune {
 
 	public void execute(String pruneName) {
 		switch (pruneName) {
-		case "Dissolve Type":
-			dissolveType(null);
+		case "Abandon Type (selective rescue)":
+			abandonTypeSelectiveRescue(null);
 			break;
 		case "Abandon Entity":
 			abandonEntity(null);
@@ -275,8 +275,8 @@ public class Prune {
 		case "Remove Subtype":
 			removeSubtype(null, null);
 			break;
-		case "Collapse Hierarchy":
-			collapseHierarchy(null);
+		case "Abandon Type (rescue all)":
+			abandonTypeRescueAll(null);
 			break;
 		case "Lift Cycle":
 			liftCycle();

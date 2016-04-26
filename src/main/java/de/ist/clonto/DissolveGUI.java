@@ -273,7 +273,7 @@ public class DissolveGUI extends JFrame {
 		}
 		
 		System.out.println(";Collapse Hierarchy");
-		prune.collapseHierarchy(typename);
+		prune.abandonTypeRescueAll(typename);
 		this.dispose();
 	}
 

@@ -52,7 +52,7 @@ public class Ontogui extends JFrame {
         metricName = "type:Depth";
         smellName = "Distant Type";
         refactorName = "Rename Element";
-        pruneName = "Dissolve Type";
+        pruneName = "Abandon Type (selective rescue)";
     }
 
     /**
@@ -257,7 +257,7 @@ public class Ontogui extends JFrame {
             }
         });
 
-        pruningCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Dissolve Type", "Abandon Entity", "Abandon Type", "Abandon Information", "Remove Instance", "Remove Subtype", "Collapse Hierarchy", "Cleanup Unreachable All", "Cleanup Unreachable Type", "Cleanup Unreachable Ent", "Lift Cycle", "Custom" }));
+        pruningCombobox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Abandon Type (selective rescue)", "Abandon Entity", "Abandon Type (rescue none)", "Abandon Information", "Remove Instance", "Remove Subtype", "Abandon Type (rescue all)", "Cleanup Unreachable All", "Cleanup Unreachable Type", "Cleanup Unreachable Ent", "Lift Cycle", "Custom" }));
         pruningCombobox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pruningComboboxActionPerformed(evt);
