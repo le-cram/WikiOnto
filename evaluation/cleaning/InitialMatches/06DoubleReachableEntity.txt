@@ -1,0 +1,1968 @@
+toptype1name,toptype2name,entityname
+Data modeling languages,Programming languages,XSLT/Muenchian grouping
+Data modeling languages,Programming languages,Face Modeling Language
+Data modeling languages,Programming languages,Digital Forensics XML
+Data modeling languages,Programming languages,XL (XML programming language)
+Data modeling languages,Programming languages,Scalable Vector Graphics
+Data modeling languages,Programming languages,Inkscape
+Data modeling languages,Programming languages,Sodipodi
+Data modeling languages,Programming languages,GPAC Project on Advanced Content
+Data modeling languages,Programming languages,Librsvg
+Data modeling languages,Programming languages,WiseMapping
+Data modeling languages,Programming languages,Batik (software)
+Data modeling languages,Programming languages,XMDP
+Data modeling languages,Programming languages,R2ML
+Data modeling languages,Programming languages,RuleML
+Data modeling languages,Programming languages,XPointer
+Data modeling languages,Programming languages,XQuery and XPath Data Model
+Data modeling languages,Programming languages,XPath 3
+Data modeling languages,Programming languages,Fxgrep
+Data modeling languages,Programming languages,XPath
+Data modeling languages,Programming languages,XPath 2.0
+Data modeling languages,Programming languages,Language Integrated Query
+Data modeling languages,Programming languages,CODASYL
+Data modeling languages,Programming languages,.QL
+Data modeling languages,Programming languages,Data Base Task Group
+Data modeling languages,Programming languages,Pig (programming tool)
+Data modeling languages,Programming languages,Embedded SQL
+Data modeling languages,Programming languages,SQLf
+Data modeling languages,Programming languages,TimeML
+Data modeling languages,Programming languages,Data definition language
+Data modeling languages,Programming languages,Java Persistence Query Language
+Data modeling languages,Programming languages,Schematron
+Data modeling languages,Programming languages,XML
+Data modeling languages,Programming languages,SQL
+Data modeling languages,Programming languages,Mallard (documentation)
+Data modeling languages,Programming languages,CodeSynthesis XSD
+Data modeling languages,Programming languages,FuseDocs (programming)
+Data modeling languages,Programming languages,Resource Description Framework
+Data modeling languages,Programming languages,Office Open XML file formats
+Data modeling languages,Programming languages,XEE (Starlight)
+Data modeling languages,Programming languages,VTD-XML
+Data modeling languages,Programming languages,Arbortext Command Language
+Data modeling languages,Programming languages,EXtensible Server Pages
+Data modeling languages,Programming languages,Office Open XML
+Data modeling languages,Programming languages,XMLHttpRequest
+Data modeling languages,Programming languages,Vector Markup Language
+Data modeling languages,Programming languages,BaseX
+Data modeling languages,Programming languages,Open XML Paper Specification
+Data modeling languages,Programming languages,ECMAScript for XML
+Data modeling languages,Programming languages,XMLSpy
+Data modeling languages,Programming languages,Virtuoso Universal Server
+Data modeling languages,Programming languages,Libxslt
+Data modeling languages,Programming languages,Xalan
+Data modeling languages,Programming languages,Ajax (programming)
+Data modeling languages,Programming languages,AxsJAX
+Data modeling languages,Programming languages,Push technology
+Data modeling languages,Programming languages,Ext JS
+Data modeling languages,Programming languages,JsPHP
+Data modeling languages,Programming languages,24SevenOffice
+Data modeling languages,Programming languages,Jpspan
+Data modeling languages,Programming languages,Google APIs
+Data modeling languages,Programming languages,Qooxdoo
+Data modeling languages,Programming languages,ZK (framework)
+Data modeling languages,Programming languages,AngularJS
+Data modeling languages,Programming languages,Ember.js
+Data modeling languages,Programming languages,Bindows
+Data modeling languages,Programming languages,ICEfaces
+Data modeling languages,Programming languages,Comparison of JavaScript-based source code editors
+Data modeling languages,Programming languages,DWR (Java)
+Data modeling languages,Programming languages,Hijax
+Data modeling languages,Programming languages,Dojo Toolkit
+Data modeling languages,Programming languages,JSONP
+Data modeling languages,Programming languages,Prototype JavaScript Framework
+Data modeling languages,Programming languages,"Google Docs, Sheets, and Slides"
+Data modeling languages,Programming languages,ThinWire
+Data modeling languages,Programming languages,Comparison of JavaScript frameworks
+Data modeling languages,Programming languages,Ionic (mobile app framework)
+Data modeling languages,Programming languages,JavaScriptMVC
+Data modeling languages,Programming languages,Velocity (JavaScript library)
+Data modeling languages,Programming languages,JWt (Java web toolkit)
+Data modeling languages,Programming languages,OpenAjax Alliance
+Data modeling languages,Programming languages,Sajax
+Data modeling languages,Programming languages,Gollum browser
+Data modeling languages,Programming languages,Morfik
+Data modeling languages,Programming languages,Chaplin.js
+Data modeling languages,Programming languages,React (JavaScript library)
+Data modeling languages,Programming languages,Lively Kernel
+Data modeling languages,Programming languages,Rico (Ajax)
+Data modeling languages,Programming languages,Moobile.js
+Data modeling languages,Programming languages,JMaki
+Data modeling languages,Programming languages,Script.aculo.us
+Data modeling languages,Programming languages,JQuery Mobile
+Data modeling languages,Programming languages,Xajax
+Data modeling languages,Programming languages,Morfik FX
+Data modeling languages,Programming languages,Knockout (web framework)
+Data modeling languages,Programming languages,WaveMaker
+Data modeling languages,Programming languages,EMVC
+Data modeling languages,Programming languages,Scooby Web Calendar
+Data modeling languages,Programming languages,Comet (programming)
+Data modeling languages,Programming languages,Zimbra
+Data modeling languages,Programming languages,Sencha Touch
+Data modeling languages,Programming languages,YUI Library
+Data modeling languages,Programming languages,Parallax scrolling
+Data modeling languages,Programming languages,Document Update Markup Language
+Data modeling languages,Programming languages,Helmi Technologies
+Data modeling languages,Programming languages,Projax
+Data modeling languages,Programming languages,WAI-ARIA
+Data modeling languages,Programming languages,Apache XAP
+Data modeling languages,Programming languages,Zarafa (software)
+Data modeling languages,Programming languages,SOAPjr
+Data modeling languages,Programming languages,AJAX.OOP
+Data modeling languages,Programming languages,AjaxView
+Data modeling languages,Programming languages,ASP.NET AJAX
+Data modeling languages,Programming languages,MooTools
+Data modeling languages,Programming languages,ThinkFree Office
+Data modeling languages,Programming languages,Wt (web toolkit)
+Data modeling languages,Programming languages,DHTMLX
+Data modeling languages,Programming languages,JQuery
+Data modeling languages,Programming languages,Ajax framework
+Data modeling languages,Programming languages,Cross-origin resource sharing
+Data modeling languages,Programming languages,JSON
+Data modeling languages,Programming languages,Smart client
+Data modeling languages,Programming languages,Ajax4jsf
+Data modeling languages,Programming languages,SproutCore
+Data modeling languages,Programming languages,Ace (editor)
+Data modeling languages,Programming languages,Quicknet
+Data modeling languages,Programming languages,Citadel/UX
+Data modeling languages,Programming languages,Wakanda (software)
+Data modeling languages,Programming languages,Webfmt
+Data modeling languages,Programming languages,Ample SDK
+Data modeling languages,Programming languages,Dropbox Paper
+Data modeling languages,Programming languages,Ext.NET
+Data modeling languages,Programming languages,Echo (framework)
+Data modeling languages,Programming languages,SmartClient
+Data modeling languages,Programming languages,OpenLaszlo
+Data modeling languages,Programming languages,JSONiq
+Data modeling languages,Programming languages,Gson
+Data modeling languages,Programming languages,JSON Streaming
+Data modeling languages,Programming languages,GeoJSON
+Data modeling languages,Programming languages,Web Application Messaging Protocol
+Data modeling languages,Programming languages,Hypertext Application Language
+Data modeling languages,Programming languages,Jaql
+Data modeling languages,Programming languages,JSON-RPC
+Data modeling languages,Programming languages,BSON
+Data modeling languages,Programming languages,JSON-LD
+Data modeling languages,Programming languages,Smile (data interchange format)
+Data modeling languages,Programming languages,JsonML
+Data modeling languages,Programming languages,AJAJ
+Data modeling languages,Programming languages,Jayrock
+Data modeling languages,Programming languages,JSON Web Token
+Data modeling languages,Programming languages,HOCON
+Data modeling languages,Programming languages,EiskaltDC++
+Data modeling languages,Programming languages,Java Architecture for XML Binding
+Data modeling languages,Programming languages,Java API for XML Messaging
+Data modeling languages,Programming languages,XQuery API for Java
+Data modeling languages,Programming languages,Java API for RESTful Web Services
+Data modeling languages,Programming languages,Java API for XML Registries
+Data modeling languages,Programming languages,Java API for XML Web Services
+Data modeling languages,Programming languages,Java API for XML Processing
+Data modeling languages,Programming languages,Java API for XML-based RPC
+Data modeling languages,Programming languages,Libxml2
+Data modeling languages,Programming languages,SimpleXML
+Data modeling languages,Programming languages,Expat (library)
+Data modeling languages,Programming languages,HaXml
+Data modeling languages,Programming languages,XMLBeans
+Data modeling languages,Programming languages,Xerces
+Data modeling languages,Programming languages,Nokogiri (software)
+Data modeling languages,Programming languages,CodeSynthesis XSD/e
+Data modeling languages,Programming languages,XQuery
+Data modeling languages,Programming languages,Parboiled (Java)
+Data modeling languages,Programming languages,Prince (software)
+Data modeling languages,Programming languages,TeX4ht
+Data modeling languages,Programming languages,AxKit
+Data modeling languages,Programming languages,CookXml
+Data modeling languages,Programming languages,OmniMark
+Data modeling languages,Programming languages,Apache Ant
+Data modeling languages,Programming languages,Altsoft Xml2PDF
+Data modeling languages,Programming languages,XStream
+Data modeling languages,Programming languages,MarkLogic
+Data modeling languages,Programming languages,EXist
+Data modeling languages,Programming languages,Xerlin
+Data modeling languages,Programming languages,Franca IDL
+Data modeling languages,Programming languages,Sublime Text
+Data modeling languages,Programming languages,Codelobster
+Data modeling languages,Programming languages,RDF query language
+Data modeling languages,Programming languages,GeoSPARQL
+Data modeling languages,Programming languages,SPARUL
+Data modeling languages,Programming languages,Versa (query language)
+Data modeling languages,Programming languages,RDFLib
+Data modeling languages,Programming languages,Redland RDF Application Framework
+Data modeling languages,Programming languages,Adenine (programming language)
+Data modeling languages,Programming languages,StrixDB
+Data modeling languages,Programming languages,SPARQL Syntax Expressions
+Data modeling languages,Programming languages,XUL
+Data modeling languages,Programming languages,XML Interface for Network Services
+Data modeling languages,Programming languages,Atom (standard)
+Data modeling languages,Programming languages,XML Object Model
+Data modeling languages,Programming languages,RSS enclosure
+Data modeling languages,Programming languages,MARC standards
+Data modeling languages,Programming languages,XOXO (microformat)
+Data modeling languages,Programming languages,MXML
+Data modeling languages,Programming languages,XSLT
+Data modeling languages,Programming languages,SXBL
+Data modeling languages,Programming languages,WiX
+Data modeling languages,Programming languages,KaXUL
+Data modeling languages,Programming languages,VoiceXML
+Data modeling languages,Programming languages,EMML (Motorola)
+Data modeling languages,Programming languages,RDFa
+Data modeling languages,Programming languages,Web Ontology Language
+Data modeling languages,Programming languages,RSS Cloud
+Data modeling languages,Programming languages,RSS
+Data modeling languages,Programming languages,RDF/XML
+Data modeling languages,Programming languages,FeedSync
+Data modeling languages,Programming languages,XBL
+Data modeling languages,Programming languages,JDOM
+Data modeling languages,Programming languages,Auto-lead Data Format
+Data modeling languages,Programming languages,FXML
+Data modeling languages,Programming languages,EXSLT
+Data modeling languages,Programming languages,Extensible Application Markup Language
+Data modeling languages,Programming languages,PubSubHubbub
+Data modeling languages,Programming languages,Synchronized Multimedia Integration Language
+Data modeling languages,Programming languages,XProc
+Data modeling languages,Programming languages,XML Resource
+Data modeling languages,Programming languages,XSL Formatting Objects
+Data modeling languages,Programming languages,Enterprise Mashup Markup Language
+Data modeling languages,Programming languages,XHTML Friends Network
+Data modeling languages,Programming languages,ONIX for Books
+Data modeling languages,Programming languages,SPARQL
+Data modeling languages,Programming languages,OpenDocument
+Data modeling languages,Programming languages,OpenDocument standardization
+Data modeling languages,Programming languages,Standardization of Office Open XML
+Data modeling languages,Programming languages,OpenOffice.org XML
+Data modeling languages,Programming languages,Comparison of Office Open XML and OpenDocument
+Data modeling languages,Programming languages,OpenDocument adoption
+Data modeling languages,Programming languages,Visioo-Writer
+Data modeling languages,Programming languages,LibreOffice
+Data modeling languages,Programming languages,Michael Meeks (software developer)
+Data modeling languages,Programming languages,Florian Effenberger
+Data modeling languages,Programming languages,Thorsten Behrens
+Data modeling languages,Programming languages,LibreOffice Writer
+Data modeling languages,Programming languages,The Document Foundation
+Data modeling languages,Programming languages,Collabora
+Data modeling languages,Programming languages,Lanedo
+Data modeling languages,Programming languages,IceWarp
+Data modeling languages,Programming languages,Template:LibreOffice
+Data modeling languages,Programming languages,LibreOffice Calc
+Data modeling languages,Programming languages,Bj??rn Michaelsen
+Data modeling languages,Programming languages,Apache OpenOffice
+Data modeling languages,Programming languages,OpenOffice.org
+Data modeling languages,Programming languages,IBM Workplace
+Data modeling languages,Programming languages,IBM Lotus Symphony
+Data modeling languages,Programming languages,Go-oo
+Data modeling languages,Programming languages,StarOffice
+Data modeling languages,Programming languages,NeoOffice
+Data modeling languages,Programming languages,OpenOffice Basic
+Data modeling languages,Programming languages,Universal Network Objects
+Data modeling languages,Programming languages,Open Packaging Conventions
+Data modeling languages,Programming languages,Comparison of Office Open XML software
+Data modeling languages,Programming languages,Google Maps
+Data modeling languages,Programming languages,Location API for Java ME
+Data modeling languages,Programming languages,Yahoo! Pipes
+Data modeling languages,Programming languages,Leaflet (software)
+Data modeling languages,Programming languages,Marble (software)
+Data modeling languages,Programming languages,NASA World Wind
+Data modeling languages,Programming languages,OpenLayers
+Data modeling languages,Programming languages,Google Earth
+Data modeling languages,Programming languages,QML
+Data modeling languages,Programming languages,GtkBuilder
+Data modeling languages,Programming languages,Glade Interface Designer
+Data modeling languages,Programming languages,XMLGUI
+Data modeling languages,Programming languages,O:XML
+Data modeling languages,Programming languages,POSXML
+Data modeling languages,Programming languages,M Sharp (programming language)
+Data modeling languages,Programming languages,ALFA (XACML)
+Data modeling languages,Stylesheet languages,JQuery Mobile
+Data modeling languages,Stylesheet languages,YUI Library
+Data modeling languages,Stylesheet languages,Parallax scrolling
+Data modeling languages,Stylesheet languages,XSL
+Data modeling languages,Transformation languages,XML transformation language
+Data modeling languages,Transformation languages,XSLT
+Markup languages,Programming languages,XSLT/Muenchian grouping
+Markup languages,Programming languages,Face Modeling Language
+Markup languages,Programming languages,Digital Forensics XML
+Markup languages,Programming languages,XL (XML programming language)
+Markup languages,Programming languages,Scalable Vector Graphics
+Markup languages,Programming languages,Inkscape
+Markup languages,Programming languages,Sodipodi
+Markup languages,Programming languages,GPAC Project on Advanced Content
+Markup languages,Programming languages,Librsvg
+Markup languages,Programming languages,WiseMapping
+Markup languages,Programming languages,Batik (software)
+Markup languages,Programming languages,XMDP
+Markup languages,Programming languages,R2ML
+Markup languages,Programming languages,RuleML
+Markup languages,Programming languages,XPointer
+Markup languages,Programming languages,XQuery and XPath Data Model
+Markup languages,Programming languages,XPath 3
+Markup languages,Programming languages,Fxgrep
+Markup languages,Programming languages,XPath
+Markup languages,Programming languages,XPath 2.0
+Markup languages,Programming languages,Language Integrated Query
+Markup languages,Programming languages,SXML
+Markup languages,Programming languages,DARPA Agent Markup Language
+Markup languages,Programming languages,XULRunner
+Markup languages,Programming languages,Page description markup language
+Markup languages,Programming languages,Texinfo
+Markup languages,Programming languages,DAML+OIL
+Markup languages,Programming languages,Curl (programming language)
+Markup languages,Programming languages,Troff macro
+Markup languages,Programming languages,Nroff
+Markup languages,Programming languages,Mike Lesk
+Markup languages,Programming languages,Troff
+Markup languages,Programming languages,Groff (software)
+Markup languages,Programming languages,Pic language
+Markup languages,Programming languages,Eqn
+Markup languages,Programming languages,Xindy
+Markup languages,Programming languages,Tbl
+Markup languages,Programming languages,MakeIndex
+Markup languages,Programming languages,James Clark (programmer)
+Markup languages,Programming languages,TYPSET and RUNOFF
+Markup languages,Programming languages,Noweb
+Markup languages,Programming languages,Refer (software)
+Markup languages,Programming languages,Joe Ossanna
+Markup languages,Programming languages,Runoff (program)
+Markup languages,Programming languages,TeX
+Markup languages,Programming languages,Grapher
+Markup languages,Programming languages,ShareLaTeX
+Markup languages,Programming languages,TUGboat
+Markup languages,Programming languages,Collection of Computer Science Bibliographies
+Markup languages,Programming languages,New Typesetting System
+Markup languages,Programming languages,Computer Modern
+Markup languages,Programming languages,Template:LaTeX navbox
+Markup languages,Programming languages,Omega (TeX)
+Markup languages,Programming languages,LaTeX Project Public License
+Markup languages,Programming languages,Computers and Typesetting
+Markup languages,Programming languages,Template:TeX navbox
+Markup languages,Programming languages,MathTime
+Markup languages,Programming languages,WEB
+Markup languages,Programming languages,AMS-LaTeX
+Markup languages,Programming languages,LuaTeX
+Markup languages,Programming languages,XeTeX
+Markup languages,Programming languages,CTAN
+Markup languages,Programming languages,Deutschsprachige Anwendervereinigung TeX
+Markup languages,Programming languages,The PracTeX Journal
+Markup languages,Programming languages,Lucida
+Markup languages,Programming languages,MusiXTeX
+Markup languages,Programming languages,Device independent file format
+Markup languages,Programming languages,AMS Euler
+Markup languages,Programming languages,Concrete Roman
+Markup languages,Programming languages,Cork encoding
+Markup languages,Programming languages,LaTeXila
+Markup languages,Programming languages,Asymptote (vector graphics language)
+Markup languages,Programming languages,AUCTeX
+Markup languages,Programming languages,Ilibrarian
+Markup languages,Programming languages,Pybliographer
+Markup languages,Programming languages,Gummi (software)
+Markup languages,Programming languages,TeX Live
+Markup languages,Programming languages,Kile
+Markup languages,Programming languages,JabRef
+Markup languages,Programming languages,MiKTeX
+Markup languages,Programming languages,TeXstudio
+Markup languages,Programming languages,Texmaker
+Markup languages,Programming languages,RefTeX
+Markup languages,Programming languages,LyX
+Markup languages,Programming languages,MacTeX
+Markup languages,Programming languages,BibTeX
+Markup languages,Programming languages,Qiqqa
+Markup languages,Programming languages,Paperpile
+Markup languages,Programming languages,Biber (LaTeX)
+Markup languages,Programming languages,BibSonomy
+Markup languages,Programming languages,BibBase
+Markup languages,Programming languages,Docear
+Markup languages,Programming languages,WizFolio
+Markup languages,Programming languages,Refbase
+Markup languages,Programming languages,KBibTeX
+Markup languages,Programming languages,Bebop (software)
+Markup languages,Programming languages,Referencer
+Markup languages,Programming languages,RefDB
+Markup languages,Programming languages,BibDesk
+Markup languages,Programming languages,Metafont
+Markup languages,Programming languages,TIPA (software)
+Markup languages,Programming languages,METATYPE1
+Markup languages,Programming languages,Dvips
+Markup languages,Programming languages,REVTeX
+Markup languages,Programming languages,PdfTeX
+Markup languages,Programming languages,Knitr
+Markup languages,Programming languages,Xdvi
+Markup languages,Programming languages,CWEB
+Markup languages,Programming languages,FarsiTeX
+Markup languages,Programming languages,Beamer (LaTeX)
+Markup languages,Programming languages,CircuiTikZ
+Markup languages,Programming languages,TeX Directory Structure
+Markup languages,Programming languages,Dvipng
+Markup languages,Programming languages,LaTeXML
+Markup languages,Programming languages,Yet Another Previewer
+Markup languages,Programming languages,JsMath
+Markup languages,Programming languages,AMSRefs
+Markup languages,Programming languages,PGF/TikZ
+Markup languages,Programming languages,ConTeXt
+Markup languages,Programming languages,Graphics Layout Engine
+Markup languages,Programming languages,PSTricks
+Markup languages,Programming languages,ArabTeX
+Markup languages,Programming languages,TeTeX
+Markup languages,Programming languages,LaTeX
+Markup languages,Programming languages,XyMTeX
+Markup languages,Programming languages,PSfrag
+Markup languages,Programming languages,MetaPost
+Markup languages,Programming languages,Powerdot
+Markup languages,Programming languages,LaTeX2HTML
+Markup languages,Programming languages,Sweave
+Markup languages,Programming languages,TeXnicCenter
+Markup languages,Programming languages,TeXworks
+Markup languages,Programming languages,TeXShop
+Markup languages,Programming languages,Comparison of TeX editors
+Markup languages,Programming languages,MeWa
+Markup languages,Programming languages,GNU TeXmacs
+Markup languages,Programming languages,ProTeXt
+Markup languages,Programming languages,Scientific WorkPlace
+Markup languages,Programming languages,Verbosus
+Markup languages,Programming languages,WinEdt
+Markup languages,Programming languages,Inlage
+Markup languages,Programming languages,WinShell
+Markup languages,Programming languages,TechWriter
+Markup languages,Programming languages,LEd
+Markup languages,Programming languages,Document Style Semantics and Specification Language
+Markup languages,Programming languages,AsciiDoc
+Markup languages,Programming languages,Org-mode
+Markup languages,Programming languages,Txt2tags
+Markup languages,Programming languages,Epydoc
+Markup languages,Programming languages,Haml
+Markup languages,Programming languages,Plain Old Documentation
+Markup languages,Programming languages,RSS tracking
+Markup languages,Programming languages,OpenAutonomy
+Markup languages,Programming languages,HAtom
+Markup languages,Programming languages,RSS-DEV Working Group
+Markup languages,Programming languages,Windows RSS Platform
+Markup languages,Programming languages,RSS TV
+Markup languages,Programming languages,Simple Update Protocol
+Markup languages,Programming languages,Sitrion
+Markup languages,Programming languages,Simple List Extensions
+Markup languages,Programming languages,Comparison of feed aggregators
+Markup languages,Programming languages,RSS editor
+Markup languages,Programming languages,Feed icon
+Markup languages,Programming languages,Superfeedr
+Markup languages,Programming languages,Template:RSS
+Markup languages,Programming languages,Tencent
+Markup languages,Programming languages,Broadcatching
+Markup languages,Programming languages,FeedWind
+Markup languages,Programming languages,Javascript Simple Syndication
+Markup languages,Programming languages,RSS Advisory Board
+Markup languages,Programming languages,Media RSS
+Markup languages,Programming languages,SendMeRSS
+Markup languages,Programming languages,WebFetch
+Markup languages,Programming languages,Liferea
+Markup languages,Programming languages,3DMLW
+Markup languages,Programming languages,GDAL
+Markup languages,Programming languages,Bootstrap (front-end framework)
+Markup languages,Programming languages,Cascade Framework
+Markup languages,Programming languages,Yeoman (computing)
+Markup languages,Programming languages,XHTML+RDFa
+Markup languages,Programming languages,Modernizr
+Markup languages,Programming languages,Semantic HTML
+Markup languages,Programming languages,Microformat
+Markup languages,Programming languages,Simple HTML Ontology Extensions
+Markup languages,Programming languages,COinS
+Markup languages,Programming languages,HResume
+Markup languages,Programming languages,Geo (microformat)
+Markup languages,Programming languages,HCalendar
+Markup languages,Programming languages,HRecipe
+Markup languages,Programming languages,Production Rule Representation
+Markup languages,Programming languages,HCard
+Markup languages,Programming languages,HProduct
+Markup languages,Programming languages,Nofollow
+Markup languages,Programming languages,HReview
+Markup languages,Programming languages,HOCR
+Markup languages,Programming languages,Gwrite
+Markup languages,Programming languages,Adobe Dreamweaver
+Markup languages,Programming languages,SeaMonkey
+Markup languages,Programming languages,HTML Tidy
+Markup languages,Programming languages,Bluefish (software)
+Markup languages,Programming languages,Adobe GoLive
+Markup languages,Programming languages,Adobe PageMill
+Markup languages,Programming languages,Roockbuilder
+Markup languages,Programming languages,Aloha Editor
+Markup languages,Programming languages,Taiwan Fellowship Editor (e-book editor)
+Markup languages,Programming languages,CKEditor
+Markup languages,Programming languages,YUI Rich Text Editor
+Markup languages,Programming languages,SnapEditor
+Markup languages,Programming languages,CodeMirror
+Markup languages,Programming languages,TinyMCE
+Markup languages,Programming languages,WYMeditor
+Markup languages,Programming languages,Froala Editor
+Markup languages,Programming languages,Arachnophilia
+Markup languages,Programming languages,JuffEd
+Markup languages,Programming languages,JEdit
+Markup languages,Programming languages,Quanta Plus
+Markup languages,Programming languages,WorldWideWeb
+Markup languages,Programming languages,J (text editor)
+Markup languages,Programming languages,KImageMapEditor
+Markup languages,Programming languages,RText
+Markup languages,Programming languages,Notepad++
+Markup languages,Programming languages,Amaya (web editor)
+Markup languages,Programming languages,Tkhtml
+Markup languages,Programming languages,SciTE
+Markup languages,Programming languages,VisualEditor
+Markup languages,Programming languages,TkWWW
+Markup languages,Programming languages,DaVinci (software)
+Markup languages,Programming languages,LungoJS
+Markup languages,Programming languages,Monaca (mobile application development tool)
+Markup languages,Programming languages,Smart Pascal
+Markup languages,Programming languages,Ontology Inference Layer
+Markup languages,Programming languages,Semantic Web Rule Language
+Markup languages,Programming languages,Knowledge Query and Manipulation Language
+Markup languages,Programming languages,ClearTalk
+Markup languages,Programming languages,Topic Maps
+Markup languages,Programming languages,Ithkuil
+Markup languages,Programming languages,Common Logic
+Markup languages,Programming languages,CosmicOS
+Markup languages,Programming languages,Lincos (artificial language)
+Markup languages,Programming languages,Universal Networking Language
+Markup languages,Programming languages,LOOM (ontology)
+Markup languages,Programming languages,Rule Interchange Format
+Markup languages,Programming languages,CycL
+Markup languages,Programming languages,KRL (programming language)
+Markup languages,Programming languages,Knowledge Interchange Format
+Markup languages,Programming languages,Contextual Query Language
+Markup languages,Programming languages,Description logic
+Markup languages,Programming languages,CLIPS
+Markup languages,Programming languages,CIDOC Conceptual Reference Model
+Markup languages,Programming languages,Jess (programming language)
+Markup languages,Programming languages,RDF Schema
+Markup languages,Programming languages,Data Catalog Vocabulary
+Markup languages,Programming languages,Jena (framework)
+Markup languages,Programming languages,TriX (syntax)
+Markup languages,Programming languages,Turtle (syntax)
+Markup languages,Programming languages,RDF Inference Language
+Markup languages,Programming languages,Linked Data Platform
+Markup languages,Programming languages,JRDF (framework)
+Markup languages,Programming languages,Stardog
+Markup languages,Programming languages,SparkleDB
+Markup languages,Programming languages,Sesame (framework)
+Markup languages,Programming languages,Graph Style Sheets
+Markup languages,Programming languages,Metaclass (Semantic Web)
+Markup languages,Programming languages,TriG (syntax)
+Markup languages,Programming languages,Notation3
+Markup languages,Programming languages,Triplestore
+Markup languages,Programming languages,Mulgara (software)
+Markup languages,Programming languages,Apache Marmotta
+Markup languages,Programming languages,Tabulator
+Markup languages,Programming languages,DATR
+Markup languages,Programming languages,Predictive Model Markup Language
+Markup languages,Programming languages,BioPAX
+Markup languages,Programming languages,Z39.50
+Markup languages,Programming languages,Knowledge Discovery Metamodel
+Markup languages,Programming languages,Biositemap
+Markup languages,Programming languages,TreeDL
+Markup languages,Programming languages,Dublin Core
+Markup languages,Programming languages,Colwiz
+Markup languages,Programming languages,ISO 2709
+Markup languages,Programming languages,Website Parse Template
+Markup languages,Programming languages,ISO-TimeML
+Markup languages,Programming languages,Metadata Authority Description Schema
+Markup languages,Programming languages,Metadata Object Description Schema
+Markup languages,Programming languages,RIS (file format)
+Markup languages,Programming languages,BIBFRAME
+Markup languages,Programming languages,Bookends (software)
+Markup languages,Programming languages,EndNote
+Markup languages,Programming languages,Ontology language
+Markup languages,Programming languages,Expressive power (computer science)
+Markup languages,Programming languages,Gellish
+Markup languages,Programming languages,Deductive classifier
+Markup languages,Programming languages,Multimedia Web Ontology Language
+Markup languages,Programming languages,KL-ONE
+Markup languages,Programming languages,SyncEvolution
+Markup languages,Programming languages,Eclipse (software)
+Markup languages,Programming languages,NetBeans
+Markup languages,Programming languages,TimeML
+Markup languages,Programming languages,Schematron
+Markup languages,Programming languages,XML
+Markup languages,Programming languages,Mallard (documentation)
+Markup languages,Programming languages,CodeSynthesis XSD
+Markup languages,Programming languages,FuseDocs (programming)
+Markup languages,Programming languages,Resource Description Framework
+Markup languages,Programming languages,Office Open XML file formats
+Markup languages,Programming languages,XEE (Starlight)
+Markup languages,Programming languages,VTD-XML
+Markup languages,Programming languages,Arbortext Command Language
+Markup languages,Programming languages,EXtensible Server Pages
+Markup languages,Programming languages,Office Open XML
+Markup languages,Programming languages,XMLHttpRequest
+Markup languages,Programming languages,Vector Markup Language
+Markup languages,Programming languages,BaseX
+Markup languages,Programming languages,Open XML Paper Specification
+Markup languages,Programming languages,ECMAScript for XML
+Markup languages,Programming languages,XMLSpy
+Markup languages,Programming languages,Virtuoso Universal Server
+Markup languages,Programming languages,Libxslt
+Markup languages,Programming languages,Xalan
+Markup languages,Programming languages,Ajax (programming)
+Markup languages,Programming languages,AxsJAX
+Markup languages,Programming languages,Push technology
+Markup languages,Programming languages,Ext JS
+Markup languages,Programming languages,JsPHP
+Markup languages,Programming languages,24SevenOffice
+Markup languages,Programming languages,Jpspan
+Markup languages,Programming languages,Google APIs
+Markup languages,Programming languages,Qooxdoo
+Markup languages,Programming languages,ZK (framework)
+Markup languages,Programming languages,AngularJS
+Markup languages,Programming languages,Ember.js
+Markup languages,Programming languages,Bindows
+Markup languages,Programming languages,ICEfaces
+Markup languages,Programming languages,Comparison of JavaScript-based source code editors
+Markup languages,Programming languages,DWR (Java)
+Markup languages,Programming languages,Hijax
+Markup languages,Programming languages,Dojo Toolkit
+Markup languages,Programming languages,JSONP
+Markup languages,Programming languages,Prototype JavaScript Framework
+Markup languages,Programming languages,"Google Docs, Sheets, and Slides"
+Markup languages,Programming languages,ThinWire
+Markup languages,Programming languages,Comparison of JavaScript frameworks
+Markup languages,Programming languages,Ionic (mobile app framework)
+Markup languages,Programming languages,JavaScriptMVC
+Markup languages,Programming languages,Velocity (JavaScript library)
+Markup languages,Programming languages,JWt (Java web toolkit)
+Markup languages,Programming languages,OpenAjax Alliance
+Markup languages,Programming languages,Sajax
+Markup languages,Programming languages,Gollum browser
+Markup languages,Programming languages,Morfik
+Markup languages,Programming languages,Chaplin.js
+Markup languages,Programming languages,React (JavaScript library)
+Markup languages,Programming languages,Lively Kernel
+Markup languages,Programming languages,Rico (Ajax)
+Markup languages,Programming languages,Moobile.js
+Markup languages,Programming languages,JMaki
+Markup languages,Programming languages,Script.aculo.us
+Markup languages,Programming languages,JQuery Mobile
+Markup languages,Programming languages,Xajax
+Markup languages,Programming languages,Morfik FX
+Markup languages,Programming languages,Knockout (web framework)
+Markup languages,Programming languages,WaveMaker
+Markup languages,Programming languages,EMVC
+Markup languages,Programming languages,Scooby Web Calendar
+Markup languages,Programming languages,Comet (programming)
+Markup languages,Programming languages,Zimbra
+Markup languages,Programming languages,Sencha Touch
+Markup languages,Programming languages,YUI Library
+Markup languages,Programming languages,Parallax scrolling
+Markup languages,Programming languages,Document Update Markup Language
+Markup languages,Programming languages,Helmi Technologies
+Markup languages,Programming languages,Projax
+Markup languages,Programming languages,WAI-ARIA
+Markup languages,Programming languages,Apache XAP
+Markup languages,Programming languages,Zarafa (software)
+Markup languages,Programming languages,SOAPjr
+Markup languages,Programming languages,AJAX.OOP
+Markup languages,Programming languages,AjaxView
+Markup languages,Programming languages,ASP.NET AJAX
+Markup languages,Programming languages,MooTools
+Markup languages,Programming languages,ThinkFree Office
+Markup languages,Programming languages,Wt (web toolkit)
+Markup languages,Programming languages,DHTMLX
+Markup languages,Programming languages,JQuery
+Markup languages,Programming languages,Ajax framework
+Markup languages,Programming languages,Cross-origin resource sharing
+Markup languages,Programming languages,JSON
+Markup languages,Programming languages,Smart client
+Markup languages,Programming languages,Ajax4jsf
+Markup languages,Programming languages,SproutCore
+Markup languages,Programming languages,Ace (editor)
+Markup languages,Programming languages,Quicknet
+Markup languages,Programming languages,Citadel/UX
+Markup languages,Programming languages,Wakanda (software)
+Markup languages,Programming languages,Webfmt
+Markup languages,Programming languages,Ample SDK
+Markup languages,Programming languages,Dropbox Paper
+Markup languages,Programming languages,Ext.NET
+Markup languages,Programming languages,Echo (framework)
+Markup languages,Programming languages,SmartClient
+Markup languages,Programming languages,OpenLaszlo
+Markup languages,Programming languages,JSONiq
+Markup languages,Programming languages,Gson
+Markup languages,Programming languages,JSON Streaming
+Markup languages,Programming languages,GeoJSON
+Markup languages,Programming languages,Web Application Messaging Protocol
+Markup languages,Programming languages,Hypertext Application Language
+Markup languages,Programming languages,Jaql
+Markup languages,Programming languages,JSON-RPC
+Markup languages,Programming languages,BSON
+Markup languages,Programming languages,JSON-LD
+Markup languages,Programming languages,Smile (data interchange format)
+Markup languages,Programming languages,JsonML
+Markup languages,Programming languages,AJAJ
+Markup languages,Programming languages,Jayrock
+Markup languages,Programming languages,JSON Web Token
+Markup languages,Programming languages,HOCON
+Markup languages,Programming languages,EiskaltDC++
+Markup languages,Programming languages,Java Architecture for XML Binding
+Markup languages,Programming languages,Java API for XML Messaging
+Markup languages,Programming languages,XQuery API for Java
+Markup languages,Programming languages,Java API for RESTful Web Services
+Markup languages,Programming languages,Java API for XML Registries
+Markup languages,Programming languages,Java API for XML Web Services
+Markup languages,Programming languages,Java API for XML Processing
+Markup languages,Programming languages,Java API for XML-based RPC
+Markup languages,Programming languages,Libxml2
+Markup languages,Programming languages,SimpleXML
+Markup languages,Programming languages,Expat (library)
+Markup languages,Programming languages,HaXml
+Markup languages,Programming languages,XMLBeans
+Markup languages,Programming languages,Xerces
+Markup languages,Programming languages,Nokogiri (software)
+Markup languages,Programming languages,CodeSynthesis XSD/e
+Markup languages,Programming languages,XQuery
+Markup languages,Programming languages,Parboiled (Java)
+Markup languages,Programming languages,Prince (software)
+Markup languages,Programming languages,TeX4ht
+Markup languages,Programming languages,AxKit
+Markup languages,Programming languages,CookXml
+Markup languages,Programming languages,OmniMark
+Markup languages,Programming languages,Apache Ant
+Markup languages,Programming languages,Altsoft Xml2PDF
+Markup languages,Programming languages,XStream
+Markup languages,Programming languages,MarkLogic
+Markup languages,Programming languages,EXist
+Markup languages,Programming languages,Xerlin
+Markup languages,Programming languages,Sublime Text
+Markup languages,Programming languages,Codelobster
+Markup languages,Programming languages,RDF query language
+Markup languages,Programming languages,GeoSPARQL
+Markup languages,Programming languages,SPARUL
+Markup languages,Programming languages,Versa (query language)
+Markup languages,Programming languages,RDFLib
+Markup languages,Programming languages,Redland RDF Application Framework
+Markup languages,Programming languages,Adenine (programming language)
+Markup languages,Programming languages,StrixDB
+Markup languages,Programming languages,SPARQL Syntax Expressions
+Markup languages,Programming languages,XUL
+Markup languages,Programming languages,XML Interface for Network Services
+Markup languages,Programming languages,Atom (standard)
+Markup languages,Programming languages,XML Object Model
+Markup languages,Programming languages,RSS enclosure
+Markup languages,Programming languages,MARC standards
+Markup languages,Programming languages,XOXO (microformat)
+Markup languages,Programming languages,MXML
+Markup languages,Programming languages,XSLT
+Markup languages,Programming languages,SXBL
+Markup languages,Programming languages,WiX
+Markup languages,Programming languages,KaXUL
+Markup languages,Programming languages,VoiceXML
+Markup languages,Programming languages,EMML (Motorola)
+Markup languages,Programming languages,RDFa
+Markup languages,Programming languages,Web Ontology Language
+Markup languages,Programming languages,RSS Cloud
+Markup languages,Programming languages,RSS
+Markup languages,Programming languages,RDF/XML
+Markup languages,Programming languages,FeedSync
+Markup languages,Programming languages,XBL
+Markup languages,Programming languages,JDOM
+Markup languages,Programming languages,Auto-lead Data Format
+Markup languages,Programming languages,FXML
+Markup languages,Programming languages,EXSLT
+Markup languages,Programming languages,Extensible Application Markup Language
+Markup languages,Programming languages,PubSubHubbub
+Markup languages,Programming languages,Synchronized Multimedia Integration Language
+Markup languages,Programming languages,XProc
+Markup languages,Programming languages,XML Resource
+Markup languages,Programming languages,XSL Formatting Objects
+Markup languages,Programming languages,Enterprise Mashup Markup Language
+Markup languages,Programming languages,XHTML Friends Network
+Markup languages,Programming languages,ONIX for Books
+Markup languages,Programming languages,SPARQL
+Markup languages,Programming languages,OpenDocument
+Markup languages,Programming languages,OpenDocument standardization
+Markup languages,Programming languages,Standardization of Office Open XML
+Markup languages,Programming languages,OpenOffice.org XML
+Markup languages,Programming languages,Comparison of Office Open XML and OpenDocument
+Markup languages,Programming languages,OpenDocument adoption
+Markup languages,Programming languages,Visioo-Writer
+Markup languages,Programming languages,LibreOffice
+Markup languages,Programming languages,Michael Meeks (software developer)
+Markup languages,Programming languages,Florian Effenberger
+Markup languages,Programming languages,Thorsten Behrens
+Markup languages,Programming languages,LibreOffice Writer
+Markup languages,Programming languages,The Document Foundation
+Markup languages,Programming languages,Collabora
+Markup languages,Programming languages,Lanedo
+Markup languages,Programming languages,IceWarp
+Markup languages,Programming languages,Template:LibreOffice
+Markup languages,Programming languages,LibreOffice Calc
+Markup languages,Programming languages,Bj??rn Michaelsen
+Markup languages,Programming languages,Apache OpenOffice
+Markup languages,Programming languages,OpenOffice.org
+Markup languages,Programming languages,IBM Workplace
+Markup languages,Programming languages,IBM Lotus Symphony
+Markup languages,Programming languages,Go-oo
+Markup languages,Programming languages,StarOffice
+Markup languages,Programming languages,NeoOffice
+Markup languages,Programming languages,OpenOffice Basic
+Markup languages,Programming languages,Universal Network Objects
+Markup languages,Programming languages,Open Packaging Conventions
+Markup languages,Programming languages,Comparison of Office Open XML software
+Markup languages,Programming languages,Google Maps
+Markup languages,Programming languages,Location API for Java ME
+Markup languages,Programming languages,Yahoo! Pipes
+Markup languages,Programming languages,Leaflet (software)
+Markup languages,Programming languages,Marble (software)
+Markup languages,Programming languages,NASA World Wind
+Markup languages,Programming languages,OpenLayers
+Markup languages,Programming languages,Google Earth
+Markup languages,Programming languages,QML
+Markup languages,Programming languages,GtkBuilder
+Markup languages,Programming languages,Glade Interface Designer
+Markup languages,Programming languages,XMLGUI
+Markup languages,Programming languages,O:XML
+Markup languages,Programming languages,POSXML
+Markup languages,Programming languages,M Sharp (programming language)
+Markup languages,Programming languages,ALFA (XACML)
+Markup languages,Specification languages,XSLT/Muenchian grouping
+Markup languages,Specification languages,Face Modeling Language
+Markup languages,Specification languages,Digital Forensics XML
+Markup languages,Specification languages,XL (XML programming language)
+Markup languages,Specification languages,Scalable Vector Graphics
+Markup languages,Specification languages,Ikivo Animator
+Markup languages,Specification languages,SVG filter effects
+Markup languages,Specification languages,Comparison of layout engines (Scalable Vector Graphics)
+Markup languages,Specification languages,SVG animation
+Markup languages,Specification languages,Inkscape
+Markup languages,Specification languages,Openclipart
+Markup languages,Specification languages,Sodipodi
+Markup languages,Specification languages,SVG Working Group
+Markup languages,Specification languages,GPAC Project on Advanced Content
+Markup languages,Specification languages,Librsvg
+Markup languages,Specification languages,WiseMapping
+Markup languages,Specification languages,Batik (software)
+Markup languages,Specification languages,Renesis Player
+Markup languages,Specification languages,SVG-edit
+Markup languages,Specification languages,Google Swiffy
+Markup languages,Specification languages,XMDP
+Markup languages,Specification languages,XHTML Mobile Profile
+Markup languages,Specification languages,Image map
+Markup languages,Specification languages,XHTML Basic
+Markup languages,Specification languages,David Webber
+Markup languages,Specification languages,AdsML
+Markup languages,Specification languages,Medical Reality Markup Language
+Markup languages,Specification languages,SED-ML
+Markup languages,Specification languages,Business Intelligence Markup Language
+Markup languages,Specification languages,ATML
+Markup languages,Specification languages,Dimensional Markup language
+Markup languages,Specification languages,AecXML
+Markup languages,Specification languages,LOGML
+Markup languages,Specification languages,AgcXML
+Markup languages,Specification languages,News Industry Text Format
+Markup languages,Specification languages,Zefania XML
+Markup languages,Specification languages,Wireless Markup Language
+Markup languages,Specification languages,Conversation Markup Language
+Markup languages,Specification languages,AIML
+Markup languages,Specification languages,FicML
+Markup languages,Specification languages,TransducerML
+Markup languages,Specification languages,R2ML
+Markup languages,Specification languages,XMLTV
+Markup languages,Specification languages,Physical markup language
+Markup languages,Specification languages,SrcML
+Markup languages,Specification languages,CLiX (markup)
+Markup languages,Specification languages,RIF-CS
+Markup languages,Specification languages,DXL
+Markup languages,Specification languages,DCML (markup language)
+Markup languages,Specification languages,EDXL
+Markup languages,Specification languages,XGMML
+Markup languages,Specification languages,3DXML
+Markup languages,Specification languages,Universal Business Language
+Markup languages,Specification languages,Graffiti Markup Language
+Markup languages,Specification languages,Service Modeling Language
+Markup languages,Specification languages,RuleML
+Markup languages,Specification languages,PPML
+Markup languages,Specification languages,CLIX (markup)
+Markup languages,Specification languages,XPointer
+Markup languages,Specification languages,XQuery and XPath Data Model
+Markup languages,Specification languages,XPath 3
+Markup languages,Specification languages,Fxgrep
+Markup languages,Specification languages,XPath
+Markup languages,Specification languages,XPath 2.0
+Markup languages,Specification languages,Language Integrated Query
+Markup languages,Specification languages,Production Rule Representation
+Markup languages,Specification languages,XML Metadata Interchange
+Markup languages,Specification languages,Eclipse (software)
+Markup languages,Specification languages,NetBeans
+Markup languages,Specification languages,XML schema
+Markup languages,Specification languages,People Finder Interchange Format
+Markup languages,Specification languages,TREX
+Markup languages,Specification languages,XSIL
+Markup languages,Specification languages,Music Encoding Initiative
+Markup languages,Specification languages,Extensible Forms Description Language
+Markup languages,Specification languages,Parameter Value Language
+Markup languages,Specification languages,Regular Language description for XML
+Markup languages,Specification languages,XML validation
+Markup languages,Specification languages,RELAX NG
+Markup languages,Specification languages,Document Schema Definition Languages
+Markup languages,Specification languages,Standard Generalized Markup Language
+Markup languages,Specification languages,Document Structure Description
+Markup languages,Specification languages,Binary Format Description language
+Markup languages,Specification languages,Text Encoding Initiative
+Markup languages,Specification languages,TimeML
+Markup languages,Specification languages,EbXML
+Markup languages,Specification languages,SDEP
+Markup languages,Specification languages,Schematron
+Markup languages,Specification languages,XML
+Markup languages,Specification languages,Interactive Financial Exchange
+Markup languages,Specification languages,QName
+Markup languages,Specification languages,MAREC
+Markup languages,Specification languages,PCDATA
+Markup languages,Specification languages,Tag omission
+Markup languages,Specification languages,XML data binding
+Markup languages,Specification languages,CCTRL
+Markup languages,Specification languages,XML Configuration Access Protocol
+Markup languages,Specification languages,XML denial-of-service attack
+Markup languages,Specification languages,Clusterpoint
+Markup languages,Specification languages,DITA Open Toolkit
+Markup languages,Specification languages,Quark Author
+Markup languages,Specification languages,NZB
+Markup languages,Specification languages,XML retrieval
+Markup languages,Specification languages,Mallard (documentation)
+Markup languages,Specification languages,Unique Particle Attribution
+Markup languages,Specification languages,Global listings format
+Markup languages,Specification languages,Xs3p
+Markup languages,Specification languages,CodeSynthesis XSD
+Markup languages,Specification languages,XidML
+Markup languages,Specification languages,Metadata Encoding and Transmission Standard
+Markup languages,Specification languages,Zorba (XQuery processor)
+Markup languages,Specification languages,XML Catalog
+Markup languages,Specification languages,QTI
+Markup languages,Specification languages,Simple Outline XML
+Markup languages,Specification languages,Darwin Information Typing Architecture
+Markup languages,Specification languages,XML Enabled Directory
+Markup languages,Specification languages,FuseDocs (programming)
+Markup languages,Specification languages,Root element
+Markup languages,Specification languages,Well-formed document
+Markup languages,Specification languages,XML Telemetric and Command Exchange
+Markup languages,Specification languages,Universal Bill Format
+Markup languages,Specification languages,Fast Infoset
+Markup languages,Specification languages,XML and MIME
+Markup languages,Specification languages,XML Schema Editor
+Markup languages,Specification languages,Resource Description Framework
+Markup languages,Specification languages,Adobe FrameMaker
+Markup languages,Specification languages,XML namespace
+Markup languages,Specification languages,OpenSearch
+Markup languages,Specification languages,XDR Schema
+Markup languages,Specification languages,Streaming XML
+Markup languages,Specification languages,HyTime
+Markup languages,Specification languages,LexML
+Markup languages,Specification languages,Office Open XML file formats
+Markup languages,Specification languages,XML Protocol
+Markup languages,Specification languages,XML Events
+Markup languages,Specification languages,Well-formed element
+Markup languages,Specification languages,Global information management Metrics eXchange
+Markup languages,Specification languages,XML appliance
+Markup languages,Specification languages,XML Encryption
+Markup languages,Specification languages,ALTO (XML)
+Markup languages,Specification languages,SpeakRight Framework
+Markup languages,Specification languages,EXtensible Text Framework
+Markup languages,Specification languages,XEE (Starlight)
+Markup languages,Specification languages,Binary XML
+Markup languages,Specification languages,VTD-XML
+Markup languages,Specification languages,FLWOR
+Markup languages,Specification languages,XFDesigner
+Markup languages,Specification languages,Arbortext Command Language
+Markup languages,Specification languages,EXtensible Server Pages
+Markup languages,Specification languages,CDATA
+Markup languages,Specification languages,XML Literals
+Markup languages,Specification languages,Valid characters in XML
+Markup languages,Specification languages,XML Base
+Markup languages,Specification languages,XBRLS
+Markup languages,Specification languages,RoadXML
+Markup languages,Specification languages,Business Process Definition Metamodel
+Markup languages,Specification languages,Simple XML
+Markup languages,Specification languages,Billion laughs
+Markup languages,Specification languages,Styled Layer Descriptor
+Markup languages,Specification languages,Office Open XML
+Markup languages,Specification languages,OIOXML
+Markup languages,Specification languages,XMLHttpRequest
+Markup languages,Specification languages,Vector Markup Language
+Markup languages,Specification languages,XML Certification Program
+Markup languages,Specification languages,Schema for Object-Oriented XML
+Markup languages,Specification languages,Internationalization Tag Set
+Markup languages,Specification languages,Numeric character reference
+Markup languages,Specification languages,XML editor
+Markup languages,Specification languages,Portable Application Description
+Markup languages,Specification languages,XML framework
+Markup languages,Specification languages,FXG
+Markup languages,Specification languages,Resources of a Resource
+Markup languages,Specification languages,Component content management system
+Markup languages,Specification languages,Processing Instruction
+Markup languages,Specification languages,Quark XML Author
+Markup languages,Specification languages,Dynamic XML
+Markup languages,Specification languages,Publishing Requirements for Industry Standard Metadata
+Markup languages,Specification languages,XEP (software)
+Markup languages,Specification languages,BaseX
+Markup languages,Specification languages,Plain Old XML
+Markup languages,Specification languages,Klip
+Markup languages,Specification languages,XML database
+Markup languages,Specification languages,Open XML Paper Specification
+Markup languages,Specification languages,ECMAScript for XML
+Markup languages,Specification languages,UJML
+Markup languages,Specification languages,Requirements Interchange Format
+Markup languages,Specification languages,Head???body pattern
+Markup languages,Specification languages,Legal XML
+Markup languages,Specification languages,Efficient XML Interchange
+Markup languages,Specification languages,D3L
+Markup languages,Specification languages,XML tree
+Markup languages,Specification languages,XMLSpy
+Markup languages,Specification languages,XMLStarlet
+Markup languages,Specification languages,Virtuoso Universal Server
+Markup languages,Specification languages,Saxon XSLT
+Markup languages,Specification languages,TransforMiiX
+Markup languages,Specification languages,Libxslt
+Markup languages,Specification languages,MSXML
+Markup languages,Specification languages,Xalan
+Markup languages,Specification languages,CDuce
+Markup languages,Specification languages,Ajax (programming)
+Markup languages,Specification languages,AxsJAX
+Markup languages,Specification languages,Push technology
+Markup languages,Specification languages,Ext JS
+Markup languages,Specification languages,JsPHP
+Markup languages,Specification languages,24SevenOffice
+Markup languages,Specification languages,Jpspan
+Markup languages,Specification languages,Google APIs
+Markup languages,Specification languages,Qooxdoo
+Markup languages,Specification languages,ZK (framework)
+Markup languages,Specification languages,AngularJS
+Markup languages,Specification languages,Ember.js
+Markup languages,Specification languages,Bindows
+Markup languages,Specification languages,ICEfaces
+Markup languages,Specification languages,Comparison of JavaScript-based source code editors
+Markup languages,Specification languages,DWR (Java)
+Markup languages,Specification languages,Hijax
+Markup languages,Specification languages,Dojo Toolkit
+Markup languages,Specification languages,JSONP
+Markup languages,Specification languages,Prototype JavaScript Framework
+Markup languages,Specification languages,"Google Docs, Sheets, and Slides"
+Markup languages,Specification languages,ThinWire
+Markup languages,Specification languages,Comparison of JavaScript frameworks
+Markup languages,Specification languages,Ionic (mobile app framework)
+Markup languages,Specification languages,JavaScriptMVC
+Markup languages,Specification languages,Velocity (JavaScript library)
+Markup languages,Specification languages,JWt (Java web toolkit)
+Markup languages,Specification languages,OpenAjax Alliance
+Markup languages,Specification languages,Sajax
+Markup languages,Specification languages,Gollum browser
+Markup languages,Specification languages,Morfik
+Markup languages,Specification languages,Chaplin.js
+Markup languages,Specification languages,React (JavaScript library)
+Markup languages,Specification languages,Lively Kernel
+Markup languages,Specification languages,Rico (Ajax)
+Markup languages,Specification languages,Moobile.js
+Markup languages,Specification languages,JMaki
+Markup languages,Specification languages,Script.aculo.us
+Markup languages,Specification languages,JQuery Mobile
+Markup languages,Specification languages,Xajax
+Markup languages,Specification languages,Morfik FX
+Markup languages,Specification languages,Knockout (web framework)
+Markup languages,Specification languages,WaveMaker
+Markup languages,Specification languages,EMVC
+Markup languages,Specification languages,Scooby Web Calendar
+Markup languages,Specification languages,Comet (programming)
+Markup languages,Specification languages,Zimbra
+Markup languages,Specification languages,Sencha Touch
+Markup languages,Specification languages,YUI Library
+Markup languages,Specification languages,Parallax scrolling
+Markup languages,Specification languages,Document Update Markup Language
+Markup languages,Specification languages,Helmi Technologies
+Markup languages,Specification languages,Projax
+Markup languages,Specification languages,WAI-ARIA
+Markup languages,Specification languages,Apache XAP
+Markup languages,Specification languages,Zarafa (software)
+Markup languages,Specification languages,SOAPjr
+Markup languages,Specification languages,AJAX.OOP
+Markup languages,Specification languages,AjaxView
+Markup languages,Specification languages,ASP.NET AJAX
+Markup languages,Specification languages,MooTools
+Markup languages,Specification languages,ThinkFree Office
+Markup languages,Specification languages,Wt (web toolkit)
+Markup languages,Specification languages,DHTMLX
+Markup languages,Specification languages,JQuery
+Markup languages,Specification languages,Ajax framework
+Markup languages,Specification languages,Cross-origin resource sharing
+Markup languages,Specification languages,JSON
+Markup languages,Specification languages,Smart client
+Markup languages,Specification languages,Ajax4jsf
+Markup languages,Specification languages,SproutCore
+Markup languages,Specification languages,Ace (editor)
+Markup languages,Specification languages,Quicknet
+Markup languages,Specification languages,Citadel/UX
+Markup languages,Specification languages,Wakanda (software)
+Markup languages,Specification languages,Webfmt
+Markup languages,Specification languages,Ample SDK
+Markup languages,Specification languages,Dropbox Paper
+Markup languages,Specification languages,Ext.NET
+Markup languages,Specification languages,Echo (framework)
+Markup languages,Specification languages,SmartClient
+Markup languages,Specification languages,OpenLaszlo
+Markup languages,Specification languages,JSONiq
+Markup languages,Specification languages,Gson
+Markup languages,Specification languages,JSON Streaming
+Markup languages,Specification languages,GeoJSON
+Markup languages,Specification languages,Web Application Messaging Protocol
+Markup languages,Specification languages,Hypertext Application Language
+Markup languages,Specification languages,Jaql
+Markup languages,Specification languages,JSON-RPC
+Markup languages,Specification languages,BSON
+Markup languages,Specification languages,JSON-LD
+Markup languages,Specification languages,Smile (data interchange format)
+Markup languages,Specification languages,JsonML
+Markup languages,Specification languages,AJAJ
+Markup languages,Specification languages,Jayrock
+Markup languages,Specification languages,JSON Web Token
+Markup languages,Specification languages,HOCON
+Markup languages,Specification languages,EiskaltDC++
+Markup languages,Specification languages,Java Architecture for XML Binding
+Markup languages,Specification languages,Business Process Execution Language
+Markup languages,Specification languages,Java API for XML Messaging
+Markup languages,Specification languages,XQuery API for Java
+Markup languages,Specification languages,Java API for RESTful Web Services
+Markup languages,Specification languages,Java API for XML Registries
+Markup languages,Specification languages,Java API for XML Web Services
+Markup languages,Specification languages,Java API for XML Processing
+Markup languages,Specification languages,Java API for XML-based RPC
+Markup languages,Specification languages,TinyXML
+Markup languages,Specification languages,EDXL Sharp
+Markup languages,Specification languages,Libxml2
+Markup languages,Specification languages,StAX
+Markup languages,Specification languages,SimpleXML
+Markup languages,Specification languages,KXML
+Markup languages,Specification languages,Expat (library)
+Markup languages,Specification languages,HaXml
+Markup languages,Specification languages,XMLBeans
+Markup languages,Specification languages,Xerces
+Markup languages,Specification languages,Nokogiri (software)
+Markup languages,Specification languages,CodeSynthesis XSD/e
+Markup languages,Specification languages,XQuery
+Markup languages,Specification languages,Apache VXQuery
+Markup languages,Specification languages,Apache Pivot
+Markup languages,Specification languages,Parboiled (Java)
+Markup languages,Specification languages,Prince (software)
+Markup languages,Specification languages,Xpeak
+Markup languages,Specification languages,TeX4ht
+Markup languages,Specification languages,Apache XML
+Markup languages,Specification languages,AxKit
+Markup languages,Specification languages,Xaira
+Markup languages,Specification languages,CookXml
+Markup languages,Specification languages,Oracle BI Publisher
+Markup languages,Specification languages,OmniMark
+Markup languages,Specification languages,Apache Ant
+Markup languages,Specification languages,Validator
+Markup languages,Specification languages,PureXML
+Markup languages,Specification languages,Altsoft Xml2PDF
+Markup languages,Specification languages,XStream
+Markup languages,Specification languages,XMLNuke
+Markup languages,Specification languages,Qizx
+Markup languages,Specification languages,Sedna (database)
+Markup languages,Specification languages,MarkLogic
+Markup languages,Specification languages,EXist
+Markup languages,Specification languages,Native XML database
+Markup languages,Specification languages,Talk:BeerXML/Archive 1
+Markup languages,Specification languages,Syntext Serna
+Markup languages,Specification languages,Comparison of XML editors
+Markup languages,Specification languages,XMLmind
+Markup languages,Specification languages,XMetaL
+Markup languages,Specification languages,Xerlin
+Markup languages,Specification languages,Stylus Studio
+Markup languages,Specification languages,Sublime Text
+Markup languages,Specification languages,Visual Studio Code
+Markup languages,Specification languages,Codelobster
+Markup languages,Specification languages,Atom (text editor)
+Markup languages,Specification languages,Liquid XML Studio
+Markup languages,Specification languages,XML Notepad
+Markup languages,Specification languages,IgniteXML
+Markup languages,Specification languages,Xeditor
+Markup languages,Specification languages,Peppermint (editor)
+Markup languages,Specification languages,Oxygen XML Editor
+Markup languages,Specification languages,RDF query language
+Markup languages,Specification languages,GeoSPARQL
+Markup languages,Specification languages,SPARUL
+Markup languages,Specification languages,Versa (query language)
+Markup languages,Specification languages,RDFLib
+Markup languages,Specification languages,Redland RDF Application Framework
+Markup languages,Specification languages,Adenine (programming language)
+Markup languages,Specification languages,StrixDB
+Markup languages,Specification languages,SPARQL Syntax Expressions
+Markup languages,Specification languages,XUL
+Markup languages,Specification languages,Hotel Technology Next Generation
+Markup languages,Specification languages,OASIS (organization)
+Markup languages,Specification languages,Sarvega
+Markup languages,Specification languages,OpenTravel Alliance
+Markup languages,Specification languages,Michael Howard Kay
+Markup languages,Specification languages,Robin Berjon
+Markup languages,Specification languages,Jeni Tennison
+Markup languages,Specification languages,Jon Bosak
+Markup languages,Specification languages,David Megginson
+Markup languages,Specification languages,Michael Sperberg-McQueen
+Markup languages,Specification languages,XPDL
+Markup languages,Specification languages,Observations and Measurements
+Markup languages,Specification languages,Polyglot markup
+Markup languages,Specification languages,MIL-STD-6040
+Markup languages,Specification languages,Context management
+Markup languages,Specification languages,Use of Ogg formats in HTML5
+Markup languages,Specification languages,XKMS
+Markup languages,Specification languages,Categories for the Description of Works of Art
+Markup languages,Specification languages,Open Data Protocol
+Markup languages,Specification languages,WDDX
+Markup languages,Specification languages,WS-Security
+Markup languages,Specification languages,GML application schema
+Markup languages,Specification languages,Speech Application Language Tags
+Markup languages,Specification languages,XML-binary Optimized Packaging
+Markup languages,Specification languages,XML Interface for Network Services
+Markup languages,Specification languages,PhyloXML
+Markup languages,Specification languages,Speech Synthesis Markup Language
+Markup languages,Specification languages,Web Services Flow Language
+Markup languages,Specification languages,Additive Manufacturing File Format
+Markup languages,Specification languages,Keyhole Markup Language
+Markup languages,Specification languages,Channel Definition Format
+Markup languages,Specification languages,NIEM conformance
+Markup languages,Specification languages,Streaming Transformations for XML
+Markup languages,Specification languages,XCal
+Markup languages,Specification languages,XLIFF
+Markup languages,Specification languages,NewsML
+Markup languages,Specification languages,XML/EDIFACT
+Markup languages,Specification languages,Remote Telescope Markup Language
+Markup languages,Specification languages,Atom (standard)
+Markup languages,Specification languages,XML Object Model
+Markup languages,Specification languages,XOMGL
+Markup languages,Specification languages,NeuroML
+Markup languages,Specification languages,RSS enclosure
+Markup languages,Specification languages,Security Assertion Markup Language
+Markup languages,Specification languages,National Information Exchange Model
+Markup languages,Specification languages,Embedded RDF
+Markup languages,Specification languages,MARC standards
+Markup languages,Specification languages,Trusted Data Format
+Markup languages,Specification languages,HTML5 in mobile devices
+Markup languages,Specification languages,Really Simple Discovery
+Markup languages,Specification languages,XLink
+Markup languages,Specification languages,Consegi declaration
+Markup languages,Specification languages,NewsML 1
+Markup languages,Specification languages,XrML
+Markup languages,Specification languages,SensorML
+Markup languages,Specification languages,XUpdate
+Markup languages,Specification languages,Web Services Description Language
+Markup languages,Specification languages,OMA Client Provisioning
+Markup languages,Specification languages,Speech Recognition Grammar Specification
+Markup languages,Specification languages,Universal Description Discovery and Integration
+Markup languages,Specification languages,IWXXM
+Markup languages,Specification languages,XOXO (microformat)
+Markup languages,Specification languages,Universal Core
+Markup languages,Specification languages,OMDoc
+Markup languages,Specification languages,BlogML
+Markup languages,Specification languages,MXML
+Markup languages,Specification languages,Digital Signature Services
+Markup languages,Specification languages,Enterprise Privacy Authorization Language
+Markup languages,Specification languages,Multimodal Architecture and Interfaces
+Markup languages,Specification languages,Open eBook
+Markup languages,Specification languages,Microsoft Office XML formats
+Markup languages,Specification languages,MARIA XML
+Markup languages,Specification languages,XML transformation language
+Markup languages,Specification languages,XSLT
+Markup languages,Specification languages,Canonical XML
+Markup languages,Specification languages,MzXML
+Markup languages,Specification languages,OPDS
+Markup languages,Specification languages,OMA Device Management
+Markup languages,Specification languages,Solution Deployment Descriptor
+Markup languages,Specification languages,SXBL
+Markup languages,Specification languages,Semantic Interpretation for Speech Recognition
+Markup languages,Specification languages,Petri Net Markup Language
+Markup languages,Specification languages,FleXML
+Markup languages,Specification languages,Shipdex
+Markup languages,Specification languages,BeerXML
+Markup languages,Specification languages,Extensible resource identifier
+Markup languages,Specification languages,WiX
+Markup languages,Specification languages,Segmentation Rules eXchange
+Markup languages,Specification languages,XACML
+Markup languages,Specification languages,SAML 2.0
+Markup languages,Specification languages,SOAP with Attachments
+Markup languages,Specification languages,BPEL script
+Markup languages,Specification languages,WS-Policy
+Markup languages,Specification languages,XML-RPC
+Markup languages,Specification languages,XML pipeline
+Markup languages,Specification languages,ODRL
+Markup languages,Specification languages,Continuous Media Markup Language
+Markup languages,Specification languages,EventsML-G2
+Markup languages,Specification languages,Namespace-based Validation Dispatching Language
+Markup languages,Specification languages,Namespace Routing Language
+Markup languages,Specification languages,KaXUL
+Markup languages,Specification languages,XBEL
+Markup languages,Specification languages,XRDS
+Markup languages,Specification languages,XHTML Modularization
+Markup languages,Specification languages,LIDO
+Markup languages,Specification languages,NewsML-G2
+Markup languages,Specification languages,VoiceXML
+Markup languages,Specification languages,GXA
+Markup languages,Specification languages,Extensible Data Format
+Markup languages,Specification languages,XHTML
+Markup languages,Specification languages,Content Management Interoperability Services
+Markup languages,Specification languages,Job Definition Format
+Markup languages,Specification languages,XSL
+Markup languages,Specification languages,Journal Article Tag Suite
+Markup languages,Specification languages,Call Control eXtensible Markup Language
+Markup languages,Specification languages,Document type declaration
+Markup languages,Specification languages,SWORD (protocol)
+Markup languages,Specification languages,Attention Profiling Mark-up Language
+Markup languages,Specification languages,EMML (Motorola)
+Markup languages,Specification languages,HERAS-AF
+Markup languages,Specification languages,GPS Exchange Format
+Markup languages,Specification languages,Opera Show Format
+Markup languages,Specification languages,Directory Services Markup Language
+Markup languages,Specification languages,GRDDL
+Markup languages,Specification languages,MathML
+Markup languages,Specification languages,CellML
+Markup languages,Specification languages,Web feed
+Markup languages,Specification languages,Document type definition
+Markup languages,Specification languages,Advanced Distributed Learning
+Markup languages,Specification languages,XForms
+Markup languages,Specification languages,XML Script
+Markup languages,Specification languages,XML Information Set
+Markup languages,Specification languages,GuideML
+Markup languages,Specification languages,SAML 1.1
+Markup languages,Specification languages,CityGML
+Markup languages,Specification languages,RecipeML
+Markup languages,Specification languages,XML Shareable Playlist Format
+Markup languages,Specification languages,RDFa
+Markup languages,Specification languages,Link contract
+Markup languages,Specification languages,AS4
+Markup languages,Specification languages,LGML
+Markup languages,Specification languages,Web Ontology Language
+Markup languages,Specification languages,XML for Analysis
+Markup languages,Specification languages,Document Definition Markup Language
+Markup languages,Specification languages,DGML
+Markup languages,Specification languages,RSS Cloud
+Markup languages,Specification languages,XML Signature
+Markup languages,Specification languages,Video Ad Serving Template
+Markup languages,Specification languages,DisplayML
+Markup languages,Specification languages,Standard Business Reporting
+Markup languages,Specification languages,W3C MMI
+Markup languages,Specification languages,COLLADA
+Markup languages,Specification languages,Marketing.xml
+Markup languages,Specification languages,XML Schema (W3C)
+Markup languages,Specification languages,Web Services Conversation Language
+Markup languages,Specification languages,ABCD Schema
+Markup languages,Specification languages,VoID
+Markup languages,Specification languages,MusicXML
+Markup languages,Specification languages,RSS
+Markup languages,Specification languages,GeoXACML
+Markup languages,Specification languages,Natural Language Semantics Markup Language
+Markup languages,Specification languages,Simple API for XML
+Markup languages,Specification languages,HTML5
+Markup languages,Specification languages,RDF/XML
+Markup languages,Specification languages,GXL
+Markup languages,Specification languages,XMPP
+Markup languages,Specification languages,Election Markup Language
+Markup languages,Specification languages,OPML
+Markup languages,Specification languages,FeedSync
+Markup languages,Specification languages,OML
+Markup languages,Specification languages,Sitemaps
+Markup languages,Specification languages,XBL
+Markup languages,Specification languages,Easytrade
+Markup languages,Specification languages,JDOM
+Markup languages,Specification languages,Auto-lead Data Format
+Markup languages,Specification languages,3D Manufacturing Format
+Markup languages,Specification languages,Emotion Markup Language
+Markup languages,Specification languages,Form Faces
+Markup languages,Specification languages,Extensible Configuration Checklist Description Format
+Markup languages,Specification languages,Open Scripture Information Standard
+Markup languages,Specification languages,FXML
+Markup languages,Specification languages,SyncML
+Markup languages,Specification languages,EXSLT
+Markup languages,Specification languages,Service Provisioning Markup Language
+Markup languages,Specification languages,XDI
+Markup languages,Specification languages,Extensible Application Markup Language
+Markup languages,Specification languages,Google Wave Federation Protocol
+Markup languages,Specification languages,MetaWeblog
+Markup languages,Specification languages,CALS Table Model
+Markup languages,Specification languages,Report Definition Language
+Markup languages,Specification languages,Metalink
+Markup languages,Specification languages,Information and Content Exchange
+Markup languages,Specification languages,Xml:tm
+Markup languages,Specification languages,XHTML+Voice
+Markup languages,Specification languages,PubSubHubbub
+Markup languages,Specification languages,FictionBook
+Markup languages,Specification languages,Pronunciation Lexicon Specification
+Markup languages,Specification languages,Synchronized Multimedia Integration Language
+Markup languages,Specification languages,MPEG-4 Part 17
+Markup languages,Specification languages,OpenMath
+Markup languages,Specification languages,XProc
+Markup languages,Specification languages,XInclude
+Markup languages,Specification languages,XSLT elements
+Markup languages,Specification languages,ID-WSF
+Markup languages,Specification languages,Document Object Model
+Markup languages,Specification languages,Music Markup Language
+Markup languages,Specification languages,Nested Context Language
+Markup languages,Specification languages,XML Resource
+Markup languages,Specification languages,DAISY Digital Talking Book
+Markup languages,Specification languages,Content Assembly Mechanism
+Markup languages,Specification languages,CXML
+Markup languages,Specification languages,S5 (file format)
+Markup languages,Specification languages,USMTF
+Markup languages,Specification languages,XDXF
+Markup languages,Specification languages,XSL Formatting Objects
+Markup languages,Specification languages,Extensible Provisioning Protocol
+Markup languages,Specification languages,Enterprise Mashup Markup Language
+Markup languages,Specification languages,Common Alerting Protocol
+Markup languages,Specification languages,XBRL GL
+Markup languages,Specification languages,XFA
+Markup languages,Specification languages,Extensible MPEG-4 Textual Format
+Markup languages,Specification languages,XHTML Friends Network
+Markup languages,Specification languages,OAXAL
+Markup languages,Specification languages,XDuce
+Markup languages,Specification languages,GraphML
+Markup languages,Specification languages,XVRML
+Markup languages,Specification languages,WaterML
+Markup languages,Specification languages,Job Submission Description Language
+Markup languages,Specification languages,XCBL
+Markup languages,Specification languages,SOAP
+Markup languages,Specification languages,S1000D
+Markup languages,Specification languages,XAdES
+Markup languages,Specification languages,SCXML
+Markup languages,Specification languages,Water Data Transfer Format
+Markup languages,Specification languages,Java Speech Markup Language
+Markup languages,Specification languages,Precision Graphics Markup Language
+Markup languages,Specification languages,WS-Discovery
+Markup languages,Specification languages,XBRL
+Markup languages,Specification languages,XFrames
+Markup languages,Specification languages,SOAP-over-UDP
+Markup languages,Specification languages,ISO/IEC 19775-1
+Markup languages,Specification languages,X3D
+Markup languages,Specification languages,FpML
+Markup languages,Specification languages,AutomationML
+Markup languages,Specification languages,FIXatdl
+Markup languages,Specification languages,ONIX for Books
+Markup languages,Specification languages,Continuity of Care Document
+Markup languages,Specification languages,GJXDM
+Markup languages,Specification languages,Fibex
+Markup languages,Specification languages,MTConnect
+Markup languages,Specification languages,Healthcare Services Specification Project
+Markup languages,Specification languages,Internet Open Trading Protocol
+Markup languages,Specification languages,CAEX
+Markup languages,Specification languages,QuakeML
+Markup languages,Specification languages,RailML
+Markup languages,Specification languages,MDDL
+Markup languages,Specification languages,ONIX (publishing protocol)
+Markup languages,Specification languages,Wellsite information transfer standard markup language
+Markup languages,Specification languages,Green Building XML
+Markup languages,Specification languages,Financial Information eXchange
+Markup languages,Specification languages,WXXM (data model)
+Markup languages,Specification languages,Geography Markup Language
+Markup languages,Specification languages,PRODML
+Markup languages,Specification languages,Continuity of Care Record
+Markup languages,Specification languages,Chemical Markup Language
+Markup languages,Specification languages,Translation Memory eXchange
+Markup languages,Specification languages,TM-XML
+Markup languages,Specification languages,AIXM
+Markup languages,Specification languages,AEX cfiXML
+Markup languages,Specification languages,SportsML
+Markup languages,Specification languages,Structured Product Labeling
+Markup languages,Specification languages,SPARQL
+Markup languages,Specification languages,Clinical Document Architecture
+Markup languages,Specification languages,SportsML-G2
+Markup languages,Specification languages,Broadcast Markup Language
+Markup languages,Specification languages,Clinical Data Interchange Standards Consortium
+Markup languages,Specification languages,SBML
+Markup languages,Specification languages,GeoSciML
+Markup languages,Specification languages,Agricultural Ontology Service
+Markup languages,Specification languages,VOEvent
+Markup languages,Specification languages,OpenXDF
+Markup languages,Specification languages,DS-XML
+Markup languages,Specification languages,Legal Electronic Data Exchange Standard
+Markup languages,Specification languages,Mumasy
+Markup languages,Specification languages,OpenDocument
+Markup languages,Specification languages,DTBook
+Markup languages,Specification languages,DocBook
+Markup languages,Specification languages,OpenDocument standardization
+Markup languages,Specification languages,Uniform Office Format
+Markup languages,Specification languages,EPUB
+Markup languages,Specification languages,Standardization of Office Open XML
+Markup languages,Specification languages,OpenOffice.org XML
+Markup languages,Specification languages,Women Writers Project
+Markup languages,Specification languages,The SWORD Project
+Markup languages,Specification languages,Biografisch Portaal
+Markup languages,Specification languages,Perseus Project
+Markup languages,Specification languages,British National Corpus
+Markup languages,Specification languages,EpiDoc
+Markup languages,Specification languages,Oxford Text Archive
+Markup languages,Specification languages,FreeDict
+Markup languages,Specification languages,New Zealand Electronic Text Centre
+Markup languages,Specification languages,Digital Medievalist
+Markup languages,Specification languages,OASIS TOSCA
+Markup languages,Specification languages,PhD Docbook renderer
+Markup languages,Specification languages,DocBook XSL
+Markup languages,Specification languages,Comparison of OpenDocument software
+Markup languages,Specification languages,Lpod
+Markup languages,Specification languages,Comparison of Office Open XML and OpenDocument
+Markup languages,Specification languages,OpenDocument software
+Markup languages,Specification languages,OpenFormula
+Markup languages,Specification languages,OpenDocument adoption
+Markup languages,Specification languages,Template:OpenDocument
+Markup languages,Specification languages,OpenDocument technical specification
+Markup languages,Specification languages,Visioo-Writer
+Markup languages,Specification languages,LibreOffice
+Markup languages,Specification languages,Michael Meeks (software developer)
+Markup languages,Specification languages,Florian Effenberger
+Markup languages,Specification languages,Thorsten Behrens
+Markup languages,Specification languages,LibreOffice Writer
+Markup languages,Specification languages,The Document Foundation
+Markup languages,Specification languages,Collabora
+Markup languages,Specification languages,Lanedo
+Markup languages,Specification languages,IceWarp
+Markup languages,Specification languages,Template:LibreOffice
+Markup languages,Specification languages,LibreOffice Calc
+Markup languages,Specification languages,Bj??rn Michaelsen
+Markup languages,Specification languages,Apache OpenOffice
+Markup languages,Specification languages,OpenOffice.org
+Markup languages,Specification languages,IBM Workplace
+Markup languages,Specification languages,IBM Lotus Symphony
+Markup languages,Specification languages,Go-oo
+Markup languages,Specification languages,StarOffice
+Markup languages,Specification languages,NeoOffice
+Markup languages,Specification languages,OpenOffice Basic
+Markup languages,Specification languages,Universal Network Objects
+Markup languages,Specification languages,Open Packaging Conventions
+Markup languages,Specification languages,Comparison of Office Open XML software
+Markup languages,Specification languages,WikiMapia
+Markup languages,Specification languages,Family tree mapping
+Markup languages,Specification languages,Bing Maps
+Markup languages,Specification languages,Google Maps
+Markup languages,Specification languages,Location API for Java ME
+Markup languages,Specification languages,Yahoo! Pipes
+Markup languages,Specification languages,Leaflet (software)
+Markup languages,Specification languages,Marble (software)
+Markup languages,Specification languages,NASA World Wind
+Markup languages,Specification languages,Bing Maps Platform
+Markup languages,Specification languages,BlooSee
+Markup languages,Specification languages,OpenLayers
+Markup languages,Specification languages,Google Earth
+Markup languages,Specification languages,Map My Ancestors
+Markup languages,Specification languages,user interface markup language
+Markup languages,Specification languages,Universal Remote Console
+Markup languages,Specification languages,Xaml
+Markup languages,Specification languages,VTML
+Markup languages,Specification languages,Vexi
+Markup languages,Specification languages,QML
+Markup languages,Specification languages,Comparison of user interface markup languages
+Markup languages,Specification languages,GtkBuilder
+Markup languages,Specification languages,User interface markup language
+Markup languages,Specification languages,Luxor (toolkit)
+Markup languages,Specification languages,Glade Interface Designer
+Markup languages,Specification languages,XML User Interface
+Markup languages,Specification languages,User interface modeling
+Markup languages,Specification languages,UsiXML
+Markup languages,Specification languages,XMLGUI
+Markup languages,Specification languages,HTML Application
+Markup languages,Specification languages,UIML
+Markup languages,Specification languages,Comparison of layout engines (MathML)
+Markup languages,Specification languages,O:XML
+Markup languages,Specification languages,POSXML
+Markup languages,Specification languages,M Sharp (programming language)
+Markup languages,Specification languages,ALFA (XACML)
+Markup languages,Stylesheet languages,Comparison of stylesheet languages
+Markup languages,Stylesheet languages,Document Style Semantics and Specification Language
+Markup languages,Stylesheet languages,Conditional comment
+Markup languages,Stylesheet languages,Bootstrap (front-end framework)
+Markup languages,Stylesheet languages,Cascade Framework
+Markup languages,Stylesheet languages,Foundation (framework)
+Markup languages,Stylesheet languages,Modernizr
+Markup languages,Stylesheet languages,JQuery Mobile
+Markup languages,Stylesheet languages,YUI Library
+Markup languages,Stylesheet languages,Parallax scrolling
+Markup languages,Stylesheet languages,XSL
+Markup languages,Transformation languages,TeX
+Markup languages,Transformation languages,CircuiTikZ
+Markup languages,Transformation languages,PSTricks
+Markup languages,Transformation languages,XML transformation language
+Markup languages,Transformation languages,XSLT
+Programming languages,Specification languages,Dependent ML
+Programming languages,Specification languages,XSLT/Muenchian grouping
+Programming languages,Specification languages,Face Modeling Language
+Programming languages,Specification languages,Digital Forensics XML
+Programming languages,Specification languages,XL (XML programming language)
+Programming languages,Specification languages,Scalable Vector Graphics
+Programming languages,Specification languages,Inkscape
+Programming languages,Specification languages,Epigram (programming language)
+Programming languages,Specification languages,Sodipodi
+Programming languages,Specification languages,GPAC Project on Advanced Content
+Programming languages,Specification languages,Librsvg
+Programming languages,Specification languages,WiseMapping
+Programming languages,Specification languages,Batik (software)
+Programming languages,Specification languages,Matita
+Programming languages,Specification languages,XMDP
+Programming languages,Specification languages,ALF (proof assistant)
+Programming languages,Specification languages,Prototype Verification System
+Programming languages,Specification languages,R2ML
+Programming languages,Specification languages,Coq
+Programming languages,Specification languages,RuleML
+Programming languages,Specification languages,XPointer
+Programming languages,Specification languages,XQuery and XPath Data Model
+Programming languages,Specification languages,Idris (programming language)
+Programming languages,Specification languages,XPath 3
+Programming languages,Specification languages,Fxgrep
+Programming languages,Specification languages,XPath
+Programming languages,Specification languages,XPath 2.0
+Programming languages,Specification languages,Language Integrated Query
+Programming languages,Specification languages,LEGO (proof assistant)
+Programming languages,Specification languages,LiveCode
+Programming languages,Specification languages,SenseTalk
+Programming languages,Specification languages,HyperTalk
+Programming languages,Specification languages,SuperTalk
+Programming languages,Specification languages,XTalk
+Programming languages,Specification languages,ATS (programming language)
+Programming languages,Specification languages,Albatross (programming language)
+Programming languages,Specification languages,OBJ3
+Programming languages,Specification languages,Maude system
+Programming languages,Specification languages,Cayenne (programming language)
+Programming languages,Specification languages,Spec Sharp
+Programming languages,Specification languages,F* (programming language)
+Programming languages,Specification languages,SPARK (programming language)
+Programming languages,Specification languages,Mizar system
+Programming languages,Specification languages,OBJ (programming language)
+Programming languages,Specification languages,Extended ML
+Programming languages,Specification languages,TNSDL
+Programming languages,Specification languages,MATLAB
+Programming languages,Specification languages,Eiffel (programming language)
+Programming languages,Specification languages,ChucK
+Programming languages,Specification languages,Synchronous programming language
+Programming languages,Specification languages,Atom (programming language)
+Programming languages,Specification languages,Secure Operations Language
+Programming languages,Specification languages,SIGNAL (programming language)
+Programming languages,Specification languages,LabVIEW
+Programming languages,Specification languages,DADiSP
+Programming languages,Specification languages,CICS
+Programming languages,Specification languages,Wolfram Language
+Programming languages,Specification languages,Lustre (programming language)
+Programming languages,Specification languages,Inner class
+Programming languages,Specification languages,Umple
+Programming languages,Specification languages,Production Rule Representation
+Programming languages,Specification languages,ATLAS Transformation Language
+Programming languages,Specification languages,Grady Booch
+Programming languages,Specification languages,Visual modeling
+Programming languages,Specification languages,Kermeta
+Programming languages,Specification languages,Acceleo
+Programming languages,Specification languages,YEd
+Programming languages,Specification languages,Modelio
+Programming languages,Specification languages,Borland Together
+Programming languages,Specification languages,OptimalJ
+Programming languages,Specification languages,Astah*
+Programming languages,Specification languages,Umbrello UML Modeller
+Programming languages,Specification languages,UML Designer
+Programming languages,Specification languages,Eclipse (software)
+Programming languages,Specification languages,NetBeans
+Programming languages,Specification languages,Dia (software)
+Programming languages,Specification languages,Papyrus (software)
+Programming languages,Specification languages,Stani's Python Editor
+Programming languages,Specification languages,ArgoUML
+Programming languages,Specification languages,VHDL
+Programming languages,Specification languages,Averest
+Programming languages,Specification languages,Embedded C++
+Programming languages,Specification languages,Esterel Studio
+Programming languages,Specification languages,SyncCharts
+Programming languages,Specification languages,Handel-C
+Programming languages,Specification languages,Esterel
+Programming languages,Specification languages,CODASYL
+Programming languages,Specification languages,.QL
+Programming languages,Specification languages,Data Base Task Group
+Programming languages,Specification languages,Pig (programming tool)
+Programming languages,Specification languages,Embedded SQL
+Programming languages,Specification languages,SQLf
+Programming languages,Specification languages,TimeML
+Programming languages,Specification languages,Data definition language
+Programming languages,Specification languages,Java Persistence Query Language
+Programming languages,Specification languages,Schematron
+Programming languages,Specification languages,XML
+Programming languages,Specification languages,SQL
+Programming languages,Specification languages,Mallard (documentation)
+Programming languages,Specification languages,CodeSynthesis XSD
+Programming languages,Specification languages,FuseDocs (programming)
+Programming languages,Specification languages,Resource Description Framework
+Programming languages,Specification languages,Office Open XML file formats
+Programming languages,Specification languages,XEE (Starlight)
+Programming languages,Specification languages,VTD-XML
+Programming languages,Specification languages,Arbortext Command Language
+Programming languages,Specification languages,EXtensible Server Pages
+Programming languages,Specification languages,Office Open XML
+Programming languages,Specification languages,XMLHttpRequest
+Programming languages,Specification languages,Vector Markup Language
+Programming languages,Specification languages,BaseX
+Programming languages,Specification languages,Open XML Paper Specification
+Programming languages,Specification languages,ECMAScript for XML
+Programming languages,Specification languages,XMLSpy
+Programming languages,Specification languages,Virtuoso Universal Server
+Programming languages,Specification languages,Libxslt
+Programming languages,Specification languages,Xalan
+Programming languages,Specification languages,Ajax (programming)
+Programming languages,Specification languages,AxsJAX
+Programming languages,Specification languages,Push technology
+Programming languages,Specification languages,Ext JS
+Programming languages,Specification languages,JsPHP
+Programming languages,Specification languages,24SevenOffice
+Programming languages,Specification languages,Jpspan
+Programming languages,Specification languages,Google APIs
+Programming languages,Specification languages,Qooxdoo
+Programming languages,Specification languages,ZK (framework)
+Programming languages,Specification languages,AngularJS
+Programming languages,Specification languages,Ember.js
+Programming languages,Specification languages,Bindows
+Programming languages,Specification languages,ICEfaces
+Programming languages,Specification languages,Comparison of JavaScript-based source code editors
+Programming languages,Specification languages,DWR (Java)
+Programming languages,Specification languages,Hijax
+Programming languages,Specification languages,Dojo Toolkit
+Programming languages,Specification languages,JSONP
+Programming languages,Specification languages,Prototype JavaScript Framework
+Programming languages,Specification languages,"Google Docs, Sheets, and Slides"
+Programming languages,Specification languages,ThinWire
+Programming languages,Specification languages,Comparison of JavaScript frameworks
+Programming languages,Specification languages,Ionic (mobile app framework)
+Programming languages,Specification languages,JavaScriptMVC
+Programming languages,Specification languages,Velocity (JavaScript library)
+Programming languages,Specification languages,JWt (Java web toolkit)
+Programming languages,Specification languages,OpenAjax Alliance
+Programming languages,Specification languages,Sajax
+Programming languages,Specification languages,Gollum browser
+Programming languages,Specification languages,Morfik
+Programming languages,Specification languages,Chaplin.js
+Programming languages,Specification languages,React (JavaScript library)
+Programming languages,Specification languages,Lively Kernel
+Programming languages,Specification languages,Rico (Ajax)
+Programming languages,Specification languages,Moobile.js
+Programming languages,Specification languages,JMaki
+Programming languages,Specification languages,Script.aculo.us
+Programming languages,Specification languages,JQuery Mobile
+Programming languages,Specification languages,Xajax
+Programming languages,Specification languages,Morfik FX
+Programming languages,Specification languages,Knockout (web framework)
+Programming languages,Specification languages,WaveMaker
+Programming languages,Specification languages,EMVC
+Programming languages,Specification languages,Scooby Web Calendar
+Programming languages,Specification languages,Comet (programming)
+Programming languages,Specification languages,Zimbra
+Programming languages,Specification languages,Sencha Touch
+Programming languages,Specification languages,YUI Library
+Programming languages,Specification languages,Parallax scrolling
+Programming languages,Specification languages,Document Update Markup Language
+Programming languages,Specification languages,Helmi Technologies
+Programming languages,Specification languages,Projax
+Programming languages,Specification languages,WAI-ARIA
+Programming languages,Specification languages,Apache XAP
+Programming languages,Specification languages,Zarafa (software)
+Programming languages,Specification languages,SOAPjr
+Programming languages,Specification languages,AJAX.OOP
+Programming languages,Specification languages,AjaxView
+Programming languages,Specification languages,ASP.NET AJAX
+Programming languages,Specification languages,MooTools
+Programming languages,Specification languages,ThinkFree Office
+Programming languages,Specification languages,Wt (web toolkit)
+Programming languages,Specification languages,DHTMLX
+Programming languages,Specification languages,JQuery
+Programming languages,Specification languages,Ajax framework
+Programming languages,Specification languages,Cross-origin resource sharing
+Programming languages,Specification languages,JSON
+Programming languages,Specification languages,Smart client
+Programming languages,Specification languages,Ajax4jsf
+Programming languages,Specification languages,SproutCore
+Programming languages,Specification languages,Ace (editor)
+Programming languages,Specification languages,Quicknet
+Programming languages,Specification languages,Citadel/UX
+Programming languages,Specification languages,Wakanda (software)
+Programming languages,Specification languages,Webfmt
+Programming languages,Specification languages,Ample SDK
+Programming languages,Specification languages,Dropbox Paper
+Programming languages,Specification languages,Ext.NET
+Programming languages,Specification languages,Echo (framework)
+Programming languages,Specification languages,SmartClient
+Programming languages,Specification languages,OpenLaszlo
+Programming languages,Specification languages,JSONiq
+Programming languages,Specification languages,Gson
+Programming languages,Specification languages,JSON Streaming
+Programming languages,Specification languages,GeoJSON
+Programming languages,Specification languages,Web Application Messaging Protocol
+Programming languages,Specification languages,Hypertext Application Language
+Programming languages,Specification languages,Jaql
+Programming languages,Specification languages,JSON-RPC
+Programming languages,Specification languages,BSON
+Programming languages,Specification languages,JSON-LD
+Programming languages,Specification languages,Smile (data interchange format)
+Programming languages,Specification languages,JsonML
+Programming languages,Specification languages,AJAJ
+Programming languages,Specification languages,Jayrock
+Programming languages,Specification languages,JSON Web Token
+Programming languages,Specification languages,HOCON
+Programming languages,Specification languages,EiskaltDC++
+Programming languages,Specification languages,Java Architecture for XML Binding
+Programming languages,Specification languages,Java API for XML Messaging
+Programming languages,Specification languages,XQuery API for Java
+Programming languages,Specification languages,Java API for RESTful Web Services
+Programming languages,Specification languages,Java API for XML Registries
+Programming languages,Specification languages,Java API for XML Web Services
+Programming languages,Specification languages,Java API for XML Processing
+Programming languages,Specification languages,Java API for XML-based RPC
+Programming languages,Specification languages,Libxml2
+Programming languages,Specification languages,SimpleXML
+Programming languages,Specification languages,Expat (library)
+Programming languages,Specification languages,HaXml
+Programming languages,Specification languages,XMLBeans
+Programming languages,Specification languages,Xerces
+Programming languages,Specification languages,Nokogiri (software)
+Programming languages,Specification languages,CodeSynthesis XSD/e
+Programming languages,Specification languages,XQuery
+Programming languages,Specification languages,Parboiled (Java)
+Programming languages,Specification languages,Prince (software)
+Programming languages,Specification languages,TeX4ht
+Programming languages,Specification languages,AxKit
+Programming languages,Specification languages,CookXml
+Programming languages,Specification languages,OmniMark
+Programming languages,Specification languages,Apache Ant
+Programming languages,Specification languages,Altsoft Xml2PDF
+Programming languages,Specification languages,XStream
+Programming languages,Specification languages,MarkLogic
+Programming languages,Specification languages,EXist
+Programming languages,Specification languages,Xerlin
+Programming languages,Specification languages,Franca IDL
+Programming languages,Specification languages,Sublime Text
+Programming languages,Specification languages,Codelobster
+Programming languages,Specification languages,RDF query language
+Programming languages,Specification languages,GeoSPARQL
+Programming languages,Specification languages,SPARUL
+Programming languages,Specification languages,Versa (query language)
+Programming languages,Specification languages,RDFLib
+Programming languages,Specification languages,Redland RDF Application Framework
+Programming languages,Specification languages,Adenine (programming language)
+Programming languages,Specification languages,StrixDB
+Programming languages,Specification languages,SPARQL Syntax Expressions
+Programming languages,Specification languages,XUL
+Programming languages,Specification languages,XML Interface for Network Services
+Programming languages,Specification languages,Atom (standard)
+Programming languages,Specification languages,XML Object Model
+Programming languages,Specification languages,RSS enclosure
+Programming languages,Specification languages,MARC standards
+Programming languages,Specification languages,Hartmann pipeline
+Programming languages,Specification languages,XOXO (microformat)
+Programming languages,Specification languages,MXML
+Programming languages,Specification languages,XSLT
+Programming languages,Specification languages,SXBL
+Programming languages,Specification languages,WiX
+Programming languages,Specification languages,KaXUL
+Programming languages,Specification languages,VoiceXML
+Programming languages,Specification languages,EMML (Motorola)
+Programming languages,Specification languages,Lightweight Imaging Device Interface Language
+Programming languages,Specification languages,RDFa
+Programming languages,Specification languages,Web Ontology Language
+Programming languages,Specification languages,RSS Cloud
+Programming languages,Specification languages,RSS
+Programming languages,Specification languages,RDF/XML
+Programming languages,Specification languages,FeedSync
+Programming languages,Specification languages,XBL
+Programming languages,Specification languages,JDOM
+Programming languages,Specification languages,Auto-lead Data Format
+Programming languages,Specification languages,FXML
+Programming languages,Specification languages,EXSLT
+Programming languages,Specification languages,Extensible Application Markup Language
+Programming languages,Specification languages,PubSubHubbub
+Programming languages,Specification languages,Synchronized Multimedia Integration Language
+Programming languages,Specification languages,XProc
+Programming languages,Specification languages,XML Resource
+Programming languages,Specification languages,XSL Formatting Objects
+Programming languages,Specification languages,Enterprise Mashup Markup Language
+Programming languages,Specification languages,XHTML Friends Network
+Programming languages,Specification languages,ONIX for Books
+Programming languages,Specification languages,Little b (programming language)
+Programming languages,Specification languages,SPARQL
+Programming languages,Specification languages,ANSI/ISO C Specification Language
+Programming languages,Specification languages,OpenDocument
+Programming languages,Specification languages,OpenDocument standardization
+Programming languages,Specification languages,Standardization of Office Open XML
+Programming languages,Specification languages,OpenOffice.org XML
+Programming languages,Specification languages,Comparison of Office Open XML and OpenDocument
+Programming languages,Specification languages,OpenDocument adoption
+Programming languages,Specification languages,Z++
+Programming languages,Specification languages,Visioo-Writer
+Programming languages,Specification languages,LibreOffice
+Programming languages,Specification languages,Michael Meeks (software developer)
+Programming languages,Specification languages,Florian Effenberger
+Programming languages,Specification languages,Thorsten Behrens
+Programming languages,Specification languages,LibreOffice Writer
+Programming languages,Specification languages,The Document Foundation
+Programming languages,Specification languages,Collabora
+Programming languages,Specification languages,Lanedo
+Programming languages,Specification languages,IceWarp
+Programming languages,Specification languages,Template:LibreOffice
+Programming languages,Specification languages,LibreOffice Calc
+Programming languages,Specification languages,Bj??rn Michaelsen
+Programming languages,Specification languages,Apache OpenOffice
+Programming languages,Specification languages,OpenOffice.org
+Programming languages,Specification languages,IBM Workplace
+Programming languages,Specification languages,IBM Lotus Symphony
+Programming languages,Specification languages,Go-oo
+Programming languages,Specification languages,StarOffice
+Programming languages,Specification languages,NeoOffice
+Programming languages,Specification languages,OpenOffice Basic
+Programming languages,Specification languages,Universal Network Objects
+Programming languages,Specification languages,Open Packaging Conventions
+Programming languages,Specification languages,Comparison of Office Open XML software
+Programming languages,Specification languages,Google Maps
+Programming languages,Specification languages,Location API for Java ME
+Programming languages,Specification languages,Yahoo! Pipes
+Programming languages,Specification languages,Algebraic modeling language
+Programming languages,Specification languages,Leaflet (software)
+Programming languages,Specification languages,Marble (software)
+Programming languages,Specification languages,NASA World Wind
+Programming languages,Specification languages,OpenLayers
+Programming languages,Specification languages,Google Earth
+Programming languages,Specification languages,Twelf
+Programming languages,Specification languages,QML
+Programming languages,Specification languages,GtkBuilder
+Programming languages,Specification languages,Glade Interface Designer
+Programming languages,Specification languages,Agda (programming language)
+Programming languages,Specification languages,XMLGUI
+Programming languages,Specification languages,O:XML
+Programming languages,Specification languages,POSXML
+Programming languages,Specification languages,M Sharp (programming language)
+Programming languages,Specification languages,ALFA (XACML)
+Programming languages,Stylesheet languages,Document Style Semantics and Specification Language
+Programming languages,Stylesheet languages,Bootstrap (front-end framework)
+Programming languages,Stylesheet languages,Cascade Framework
+Programming languages,Stylesheet languages,Modernizr
+Programming languages,Stylesheet languages,Sass (stylesheet language)
+Programming languages,Stylesheet languages,Cascading Style Sheets
+Programming languages,Stylesheet languages,JavaScript Style Sheets
+Programming languages,Stylesheet languages,Less (stylesheet language)
+Programming languages,Stylesheet languages,Tableless web design
+Programming languages,Stylesheet languages,CSS frameworks
+Programming languages,Stylesheet languages,Cassowary (software)
+Programming languages,Stylesheet languages,Media queries
+Programming languages,Stylesheet languages,Holy Grail (web design)
+Programming languages,Stylesheet languages,Responsive web design
+Programming languages,Stylesheet languages,Progressive enhancement
+Programming languages,Stylesheet languages,Unobtrusive JavaScript
+Programming languages,Stylesheet languages,Mobile device detection
+Programming languages,Stylesheet languages,Polyfill
+Programming languages,Stylesheet languages,JQuery UI
+Programming languages,Stylesheet languages,CSS box model
+Programming languages,Stylesheet languages,JQuery Mobile
+Programming languages,Stylesheet languages,YUI Library
+Programming languages,Stylesheet languages,Parallax scrolling
+Programming languages,Transformation languages,TeX
+Programming languages,Transformation languages,CircuiTikZ
+Programming languages,Transformation languages,PSTricks
+Programming languages,Transformation languages,Hygienic macro
+Programming languages,Transformation languages,C preprocessor
+Programming languages,Transformation languages,Stratego/XT
+Programming languages,Transformation languages,RascalMPL
+Programming languages,Transformation languages,Visual Basic for Applications
+Programming languages,Transformation languages,SAM76
+Programming languages,Transformation languages,WordBASIC
+Programming languages,Transformation languages,Parser (CGI language)
+Programming languages,Transformation languages,SMX (computer language)
+Programming languages,Transformation languages,XSLT
+Specification languages,Stylesheet languages,JQuery Mobile
+Specification languages,Stylesheet languages,YUI Library
+Specification languages,Stylesheet languages,Parallax scrolling
+Specification languages,Stylesheet languages,XSL
+Specification languages,Transformation languages,XML transformation language
+Specification languages,Transformation languages,XSLT
+
+ Performed query in: 1310460ms

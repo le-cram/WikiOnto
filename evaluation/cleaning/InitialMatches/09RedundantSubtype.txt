@@ -1,0 +1,111 @@
+subtypename,typename,supertypename
+Data modeling languages,Specification languages,Computer languages
+Software modeling language,Specification languages,Scientific modeling
+Unified Modeling Language,Specification languages,Technical communication
+Unified Modeling Language,Software modeling language,Technical communication
+Unified Modeling Language,Software modeling language,Specification languages
+Functional languages,Declarative programming languages,Programming languages
+Dependently typed languages,Specification languages,Formal languages
+Dependently typed languages,Programming languages,Formal languages
+Dynamically typed programming languages,Dynamic programming languages,Programming languages
+Data-centric programming languages,Persistent programming languages,Data management
+Data-centric programming languages,Persistent programming languages,Persistent programming languages
+C++,Class-based programming languages,Object-oriented programming languages
+Java (programming language),Class-based programming languages,Object-oriented programming languages
+Java (programming language),Java programming language family,Java platform
+KDE software,Free software programmed in C++,Free software
+Software for modeling software,Specification languages,Software engineering
+Hardware verification languages,Hardware description languages,Electronic design automation
+Hardware verification languages,Hardware description languages,Electronic engineering
+XML markup languages,XML,Markup languages
+Text Encoding Initiative,Document-centric XML-based standards,Markup languages
+Bibliography file formats,Domain-specific knowledge representation languages,Computer file formats
+XML editors,XML software,XML
+GNOME,GTK+,GNU Project software
+XML parsers,XML software,XML
+Scripting languages,Domain-specific programming languages,Programming language classification
+User interface markup languages,XML-based standards,Markup languages
+Ecma standards,Programming language standards,Computer standards
+JavaScript,Prototype-based programming languages,Object-based programming languages
+Triplestores,Resource Description Framework,Semantic Web
+JSON,Ajax (programming),Markup languages
+JSON,Ajax (programming),Data serialization formats
+JSON,Ajax (programming),JavaScript
+Responsive web design,Cascading Style Sheets,Web design
+Pascal (programming language),Structured programming languages,Procedural programming languages
+CSS frameworks,Cascading Style Sheets,Web design
+GIS file formats,Markup languages,Computer file formats
+Java specification requests,Java (programming language),Java platform
+Java APIs,Java (programming language),Java platform
+TeX,Mathematical markup languages,Markup languages
+Python libraries,Python software,Python (programming language)
+Microformats,Domain-specific knowledge representation languages,Knowledge representation
+Microformats,Semantic HTML,Semantic Web
+Microformats,Domain-specific knowledge representation languages,Semantic Web
+Scalable Vector Graphics,Vector graphics markup languages,Vector graphics
+KDE Platform,Software that uses Qt,Cross-platform software
+KDE Platform,Free software programmed in C++,Free software
+KDE Platform,Software that uses Qt,Application programming interfaces
+KDE Platform,Software that uses Qt,C++ libraries
+KDE Platform,Software that uses Qt,Free computer libraries
+KDE Platform,Software that uses Qt,X-based libraries
+MathML,XML-based standards,World Wide Web Consortium standards
+DocBook,Document-centric XML-based standards,Markup languages
+DocBook,XML markup languages,Markup languages
+Academic programming languages,Programming languages,Programming language theory
+Domain theory,Denotational semantics,Mathematics of computing
+Troff,Mathematical markup languages,Markup languages
+KDE Extragear,KDE software,Wikipedia categories named after software
+Geographical databases,Spatial databases,Geographic information systems
+Automated WYSIWYG editors,HTML editors,Web development software
+Text editors that use GTK+,Integrated development environments that use GTK+,Software that uses GTK+
+Dylan (programming language),Lisp programming language family,Functional languages
+Prototype-based programming languages,Object-oriented programming languages,Programming languages
+Persistent programming languages,Data-centric programming languages,Query languages
+Persistent programming languages,Data-centric programming languages,Data-centric programming languages
+Persistent programming languages,Data-centric programming languages,Database management systems
+Functional logic programming languages,Functional languages,Declarative programming languages
+Functional logic programming languages,Logic programming languages,Declarative programming languages
+S60 (software platform),Symbian OS,Smartphones
+S60 (software platform),Symbian OS,Mobile operating systems
+Web programming,PHP frameworks,Domain-specific programming languages
+Pascal programming language family,Pascal (programming language),Programming language families
+Software programmed in Java (programming language),Java platform software,Software by programming language
+GNOME Accessibility,GNOME,GTK+
+Diesel (game engine) games,Lua-scripted video games,Video games by game engine
+Silent Storm engine games,Lua-scripted video games,Video games by game engine
+Enigma Engine games,Lua-scripted video games,Video games by game engine
+Freedesktop.org,GNOME,Free software projects
+C standard library,C POSIX library,C libraries
+Archive managers that use GTK+,File managers that use GTK+,Software that uses GTK+
+Video editing software that uses GTK+,Video software that uses GTK+,Software that uses GTK+
+Desktop environments based on GTK+,Software that uses GTK+,GTK+
+3D graphics software that uses Qt,Graphics software that uses Qt,Software that uses Qt
+KDE Software Compilation,KDE software,Wikipedia categories named after software
+KDE Software Compilation,KDE Platform,Wikipedia categories named after software
+KDE Frameworks,Software that uses Qt,Cross-platform software
+KDE Frameworks,Free software programmed in C++,Free software
+KDE Frameworks,Software that uses Qt,Application programming interfaces
+KDE Frameworks,Software that uses Qt,C++ libraries
+KDE Frameworks,Software that uses Qt,Free computer libraries
+KDE Frameworks,Software that uses Qt,X-based libraries
+Motion graphics software that uses GTK+,Graphics software that uses GTK+,Software that uses GTK+
+Motion graphics software that uses GTK+,Video software that uses GTK+,Software that uses GTK+
+Calligra Suite,KDE software,Wikipedia categories named after software
+Kdepim,KDE Software Compilation,Wikipedia categories named after software
+Videoconferencing software that uses GTK+,Video software that uses GTK+,Software that uses GTK+
+Vala (programming language),C programming language family,Wikipedia categories named after programming languages
+Free Pascal,Pascal programming language family,Pascal (programming language)
+Free Pascal,Pascal compilers,Pascal (programming language)
+Delphi (programming language),Pascal programming language family,Wikipedia categories named after programming languages
+PHP frameworks,Free software programmed in PHP,PHP software
+Programming games,Educational programming languages,Computer programming
+POSIX error codes,C standard library,C POSIX library
+ALGOL 68 dialect,ALGOL 68,Algol programming language family
+ALGOL 68 implementation,ALGOL 68,Algol programming language family
+ALGOL 60 implementation,ALGOL 60,Algol programming language family
+UIQ 3 Phones,Symbian OS,Smartphones
+Clutter (software),GNOME libraries,C libraries
+GNOME Mobile,GNOME,GTK+
+3D graphics software that uses GTK+,Graphics software that uses GTK+,Software that uses GTK+
+Operating systems using GPE,GNOME,GTK+

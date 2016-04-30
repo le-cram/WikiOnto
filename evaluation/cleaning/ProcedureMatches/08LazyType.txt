@@ -1,0 +1,83 @@
+typename,NumberOfEntities,NumberOfSubtypes,howmany
+OCaml programming language family,0,1,1
+FP programming language family,1,0,1
+Formula manipulation languages,1,0,1
+Icon programming language family,1,0,1
+Intensional programming languages,1,0,1
+Programming languages created in 1953,1,0,1
+Programming languages created in 1954,1,0,1
+Programming languages created in 1955,1,0,1
+Programming languages created in 1958,1,0,1
+Programming languages created in 1968,1,0,1
+Programming languages created in 1971,1,0,1
+Programming languages created in 1980,1,0,1
+Programming languages created in 1982,1,0,1
+Programming languages created in 1997,1,0,1
+Programming languages created in 1998,1,0,1
+Programming languages created in 2015,1,0,1
+Programming languages created in the 1940s,1,0,1
+SR programming language family,1,0,1
+Haskell software,0,2,2
+Programming languages by creation date,0,2,2
+Programming languages created in the 21st century,0,2,2
+Haskell implementations,1,1,2
+Spatial databases,1,1,2
+Agent-oriented programming languages,2,0,2
+Free software programmed in BASIC,2,0,2
+ISO/IEC 19775,2,0,2
+Low-level programming languages,2,0,2
+Musical markup languages,2,0,2
+Nondeterministic programming languages,2,0,2
+Programming languages created in 1957,2,0,2
+Programming languages created in 1966,2,0,2
+Programming languages created in 1970,2,0,2
+Programming languages created in 1973,2,0,2
+Programming languages created in 1976,2,0,2
+Programming languages created in 1978,2,0,2
+Programming languages created in 1979,2,0,2
+Programming languages created in 1981,2,0,2
+Programming languages created in 1985,2,0,2
+Programming languages created in 1988,2,0,2
+Programming languages created in 1989,2,0,2
+Programming languages created in 1992,2,0,2
+Programming languages created in 1994,2,0,2
+Programming languages created in 1999,2,0,2
+Programming languages created in 2013,2,0,2
+Programming languages created in 2014,2,0,2
+SETL programming language family,2,0,2
+Secure programming languages,2,0,2
+Tree programming languages,2,0,2
+Structured English,2,1,3
+Ada programming language family,3,0,3
+Free software programmed in OCaml,3,0,3
+JavaScript dialect engines,3,0,3
+MUMPS programming language family,3,0,3
+Page description markup languages,3,0,3
+Programming languages created in 1959,3,0,3
+Programming languages created in 1962,3,0,3
+Programming languages created in 1969,3,0,3
+Programming languages created in 1975,3,0,3
+Programming languages created in 1984,3,0,3
+Programming languages created in 1990,3,0,3
+Programming languages created in 2001,3,0,3
+Programming languages created in 2004,3,0,3
+Programming languages created in 2005,3,0,3
+Programming languages created in 2009,3,0,3
+Reactive programming languages,3,0,3
+System description languages,3,0,3
+Object-based programming languages,3,1,4
+Typesetting programming languages,3,1,4
+ALGOL 58 dialect,4,0,4
+Markup language comparisons,4,0,4
+Persistent programming languages,4,0,4
+Programming languages created in 1967,4,0,4
+Programming languages created in 1977,4,0,4
+Programming languages created in 1983,4,0,4
+Programming languages created in 2002,4,0,4
+Programming languages created in 2006,4,0,4
+Programming languages created in 2008,4,0,4
+Programming languages created in 2012,4,0,4
+Set theoretic programming languages,4,0,4
+XML-based programming languages,4,0,4
+
+ Performed query in: 78ms

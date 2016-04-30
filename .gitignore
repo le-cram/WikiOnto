@@ -9,3 +9,4 @@ cleanedOntology/
 src/main/java/de/ist/clonto/triplestore/transform/Cleaner.java
 .settings/
 *.lock
+clonto/

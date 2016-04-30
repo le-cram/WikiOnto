@@ -1,0 +1,116 @@
+toptype1name,toptype2name,entityname
+Markup languages,Specification languages,Troff macro
+Markup languages,Specification languages,Nroff
+Markup languages,Specification languages,Troff
+Markup languages,Specification languages,Pic language
+Markup languages,Specification languages,Eqn
+Markup languages,Specification languages,Tbl
+Markup languages,Specification languages,TYPSET and RUNOFF
+Markup languages,Specification languages,Noweb
+Markup languages,Specification languages,Runoff (program)
+Markup languages,Specification languages,Contextual Query Language
+Markup languages,Specification languages,RDF query language
+Markup languages,Transformation languages,EXSLT
+Markup languages,Transformation languages,XProc
+Programming languages,Specification languages,XPath
+Programming languages,Specification languages,Language Integrated Query
+Programming languages,Specification languages,Troff macro
+Programming languages,Specification languages,Nroff
+Programming languages,Specification languages,Troff
+Programming languages,Specification languages,Pic language
+Programming languages,Specification languages,Eqn
+Programming languages,Specification languages,Tbl
+Programming languages,Specification languages,Query language
+Programming languages,Specification languages,TYPSET and RUNOFF
+Programming languages,Specification languages,Noweb
+Programming languages,Specification languages,Runoff (program)
+Programming languages,Specification languages,Contextual Query Language
+Programming languages,Specification languages,SAM76
+Programming languages,Specification languages,Cascading Style Sheets
+Programming languages,Specification languages,Lucid (programming language)
+Programming languages,Specification languages,MUMPS
+Programming languages,Specification languages,Harbour (software)
+Programming languages,Specification languages,ERuby
+Programming languages,Specification languages,Mustache (template system)
+Programming languages,Specification languages,Handlebars (template system)
+Programming languages,Specification languages,JADE (programming language)
+Programming languages,Specification languages,Thymeleaf
+Programming languages,Specification languages,Apache Velocity
+Programming languages,Specification languages,Object Query Language
+Programming languages,Specification languages,Jinja (template engine)
+Programming languages,Specification languages,Mako (template engine)
+Programming languages,Specification languages,CheetahTemplate
+Programming languages,Specification languages,Genshi (templating language)
+Programming languages,Specification languages,Topsite Templating System
+Programming languages,Specification languages,Kid (templating language)
+Programming languages,Specification languages,CherryTemplate
+Programming languages,Specification languages,Template Attribute Language
+Programming languages,Specification languages,Template Toolkit
+Programming languages,Specification languages,TinyButStrong
+Programming languages,Specification languages,Smarty
+Programming languages,Specification languages,Twig (template engine)
+Programming languages,Specification languages,Jaql
+Programming languages,Specification languages,XQuery
+Programming languages,Specification languages,ABC (programming language)
+Programming languages,Specification languages,Lout (software)
+Programming languages,Specification languages,RDF query language
+Programming languages,Specification languages,Versa (query language)
+Programming languages,Specification languages,C/AL
+Programming languages,Specification languages,XBase
+Programming languages,Specification languages,XBase++
+Programming languages,Specification languages,Flagship compiler
+Programming languages,Specification languages,SQL:2003
+Programming languages,Specification languages,Alpha (programming language)
+Programming languages,Specification languages,PTQL
+Programming languages,Specification languages,SQL:2011
+Programming languages,Specification languages,SQL:2008
+Programming languages,Specification languages,Datalog
+Programming languages,Specification languages,DLV
+Programming languages,Specification languages,Query by Example
+Programming languages,Specification languages,Facebook Query Language
+Programming languages,Specification languages,StreamSQL
+Programming languages,Specification languages,Nonprocedural language
+Programming languages,Specification languages,Yahoo! Query Language
+Programming languages,Specification languages,Template:Query languages
+Programming languages,Specification languages,Web Coverage Processing Service
+Programming languages,Specification languages,Information retrieval query language
+Programming languages,Specification languages,ISBL
+Programming languages,Specification languages,QUEL query languages
+Programming languages,Specification languages,Chess Query Language
+Programming languages,Specification languages,Natural language query
+Programming languages,Specification languages,Access query language
+Programming languages,Specification languages,EJB QL
+Programming languages,Specification languages,Spatial query
+Programming languages,Specification languages,MultiDimensional eXpressions
+Programming languages,Specification languages,D (data language specification)
+Programming languages,Specification languages,N1QL
+Programming languages,Specification languages,SQR
+Programming languages,Specification languages,Daplex
+Programming languages,Specification languages,Event Programming Language
+Programming languages,Specification languages,Data Mining Extensions
+Programming languages,Specification languages,HTSQL
+Programming languages,Specification languages,Cach?? ObjectScript
+Programming languages,Specification languages,HTMLBars
+Programming languages,Specification languages,VlibTemplate
+Programming languages,Specification languages,Text Template Transformation Toolkit
+Programming languages,Specification languages,Hamlets
+Programming languages,Specification languages,CCAPS
+Programming languages,Specification languages,Open Power Template
+Programming languages,Specification languages,FreeMarker
+Programming languages,Specification languages,WebMacro
+Programming languages,Transformation languages,Maude system
+Programming languages,Transformation languages,Wolfram Language
+Programming languages,Transformation languages,Pure (programming language)
+Programming languages,Transformation languages,Q (equational programming language)
+Programming languages,Transformation languages,Abstract rewriting machine
+Programming languages,Transformation languages,Tom (pattern matching language)
+Programming languages,Transformation languages,ASF+SDF Meta Environment
+Programming languages,Transformation languages,Clean (programming language)
+Programming languages,Transformation languages,Refal
+Programming languages,Transformation languages,Adenine (programming language)
+Specification languages,Stylesheet languages,Cascading Style Sheets
+Specification languages,Transformation languages,Maude system
+Specification languages,Transformation languages,Wolfram Language
+Specification languages,Transformation languages,SAM76
+Specification languages,Transformation languages,EXSLT
+Specification languages,Transformation languages,XProc

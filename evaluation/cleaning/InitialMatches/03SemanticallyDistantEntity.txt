@@ -1,0 +1,4018 @@
+entityname,howManyDistantTypes,howManyReachableTypes,difference
+1legcall,2,1,1
+3D Manufacturing Format,2,1,1
+AAlib,2,1,1
+ABAP,2,1,1
+ACID64 Player,2,1,1
+AI winter,2,1,1
+AIGLX,2,1,1
+AMBER,2,1,1
+AMOS (programming language),2,1,1
+ANIMAL (image processing),2,1,1
+APMonitor,2,1,1
+ARB assembly language,2,1,1
+ARC Macro Language,2,1,1
+AT&T FSM Library,2,1,1
+ATL Server,2,1,1
+Abstract Syntax Notation One,2,1,1
+Acando,2,1,1
+Acid3,2,1,1
+Action language,2,1,1
+Actor model theory,2,1,1
+Actor-Lab,2,1,1
+Adaptive Communication Environment,2,1,1
+Additive Manufacturing File Format,2,1,1
+Advanced Continuous Simulation Language,2,1,1
+Aeolus (software),2,1,1
+Agavi,2,1,1
+Agilo for Trac,2,1,1
+Allocator (C++),2,1,1
+Alphatk,2,1,1
+Amiga demos,2,1,1
+AmigaOS,2,1,1
+Amsynth,2,1,1
+Anime Studio,2,1,1
+Anti-Spam SMTP Proxy,2,1,1
+Antiword,2,1,1
+Apache Ambari,2,1,1
+Apache CloudStack,2,1,1
+Apache Cocoon,2,1,1
+Apache Commons,2,1,1
+Apache Giraph,2,1,1
+Apache Hama,2,1,1
+Apache Ivy,2,1,1
+Apache Lenya,2,1,1
+Apache MyFaces,2,1,1
+Apache Shale,2,1,1
+Apertium,2,1,1
+Apollon (software),2,1,1
+Apophysis (software),2,1,1
+Applet,2,1,1
+Appserver.io,2,1,1
+ArX,2,1,1
+Archimedes (CAD),2,1,1
+Architecture Design and Assessment System,2,1,1
+Artweaver,2,1,1
+Associaci?? d'Usuaris de Java de Catalunya,2,1,1
+Asynchronous module definition,2,1,1
+Atari Logo,2,1,1
+Attic (backup software),2,1,1
+AudioMulch,2,1,1
+Augmented Reality Markup Language,2,1,1
+Auto ptr,2,1,1
+AutoKey,2,1,1
+Autocoder,2,1,1
+Avimator,2,1,1
+Axiomatic semantics,2,1,1
+B-Method,2,1,1
+BASIC A+,2,1,1
+BASIC Stamp,2,1,1
+BLISS,2,1,1
+BOS/360,2,1,1
+BSON,2,1,1
+Babel Middleware,2,1,1
+Bacula,2,1,1
+BareMetal,2,1,1
+Barrow Area Information Database,2,1,1
+Bcache,2,1,1
+Be File System,2,1,1
+BeOS API,2,1,1
+Beehive Forum,2,1,1
+BeerXML,2,1,1
+Bibledit,2,1,1
+Big Medium,2,1,1
+Billion laughs,2,1,1
+Bio7,2,1,1
+BioJava,2,1,1
+Biositemap,2,1,1
+BitBake,2,1,1
+Black Perl,2,1,1
+Bleem!,2,1,1
+Blender Game Engine,2,1,1
+Bonnie++,2,1,1
+Book:Christine Love (visual novelist),2,1,1
+Book:Ren'Py,2,1,1
+Bootmanager,2,1,1
+Borland Turbo Debugger,2,1,1
+Botan (programming library),2,1,1
+Bower (software),2,1,1
+Branch (computer science),2,1,1
+Browserify,2,1,1
+Buildout,2,1,1
+Bup,2,1,1
+Business Process Modeling Language,2,1,1
+C file input/output,2,1,1
+C syntax,2,1,1
+C++ AMP,2,1,1
+C++Builder,2,1,1
+C.a.R.,2,1,1
+CDemu,2,1,1
+CGNS,2,1,1
+CLSQL,2,1,1
+CLiki,2,1,1
+CMUcam,2,1,1
+COLA (software architecture),2,1,1
+COMMIT (SQL),2,1,1
+CPAGE,2,1,1
+CPAN,2,1,1
+CPN-AMI,2,1,1
+CPPSERV,2,1,1
+CRaSH,2,1,1
+CSS Animations,2,1,1
+CSS Flex Box Layout,2,1,1
+CSS Working Group,2,1,1
+CaRMetal,2,1,1
+Call-with-current-continuation,2,1,1
+Calligra Flow,2,1,1
+Calligra Words,2,1,1
+CamStudio,2,1,1
+Canto (news aggregator),2,1,1
+Cappuccino (application development framework),2,1,1
+Carbonado (Java),2,1,1
+Caudium (web server),2,1,1
+Cg (programming language),2,1,1
+Check MK,2,1,1
+Christmas Tree EXEC,2,1,1
+CircuitLogix,2,1,1
+Circular dependency,2,1,1
+Class Library for Numbers,2,1,1
+ClearTalk,2,1,1
+Clinical Document Architecture,2,1,1
+Cloud CMS,2,1,1
+CloudStore,2,1,1
+Cloudera Impala,2,1,1
+Codealike,2,1,1
+Colwiz,2,1,1
+Commit (data management),2,1,1
+Common Alerting Protocol,2,1,1
+Common Music Notation,2,1,1
+Comparison of HTML5 and Flash,2,1,1
+Comparison of Java and Android API,2,1,1
+Comparison of Office Open XML software,2,1,1
+Comparison of OpenDocument software,2,1,1
+Comparison of Pascal and Delphi,2,1,1
+Comparison of Symbian devices,2,1,1
+Comparison of parser generators,2,1,1
+Comparison of programming languages (object-oriented programming),2,1,1
+Comparison of the Java and .NET platforms,2,1,1
+Compiler Description Language,2,1,1
+Compiler-compiler,2,1,1
+Compound Document Format,2,1,1
+Computation tree logic,2,1,1
+ConceptGCC,2,1,1
+Concerto Signage,2,1,1
+Concrete Roman,2,1,1
+Confluence (software),2,1,1
+ConnMan,2,1,1
+Connection string,2,1,1
+Contao,2,1,1
+Context MBA,2,1,1
+Context management,2,1,1
+Continuity of Care Document,2,1,1
+Continuity of Care Record,2,1,1
+Control Structure Diagram,2,1,1
+Controlled image base,2,1,1
+Copy constructor (C++),2,1,1
+Copy elision,2,1,1
+Core Python Programming,2,1,1
+CoreASM,2,1,1
+Cork encoding,2,1,1
+CosmicOS,2,1,1
+Cowsay,2,1,1
+Create Project,2,1,1
+Creole (markup),2,1,1
+Crobots,2,1,1
+CruiseControl,2,1,1
+CryptoGraf,2,1,1
+CsUnit,2,1,1
+Curiously recurring template pattern,2,1,1
+Cursor (databases),2,1,1
+CutePDF,2,1,1
+Cwm (software),2,1,1
+DHTMLEdit,2,1,1
+DIGITAL Command Language,2,1,1
+DOS Wedge,2,1,1
+DOS/360 and successors,2,1,1
+DRAKON,2,1,1
+DRDA,2,1,1
+DTED,2,1,1
+DarkBASIC,2,1,1
+DarkBASIC Professional,2,1,1
+DataReader,2,1,1
+Declarative Referential Integrity,2,1,1
+Deductive classifier,2,1,1
+Deegree,2,1,1
+Delta3D,2,1,1
+Descartes (plotting tool),2,1,1
+Design Science (company),2,1,1
+DexOS,2,1,1
+Digital Geographic Exchange Standard,2,1,1
+Digital Linear Tape,2,1,1
+Digital line graph,2,1,1
+Digital raster graphic,2,1,1
+Digraphs and trigraphs,2,1,1
+Dingoo A320 SDK,2,1,1
+Direct Save Protocol,2,1,1
+Dm-cache,2,1,1
+Dotclear,2,1,1
+Dovecot (software),2,1,1
+DrJava,2,1,1
+Draco (programming language),2,1,1
+Drakconf,2,1,1
+Drools,2,1,1
+Duff's device,2,1,1
+DynPG,2,1,1
+E theorem prover,2,1,1
+E2fsprogs,2,1,1
+EFront (eLearning software),2,1,1
+EISPACK,2,1,1
+ESobi,2,1,1
+EXPRESS (data modeling language),2,1,1
+EZGenerator,2,1,1
+Eclipse Process Framework,2,1,1
+EditGrid,2,1,1
+EdtFTPnet,2,1,1
+Emacs Speaks Statistics,2,1,1
+EmelFM2,2,1,1
+Emios,2,1,1
+EndNote,2,1,1
+Enhanced entity???relationship model,2,1,1
+Enigma Engine,2,1,1
+Enterprise Media Bean,2,1,1
+Entity???relationship model,2,1,1
+Epesi,2,1,1
+Esper (software),2,1,1
+EventScripts,2,1,1
+Excel Services,2,1,1
+Exception safety,2,1,1
+Extensible Configuration Checklist Description Format,2,1,1
+Extensible Embeddable Language,2,1,1
+Extensible resource identifier,2,1,1
+Extragear,2,1,1
+FEKO,2,1,1
+FLWM,2,1,1
+FRACTRAN,2,1,1
+FREELANG Dictionary,2,1,1
+Family tree mapping,2,1,1
+FastCode,2,1,1
+Feedbin,2,1,1
+Fiji (software),2,1,1
+FindBugs,2,1,1
+FireMonkey,2,1,1
+Firebug (software),2,1,1
+Fj??lnir (programming language),2,1,1
+Flexive,2,1,1
+Florian Effenberger,2,1,1
+Flowcode,2,1,1
+Fluff Busting Purity,2,1,1
+Focal (HP-41),2,1,1
+Fontconfig,2,1,1
+Fontmatrix,2,1,1
+Football Tycoon,2,1,1
+Fox toolkit,2,1,1
+Franz Lisp,2,1,1
+FreeHEP,2,1,1
+FreePOPs,2,1,1
+Frei0r,2,1,1
+Frenetic (programming language),2,1,1
+Fresh Memory (software),2,1,1
+Fudgets,2,1,1
+Fusebox (programming),2,1,1
+Fyre,2,1,1
+G-code,2,1,1
+GEANT-3,2,1,1
+GLOBAL,2,1,1
+GNAT Modified General Public License,2,1,1
+GNOME Mobile & Embedded Initiative,2,1,1
+GNU Fortran,2,1,1
+GNU Paint,2,1,1
+GNU Readline,2,1,1
+GOCR,2,1,1
+GPM (software),2,1,1
+GPUdb,2,1,1
+GRDDL,2,1,1
+GROMOS,2,1,1
+GTK-server,2,1,1
+GXL,2,1,1
+Gala Window Manager,2,1,1
+Gateway Anti-Virus,2,1,1
+Gatling (software),2,1,1
+Gellish,2,1,1
+GenStat,2,1,1
+GeneXus,2,1,1
+Generic Image Library,2,1,1
+Gensim,2,1,1
+GeoNetwork opensource,2,1,1
+Geographic Data Files,2,1,1
+Geotagged photograph,2,1,1
+Gerrit (software),2,1,1
+Getmail,2,1,1
+Glamor (software),2,1,1
+Glasgow Haskell Compiler,2,1,1
+Gliffy,2,1,1
+Glob (programming),2,1,1
+GoldED,2,1,1
+Gollum browser,2,1,1
+Golo (programming language),2,1,1
+Google Chrome Frame,2,1,1
+Google Guava,2,1,1
+Google Wave Federation Protocol,2,1,1
+Grapher,2,1,1
+Graphical Modeling Framework,2,1,1
+Greasemonkey,2,1,1
+Greenshot,2,1,1
+Groff (software),2,1,1
+Gunicorn (HTTP server),2,1,1
+GvSIG,2,1,1
+HBasic,2,1,1
+HERAS-AF,2,1,1
+HOOPS 3D Graphics System,2,1,1
+HPGL,2,1,1
+HTML Working Group,2,1,1
+HTML email,2,1,1
+Halide (programming language),2,1,1
+Healthcare Services Specification Project,2,1,1
+Helmi Technologies,2,1,1
+Hemlock (editor),2,1,1
+HemoSpat,2,1,1
+Hermes (programming language),2,1,1
+Hierarchical and recursive queries in SQL,2,1,1
+HotJava,2,1,1
+HyperFun,2,1,1
+HyperNext,2,1,1
+IBM Administrative Terminal System,2,1,1
+IBM Business System 12,2,1,1
+IBM COBOL,2,1,1
+IBM Intelligent Printer Data Stream (IPDS),2,1,1
+IBM OpenDX,2,1,1
+IBM Rational Rose XDE,2,1,1
+IBM Workplace,2,1,1
+IBM i Control Language,2,1,1
+ICAD (software),2,1,1
+ICI (programming language),2,1,1
+IComic,2,1,1
+IDEF4,2,1,1
+IEEE 1164,2,1,1
+IKVM.NET,2,1,1
+IL2CPU,2,1,1
+IODBC,2,1,1
+IPython,2,1,1
+ISO 2709,2,1,1
+ISO 9660,2,1,1
+ISO-TimeML,2,1,1
+ISO/IEC 2022,2,1,1
+ISO/IEC 646,2,1,1
+ISO/IEC 8859,2,1,1
+ISO/IEC JTC 1/SC 22,2,1,1
+IceWarp,2,1,1
+Icy Phoenix,2,1,1
+IgniteXML,2,1,1
+Iko (software),2,1,1
+Image file formats,2,1,1
+Implicit animation,2,1,1
+Incremental compiler,2,1,1
+Indexed file,2,1,1
+Information Presentation Facility,2,1,1
+Ingo (software),2,1,1
+Integer Matrix Library,2,1,1
+Interactive Digital Photomontage,2,1,1
+Interactive Disassembler,2,1,1
+Interface (Java),2,1,1
+Intermediate Perl,2,1,1
+International Conference on Functional Programming,2,1,1
+International Conference on Logic Programming,2,1,1
+International Symposium on Memory Management,2,1,1
+Internet Explorer box model bug,2,1,1
+Internet Open Trading Protocol,2,1,1
+Interrupts in 65xx processors,2,1,1
+Invenio,2,1,1
+Ion (window manager),2,1,1
+J2EE Management,2,1,1
+JACK Intelligent Agents,2,1,1
+JASS,2,1,1
+JArchitect,2,1,1
+JGRASP,2,1,1
+JIRA Studio,2,1,1
+JMulTi,2,1,1
+JPC (emulator),2,1,1
+JPlayer,2,1,1
+JQuantLib,2,1,1
+JSLEE,2,1,1
+JSON-RPC,2,1,1
+JSR 94,2,1,1
+JSyn,2,1,1
+JTS Topology Suite,2,1,1
+JVx (Framework),2,1,1
+JWM,2,1,1
+Jabaco,2,1,1
+Jakarta Cactus,2,1,1
+Jar Launcher,2,1,1
+Java 2D,2,1,1
+Java APIs for Bluetooth,2,1,1
+Java Agent Development Framework,2,1,1
+Java Authentication and Authorization Service,2,1,1
+Java Business Integration,2,1,1
+Java Data Mining,2,1,1
+Java Evolutionary Computation Toolkit,2,1,1
+Java Media Framework,2,1,1
+Java Metadata Interface,2,1,1
+Java Modeling Language,2,1,1
+Java Naming and Directory Interface,2,1,1
+"Java Platform, Standard Edition",2,1,1
+Java Portlet Specification,2,1,1
+Java Secure Socket Extension,2,1,1
+Java Web Start,2,1,1
+Java concurrency,2,1,1
+JavaFX,2,1,1
+JavaTest harness,2,1,1
+Jem The Bee,2,1,1
+Jikes,2,1,1
+Jimm,2,1,1
+Jinfonet,2,1,1
+Job Control Language,2,1,1
+Job Submission Description Language,2,1,1
+JobScheduler,2,1,1
+Jspx-bay,2,1,1
+Jumpjet,2,1,1
+Jupiter Ace,2,1,1
+K Desktop Environment 1,2,1,1
+K Desktop Environment 2,2,1,1
+K Desktop Environment 3,2,1,1
+KDESvn,2,1,1
+KGraft,2,1,1
+KL-ONE,2,1,1
+KPhone,2,1,1
+KSEG (software),2,1,1
+KTuberling,2,1,1
+KXDocker,2,1,1
+Kannel (telecommunications),2,1,1
+Kaseya Network Monitor,2,1,1
+Kdenetwork,2,1,1
+Kdesdk,2,1,1
+Kdump (Linux),2,1,1
+KeY,2,1,1
+Kent Pitman,2,1,1
+Kexi,2,1,1
+Kiekko.tk,2,1,1
+Kino (software),2,1,1
+Kirix Strata,2,1,1
+Knowledge Discovery Metamodel,2,1,1
+Knowledge Engineering Environment,2,1,1
+Knowledge Interchange Format,2,1,1
+Kpatch,2,1,1
+LDAP Account Manager,2,1,1
+LE (text editor),2,1,1
+LEMON (C++ library),2,1,1
+LIDO,2,1,1
+LINGO (mathematical modeling language),2,1,1
+LZ4 (compression algorithm),2,1,1
+LaTeX2HTML,2,1,1
+LaTeXML,2,1,1
+Ladder logic,2,1,1
+Lambda the Ultimate,2,1,1
+Landmap,2,1,1
+Lattice C,2,1,1
+Ledger (software),2,1,1
+Lempel???Ziv???Oberhumer,2,1,1
+LexML,2,1,1
+Libburnia,2,1,1
+Libcaca,2,1,1
+Libdca,2,1,1
+Libevent,2,1,1
+LibreLogo,2,1,1
+Libscore,2,1,1
+Libusb,2,1,1
+Libvisual,2,1,1
+Lichess,2,1,1
+LifeLines,2,1,1
+LimeSurvey,2,1,1
+Linear Tape-Open,2,1,1
+Linear temporal logic to B??chi automaton,2,1,1
+LingCloud,2,1,1
+Linkage (software),2,1,1
+Linked Data Platform,2,1,1
+LinuxTV,2,1,1
+Lisp in Small Pieces,2,1,1
+Listaller,2,1,1
+Logisim,2,1,1
+Long double,2,1,1
+Lumi (software),2,1,1
+M4 (computer language),2,1,1
+MAD (MUD),2,1,1
+MAFIAAFire Redirector,2,1,1
+MARC (archive),2,1,1
+MEncoder,2,1,1
+MLX (software),2,1,1
+MODTRAN,2,1,1
+MP3 Rocket,2,1,1
+MTASC,2,1,1
+Managed code,2,1,1
+Manifold System,2,1,1
+Markdown,2,1,1
+Markup language,2,1,1
+Maroon,2,1,1
+Mary (programming language),2,1,1
+Mastering Perl,2,1,1
+Matt's Script Archive,2,1,1
+Md5deep,2,1,1
+Memoranda (software),2,1,1
+Mendeley,2,1,1
+Metadata Authority Description Schema,2,1,1
+Metadata Object Description Schema,2,1,1
+Metadata facility for Java,2,1,1
+Metakit,2,1,1
+Meteor (web framework),2,1,1
+Mezzanine (CMS),2,1,1
+MiaCMS,2,1,1
+Micro programming language,2,1,1
+Microcontent,2,1,1
+Microsoft Semblio,2,1,1
+Microsoft Software Updater,2,1,1
+Mifos Initiative,2,1,1
+MindMup,2,1,1
+Minicom,2,1,1
+Mirabyte Web Architect,2,1,1
+Mlpy,2,1,1
+Mnesia,2,1,1
+MoarVM,2,1,1
+Mobile BASIC,2,1,1
+MochiKit,2,1,1
+Mod lisp,2,1,1
+Mod mono,2,1,1
+Mod parrot,2,1,1
+Mod python,2,1,1
+Modeling language,2,1,1
+Molecular Modelling Toolkit,2,1,1
+Mondex,2,1,1
+Mondo Rescue,2,1,1
+Moneydance,2,1,1
+Mongrel (web server),2,1,1
+Monitorix,2,1,1
+Moose (analysis),2,1,1
+Moses (machine translation),2,1,1
+Motion (surveillance software),2,1,1
+Mozilla Raindrop,2,1,1
+MrSID,2,1,1
+Mruby,2,1,1
+Mrxvt,2,1,1
+MscGen,2,1,1
+Muffin (software),2,1,1
+Multimedia Web Ontology Language,2,1,1
+Multiple buffering,2,1,1
+MusiXTeX,2,1,1
+MyBB,2,1,1
+MyEclipse,2,1,1
+MyFaces Trinidad,2,1,1
+MyNotex,2,1,1
+NIEM conformance,2,1,1
+NWScript,2,1,1
+NZB,2,1,1
+Native POSIX Thread Library,2,1,1
+NeWS,2,1,1
+Nemeth Braille,2,1,1
+Nemo (file manager),2,1,1
+Nero Linux,2,1,1
+Nested SQL,2,1,1
+NetObjects Fusion,2,1,1
+Netscape Composer,2,1,1
+Nette Framework,2,1,1
+Network Applied Communication Laboratory,2,1,1
+NetworkManager,2,1,1
+NewGenLib,2,1,1
+Newsbeuter,2,1,1
+Newt Syrup,2,1,1
+Nice (programming language),2,1,1
+NiuTrans,2,1,1
+Nodeclipse,2,1,1
+Nofollow,2,1,1
+Nokia E50,2,1,1
+Nokia Eseries,2,1,1
+Nokia Lifeblog,2,1,1
+Nokia Mail and Nokia Chat,2,1,1
+Nokia PC Suite,2,1,1
+Nokia Point & Find,2,1,1
+Nokia Sensor,2,1,1
+Nomad software,2,1,1
+Noop,2,1,1
+Not a typewriter,2,1,1
+Noweb,2,1,1
+Ntfsprogs,2,1,1
+Null (SQL),2,1,1
+Numeric precision in Microsoft Excel,2,1,1
+Nuprl,2,1,1
+Nuxeo,2,1,1
+OASIS (organization),2,1,1
+OCILIB,2,1,1
+OLE DB,2,1,1
+OLE DB provider,2,1,1
+OPDS,2,1,1
+OPUS (software),2,1,1
+ORX,2,1,1
+OSW3,2,1,1
+OWL-S,2,1,1
+Object Windows Library,2,1,1
+Object type (object-oriented programming),2,1,1
+Object-PL/SQL,2,1,1
+OmniPop,2,1,1
+Onward!,2,1,1
+Opaque pointer,2,1,1
+Open-Realty,2,1,1
+OpenBUGS,2,1,1
+OpenBiblio,2,1,1
+OpenCards,2,1,1
+OpenDocument software,2,1,1
+OpenGL Shading Language,2,1,1
+OpenIllusionist,2,1,1
+OpenLDAP,2,1,1
+OpenXava,2,1,1
+Oracle Application Development Framework,2,1,1
+Oracle BI Publisher,2,1,1
+Oracle Media Objects,2,1,1
+Oracle iPlanet Web Server,2,1,1
+Orbot,2,1,1
+Orchid??e,2,1,1
+Orfeo toolbox,2,1,1
+Organic Groups Mailing List,2,1,1
+OsCMax,2,1,1
+OsCommerce,2,1,1
+Ousterhout's dichotomy,2,1,1
+Outreachy,2,1,1
+Oxwall,2,1,1
+PBASIC,2,1,1
+PDF-XChange Viewer,2,1,1
+PFUnit,2,1,1
+PHPEclipse,2,1,1
+PMB (software),2,1,1
+PMD (software),2,1,1
+POSIX Threads,2,1,1
+PP3,2,1,1
+PROJ.4,2,1,1
+PackJacket,2,1,1
+Packer (software),2,1,1
+Padrino (web framework),2,1,1
+Page description language,2,1,1
+PagePlus,2,1,1
+Paradigms of AI Programming: Case Studies in Common Lisp,2,1,1
+Parallel Patterns Library,2,1,1
+Parallel programming model,2,1,1
+Pastel (programming language),2,1,1
+Pdfvue,2,1,1
+Pelles C,2,1,1
+Pentadactyl,2,1,1
+Perl Best Practices,2,1,1
+Perl Foundation,2,1,1
+Perl::Critic,2,1,1
+Pete Becker,2,1,1
+Phorum,2,1,1
+PhpLiteAdmin,2,1,1
+Phun,2,1,1
+Phusion Passenger,2,1,1
+Physics Analysis Workstation,2,1,1
+Pickle (Python),2,1,1
+Pisg (software),2,1,1
+PivotX,2,1,1
+Pkg-config,2,1,1
+Plain Old Java Object,2,1,1
+Plandora,2,1,1
+Planning Domain Definition Language,2,1,1
+PlayOnLinux,2,1,1
+Plogger,2,1,1
+Pluck (software),2,1,1
+PmWiki,2,1,1
+Pngcrush,2,1,1
+Point Cloud Library,2,1,1
+PointBase,2,1,1
+Portable C Compiler,2,1,1
+Portal:Python programming,2,1,1
+PowerDEVS,2,1,1
+PowerDesigner,2,1,1
+PowerHouse (programming language),2,1,1
+Powerdot,2,1,1
+Predicative programming,2,1,1
+Prefuse,2,1,1
+PrestaShop,2,1,1
+Prevayler,2,1,1
+Preview (Mac OS),2,1,1
+Printf format string,2,1,1
+ProSyst,2,1,1
+Process-data diagram,2,1,1
+Programming Language Design and Implementation,2,1,1
+Project Naptha,2,1,1
+Project Zero,2,1,1
+Project.net,2,1,1
+Prosody (software),2,1,1
+Protein Local Optimization Program,2,1,1
+Pseudocode,2,1,1
+PunBB,2,1,1
+Py2exe,2,1,1
+PyGopherd,2,1,1
+PySynth,2,1,1
+Pycasa,2,1,1
+Pycsw,2,1,1
+Pylint,2,1,1
+Python Software Foundation,2,1,1
+Python syntax and semantics,2,1,1
+QDB,2,1,1
+QUADPACK,2,1,1
+Qjackctl,2,1,1
+Qmake,2,1,1
+Qrpff,2,1,1
+QuantLib,2,1,1
+Quantcast File System,2,1,1
+Query optimization,2,1,1
+QuickCheck,2,1,1
+RAISE,2,1,1
+RIS (file format),2,1,1
+RPyC,2,1,1
+RSS Advisory Board,2,1,1
+RShare,2,1,1
+RadASM,2,1,1
+RadPHP,2,1,1
+Radvd,2,1,1
+Rakudo Perl 6,2,1,1
+Ranger (file manager),2,1,1
+Raspcontrol,2,1,1
+Rational Application Developer,2,1,1
+Rational R1000,2,1,1
+Reaktor,2,1,1
+Real-Time Object-Oriented Modeling,2,1,1
+Real-time Cmix,2,1,1
+RealFlow,2,1,1
+RecordMyDesktop,2,1,1
+Red5 (media server),2,1,1
+Reductio,2,1,1
+Refinement calculus,2,1,1
+Requirement Diagram,2,1,1
+Requirements Modeling Framework,2,1,1
+Resin (software),2,1,1
+Return value optimization,2,1,1
+Robic,2,1,1
+RoboLogix,2,1,1
+Robot Framework,2,1,1
+RosAsm,2,1,1
+RubyForge,2,1,1
+Rule Interchange Format,2,1,1
+Rule of least power,2,1,1
+Rule of three (C++ programming),2,1,1
+S (set theory),2,1,1
+SAP NetWeaver Application Server,2,1,1
+SIM.JS,2,1,1
+SIP (software),2,1,1
+SK8,2,1,1
+SLAMD Server,2,1,1
+SNARK (theorem prover),2,1,1
+SOAP with Attachments,2,1,1
+SOAP-over-UDP,2,1,1
+SOAPjr,2,1,1
+SPLASH (conference),2,1,1
+SQL CLR,2,1,1
+SQLAlchemy,2,1,1
+SQLJ,2,1,1
+SQR,2,1,1
+STRETCH Assembly Program,2,1,1
+SVG Working Group,2,1,1
+SVG animation,2,1,1
+SYS (command),2,1,1
+SYSTAT (statistics),2,1,1
+SabreTalk,2,1,1
+Sage (Mozilla Firefox extension),2,1,1
+Samsung SGH-i550w,2,1,1
+Samy (computer worm),2,1,1
+Satellite (software),2,1,1
+Scalatra,2,1,1
+Scapy,2,1,1
+Scene description language,2,1,1
+Scientific Time Sharing Corporation,2,1,1
+Scientific Vector Language,2,1,1
+Scientific WorkPlace,2,1,1
+Scikit-learn,2,1,1
+Scott continuity,2,1,1
+ScrollKeeper,2,1,1
+SeaBIOS,2,1,1
+Sean M. Burke,2,1,1
+Seaside (software),2,1,1
+Sedna (database),2,1,1
+Semantic query,2,1,1
+Serendipity (software),2,1,1
+Servo (layout engine),2,1,1
+Session Description Protocol,2,1,1
+Setjmp.h,2,1,1
+Shane's Chess Information Database,2,1,1
+SharpOS AOT,2,1,1
+Shogun (toolbox),2,1,1
+Sibelius (software),2,1,1
+Silver (color),2,1,1
+Simple Machines Forum,2,1,1
+SimpleTest,2,1,1
+SimulationX,2,1,1
+Sinatra (software),2,1,1
+Sinclair QDOS,2,1,1
+Sintran,2,1,1
+Sirannon (streaming),2,1,1
+Sitemaps,2,1,1
+Small Device C Compiler,2,1,1
+Smart client,2,1,1
+SmartPLS,2,1,1
+Smartlist,2,1,1
+Social Desktop,2,1,1
+SoftICE,2,1,1
+Software Updater,2,1,1
+Software analysis pattern,2,1,1
+Sony Ericsson W950,2,1,1
+Sony Ericsson W960,2,1,1
+SoundTracker (Unix),2,1,1
+SourcePuller,2,1,1
+SpaceFM,2,1,1
+Spacewalk (software),2,1,1
+Spark (software),2,1,1
+Spatial Archive and Interchange Format,2,1,1
+Spatial Data Transfer Standard,2,1,1
+Spatial database,2,1,1
+SpreadsheetML,2,1,1
+Squeezebox (network music player),2,1,1
+SrcML,2,1,1
+Stackless Python,2,1,1
+Stapl,2,1,1
+StartUp-Manager,2,1,1
+Static cast,2,1,1
+Strawberry Prolog,2,1,1
+Streak (company),2,1,1
+Strict function,2,1,1
+Structured text,2,1,1
+Study Notes,2,1,1
+Styled Layer Descriptor,2,1,1
+Stylus (stylesheet language),2,1,1
+SubSonic (software),2,1,1
+Superfeedr,2,1,1
+Sweep (software),2,1,1
+Swim lane,2,1,1
+Symbolic data analysis,2,1,1
+Symposium on Principles of Programming Languages,2,1,1
+System programming language,2,1,1
+TBNF,2,1,1
+THE multiprogramming system,2,1,1
+TYPSET and RUNOFF,2,1,1
+Table (database),2,1,1
+Tabulator,2,1,1
+Tail recursion,2,1,1
+Take Command Console,2,1,1
+Takes (framework),2,1,1
+Teal,2,1,1
+TeamSpeak,2,1,1
+TechWriter,2,1,1
+Telltale Tool,2,1,1
+Template (C++),2,1,1
+Template Numerical Toolkit,2,1,1
+Template metaprogramming,2,1,1
+Template:CSS,2,1,1
+Template:GTK,2,1,1
+Template:HTML editors,2,1,1
+Template:OpenDocument,2,1,1
+Temporal logic in finite-state verification,2,1,1
+Test Template Framework,2,1,1
+Textpattern,2,1,1
+The Art of the Metaobject Protocol,2,1,1
+The C Programming Language,2,1,1
+The C++ Programming Language,2,1,1
+The Python Papers Anthology,2,1,1
+The Wilderness Downtown,2,1,1
+Theological Markup Language,2,1,1
+There (virtual world),2,1,1
+ThinkFree Office,2,1,1
+Thottbot,2,1,1
+ThreadSafe,2,1,1
+Thunar,2,1,1
+Timeline of programming languages,2,1,1
+TinTin++,2,1,1
+Tincta,2,1,1
+TnFOX,2,1,1
+Tomsrtbt,2,1,1
+Topologically Integrated Geographic Encoding and Referencing,2,1,1
+Torch (machine learning),2,1,1
+Total functional programming,2,1,1
+Tracing just-in-time compilation,2,1,1
+Tracker (search software),2,1,1
+Trait (computer programming),2,1,1
+Tsung,2,1,1
+Tweaker (build tool),2,1,1
+Typed assembly language,2,1,1
+UBot Studio,2,1,1
+UCBLogo,2,1,1
+UCSD Pascal,2,1,1
+UPower,2,1,1
+USAS (application),2,1,1
+UberWriter,2,1,1
+Ubiquity (software),2,1,1
+UddeIM,2,1,1
+Ultrose,2,1,1
+UniFLEX,2,1,1
+Uniface (programming language),2,1,1
+Union type,2,1,1
+Universal Description Discovery and Integration,2,1,1
+Universal Test Specification Language,2,1,1
+UseModWiki,2,1,1
+User-defined function,2,1,1
+Usplash,2,1,1
+VBulletin,2,1,1
+VIGRA,2,1,1
+VX-REXX,2,1,1
+Vaadin,2,1,1
+Vanilla Forums,2,1,1
+Variable Assembly Language,2,1,1
+Vasm,2,1,1
+View (SQL),2,1,1
+ViewVC,2,1,1
+Virgo (software),2,1,1
+Volatile (computer programming),2,1,1
+Vopium,2,1,1
+W3C MMI,2,1,1
+WAI-ARIA,2,1,1
+WEB,2,1,1
+WEBrick,2,1,1
+WMLScript,2,1,1
+WS-Policy,2,1,1
+WS-Security,2,1,1
+WSO2 Mashup Server,2,1,1
+Wait (system call),2,1,1
+WakkaWiki,2,1,1
+Wall.fm,2,1,1
+Warnock's dilemma,2,1,1
+Web feed,2,1,1
+WebSphere Portal,2,1,1
+Webmin,2,1,1
+Webtrees,2,1,1
+Wildcard (Java),2,1,1
+WinRoll,2,1,1
+Windows Internal Database,2,1,1
+WolfSSL,2,1,1
+WooCommerce,2,1,1
+Workshop on Generic Programming,2,1,1
+World Programming System,2,1,1
+Wpkg,2,1,1
+Wright (ADL),2,1,1
+WxHaskell,2,1,1
+WxHexEditor,2,1,1
+X Python Newsreader,2,1,1
+X Toolkit Intrinsics,2,1,1
+X-CD-Roast,2,1,1
+X.Org Server,2,1,1
+X11 color names,2,1,1
+XEP (software),2,1,1
+XFDesigner,2,1,1
+XFOIL,2,1,1
+XFast,2,1,1
+XGMML,2,1,1
+XHTML Mobile Profile,2,1,1
+XLIFF,2,1,1
+XMD,2,1,1
+XML Enabled Directory,2,1,1
+XML Telemetric and Command Exchange,2,1,1
+XML appliance,2,1,1
+XML for Analysis,2,1,1
+XMetaL,2,1,1
+XUnit.net,2,1,1
+XVidCap,2,1,1
+XWayland,2,1,1
+XZ Utils,2,1,1
+Xconfig,2,1,1
+XenForo,2,1,1
+Xerox Escape Sequence,2,1,1
+Xft,2,1,1
+Xgl,2,1,1
+Ximian,2,1,1
+Xinerama,2,1,1
+XrML,2,1,1
+XyMTeX,2,1,1
+XyWrite,2,1,1
+YXORP,2,1,1
+Yahoo! Query Language,2,1,1
+Yamanner,2,1,1
+Yate (telephony engine),2,1,1
+Yaws (web server),2,1,1
+YouTrack,2,1,1
+Z88DK,2,1,1
+ZBasic,2,1,1
+Zefania XML,2,1,1
+Zen of Python,2,1,1
+Zend Studio,2,1,1
+Zenoss,2,1,1
+Zermelo???Fraenkel set theory,2,1,1
+Zeus Assembler,2,1,1
+AIMMS,3,2,1
+ALTO (XML),3,2,1
+ARts,3,2,1
+Advanced Stream Redirector,3,2,1
+Algebraic modeling language,3,2,1
+Ample SDK,3,2,1
+AngularJS,3,2,1
+Anki (software),3,2,1
+Apache Harmony,3,2,1
+Apache PDFBox,3,2,1
+Apple Dylan,3,2,1
+Aqualung (software),3,2,1
+Architecture Analysis & Design Language,3,2,1
+Ardor3D,3,2,1
+As-Easy-As,3,2,1
+BAPP,3,2,1
+BASIC Programming,3,2,1
+BKChem,3,2,1
+BPEL script,3,2,1
+Babbage (programming language),3,2,1
+Back In Time (software),3,2,1
+Bidule,3,2,1
+Bindows,3,2,1
+Boehm garbage collector,3,2,1
+Brackets (text editor),3,2,1
+Business Process Execution Language,3,2,1
+C dynamic memory allocation,3,2,1
+C shell,3,2,1
+CALS Table Model,3,2,1
+CAPD library,3,2,1
+CERN Program Library,3,2,1
+CGAL,3,2,1
+CLISP,3,2,1
+CMU Common Lisp,3,2,1
+CPAchecker,3,2,1
+Ceylon (programming language),3,2,1
+Channel Definition Format,3,2,1
+Checkstyle,3,2,1
+Chef (software),3,2,1
+Chemical Markup Language,3,2,1
+Chemtool,3,2,1
+CherryPy,3,2,1
+CodeAnalyst,3,2,1
+CompCert,3,2,1
+Comparison of ALGOL 68 and C++,3,2,1
+Comparison of JavaScript-based source code editors,3,2,1
+Comparison of database access,3,2,1
+Conky (software),3,2,1
+Contextual Query Language,3,2,1
+Continuous Media Markup Language,3,2,1
+Da Vinci Machine,3,2,1
+DaDaBIK,3,2,1
+Database Management Library,3,2,1
+Db4o,3,2,1
+Derive (computer algebra system),3,2,1
+Digital Novel Markup Language,3,2,1
+DocFetcher,3,2,1
+Docstring,3,2,1
+Document Object Model,3,2,1
+EAS3,3,2,1
+EXist,3,2,1
+Eclipse Buckminster,3,2,1
+Eigen (C++ library),3,2,1
+Elementary OS,3,2,1
+Embedded GLIBC,3,2,1
+Exit (system call),3,2,1
+FEniCS Project,3,2,1
+Filelight,3,2,1
+Fink,3,2,1
+Flex (lexical analyser generator),3,2,1
+Free Component Library,3,2,1
+Freeplane,3,2,1
+Frescobaldi (software),3,2,1
+GNOME Dictionary,3,2,1
+GRASS GIS,3,2,1
+Ganeti,3,2,1
+Ghemical,3,2,1
+Ghostscript,3,2,1
+Gnome Wave Cleaner,3,2,1
+Goanna (software),3,2,1
+Google Test,3,2,1
+Graph-tool,3,2,1
+Gtk-gnutella,3,2,1
+HMailServer,3,2,1
+HPCC,3,2,1
+HSQLDB,3,2,1
+Harlequin (software company),3,2,1
+HotSpot,3,2,1
+Hudson (software),3,2,1
+Hydrogen (software),3,2,1
+IDL (programming language),3,2,1
+Integer set library,3,2,1
+Integrated Performance Primitives,3,2,1
+JBrout,3,2,1
+JOnAS,3,2,1
+JasperReports,3,2,1
+Java Data Objects,3,2,1
+Java OpenGL,3,2,1
+Java Persistence API,3,2,1
+JavaServer Faces,3,2,1
+Job Arranger for Zabbix,3,2,1
+Journal Article Tag Suite,3,2,1
+JuK,3,2,1
+KCeasy,3,2,1
+KTechLab,3,2,1
+Karbon (software),3,2,1
+Kdenlive,3,2,1
+Klibc,3,2,1
+Konsole,3,2,1
+Launchy,3,2,1
+Lazarus Component Library,3,2,1
+LibLAS,3,2,1
+LibrePlan,3,2,1
+MATE (software),3,2,1
+MPEG-4 Part 17,3,2,1
+MPIR (mathematics software),3,2,1
+Mallet (software project),3,2,1
+Max (software),3,2,1
+MayaVi,3,2,1
+MediaLib,3,2,1
+Microsoft Office XML formats,3,2,1
+Mizar system,3,2,1
+Mnemosyne (software),3,2,1
+Movitz,3,2,1
+Mumasy,3,2,1
+MuseScore,3,2,1
+MyPaint,3,2,1
+MySQL Workbench,3,2,1
+Natural language programming,3,2,1
+NeoDatis ODB,3,2,1
+NetRexx,3,2,1
+Newlib,3,2,1
+Nimbus (cloud computing),3,2,1
+Nokia Browser for Symbian,3,2,1
+NonVisual Desktop Access,3,2,1
+OASIS TOSCA,3,2,1
+OCRopus,3,2,1
+OTRS,3,2,1
+Object process methodology,3,2,1
+OpenACC,3,2,1
+OpenLayers,3,2,1
+OpenMP,3,2,1
+PHPRunner,3,2,1
+PJIRC,3,2,1
+PQS (chemical),3,2,1
+Packetsquare,3,2,1
+Parallels Desktop for Mac,3,2,1
+Perl Compatible Regular Expressions,3,2,1
+Plone (software),3,2,1
+PowerDNS,3,2,1
+Puddletag,3,2,1
+Pure Data,3,2,1
+PyEphem,3,2,1
+Pyjs,3,2,1
+Q-Chem,3,2,1
+Qmmp,3,2,1
+Quite Universal Circuit Simulator,3,2,1
+React (JavaScript library),3,2,1
+RefDB,3,2,1
+RichFaces,3,2,1
+Robot Battle,3,2,1
+Roundup (issue tracker),3,2,1
+RuleML,3,2,1
+SVK,3,2,1
+Sawfish (window manager),3,2,1
+Simple Update Protocol,3,2,1
+SmartWin++,3,2,1
+Snappy (software),3,2,1
+SofCheck Inspector,3,2,1
+Spring Roo,3,2,1
+SproutCore,3,2,1
+Steel Bank Common Lisp,3,2,1
+StumpWM,3,2,1
+Sumatra PDF,3,2,1
+SwisTrack,3,2,1
+TI-BASIC,3,2,1
+TLA+,3,2,1
+Tesseract (software),3,2,1
+The Document Foundation,3,2,1
+Tiny BASIC,3,2,1
+Tk (software),3,2,1
+Tom (pattern matching language),3,2,1
+TopBT,3,2,1
+TortoiseHg,3,2,1
+Turbo Basic,3,2,1
+Twelf,3,2,1
+UPX,3,2,1
+Unbounded nondeterminism,3,2,1
+Unison (file synchronizer),3,2,1
+Uzbl,3,2,1
+Valknut (software),3,2,1
+Veusz,3,2,1
+Vidalia (software),3,2,1
+Visual C++,3,2,1
+W3Perl,3,2,1
+WaterML,3,2,1
+Wayland (display server protocol),3,2,1
+WebFetch,3,2,1
+Widgetset,3,2,1
+Windows.h,3,2,1
+WxBasic,3,2,1
+WxPHP,3,2,1
+WxPython,3,2,1
+X3D,3,2,1
+XBRL GL,3,2,1
+XBasic,3,2,1
+XDXF,3,2,1
+XML Interface for Network Services,3,2,1
+XOOPS,3,2,1
+Xalan,3,2,1
+Xarchiver,3,2,1
+Xombrero,3,2,1
+Xzgv,3,2,1
+Zgv,3,2,1
+Zikula,3,2,1
+Zlib,3,2,1
+wxPython,3,2,1
+AC3Filter,4,3,1
+Adobe ColdFusion,4,3,1
+Amsterdam Compiler Kit,4,3,1
+Anaconda (installer),4,3,1
+Audacious (software),4,3,1
+Avidemux,4,3,1
+BRL-CAD,4,3,1
+Brig (C++ libraries),4,3,1
+Clozure CL,4,3,1
+Code::Blocks,4,3,1
+DYNAMO (programming language),4,3,1
+Delphi (programming language),4,3,1
+Dolphin (file manager),4,3,1
+ERIL,4,3,1
+EasyTag,4,3,1
+Evolution (software),4,3,1
+Extensible Forms Description Language,4,3,1
+GLBasic,4,3,1
+GNOME,4,3,1
+GNU Multiple Precision Arithmetic Library,4,3,1
+Gnumeric,4,3,1
+Guayadeque Music Player,4,3,1
+Hybris (software),4,3,1
+ImageJ,4,3,1
+JModelica.org,4,3,1
+K3b,4,3,1
+KDevelop,4,3,1
+Kontact,4,3,1
+Leo (text editor),4,3,1
+Lift (web framework),4,3,1
+MComix,4,3,1
+Microsoft Excel,4,3,1
+MinGW,4,3,1
+Mpg123,4,3,1
+NeoOffice,4,3,1
+Pic Micro Pascal,4,3,1
+Protogrid,4,3,1
+Quattro Pro,4,3,1
+Standard ML of New Jersey,4,3,1
+TYPO3,4,3,1
+Tcsh,4,3,1
+The Portland Group,4,3,1
+TiMidity++,4,3,1
+UFRaw,4,3,1
+UltraVNC,4,3,1
+Website Meta Language,4,3,1
+ZK (framework),4,3,1
+Apache Ant,5,4,1
+AspectJ,5,4,1
+BitTorrent (software),5,4,1
+Dasher (software),5,4,1
+Emesene,5,4,1
+Frama-C,5,4,1
+GThumb,5,4,1
+Genius (mathematics software),5,4,1
+KMLDonkey,5,4,1
+Metacompiler,5,4,1
+Music Encoding Initiative,5,4,1
+NetLogo,5,4,1
+Padre (software),5,4,1
+Scalable Vector Graphics,5,4,1
+Scilab,5,4,1
+Sublime Text,5,4,1
+Unified Modeling Language,5,4,1
+Gwrite,6,5,1
+HandBrake,6,5,1
+Wireshark,7,6,1
+.bss,3,1,2
+3DML,3,1,2
+4680 Operating System,3,1,2
+4690 Operating System,3,1,2
+4K Video Downloader,3,1,2
+A86 (software),3,1,2
+ADO.NET data provider,3,1,2
+ADaMSoft,3,1,2
+AIDA/Web,3,1,2
+AMD CodeXL,3,1,2
+AMS Euler,3,1,2
+ANSI escape code,3,1,2
+ANTLR,3,1,2
+ANUGA Hydro,3,1,2
+AS4,3,1,2
+ASP.NET MVC,3,1,2
+Absoft Fortran Compilers,3,1,2
+Abstract Window Toolkit,3,1,2
+Accelerator (software),3,1,2
+Access Linux Platform,3,1,2
+Accounts & SSO,3,1,2
+AcetoneISO,3,1,2
+Action semantics,3,1,2
+ActiveJPA,3,1,2
+Activiti (software),3,1,2
+Address constant,3,1,2
+Adobe Authorware,3,1,2
+Adobe Digital Editions,3,1,2
+Advanced Distributed Learning,3,1,2
+Advanced Perl Programming,3,1,2
+Advice (programming),3,1,2
+Akeneo PIM (software),3,1,2
+Algebraic semantics (computer science),3,1,2
+AllegroGraph,3,1,2
+Alt-Ergo,3,1,2
+Altap Salamander,3,1,2
+Ambient (desktop environment),3,1,2
+Anaphoric macro,3,1,2
+AnthillPro,3,1,2
+Apache Derby,3,1,2
+Apache HBase,3,1,2
+Apache JMeter,3,1,2
+Apache Mahout,3,1,2
+Apache Roller,3,1,2
+Apache Shiro,3,1,2
+Apache Wicket,3,1,2
+AppleScript,3,1,2
+Application Programming Interface for Windows,3,1,2
+Aptana,3,1,2
+Ares Galaxy,3,1,2
+Arora (web browser),3,1,2
+Aubit-4GL,3,1,2
+Audiveris,3,1,2
+AutoHotkey,3,1,2
+Autodesk MotionBuilder,3,1,2
+B2evolution,3,1,2
+BRP-PACU,3,1,2
+Barton???Nackman trick,3,1,2
+Batch file,3,1,2
+Battle management language,3,1,2
+BibSonomy,3,1,2
+Bibliography and Index of Geology,3,1,2
+Big ball of mud,3,1,2
+Binary File Descriptor library,3,1,2
+BioFabric,3,1,2
+BioPerl,3,1,2
+BioTapestry,3,1,2
+Bioclipse,3,1,2
+Bionic (software),3,1,2
+BitComet,3,1,2
+BitchX,3,1,2
+Blackbox,3,1,2
+Blackmagic Fusion,3,1,2
+Blosxom,3,1,2
+Borland Turbo C,3,1,2
+BotFighters,3,1,2
+Bouncy Castle (cryptography),3,1,2
+Broadcatching,3,1,2
+Buildbot,3,1,2
+Buildism,3,1,2
+Burp suite,3,1,2
+Burroughs Medium Systems,3,1,2
+B??hm's language,3,1,2
+C++ Report,3,1,2
+CGI:IRC,3,1,2
+CMake,3,1,2
+COCOA (digital humanities),3,1,2
+COMMAND.COM,3,1,2
+COinS,3,1,2
+Camping (microframework),3,1,2
+Canig?? (framework),3,1,2
+Cantarell (typeface),3,1,2
+Categories for the Description of Works of Art,3,1,2
+Cdrdao,3,1,2
+CellProfiler,3,1,2
+CenterStage,3,1,2
+Central Authentication Service,3,1,2
+Cervisia,3,1,2
+Charles Goldfarb,3,1,2
+Charm (programming language),3,1,2
+Cherokee (web server),3,1,2
+Chicken of the VNC,3,1,2
+CiviCRM,3,1,2
+Claroline,3,1,2
+ClipGrab,3,1,2
+CoNTub,3,1,2
+Cobbler (software),3,1,2
+Code injection,3,1,2
+CoffeeCup HTML Editor,3,1,2
+Cog (software),3,1,2
+Color Robot Battle,3,1,2
+Comet (programming),3,1,2
+CommaFeed,3,1,2
+Common Language Infrastructure,3,1,2
+Common Lisp the Language,3,1,2
+Communicating sequential processes,3,1,2
+Comparison of free web hosting services,3,1,2
+Compiere,3,1,2
+Component Library for Cross Platform,3,1,2
+Conary (package manager),3,1,2
+Concrete5,3,1,2
+ConnectBot,3,1,2
+Consegi declaration,3,1,2
+Content repository API for Java,3,1,2
+Coppermine Photo Gallery,3,1,2
+Cotonti,3,1,2
+Cray Time Sharing System,3,1,2
+Crypto++,3,1,2
+Csound,3,1,2
+DEAP (software),3,1,2
+DJGCC,3,1,2
+DSpace,3,1,2
+DVDStyler,3,1,2
+Damien Sandras,3,1,2
+Darcs,3,1,2
+Dcraw,3,1,2
+Dead Hungry Diner,3,1,2
+Debug (command),3,1,2
+Delimiter,3,1,2
+Description logic,3,1,2
+Digital signal processor,3,1,2
+Dim3,3,1,2
+Dive Into Python,3,1,2
+Docudesk,3,1,2
+Dolphin (social networking software),3,1,2
+Dooble,3,1,2
+DotProject,3,1,2
+Drishti (software),3,1,2
+Dynamic Analysis and Replanning Tool,3,1,2
+E (PC DOS),3,1,2
+E Text Editor,3,1,2
+EAST-ADL,3,1,2
+EIOffice,3,1,2
+Easy Java Simulations,3,1,2
+EditPlus,3,1,2
+Edraw Max,3,1,2
+EgoNet,3,1,2
+Elasticsearch,3,1,2
+Enpass,3,1,2
+Enriched text,3,1,2
+Enterprise Volume Management System,3,1,2
+Enthought,3,1,2
+EpiDoc,3,1,2
+Erable,3,1,2
+EsoTalk,3,1,2
+EtherApe,3,1,2
+Etherpad,3,1,2
+Ettercap (software),3,1,2
+Ettore Perazzoli,3,1,2
+Evil Islands: Curse of the Lost Soul,3,1,2
+Ext2Fsd,3,1,2
+FAT12,3,1,2
+FAT16,3,1,2
+FAT16B,3,1,2
+FFTW,3,1,2
+FIGlet,3,1,2
+Familiar Linux,3,1,2
+Fast Library for Number Theory,3,1,2
+FastTrack Scripting Host,3,1,2
+Fastest,3,1,2
+FictionBook,3,1,2
+Firestarter (firewall),3,1,2
+Fjorm (software),3,1,2
+Flexible Isometric Free Engine,3,1,2
+Fluidinfo,3,1,2
+FlylinkDC++,3,1,2
+Ford EEC,3,1,2
+Foreign key,3,1,2
+Fork (system call),3,1,2
+Formal methods,3,1,2
+Fre:ac,3,1,2
+FreeType,3,1,2
+Frhed,3,1,2
+Fritzing,3,1,2
+Ftrace,3,1,2
+Function prototype,3,1,2
+Functional logic programming,3,1,2
+GADM,3,1,2
+GEGL,3,1,2
+GENtle,3,1,2
+GEOBASE,3,1,2
+GIMPshop,3,1,2
+GLPI,3,1,2
+GLScene,3,1,2
+GNAVI,3,1,2
+GNOME Foundation,3,1,2
+GNU Classpath,3,1,2
+GNU Compiler for Java,3,1,2
+GNU Core Utilities,3,1,2
+GNU Find Utilities,3,1,2
+GNU Health,3,1,2
+GNU LibreJS,3,1,2
+GNU MIX Development Kit,3,1,2
+GNU Oleo,3,1,2
+GNU Portable Threads,3,1,2
+GNU bison,3,1,2
+GNU cflow,3,1,2
+GNU parallel,3,1,2
+GPE,3,1,2
+GPlates,3,1,2
+Gabedit,3,1,2
+GamePlay (game engine),3,1,2
+Geeklog,3,1,2
+General Transit Feed Specification,3,1,2
+GeoAPI,3,1,2
+GeoNames,3,1,2
+GeoRef,3,1,2
+GeoServer,3,1,2
+Geomajas,3,1,2
+Ggplot2,3,1,2
+Ghost (blogging platform),3,1,2
+GimPhoto,3,1,2
+Gitit (software),3,1,2
+GlassFish,3,1,2
+Glossword,3,1,2
+Gmelius,3,1,2
+Gnaural,3,1,2
+GnuCOBOL,3,1,2
+Gobby,3,1,2
+Greenspun's tenth rule,3,1,2
+Grey,3,1,2
+HP 49/50 series,3,1,2
+HP Prime,3,1,2
+HTCondor,3,1,2
+HTTrack,3,1,2
+Haiku Vector Icon Format,3,1,2
+Hardware description language,3,1,2
+Head First (book series),3,1,2
+Hierarchical Data Format,3,1,2
+Higgins project,3,1,2
+History of Haiku (operating system),3,1,2
+History of Programming Languages,3,1,2
+Holographic Versatile Disc,3,1,2
+Horde (software),3,1,2
+Houston Automatic Spooling Priority,3,1,2
+Htop,3,1,2
+Human Resource Machine,3,1,2
+I-net Crystal-Clear,3,1,2
+IBATIS,3,1,2
+IBM 4680 OS,3,1,2
+IBM 4690 OS,3,1,2
+IBM ALP,3,1,2
+IDLE (Python),3,1,2
+IDSlot,3,1,2
+IDempiere,3,1,2
+IDoc,3,1,2
+ILWIS,3,1,2
+IRows,3,1,2
+ISO 13490,3,1,2
+ISO Master,3,1,2
+ITheater,3,1,2
+IWXXM,3,1,2
+IcyOwl,3,1,2
+Ikivo Animator,3,1,2
+Ikiwiki,3,1,2
+Ilastik,3,1,2
+Incompatible Timesharing System,3,1,2
+Infinispan,3,1,2
+InterSystems Cach??,3,1,2
+Interaction Flow Modeling Language,3,1,2
+IonCube,3,1,2
+Ipkg,3,1,2
+Ithkuil,3,1,2
+JBuilder,3,1,2
+JDeveloper,3,1,2
+JDownloader,3,1,2
+JHOVE,3,1,2
+JMule,3,1,2
+JWt (Java web toolkit),3,1,2
+Jakarta Slide,3,1,2
+Java API for RESTful Web Services,3,1,2
+Java API for XML Web Services,3,1,2
+Java EE version history,3,1,2
+Java Message Service,3,1,2
+Java Object Oriented Querying,3,1,2
+"Java Platform, Micro Edition",3,1,2
+Java hashCode(),3,1,2
+Java servlet,3,1,2
+Jekyll (software),3,1,2
+Jesse Vincent,3,1,2
+Jim Hugunin,3,1,2
+Jira (software),3,1,2
+Job Definition Format,3,1,2
+Job Entry Subsystem 2/3,3,1,2
+Jon Bosak,3,1,2
+Juice (aggregator),3,1,2
+KEDIT,3,1,2
+Kdegraphics,3,1,2
+Kdemultimedia,3,1,2
+Kepler (software),3,1,2
+KnowledgeBase Manager Pro,3,1,2
+Known (software),3,1,2
+KolibriOS,3,1,2
+Kylix (software),3,1,2
+LEd,3,1,2
+LINPACK,3,1,2
+LIRC,3,1,2
+LLDB (debugger),3,1,2
+LOLITA,3,1,2
+LTTng,3,1,2
+Ldap admin,3,1,2
+Leaning toothpick syndrome,3,1,2
+LedgerSMB,3,1,2
+Legal Electronic Data Exchange Standard,3,1,2
+Libtorrent,3,1,2
+Libuv,3,1,2
+Lightning Memory-Mapped Database,3,1,2
+Linux framebuffer,3,1,2
+Linux-libre,3,1,2
+Linuxconf,3,1,2
+Lisp machine,3,1,2
+Lm sensors,3,1,2
+Log4j,3,1,2
+Logical framework,3,1,2
+LogicalDOC,3,1,2
+MAC/65,3,1,2
+MHTML,3,1,2
+MOAP,3,1,2
+MOOSE Crossing,3,1,2
+MP3Gain,3,1,2
+MPQC,3,1,2
+MTConnect,3,1,2
+MacWWW,3,1,2
+Macromedia HomeSite,3,1,2
+Macrospace,3,1,2
+Majordomo (software),3,1,2
+Marcion (software),3,1,2
+Massive Online Analysis,3,1,2
+MathJax,3,1,2
+MatrixSSL,3,1,2
+Mbed TLS,3,1,2
+Mdadm,3,1,2
+Megamax C,3,1,2
+Memtest86,3,1,2
+MenuetOS,3,1,2
+Merb,3,1,2
+Merlin (assembler),3,1,2
+Meta-process modeling,3,1,2
+MetaWeblog,3,1,2
+Metalink,3,1,2
+Metamath,3,1,2
+Metaplace,3,1,2
+Microsoft Assistance Markup Language,3,1,2
+Microsoft Foundation Class Library,3,1,2
+Microsoft Macro Assembler,3,1,2
+Microsoft SharePoint Designer,3,1,2
+Mifos X,3,1,2
+Ming library,3,1,2
+Moai (software),3,1,2
+Mobile Speak,3,1,2
+Mod perl,3,1,2
+Mod ruby,3,1,2
+Modest (email client),3,1,2
+Modular Audio Recognition Framework,3,1,2
+Molekel,3,1,2
+Mp3tag,3,1,2
+Mulgara (software),3,1,2
+NHibernate,3,1,2
+NOP,3,1,2
+NUnit,3,1,2
+Nashorn (JavaScript engine),3,1,2
+Network weathermap,3,1,2
+NetworkX,3,1,2
+New York Nights 2: Friends For Life,3,1,2
+NewsFire,3,1,2
+Newt (programming library),3,1,2
+Ning (website),3,1,2
+Ninithi,3,1,2
+Nokia N73,3,1,2
+Nucleus CMS,3,1,2
+O3Spaces,3,1,2
+OLAT,3,1,2
+OMA Client Provisioning,3,1,2
+OMG standard,3,1,2
+OOPSLA,3,1,2
+OVirt,3,1,2
+Ocrad,3,1,2
+Olive (color),3,1,2
+OnlineHPC,3,1,2
+Open Database Connectivity,3,1,2
+Open Source Metaverse Project,3,1,2
+Open Source Routing Machine,3,1,2
+Open Web Analytics,3,1,2
+Open vSwitch,3,1,2
+OpenL Tablets,3,1,2
+OpenMPT,3,1,2
+OpenRaster,3,1,2
+OpenStack,3,1,2
+OpenTracker,3,1,2
+OpenWebGlobe,3,1,2
+Operand,3,1,2
+Operational semantics,3,1,2
+Opkg,3,1,2
+Orange and Bronze Software Labs,3,1,2
+Orca (assistive technology),3,1,2
+Osiris (Serverless Portal System),3,1,2
+OxMetrics,3,1,2
+Oxygen Project,3,1,2
+PDF/E,3,1,2
+PDF/UA,3,1,2
+PDF/VT,3,1,2
+PDFCreator,3,1,2
+PEAR,3,1,2
+PEEK and POKE,3,1,2
+PHP-Nuke,3,1,2
+PISI,3,1,2
+PMODE,3,1,2
+POPFile,3,1,2
+PPS.tv,3,1,2
+PRODML,3,1,2
+Paintbrush (software),3,1,2
+Pandoc,3,1,2
+Pandora FMS,3,1,2
+ParaView,3,1,2
+PearPC,3,1,2
+PeerGuardian,3,1,2
+PeerTracker,3,1,2
+Perl Cookbook,3,1,2
+Phoca Download,3,1,2
+Phoronix Test Suite,3,1,2
+PhpBB,3,1,2
+PhpLDAPadmin,3,1,2
+PhpList,3,1,2
+PhpWiki,3,1,2
+PhysicsFS,3,1,2
+Pick operating system,3,1,2
+Pivot table,3,1,2
+Piwik,3,1,2
+Placenames Database of Ireland,3,1,2
+Ploticus,3,1,2
+Plymouth (software),3,1,2
+Polyfill,3,1,2
+PortAudio,3,1,2
+Portland Project,3,1,2
+Programming Languages: Application and Interpretation,3,1,2
+Progressive enhancement,3,1,2
+Project Looking Glass,3,1,2
+Psake,3,1,2
+Psychedelia (light synthesizer),3,1,2
+Ptolemy Project (computing),3,1,2
+Push technology,3,1,2
+PyScripter,3,1,2
+PySol,3,1,2
+Pyxplot,3,1,2
+QED manifesto,3,1,2
+Qeep,3,1,2
+QtParted,3,1,2
+Qtile,3,1,2
+QuickC,3,1,2
+Qvwm,3,1,2
+RQDA,3,1,2
+RTorrent,3,1,2
+Ragel,3,1,2
+Rainlendar,3,1,2
+Rake (software),3,1,2
+Ratpoison,3,1,2
+RdRand,3,1,2
+ReGIS,3,1,2
+Really Simple Discovery,3,1,2
+RegularChains,3,1,2
+Remo 3D,3,1,2
+Remote component environment,3,1,2
+Requirements management,3,1,2
+Resource Acquisition Is Initialization,3,1,2
+ResourceSpace,3,1,2
+Revolution Analytics,3,1,2
+Richard Greenblatt (programmer),3,1,2
+Robot Battle (Macintosh game),3,1,2
+Rollback (data management),3,1,2
+Room for PlayStation Portable,3,1,2
+Run-time type information,3,1,2
+S2n,3,1,2
+S60 (software platform),3,1,2
+SAMoCAD,3,1,2
+SAP NetWeaver Visual Composer,3,1,2
+SCons,3,1,2
+SMW+,3,1,2
+SNePS,3,1,2
+SQL Database Studio,3,1,2
+SQL Server Agent,3,1,2
+SRID,3,1,2
+SVG-edit,3,1,2
+SWIG,3,1,2
+Salt (software),3,1,2
+Samba TV,3,1,2
+Sarvega,3,1,2
+Sciencenet,3,1,2
+Scilab Image Processing,3,1,2
+Scope resolution operator,3,1,2
+Scorecloud,3,1,2
+Scrapy,3,1,2
+Sector/Sphere,3,1,2
+Select (Unix),3,1,2
+Semantics (computer science),3,1,2
+Semantics of Business Vocabulary and Business Rules,3,1,2
+Service Data Objects,3,1,2
+Sguil,3,1,2
+ShareLaTeX,3,1,2
+SharpMusique,3,1,2
+SiSU,3,1,2
+Sightsmap,3,1,2
+Simons' BASIC,3,1,2
+Simulation software,3,1,2
+Sintel The Game,3,1,2
+Skipper (computer software),3,1,2
+SnapPea,3,1,2
+Sony Ericsson M600,3,1,2
+Sony Ericsson P1,3,1,2
+Sony Ericsson P990,3,1,2
+Soot (software),3,1,2
+Space Impact,3,1,2
+SpamBayes,3,1,2
+Speech recognition software for Linux,3,1,2
+SpiderMonkey (software),3,1,2
+Sports Tracker,3,1,2
+StAX,3,1,2
+Standard Interchange Language,3,1,2
+Starling Framework,3,1,2
+Stat (system call),3,1,2
+Stata,3,1,2
+Sterling (program),3,1,2
+Stockfish (chess),3,1,2
+Streamripper,3,1,2
+Stripes (framework),3,1,2
+Subject-oriented programming,3,1,2
+Sun Java Studio Creator,3,1,2
+Super Expander 64,3,1,2
+Suplemon,3,1,2
+Sweet Home 3D,3,1,2
+Symbian Ltd.,3,1,2
+Symbolic Sound Corporation,3,1,2
+SymbolicWeb,3,1,2
+Sympa,3,1,2
+Symphony Developer Edition,3,1,2
+Synnefo,3,1,2
+TACTIC (web framework),3,1,2
+TAChart,3,1,2
+TECO (text editor),3,1,2
+TI-92 series,3,1,2
+TUGboat,3,1,2
+Tanagra (machine learning),3,1,2
+TeXShop,3,1,2
+Template:HTML,3,1,2
+Template:JavaScript,3,1,2
+"Terracotta, Inc.",3,1,2
+Test Anything Protocol,3,1,2
+Test::More,3,1,2
+The PracTeX Journal,3,1,2
+Thttpd,3,1,2
+TinyWebGallery,3,1,2
+Tlen.pl,3,1,2
+Tom Knight (scientist),3,1,2
+TopStyle,3,1,2
+TortoiseGit,3,1,2
+Toshiba 4690 OS,3,1,2
+Trafodion,3,1,2
+Transclusion,3,1,2
+Transformation language,3,1,2
+Translate Toolkit,3,1,2
+Transterpreter,3,1,2
+Traverso DAW,3,1,2
+Travis CI,3,1,2
+Turbo Assembler,3,1,2
+Turbo C++,3,1,2
+UGENE,3,1,2
+UProxy,3,1,2
+Unbound (DNS server),3,1,2
+Undecimber,3,1,2
+Universal Document Converter,3,1,2
+Universal Networking Language,3,1,2
+UrQMD,3,1,2
+Util-linux,3,1,2
+VASSAL Engine,3,1,2
+VDownloader,3,1,2
+VSXu,3,1,2
+Verilog,3,1,2
+Vesuite,3,1,2
+Virtual environment software,3,1,2
+Virtual function,3,1,2
+Visual Component Library,3,1,2
+Visual IRC,3,1,2
+VisualVM,3,1,2
+VoID,3,1,2
+Volkov Commander,3,1,2
+WS-Discovery,3,1,2
+Waf,3,1,2
+Watir,3,1,2
+WaveSurfer,3,1,2
+Web Coverage Processing Service,3,1,2
+Web Services Conversation Language,3,1,2
+Web Services Description Language,3,1,2
+Web Services Flow Language,3,1,2
+Web Services Metadata for Java,3,1,2
+Web colors,3,1,2
+Website Parse Template,3,1,2
+Weka (machine learning),3,1,2
+Why's (poignant) Guide to Ruby,3,1,2
+WikkaWiki,3,1,2
+WinMerge,3,1,2
+Windows App Studio,3,1,2
+Windows Media Player Playlist,3,1,2
+Wine-Doors,3,1,2
+Wolfram SystemModeler,3,1,2
+Women Writers Project,3,1,2
+Wpa supplicant,3,1,2
+X video extension,3,1,2
+XCircuit,3,1,2
+XKMS,3,1,2
+XML Notepad,3,1,2
+XML-RPC,3,1,2
+XMind,3,1,2
+Xenia (emulator),3,1,2
+Xlib,3,1,2
+Xmonad,3,1,2
+Xterm,3,1,2
+YARP,3,1,2
+Yacc,3,1,2
+Yahoo! Calendar,3,1,2
+Yasm,3,1,2
+Yellow,3,1,2
+"Yellowdog Updater, Modified",3,1,2
+Yooreeka,3,1,2
+Z39.50,3,1,2
+ZNC,3,1,2
+ZOC (software),3,1,2
+ZThreads,3,1,2
+Zen Cart,3,1,2
+Zend Framework,3,1,2
+Zswap,3,1,2
+ANGLE (software),4,2,2
+AWStats,4,2,2
+Acorn C/C++,4,2,2
+Adobe GoLive,4,2,2
+Ajax (programming),4,2,2
+Alfresco (software),4,2,2
+Alice (software),4,2,2
+Amiga E,4,2,2
+Aptitude (software),4,2,2
+Astropy,4,2,2
+Avogadro (software),4,2,2
+Awesome (window manager),4,2,2
+BDS C,4,2,2
+BSAVE (bitmap format),4,2,2
+Beep Media Player,4,2,2
+BitLord,4,2,2
+Bourne shell,4,2,2
+Celery Task Queue,4,2,2
+Chameleo,4,2,2
+Chandler (software),4,2,2
+Clang,4,2,2
+Comix (software),4,2,2
+Comparison of C Sharp and Visual Basic .NET,4,2,2
+Crystal Space,4,2,2
+DAZ Studio,4,2,2
+DaviX,4,2,2
+Dc (computer program),4,2,2
+Denotational semantics,4,2,2
+Dietlibc,4,2,2
+Dune (software),4,2,2
+E-LOTOS,4,2,2
+Emacs Lisp,4,2,2
+Eucalyptus (software),4,2,2
+Fantasdic,4,2,2
+FlashDevelop,4,2,2
+GAUSS (software),4,2,2
+GDAL,4,2,2
+GLAVE (software),4,2,2
+GNAT,4,2,2
+GNAT Programming Studio,4,2,2
+GNU Bazaar,4,2,2
+GNU Common Lisp,4,2,2
+GNU MPFR,4,2,2
+GPUTILS,4,2,2
+Gecko (software),4,2,2
+Geeqie,4,2,2
+GeneWeb,4,2,2
+GpsDrive,4,2,2
+Graal (compiler),4,2,2
+Gtkpod,4,2,2
+HAL (software),4,2,2
+HTML,4,2,2
+IMacros,4,2,2
+IceWM,4,2,2
+ImpressPages,4,2,2
+Jenkins (software),4,2,2
+KAlgebra,4,2,2
+KDE Partition Manager,4,2,2
+Kalzium,4,2,2
+KiCad,4,2,2
+Kuzya,4,2,2
+LaTeX,4,2,2
+LabWindows/CVI,4,2,2
+Language Of Temporal Ordering Specification,4,2,2
+Leafpad,4,2,2
+LibSBML,4,2,2
+Libsndfile,4,2,2
+LuxRender,4,2,2
+MediaInfo,4,2,2
+Mercurial,4,2,2
+Metafont,4,2,2
+Microformat,4,2,2
+Midori (web browser),4,2,2
+Monaca (mobile application development tool),4,2,2
+MonoDevelop,4,2,2
+MuPAD,4,2,2
+MuPDF,4,2,2
+Musl,4,2,2
+Nested Context Language,4,2,2
+NoteEdit,4,2,2
+Nullsoft Scriptable Install System,4,2,2
+Ogle DVD Player,4,2,2
+Open Packaging Conventions,4,2,2
+OpenH264,4,2,2
+OpenKM,4,2,2
+OwnCloud,4,2,2
+PDF.js,4,2,2
+PHPUnit,4,2,2
+PSPP,4,2,2
+Pan (newsreader),4,2,2
+Paperpile,4,2,2
+Parallax scrolling,4,2,2
+Parrot virtual machine,4,2,2
+Picogen,4,2,2
+Play framework,4,2,2
+Pocket Scheme,4,2,2
+PostgreSQL,4,2,2
+Premake,4,2,2
+Programmer's Notepad,4,2,2
+PureXML,4,2,2
+Pwytter,4,2,2
+QupZilla,4,2,2
+Rawstudio,4,2,2
+Refbase,4,2,2
+Scratch Jr,4,2,2
+Seed (programming),4,2,2
+SharpDevelop,4,2,2
+Shotwell (software),4,2,2
+SmallBASIC,4,2,2
+Stardog,4,2,2
+Stencyl,4,2,2
+THINK C,4,2,2
+TenDRA Compiler,4,2,2
+TkWWW,4,2,2
+Toonloop,4,2,2
+TortoiseCVS,4,2,2
+Twinkle (software),4,2,2
+UNetbootin,4,2,2
+V8 (JavaScript engine),4,2,2
+VIPS (software),4,2,2
+VOGL,4,2,2
+VirtualDub,4,2,2
+WIRIS,4,2,2
+Water Data Transfer Format,4,2,2
+WildFly,4,2,2
+WxDev-C++,4,2,2
+XMMS,4,2,2
+Yahoo! Pipes,4,2,2
+Yoshimi (Synthesizer),4,2,2
+ZynAddSubFX,4,2,2
+Bluefish (software),5,3,2
+CSS frameworks,5,3,2
+Calibre (software),5,3,2
+Cocos2d,5,3,2
+Compendium (software),5,3,2
+CrypTool,5,3,2
+Deluge (software),5,3,2
+Etoys (programming language),5,3,2
+Euler (software),5,3,2
+FLTK,5,3,2
+FontForge,5,3,2
+Franca IDL,5,3,2
+FreeCAD,5,3,2
+Ganglia (software),5,3,2
+GrafX2,5,3,2
+HipHop Virtual Machine,5,3,2
+HipHop for PHP,5,3,2
+JHepWork,5,3,2
+KWrite,5,3,2
+KompoZer,5,3,2
+Konversation,5,3,2
+MapleSim,5,3,2
+Ncurses,5,3,2
+Pike (programming language),5,3,2
+Pluma (editor),5,3,2
+Qt Creator,5,3,2
+Quark XML Author,5,3,2
+ROSE (compiler framework),5,3,2
+RText,5,3,2
+SAMPL,5,3,2
+SHAZAM (software),5,3,2
+SPICE,5,3,2
+Sed,5,3,2
+Snap! (programming language),5,3,2
+Sylpheed,5,3,2
+Turbo Pascal,5,3,2
+WxWidgets,5,3,2
+wxWidgets,5,3,2
+Clementine (software),6,4,2
+Exaile,6,4,2
+Konqueror,6,4,2
+Empathy (software),7,5,2
+GNU Compiler Collection,7,5,2
+IBM VisualAge,7,5,2
+Kopete,7,5,2
+Rhythmbox,7,5,2
+FreeBASIC,8,6,2
+.properties,4,1,3
+1964 (emulator),4,1,3
+ADO.NET,4,1,3
+AIPS++,4,1,3
+AOLpress,4,1,3
+ASP.NET,4,1,3
+ASP.NET Razor view engine,4,1,3
+ASuite,4,1,3
+AdBlock,4,1,3
+AdaCore,4,1,3
+Adempiere,4,1,3
+Adobe ColdFusion Builder,4,1,3
+Adobe Scout,4,1,3
+Advice taker,4,1,3
+Agros2D,4,1,3
+Aiki Framework,4,1,3
+AkelPad,4,1,3
+Alexander Stepanov,4,1,3
+Annotum,4,1,3
+Ansible (software),4,1,3
+Apache Continuum,4,1,3
+Apache Flink,4,1,3
+Apache Maven,4,1,3
+Apache Nutch,4,1,3
+Apache POI,4,1,3
+Apache Samza,4,1,3
+Apollo Guidance Computer,4,1,3
+App Inventor for Android,4,1,3
+Append,4,1,3
+Apple Media Tool,4,1,3
+Apple Pascal,4,1,3
+Appnovation,4,1,3
+Aquamacs,4,1,3
+Array programming,4,1,3
+Astronomical Image Processing System,4,1,3
+Automator (software),4,1,3
+Avactis,4,1,3
+Aztec C,4,1,3
+BackTrack,4,1,3
+Behaviour Composer,4,1,3
+Behdad Esfahbod,4,1,3
+Berkeley Open Infrastructure for Network Computing,4,1,3
+Bet On Soldier: Blood Sport,4,1,3
+Biopython,4,1,3
+Biosphere3D,4,1,3
+Bistro Framework,4,1,3
+BitTyrant,4,1,3
+Blink (web engine),4,1,3
+Blue,4,1,3
+BlueGriffon,4,1,3
+BlueSpice for MediaWiki,4,1,3
+Bluecurve,4,1,3
+Bode Miller Alpine Racing,4,1,3
+Bonsai (software),4,1,3
+Brave: The Search for Spirit Dancer,4,1,3
+Brightkite,4,1,3
+British National Corpus,4,1,3
+Bruno Souza (programmer),4,1,3
+Bubble Ball,4,1,3
+BusyBox,4,1,3
+C/C++ Users Journal,4,1,3
+CLACL,4,1,3
+CVSNT,4,1,3
+CWEB,4,1,3
+Cafu Engine,4,1,3
+Calligra Suite,4,1,3
+Cask (company),4,1,3
+Charmed (video game),4,1,3
+Cheat Engine,4,1,3
+CherryPlayer,4,1,3
+ChipWits,4,1,3
+Chromebit,4,1,3
+Chromebox,4,1,3
+Chromium OS,4,1,3
+Chuck Norris: Bring on the Pain,4,1,3
+Cinelerra,4,1,3
+CintaNotes,4,1,3
+Claris Home Page,4,1,3
+Cluster (spacecraft),4,1,3
+CmapTools,4,1,3
+Code.org,4,1,3
+Comparison of ADO and ADO.NET,4,1,3
+Comparison of audio synthesis environments,4,1,3
+Conio.h,4,1,3
+Const (computer programming),4,1,3
+Construct (game engine),4,1,3
+Core War,4,1,3
+Cppcheck,4,1,3
+CrateIO,4,1,3
+Croogo,4,1,3
+CrossBridge,4,1,3
+Crowns of Power,4,1,3
+Cyc,4,1,3
+DAP (software),4,1,3
+DC++,4,1,3
+DJGPP,4,1,3
+Dada Mail,4,1,3
+Dapper ORM,4,1,3
+Dashlane,4,1,3
+Denemo,4,1,3
+DenyHosts,4,1,3
+Desura,4,1,3
+Deutsch limit,4,1,3
+Digia,4,1,3
+Digital Combat Simulator,4,1,3
+Discourse (software),4,1,3
+DistrictBuilder,4,1,3
+Divergence (computer science),4,1,3
+DoNotTrackMe,4,1,3
+Dr. DivX,4,1,3
+ELKI,4,1,3
+EMMS,4,1,3
+EMSO simulator,4,1,3
+ESC/Java,4,1,3
+EasyBlog,4,1,3
+Easytrade,4,1,3
+Ehcache,4,1,3
+Encog,4,1,3
+Enlightened Sound Daemon,4,1,3
+Eressea (video game),4,1,3
+Evergreen (software),4,1,3
+Exec (computing),4,1,3
+Exponent CMS,4,1,3
+FLUKA,4,1,3
+Falling-sand game,4,1,3
+Festival Speech Synthesis System,4,1,3
+Flash Gallery,4,1,3
+Flash MP3 Player,4,1,3
+Flashrom,4,1,3
+Fluxbox,4,1,3
+Foreman (software),4,1,3
+FreeFem++,4,1,3
+Fuchsia (color),4,1,3
+Full Tilt Poker,4,1,3
+G'MIC,4,1,3
+GNU Assembler,4,1,3
+GNU Linear Programming Kit,4,1,3
+GNU Mailman,4,1,3
+GNU Solfege,4,1,3
+GNUnet,4,1,3
+GT.M,4,1,3
+Gadu-Gadu,4,1,3
+Gallery Project,4,1,3
+Gallium3D,4,1,3
+Geant4,4,1,3
+Getaddrinfo,4,1,3
+Ghostery,4,1,3
+"Ghostery, Inc.",4,1,3
+GiFT,4,1,3
+GluonJ,4,1,3
+GmailFS,4,1,3
+Google Chrome for Android,4,1,3
+Google Closure Tools,4,1,3
+Google Quick Search Box,4,1,3
+Google Sidewiki,4,1,3
+Gradle,4,1,3
+Green,4,1,3
+Grid (graphic design),4,1,3
+GroupServer,4,1,3
+GtkRadiant,4,1,3
+Guitar Pro,4,1,3
+HAProxy,4,1,3
+HMMER,4,1,3
+Habari,4,1,3
+Halt and Catch Fire,4,1,3
+Handango,4,1,3
+Hedgehog Engine,4,1,3
+Helix (multimedia project),4,1,3
+Herb Sutter,4,1,3
+High- and low-level,4,1,3
+Hoc (programming language),4,1,3
+Homebrew (package management software),4,1,3
+Horde3D,4,1,3
+HotJava Views,4,1,3
+Hotel Technology Next Generation,4,1,3
+Hotel Tycoon Resort,4,1,3
+HyperCard,4,1,3
+IBM System Architect,4,1,3
+IBM WebSphere Application Server,4,1,3
+IRIS (transportation software),4,1,3
+ISO/IEC 11179,4,1,3
+Insight Segmentation and Registration Toolkit,4,1,3
+IntelliJ IDEA,4,1,3
+International Obfuscated C Code Contest,4,1,3
+Internet Messaging Program,4,1,3
+Inversion of control,4,1,3
+Irrlicht Engine,4,1,3
+ItsNat,4,1,3
+JBPM,4,1,3
+JED (text editor),4,1,3
+JHipster,4,1,3
+Jajah,4,1,3
+Java Anon Proxy,4,1,3
+Java Desktop System,4,1,3
+Jeni Tennison,4,1,3
+Joel McCormack,4,1,3
+KGB Archiver,4,1,3
+KIVA (software),4,1,3
+KLettres,4,1,3
+KNIME,4,1,3
+Kanagram,4,1,3
+Kdeutils,4,1,3
+King's Bounty: The Legend,4,1,3
+Kubernetes,4,1,3
+LADSPA,4,1,3
+LMule,4,1,3
+Lango (app),4,1,3
+Leadwerks Engine,4,1,3
+Lego Mindstorms NXT,4,1,3
+LevelDB,4,1,3
+Lex (software),4,1,3
+Libavcodec,4,1,3
+Libdvdcss,4,1,3
+Libre Graphics Meeting,4,1,3
+Lightbot,4,1,3
+Lightning (software),4,1,3
+LimeWire Pirate Edition,4,1,3
+Lincoln Stein,4,1,3
+Lotus Symphony (DOS),4,1,3
+Lphant,4,1,3
+Lucida,4,1,3
+Lumia Beta Apps,4,1,3
+Luxinia,4,1,3
+"MAGMA (Molecular Animation, Graphics and Modeling Application framework)",4,1,3
+MAREC,4,1,3
+MARTHA (layout engine),4,1,3
+MCSim,4,1,3
+MEDITECH,4,1,3
+MEDUSA,4,1,3
+MMBase,4,1,3
+MUSHclient,4,1,3
+Magenta,4,1,3
+Maliit,4,1,3
+Mathcad,4,1,3
+MedinTux,4,1,3
+Messenger Mobile (Microsoft),4,1,3
+MicroMUSE,4,1,3
+Microsoft FrontPage,4,1,3
+Mike McMahon (computer scientist),4,1,3
+Mined (text editor),4,1,3
+Miredo,4,1,3
+Mitto Password Manager,4,1,3
+Mixxx,4,1,3
+Mobile 3D Graphics API,4,1,3
+MonoGame,4,1,3
+MonoTorrent,4,1,3
+Multimodal Architecture and Interfaces,4,1,3
+MusicEase,4,1,3
+NavPix,4,1,3
+Ne (text editor),4,1,3
+NeOn Toolkit,4,1,3
+NetNewsWire,4,1,3
+Nettle (cryptographic library),4,1,3
+Nginx-rtmp-module,4,1,3
+Nokia E90 Communicator,4,1,3
+Nuvola,4,1,3
+ODRL,4,1,3
+OMA Device Management,4,1,3
+OOFEM,4,1,3
+ORBX.js,4,1,3
+OSGi,4,1,3
+OZ Virtual,4,1,3
+Obfuscated Perl Contest,4,1,3
+Omeka,4,1,3
+Online Blood Bowl League Manager,4,1,3
+Open Babel,4,1,3
+Open Broadcaster Software,4,1,3
+Open Dental,4,1,3
+Open Journal Systems,4,1,3
+Open Movie Editor,4,1,3
+OpenBTS,4,1,3
+OpenPDC,4,1,3
+OpenSSL,4,1,3
+OpenZaurus,4,1,3
+Openclipart,4,1,3
+Orthanc (software),4,1,3
+Ovi (Nokia),4,1,3
+P-code machine,4,1,3
+P.I.P.S.,4,1,3
+PCB (software),4,1,3
+PDF/A,4,1,3
+PDF/X,4,1,3
+Panorama Tools,4,1,3
+Parsix,4,1,3
+Paul H. Cress,4,1,3
+PeerBlock,4,1,3
+PerlTidy,4,1,3
+Phabricator,4,1,3
+Phex,4,1,3
+Phire CMS,4,1,3
+Phoca Gallery,4,1,3
+PhpMyAdmin,4,1,3
+Pimcore,4,1,3
+PlanMaker,4,1,3
+Playwrite (software),4,1,3
+Poedit,4,1,3
+Portage (software),4,1,3
+Praat,4,1,3
+Programming Ruby,4,1,3
+Prot??g?? (software),4,1,3
+Puma.NET,4,1,3
+PyMOL,4,1,3
+QBlade,4,1,3
+Qmail,4,1,3
+QtiPlot,4,1,3
+Query by Example,4,1,3
+QuteMol,4,1,3
+REPLAY (software),4,1,3
+RT-11,4,1,3
+Radare2,4,1,3
+Rappelz,4,1,3
+RasMol,4,1,3
+Raster Document Object,4,1,3
+RavenNuke,4,1,3
+Red,4,1,3
+RedDwarf Server,4,1,3
+Refinery CMS,4,1,3
+Rhino (JavaScript engine),4,1,3
+Riak,4,1,3
+Rocky's Boots,4,1,3
+Roundcube,4,1,3
+Runes of Magic,4,1,3
+SAMI,4,1,3
+SCUMM,4,1,3
+SOAP,4,1,3
+SQL injection,4,1,3
+STDU Viewer,4,1,3
+SageMathCloud,4,1,3
+Sargon (chess),4,1,3
+Schwartzian transform,4,1,3
+Scott Isaacs,4,1,3
+Scream Tracker,4,1,3
+Scuttle (software),4,1,3
+Seashore (software),4,1,3
+Serif PhotoPlus,4,1,3
+Serif products,4,1,3
+Servoy,4,1,3
+Setcontext,4,1,3
+Sharp Zaurus,4,1,3
+ShiVa,4,1,3
+Shyster (expert system),4,1,3
+Sitrion,4,1,3
+SkEdit,4,1,3
+SlickEdit,4,1,3
+Space Commanders,4,1,3
+SparkleDB,4,1,3
+Spatiotemporal database,4,1,3
+SpinRite,4,1,3
+Spock (testing framework),4,1,3
+Spyder (software),4,1,3
+Stan (software),4,1,3
+Standard Business Reporting,4,1,3
+StealthNet,4,1,3
+Storm (software),4,1,3
+Strata 3D,4,1,3
+StyleTap,4,1,3
+Subsonic (media server),4,1,3
+Subterfuge,4,1,3
+Suggested Upper Merged Ontology,4,1,3
+Super Expander,4,1,3
+Synaptic (software),4,1,3
+Sync (Unix),4,1,3
+SystemTap,4,1,3
+TI-89 series,4,1,3
+TOWeb,4,1,3
+TSS (operating system),4,1,3
+Tamarin (software),4,1,3
+Tarantool,4,1,3
+Teashark,4,1,3
+Template:JavaScriptSidebar,4,1,3
+TempleOS,4,1,3
+The SWORD Project,4,1,3
+Tmux,4,1,3
+Tom Christiansen,4,1,3
+TomoPy,4,1,3
+Topic Maps,4,1,3
+TorChat,4,1,3
+TortoiseSVN,4,1,3
+Trustwave SecureBrowsing,4,1,3
+Tuple space,4,1,3
+Turbo Vision,4,1,3
+Turn Off the Lights (extension),4,1,3
+UBlock,4,1,3
+UML state machine,4,1,3
+Ubuntu GNOME,4,1,3
+UniKey (software),4,1,3
+Unified Code Count (UCC),4,1,3
+United States Air Force Stability and Control Digital DATCOM,4,1,3
+Universal Disk Format,4,1,3
+Utah GLX,4,1,3
+V9fs,4,1,3
+VM (operating system),4,1,3
+VRML,4,1,3
+Vbcc,4,1,3
+Venkman,4,1,3
+Verax NMS,4,1,3
+Vibe.d,4,1,3
+VideoPad,4,1,3
+Virtual Database Manager,4,1,3
+VisiCalc,4,1,3
+Visualization Library,4,1,3
+Vuze,4,1,3
+Waarp,4,1,3
+Web Dynpro,4,1,3
+Web Language,4,1,3
+Web3D Consortium,4,1,3
+WebNotes,4,1,3
+WinJS,4,1,3
+Windows RSS Platform,4,1,3
+Wolf CMS,4,1,3
+WordGrinder,4,1,3
+Workrave,4,1,3
+World Series of Poker: Pro Challenge,4,1,3
+Wormhole (video game),4,1,3
+Wt (web toolkit),4,1,3
+Wubi (software),4,1,3
+Wurm Online,4,1,3
+X Image Extension,4,1,3
+Xaraya,4,1,3
+Xena (software),4,1,3
+Xpdf,4,1,3
+Xplico,4,1,3
+YafaRay,4,1,3
+Yahoo! Axis,4,1,3
+Yuri Rubinsky,4,1,3
+Z User Group,4,1,3
+Zim (software),4,1,3
+??ngstr??m distribution,4,1,3
+??MQ,4,1,3
+Adobe Dreamweaver,5,2,3
+Apache Tomcat,5,2,3
+Bonita BPM,5,2,3
+Broadcast Markup Language,5,2,3
+CICS,5,2,3
+CIDOC Conceptual Reference Model,5,2,3
+Chromatic (programmer),5,2,3
+CinePaint,5,2,3
+Clusterpoint,5,2,3
+Compiz,5,2,3
+Construction and Analysis of Distributed Processes,5,2,3
+DAISY Digital Talking Book,5,2,3
+David Rolsky,5,2,3
+Dev-C++,5,2,3
+Dlib,5,2,3
+Doxygen,5,2,3
+Drupal,5,2,3
+Earth3D,5,2,3
+Echo (framework),5,2,3
+FBReader,5,2,3
+FLUID,5,2,3
+Fotografix,5,2,3
+Foxit Reader,5,2,3
+FpGUI,5,2,3
+Freeseer,5,2,3
+GNU C Library,5,2,3
+GNU Scientific Library,5,2,3
+GPAC Project on Advanced Content,5,2,3
+GnuCash,5,2,3
+Gremlin (programming language),5,2,3
+Hermes Project,5,2,3
+Intel Array Building Blocks,5,2,3
+Internationalization Tag Set,5,2,3
+JMonkeyEngine,5,2,3
+Jamroom,5,2,3
+Java 3D,5,2,3
+Joget Workflow,5,2,3
+JuffEd,5,2,3
+K-3D,5,2,3
+KAtomic,5,2,3
+KStars,5,2,3
+Kid3,5,2,3
+LAMP (software bundle),5,2,3
+Lanedo,5,2,3
+MLPACK (C++ library),5,2,3
+MakeHuman,5,2,3
+Marionnet,5,2,3
+MegaZeux,5,2,3
+Metadata Encoding and Transmission Standard,5,2,3
+Moblin,5,2,3
+Movable Type,5,2,3
+Mumble (software),5,2,3
+Natural Language Toolkit,5,2,3
+Netpbm,5,2,3
+Observations and Measurements,5,2,3
+OneSwarm,5,2,3
+OpenLP,5,2,3
+OpenNMS,5,2,3
+OpenSCAD,5,2,3
+Peppermint (editor),5,2,3
+Piglit,5,2,3
+Procedural reasoning system,5,2,3
+ProcessWire,5,2,3
+PsychoPy,5,2,3
+RawTherapee,5,2,3
+SK1 (program),5,2,3
+SapWin,5,2,3
+SciPy,5,2,3
+Simulink,5,2,3
+Slrn,5,2,3
+SpamAssassin,5,2,3
+Surf (web browser),5,2,3
+TWiki,5,2,3
+Threading Building Blocks,5,2,3
+Tribler,5,2,3
+TuxGuitar,5,2,3
+Unity (user interface),5,2,3
+VisIt,5,2,3
+VisSim,5,2,3
+WebKit,5,2,3
+Windows Phone 8.1,5,2,3
+Wings 3D,5,2,3
+XMMS2,5,2,3
+XULRunner,5,2,3
+ZZT-oop,5,2,3
+Zekr (software),5,2,3
+ARexx,6,3,3
+AWK,6,3,3
+BBj,6,3,3
+DigiKam,6,3,3
+Elmer FEM solver,6,3,3
+Ex Falso,6,3,3
+FASM,6,3,3
+GTKWave,6,3,3
+Go-oo,6,3,3
+Gosu (library),6,3,3
+Greenfoot,6,3,3
+J (text editor),6,3,3
+JEdit,6,3,3
+Lotus 1-2-3,6,3,3
+Midgard (software),6,3,3
+Music Player Daemon,6,3,3
+NumPy,6,3,3
+OpenShot,6,3,3
+PTGui,6,3,3
+Panoweaver,6,3,3
+QuteCom,6,3,3
+TeX,6,3,3
+TigerVNC,6,3,3
+Trojit??,6,3,3
+Tux Typing,6,3,3
+Web (web browser),6,3,3
+XMLHttpRequest,6,3,3
+GNOME Chess,7,4,3
+Gedit,7,4,3
+LabVIEW,7,4,3
+Open Roberta,7,4,3
+Pinta (software),7,4,3
+Scratch (programming language),7,4,3
+ZSNES,7,4,3
+3DSlicer,8,5,3
+Geany,8,5,3
+Mathomatic,9,6,3
+Docear,10,6,4
+LibreOffice,10,6,4
+ACCU (organisation),5,1,4
+ACE (editor),5,1,4
+Adobe Photoshop Album,5,1,4
+Adobe Photoshop Lightroom,5,1,4
+Advanced Packaging Tool,5,1,4
+AfterLogic WebMail Lite,5,1,4
+Agora (web browser),5,1,4
+Agricultural Ontology Service,5,1,4
+Apache Bloodhound,5,1,4
+Apache CXF,5,1,4
+Apache James,5,1,4
+Apache Kafka,5,1,4
+Apache Solr,5,1,4
+Apache Struts,5,1,4
+Apache Struts 2,5,1,4
+Appetizer (software),5,1,4
+Artisteer,5,1,4
+Asphalt 3: Street Rules,5,1,4
+Atomistix Virtual NanoLab,5,1,4
+Aupeo,5,1,4
+Authbind,5,1,4
+Automake,5,1,4
+B1 Free Archiver,5,1,4
+BEdita,5,1,4
+Bc (programming language),5,1,4
+Bill Catambay,5,1,4
+BitSpirit,5,1,4
+Black,5,1,4
+Bluppo,5,1,4
+Brothers in Arms: Art of War,5,1,4
+Brutos Framework,5,1,4
+Buzz!,5,1,4
+C Traps and Pitfalls,5,1,4
+COLLADA,5,1,4
+CP2K,5,1,4
+CUPS,5,1,4
+Carnage Heart,5,1,4
+CellCognition,5,1,4
+Chemistry Development Kit,5,1,4
+Chrome OS,5,1,4
+Chromebook,5,1,4
+Chyrp,5,1,4
+Cloudera,5,1,4
+Code Rocket,5,1,4
+Code Saturne,5,1,4
+Collabora,5,1,4
+Common Object Request Broker Architecture,5,1,4
+Computers and Typesetting,5,1,4
+Concurrent Versions System,5,1,4
+Cons,5,1,4
+CopperLicht,5,1,4
+CoreAVC,5,1,4
+CryEngine,5,1,4
+Cryptlib,5,1,4
+Cypher Query Language,5,1,4
+Cytoscape,5,1,4
+DASK,5,1,4
+DONKEY.BAS,5,1,4
+Dangerous Dave in the Haunted Mansion,5,1,4
+Darling (software),5,1,4
+Das U-Boot,5,1,4
+David Abrahams (computer programmer),5,1,4
+David Megginson,5,1,4
+David Webber,5,1,4
+Day Watch (video game),5,1,4
+Deutschsprachige Anwendervereinigung TeX,5,1,4
+Diakonos,5,1,4
+Digital Medievalist,5,1,4
+DirSync Pro,5,1,4
+Distributed Access Control System,5,1,4
+Dr. Web,5,1,4
+EMule,5,1,4
+EPUB,5,1,4
+EPrints,5,1,4
+Ecasound,5,1,4
+Electric (software),5,1,4
+Elgg (software),5,1,4
+Emergent (software),5,1,4
+Empire Earth Mobile,5,1,4
+Encoded Archival Description,5,1,4
+Enterprise Architect (software),5,1,4
+Enyo (software),5,1,4
+Epic Pinball,5,1,4
+Erik Naggum,5,1,4
+Erwise,5,1,4
+Etherlords,5,1,4
+European Soil Database,5,1,4
+Eww (web browser),5,1,4
+External Data Representation,5,1,4
+Feature Selection Toolbox,5,1,4
+File System Visualizer,5,1,4
+Filesystem in Userspace,5,1,4
+Firefly Media Server,5,1,4
+FishEye (software),5,1,4
+Fortress Forever,5,1,4
+FreeDict,5,1,4
+Freedesktop.org,5,1,4
+FunOrb,5,1,4
+GEOS (16-bit operating system),5,1,4
+GNU Prolog,5,1,4
+GNU arch,5,1,4
+GPhoto,5,1,4
+Geographic Names Information System,5,1,4
+Ginkgo CADx,5,1,4
+Gizzard (Scala framework),5,1,4
+GoAgent,5,1,4
+Goalbit,5,1,4
+Google Drive,5,1,4
+Google Play Books,5,1,4
+Google Web Toolkit,5,1,4
+Gothic 3: The Beginning,5,1,4
+Grail (web browser),5,1,4
+Grsync,5,1,4
+Hammer & Sickle,5,1,4
+Havoc Pennington,5,1,4
+Hiawatha (web server),5,1,4
+High Performance File System,5,1,4
+HuMo-gen,5,1,4
+Hugo (programming language),5,1,4
+IClone,5,1,4
+INGENIAS,5,1,4
+Ian Hickson,5,1,4
+Idio,5,1,4
+Igalia,5,1,4
+ImageVis3D,5,1,4
+Inform,5,1,4
+Intermetrics,5,1,4
+JOELib,5,1,4
+JSON Web Token,5,1,4
+Java Analysis Studio,5,1,4
+"Java Platform, Enterprise Edition",5,1,4
+Jmol,5,1,4
+Joe Ossanna,5,1,4
+Joe's Own Editor,5,1,4
+KDE Platform 4,5,1,4
+KWin,5,1,4
+Kazehakase,5,1,4
+Kernel-based Virtual Machine,5,1,4
+Kmscon,5,1,4
+KnowledgeMan,5,1,4
+Kodu Game Lab,5,1,4
+LUnix,5,1,4
+LYME (software bundle),5,1,4
+LanguageTool,5,1,4
+LastPass,5,1,4
+LeJOS,5,1,4
+LibreCAD,5,1,4
+LibreOffice Writer,5,1,4
+Lighttpd,5,1,4
+Lincos (artificial language),5,1,4
+Linley's Dungeon Crawl,5,1,4
+Linux kernel,5,1,4
+Lock On: Modern Air Combat,5,1,4
+Locker (software),5,1,4
+Lucid Inc.,5,1,4
+MacPaint,5,1,4
+Macintosh Programmer's Workshop,5,1,4
+Mahogany (email client),5,1,4
+Media Player Classic,5,1,4
+Medieval Kings Chess II,5,1,4
+Michael K??lling,5,1,4
+Microsoft Expression Web,5,1,4
+Microsoft Visio,5,1,4
+Might and Magic Mobile,5,1,4
+Might and Magic Mobile II,5,1,4
+MindRover,5,1,4
+Mobipocket,5,1,4
+Mod openpgp,5,1,4
+Monte Carlo N-Particle Transport Code,5,1,4
+Mozilla Prism,5,1,4
+Music Macro Language,5,1,4
+MusikCube,5,1,4
+NBC Sports Figure Skating,5,1,4
+NBC Sports Real Golf,5,1,4
+NEdit,5,1,4
+Nat Friedman,5,1,4
+National Information Exchange Model,5,1,4
+Nato.0+55+3d,5,1,4
+Network UPS Tools,5,1,4
+Ngrep,5,1,4
+Night Watch (video game),5,1,4
+Ns (simulator),5,1,4
+Numerical Algorithms Group,5,1,4
+Nvu,5,1,4
+OJB,5,1,4
+OS-9,5,1,4
+Online office suite,5,1,4
+Open Cascade Technology,5,1,4
+Open Library,5,1,4
+Open Semantic Framework,5,1,4
+OpenCity,5,1,4
+OpenNLP,5,1,4
+OpenProject,5,1,4
+OpenTravel Alliance,5,1,4
+Openismus,5,1,4
+Opera Mobile,5,1,4
+PLIB,5,1,4
+PageStream,5,1,4
+Parser Grammar Engine,5,1,4
+Pencil Code,5,1,4
+PhantomJS,5,1,4
+Philippe Kruchten,5,1,4
+PhpWebSite,5,1,4
+PhyloXML,5,1,4
+PlayOK,5,1,4
+PlayStation Home,5,1,4
+PokerTH,5,1,4
+Privacy Badger,5,1,4
+Product Hunt,5,1,4
+Programming Perl,5,1,4
+PulseAudio,5,1,4
+Puppet (software),5,1,4
+Python Robotics,5,1,4
+QCad,5,1,4
+Qizx,5,1,4
+Qt Extended,5,1,4
+Quassel IRC,5,1,4
+R:Base,5,1,4
+RARS,5,1,4
+ROSE Online,5,1,4
+RRDtool,5,1,4
+RSTS/E,5,1,4
+Redirection (computing),5,1,4
+Redis,5,1,4
+Redmine,5,1,4
+Reo Coordination Language,5,1,4
+Requiem: Memento Mori,5,1,4
+Rigs of Rods,5,1,4
+Roboforge,5,1,4
+RobotWar,5,1,4
+Ruby character,5,1,4
+Ruby on Rails,5,1,4
+SMPlayer,5,1,4
+SOBI2,5,1,4
+Saints Row 2 (mobile),5,1,4
+Scott Meyers,5,1,4
+Security Assertion Markup Language,5,1,4
+Semmle,5,1,4
+Seven Kingdoms (video game),5,1,4
+ShareX,5,1,4
+Sharelin,5,1,4
+Singularity (operating system),5,1,4
+Slash (CMS),5,1,4
+Snort (software),5,1,4
+Solodev,5,1,4
+SolveSpace,5,1,4
+SquirrelMail,5,1,4
+State diagram,5,1,4
+Statmetrics,5,1,4
+StormEngineC,5,1,4
+Structure and Interpretation of Computer Programs,5,1,4
+SuperCalc,5,1,4
+Swype,5,1,4
+TADS,5,1,4
+TOra,5,1,4
+Tap Tap Revenge,5,1,4
+Tcpdump,5,1,4
+The Qt Company,5,1,4
+Thinking Machines Corporation,5,1,4
+Thorsten Behrens,5,1,4
+TiddlyWiki,5,1,4
+Tokyo City Nights,5,1,4
+Trac,5,1,4
+Traction TeamPage,5,1,4
+Triangular decomposition,5,1,4
+Triplestore,5,1,4
+UDPCast,5,1,4
+Universal Media Disc,5,1,4
+Utalk,5,1,4
+Video Acceleration API,5,1,4
+WOT Services,5,1,4
+Web Compatibility Test for Mobile Browsers,5,1,4
+Widget Workshop,5,1,4
+WikiPock,5,1,4
+WriteNow,5,1,4
+X-Video Motion Compensation,5,1,4
+X2vnc,5,1,4
+XBMC4Xbox,5,1,4
+XEDIT,5,1,4
+Xfce,5,1,4
+Xojo,5,1,4
+Xpeak,5,1,4
+Xpra,5,1,4
+Xwax,5,1,4
+YXA,5,1,4
+Year 2000 problem,5,1,4
+Zak Greant,5,1,4
+online office suite,5,1,4
+AMule,6,2,4
+Allison Randal,6,2,4
+Ametys CMS,6,2,4
+Apache Hive,6,2,4
+Art of Illusion,6,2,4
+BALL,6,2,4
+BitTornado,6,2,4
+ChucK,6,2,4
+ClamWin,6,2,4
+CuneiForm (software),6,2,4
+David Luckham,6,2,4
+Far Manager,6,2,4
+Fityk,6,2,4
+FlockDB,6,2,4
+Foswiki,6,2,4
+GLFW,6,2,4
+Geary (software),6,2,4
+GlobalSight,6,2,4
+IPodLinux,6,2,4
+JUnit,6,2,4
+KVIrc,6,2,4
+Kurso de Esperanto,6,2,4
+LMMS,6,2,4
+Libdash,6,2,4
+Libwww,6,2,4
+MARC standards,6,2,4
+Michael Meeks (software developer),6,2,4
+Notepad2,6,2,4
+Nouveau (software),6,2,4
+Org-mode,6,2,4
+PCSX2,6,2,4
+Panda3D,6,2,4
+QB64,6,2,4
+QBittorrent,6,2,4
+QDevelop,6,2,4
+Qtractor,6,2,4
+ReactOS,6,2,4
+SQream DB,6,2,4
+SQuirreL SQL Client,6,2,4
+Scala (software),6,2,4
+TIS-100,6,2,4
+Tango Desktop Project,6,2,4
+TextSecure,6,2,4
+The Core Pocket Media Player,6,2,4
+Tkabber,6,2,4
+Todoist,6,2,4
+Transana,6,2,4
+UClibc,6,2,4
+Ubuntu Software Center,6,2,4
+Use case,6,2,4
+VeraCrypt,6,2,4
+Visual Studio Code,6,2,4
+Voreen,6,2,4
+Windows Phone,6,2,4
+Wiring (development platform),6,2,4
+X265,6,2,4
+XChat,6,2,4
+Zinf,6,2,4
+Adobe FrameMaker,7,3,4
+Code Aster,7,3,4
+FFmpeg,7,3,4
+Galeon,7,3,4
+Interpress,7,3,4
+KDE Education Project,7,3,4
+Nmap,7,3,4
+Notepad++,7,3,4
+People Finder Interchange Format,7,3,4
+Pygame,7,3,4
+Textadept,7,3,4
+TightVNC,7,3,4
+WaveMaker,7,3,4
+Xine,7,3,4
+Zope,7,3,4
+GTK+,8,4,4
+Open Inventor,8,4,4
+PostScript,8,4,4
+SuperCollider,8,4,4
+XML,8,4,4
+Banshee (media player),9,5,4
+Julia (programming language),11,6,5
+Speakeasy (computational environment),13,8,5
+AMSN,6,1,5
+Adminer,6,1,5
+Adobe ImageReady,6,1,5
+Advanced Computer Techniques,6,1,5
+Adventure (1979 video game),6,1,5
+Air Force Materiel Command,6,1,5
+Amazon Kindle,6,1,5
+Apache Accumulo,6,1,5
+Apache OFBiz,6,1,5
+ApexKB,6,1,5
+Arachne (web browser),6,1,5
+Avalon: The Legend Lives,6,1,5
+BIBFRAME,6,1,5
+Base One Foundation Component Library,6,1,5
+Bill Schelter,6,1,5
+Bing Maps,6,1,5
+BioPAX,6,1,5
+Biografisch Portaal,6,1,5
+Bionic Heart,6,1,5
+Biskit,6,1,5
+Bj??rn Michaelsen,6,1,5
+BlackBerry OS,6,1,5
+Brian d foy,6,1,5
+Bugzilla,6,1,5
+CD-ROM,6,1,5
+CEGUI,6,1,5
+Canvas X,6,1,5
+Castlevania: Order of Shadows,6,1,5
+Cdist,6,1,5
+Citadel/UX,6,1,5
+Clam AntiVirus,6,1,5
+Climm,6,1,5
+Clonezilla,6,1,5
+CloudCompare,6,1,5
+Colloquy (software),6,1,5
+Comic Seer (Desktop),6,1,5
+Conch (SSH),6,1,5
+Coot (software),6,1,5
+Core Data,6,1,5
+DESMO-J,6,1,5
+DIP DOS,6,1,5
+Damn Small Linux,6,1,5
+DarkSpace,6,1,5
+Demigod (video game),6,1,5
+DeskMate,6,1,5
+Diaspora (software),6,1,5
+Distributed R,6,1,5
+Docker (software),6,1,5
+Doom engine,6,1,5
+Douglas Crockford,6,1,5
+DuckDuckGo,6,1,5
+Dungeon Crawl Stone Soup,6,1,5
+Dust Racing 2D,6,1,5
+EiffelStudio,6,1,5
+Emacs/W3,6,1,5
+Endeavour Software Project Management,6,1,5
+Enlightenment (software),6,1,5
+Eureka Streams,6,1,5
+FEFLOW,6,1,5
+FORscene,6,1,5
+Flare3D,6,1,5
+Flash proxy,6,1,5
+FlightPath (software),6,1,5
+Flowchart,6,1,5
+Free Download Manager,6,1,5
+GNU Aspell,6,1,5
+GNU Gatekeeper,6,1,5
+GNU Radio,6,1,5
+GNUMail,6,1,5
+GNUmed,6,1,5
+GT Racing: Motor Academy,6,1,5
+Gameswf,6,1,5
+Gangstar: Crime City,6,1,5
+General Graphics Interface,6,1,5
+Gnash,6,1,5
+Gorillas (video game),6,1,5
+GraphCalc,6,1,5
+Gravity Guy,6,1,5
+Group-Office,6,1,5
+Gzip,6,1,5
+HTML5test,6,1,5
+Hibari (database),6,1,5
+Hortonworks,6,1,5
+HtmlUnit,6,1,5
+IUP (software),6,1,5
+InfraRecorder,6,1,5
+Intel Parallel Studio,6,1,5
+Ipchains,6,1,5
+JezzBall,6,1,5
+John Barnes (computer scientist),6,1,5
+Ka-Glom!,6,1,5
+Kallithea (software),6,1,5
+Kodi (software),6,1,5
+LibreSSL,6,1,5
+LightWave 3D,6,1,5
+LilyPond,6,1,5
+Lois Haibt,6,1,5
+Lucene,6,1,5
+Magento,6,1,5
+Makagiga,6,1,5
+MapR,6,1,5
+Miami Nights: Singles in the City,6,1,5
+Michael Howard Kay,6,1,5
+Michael Sperberg-McQueen,6,1,5
+Microsoft Silverlight,6,1,5
+Mitro,6,1,5
+MoFEM JosePH,6,1,5
+Monopoly Tycoon,6,1,5
+Mozilla Application Suite,6,1,5
+Multi Theft Auto,6,1,5
+Ncdu,6,1,5
+Near field communication,6,1,5
+Neo4j,6,1,5
+Netsniff-ng,6,1,5
+New Zealand Electronic Text Centre,6,1,5
+Nokia 5530 XpressMusic,6,1,5
+Open-Sankor??,6,1,5
+OpenGrok,6,1,5
+OpenNN,6,1,5
+Opticks (software),6,1,5
+Orbiter (simulator),6,1,5
+PabloDraw,6,1,5
+Paradiseo,6,1,5
+PeaceMaker,6,1,5
+Piwigo,6,1,5
+Plumbr,6,1,5
+PyCharm,6,1,5
+Quake engine,6,1,5
+Quiet Internet Pager,6,1,5
+RELAP5-3D,6,1,5
+RPCS3,6,1,5
+Rayman Kart,6,1,5
+Rmetrics,6,1,5
+Robot Odyssey,6,1,5
+Roommates (video game),6,1,5
+SAML 2.0,6,1,5
+Secret Maryo Chronicles,6,1,5
+ShiftSpace,6,1,5
+Shinken (software),6,1,5
+ShowDocument,6,1,5
+Smash Battle,6,1,5
+Smuxi,6,1,5
+SoX,6,1,5
+SocialEngine,6,1,5
+SoundHound,6,1,5
+SpeedScript,6,1,5
+Stalingrad (2005 video game),6,1,5
+Subtitle Edit,6,1,5
+Sunflow,6,1,5
+TORCS,6,1,5
+Tales of Pirates,6,1,5
+TemplateToaster,6,1,5
+Tomahawk (software),6,1,5
+Trouble in Terrorist Town,6,1,5
+Truphone,6,1,5
+Turing tarpit,6,1,5
+Turtle F2F,6,1,5
+"Tux, of Math Command",6,1,5
+TweetDeck,6,1,5
+UberStudent,6,1,5
+Ubuntu Mobile,6,1,5
+Uncomplicated Firewall,6,1,5
+Universal Edit Button,6,1,5
+Vegas Tycoon,6,1,5
+Viaweb,6,1,5
+Virtual Machine Manager,6,1,5
+WWF (file format),6,1,5
+Waterfox,6,1,5
+WikiWikiWeb,6,1,5
+WildStar (video game),6,1,5
+Windows Template Library,6,1,5
+Worms Golf,6,1,5
+X2x,6,1,5
+XMule,6,1,5
+Xmarks Sync,6,1,5
+Yandex Browser,6,1,5
+You Are Empty,6,1,5
+Zatikon,6,1,5
+Zeev Suraski,6,1,5
+ZeroNet,6,1,5
+??berSoldier,6,1,5
+0x10c,7,2,5
+Apache Hadoop,7,2,5
+Apache Spark,7,2,5
+Asterisk (PBX),7,2,5
+Autodesk Maya,7,2,5
+BleachBit,7,2,5
+Cc65,7,2,5
+Cn3D,7,2,5
+CodeWarrior,7,2,5
+Dillo,7,2,5
+Eggdrop,7,2,5
+GNU TeXmacs,7,2,5
+Git (software),7,2,5
+Gmsh,7,2,5
+Gramps,7,2,5
+Haiku (operating system),7,2,5
+Hamilton C shell,7,2,5
+IFolder,7,2,5
+IMule,7,2,5
+ImageMagick,7,2,5
+Impressive (presentation program),7,2,5
+Klondike (solitaire),7,2,5
+Libav,7,2,5
+MarkLogic,7,2,5
+MusicBrainz Picard,7,2,5
+OpenAutonomy,7,2,5
+Quake Army Knife,7,2,5
+StarDict,7,2,5
+Sun Web Developer Pack,7,2,5
+Telelogic,7,2,5
+The Hessling Editor,7,2,5
+TrueCrypt,7,2,5
+Tux Paint,7,2,5
+Vortexje,7,2,5
+WeeChat,7,2,5
+Works Records System,7,2,5
+WorldWideWeb,7,2,5
+YEd,7,2,5
+Adobe Acrobat,8,3,5
+Ardour (software),8,3,5
+Audacity (audio editor),8,3,5
+AutoQ3D Community,8,3,5
+H2O (software),8,3,5
+KDE Telepathy,8,3,5
+MegaGlest,8,3,5
+Password Safe,8,3,5
+Pitivi,8,3,5
+Processing (programming language),8,3,5
+Programming with Big Data in R,8,3,5
+Ren'Py,8,3,5
+Ring (software),8,3,5
+Rockbox,8,3,5
+Rosegarden,8,3,5
+SequenceL,8,3,5
+VisualEditor,8,3,5
+Apache OpenOffice,9,4,5
+OpenOffice.org,9,4,5
+Scribus,9,4,5
+Spring Engine,9,4,5
+Dia (software),10,4,6
+Ekiga,10,4,6
+Komodo Edit,10,4,6
+Quod Libet (software),10,4,6
+Amarok (software),11,5,6
+Analytica (software),11,5,6
+GCompris,11,5,6
+Free Pascal,12,6,6
+Deeplearning4j,14,8,6
+86-DOS,7,1,6
+AICCU,7,1,6
+Adobe Flash Lite,7,1,6
+Afrinolly,7,1,6
+Agorum core,7,1,6
+Andrei Alexandrescu,7,1,6
+Andrey Terekhov,7,1,6
+Apache Allura,7,1,6
+Appcelerator,7,1,6
+Arena (web browser),7,1,6
+Battle.net,7,1,6
+Betty Holberton,7,1,6
+Bing Maps Platform,7,1,6
+Bioconductor,7,1,6
+Bitmessage,7,1,6
+Blitzkrieg 2,7,1,6
+BuddyPress,7,1,6
+Cabos,7,1,6
+Caf?? 0 ~The Drowned Mermaid~,7,1,6
+Clesh,7,1,6
+Clinical Data Interchange Standards Consortium,7,1,6
+Coda (web development software),7,1,6
+Colobot,7,1,6
+Command: Modern Air Naval Operations,7,1,6
+Computable Document Format,7,1,6
+Computer Graphics Metafile,7,1,6
+Cortex Command,7,1,6
+DBpedia,7,1,6
+Daniel Weinreb,7,1,6
+Diamond Crush,7,1,6
+Documents To Go,7,1,6
+Dolphin (emulator),7,1,6
+Doom II RPG,7,1,6
+Dropbox Paper,7,1,6
+ELinks,7,1,6
+Epictetus Database Client,7,1,6
+Erich Gamma,7,1,6
+FCEUX,7,1,6
+FIXatdl,7,1,6
+Fail2ban,7,1,6
+Ferrari GT: Evolution,7,1,6
+File Allocation Table,7,1,6
+Freenet,7,1,6
+General Architecture for Text Engineering,7,1,6
+Gnus,7,1,6
+Godot (game engine),7,1,6
+Higan (emulator),7,1,6
+Hyperspace Delivery Boy!,7,1,6
+IBM Docs,7,1,6
+IBM PC DOS,7,1,6
+IBM Sametime,7,1,6
+Illumination Software Creator,7,1,6
+Impossible Creatures,7,1,6
+JFire,7,1,6
+James Clark (programmer),7,1,6
+Jolla Launcher,7,1,6
+Journal of Statistical Software,7,1,6
+KDE Software Compilation,7,1,6
+KDE Software Compilation 4,7,1,6
+Learning Perl,7,1,6
+Long Live the Queen (video game),7,1,6
+"Lotus Development Corp. v. Borland International, Inc.",7,1,6
+MOEA Framework,7,1,6
+Maemo,7,1,6
+Magic: The Gathering ??? Duels of the Planeswalkers,7,1,6
+Mailpile,7,1,6
+MeVisLab,7,1,6
+MediaWiki,7,1,6
+Men??ame,7,1,6
+Mono (software),7,1,6
+Moodle,7,1,6
+Mupen64Plus,7,1,6
+MusE,7,1,6
+Music on Console,7,1,6
+MythTV,7,1,6
+Navicat,7,1,6
+Netwide Assembler,7,1,6
+Nokia E75,7,1,6
+NolaPro,7,1,6
+Nxt,7,1,6
+OWASP ZAP,7,1,6
+Omega (video game),7,1,6
+Open Firmware,7,1,6
+Paint.NET,7,1,6
+Patrick Naughton,7,1,6
+PeaZip,7,1,6
+Perseus Project,7,1,6
+Persistent uniform resource locator,7,1,6
+PottersWheel,7,1,6
+Psi (instant messaging client),7,1,6
+QtWeb,7,1,6
+Quake II engine,7,1,6
+RE: Alistair,7,1,6
+Rail Simulator,7,1,6
+Randal L. Schwartz,7,1,6
+RapidMiner,7,1,6
+Rayman Golf,7,1,6
+Renoise,7,1,6
+Responsive web design,7,1,6
+Robert Love,7,1,6
+Robin Berjon,7,1,6
+RoboWar,7,1,6
+SCP QDOS,7,1,6
+Safari (web browser),7,1,6
+SchoolTool,7,1,6
+Sepia Tears ~midwinter's reprise~,7,1,6
+Shareaza,7,1,6
+SimCity 4,7,1,6
+Singles: Flirt Up Your Life,7,1,6
+Smartface,7,1,6
+Spiral Knights,7,1,6
+Star Wars: Empire at War: Forces of Corruption,7,1,6
+Star Wolves,7,1,6
+Stevie (text editor),7,1,6
+Swing (video game),7,1,6
+Tail call,7,1,6
+Telegram (software),7,1,6
+Text Template Transformation Toolkit,7,1,6
+Three.js,7,1,6
+Todd Greanier,7,1,6
+Twin Kingdom Valley,7,1,6
+UC Browser,7,1,6
+Ultracopier,7,1,6
+Unity (game engine),7,1,6
+VDPAU,7,1,6
+Varnish (software),7,1,6
+Vega Strike,7,1,6
+Wakfu,7,1,6
+Wolfenstein RPG,7,1,6
+X Window System,7,1,6
+X-Moto,7,1,6
+XMPP,7,1,6
+YaCy,7,1,6
+YaST,7,1,6
+Yo Frankie!,7,1,6
+Zarafa (software),7,1,6
+ZeroBrane Studio,7,1,6
+AbiWord,8,2,6
+Atom (text editor),8,2,6
+BZFlag,8,2,6
+Coccinella (software),8,2,6
+Crosswalk Project,8,2,6
+DBase,8,2,6
+Dave Cross,8,2,6
+FileZilla,8,2,6
+FreeCol,8,2,6
+Hugin (software),8,2,6
+IBM Lotus Symphony,8,2,6
+MLDonkey,8,2,6
+MOOSE (software),8,2,6
+Microsoft Access,8,2,6
+POV-Ray,8,2,6
+Phatch,8,2,6
+SDEP,8,2,6
+SQLite,8,2,6
+SWAD (software),8,2,6
+Schema.org,8,2,6
+Signal (software),8,2,6
+Silent Storm,8,2,6
+Spark (XMPP client),8,2,6
+Stellarium (computer program),8,2,6
+Synfig,8,2,6
+TrueCrypt release history,8,2,6
+Unknown Horizons,8,2,6
+VirtualBox,8,2,6
+XEmacs,8,2,6
+Extempore (software),9,3,6
+Free Studio,9,3,6
+IBM PureQuery,9,3,6
+Lazarus (IDE),9,3,6
+Megido (Free Pascal),9,3,6
+Mesa (computer graphics),9,3,6
+Miro (software),9,3,6
+SAS (software),9,3,6
+Transmission (BitTorrent client),9,3,6
+Amaya (web editor),10,3,7
+BlueJ,10,3,7
+DADiSP,11,4,7
+R (programming language),11,4,7
+Stratagus,11,4,7
+GNU Octave,12,5,7
+ATunes,8,1,7
+Actuate Corporation,8,1,7
+Adaptxt,8,1,7
+Adblock Plus,8,1,7
+Allods Online,8,1,7
+American Graphics Institute,8,1,7
+Andi Gutmans,8,1,7
+Apache HTTP Server,8,1,7
+Apache Subversion,8,1,7
+Apcupsd,8,1,7
+Bandits: Phoenix Rising,8,1,7
+BlackBerry 10,8,1,7
+Blend4Web,8,1,7
+Bochs,8,1,7
+Chris Sawyer's Locomotion,8,1,7
+Chromium B.S.U.,8,1,7
+CimTrak,8,1,7
+DR-OpenDOS,8,1,7
+DeSmuME,8,1,7
+Design of the FAT file system,8,1,7
+DeviantArt,8,1,7
+Dungeons (video game),8,1,7
+Easyrec,8,1,7
+EnterpriseDB,8,1,7
+Financial Information eXchange,8,1,7
+FlatOut (video game),8,1,7
+FlightGear,8,1,7
+Fossil (software),8,1,7
+Freelancer (video game),8,1,7
+GIMIAS,8,1,7
+GLtron,8,1,7
+GNU nano,8,1,7
+GNUstep,8,1,7
+Gnuplot,8,1,7
+God of War: Betrayal,8,1,7
+GoldSim,8,1,7
+Google Offers,8,1,7
+Hammerkit,8,1,7
+ITA Software,8,1,7
+Infinifactory,8,1,7
+Irssi,8,1,7
+Jeff Waugh,8,1,7
+Komodo IDE,8,1,7
+Learning Python,8,1,7
+Lego Universe,8,1,7
+Libpolo,8,1,7
+Lincity,8,1,7
+MS-DOS,8,1,7
+Maciej Stachowiak,8,1,7
+Magical Diary,8,1,7
+Mapnik,8,1,7
+Mark Jason Dominus,8,1,7
+Martin Odersky,8,1,7
+Miguel de Icaza,8,1,7
+Multiplan,8,1,7
+Music Construction Set,8,1,7
+NMath,8,1,7
+NetFront,8,1,7
+Netscape Navigator 9,8,1,7
+OcPortal,8,1,7
+Office Online,8,1,7
+OpenWrt,8,1,7
+"Oracle America, Inc. v. Google, Inc.",8,1,7
+Oxford Text Archive,8,1,7
+Pale Moon (web browser),8,1,7
+PathVisio,8,1,7
+Pcap,8,1,7
+Phonetically Intuitive English,8,1,7
+Pirate Galaxy,8,1,7
+Planet Stronghold,8,1,7
+Princess Battles,8,1,7
+Privoxy,8,1,7
+Project Zomboid,8,1,7
+QP (framework),8,1,7
+Regnum Online,8,1,7
+Rolando 2,8,1,7
+R??blox,8,1,7
+SOFA Statistics,8,1,7
+Shazam (service),8,1,7
+Sigil (application),8,1,7
+SpaceChem,8,1,7
+Spacebase DF-9,8,1,7
+SparkleShare,8,1,7
+SpellForce: The Order of Dawn,8,1,7
+Squiz,8,1,7
+StarOffice,8,1,7
+Stormy Peters,8,1,7
+Sugar (software),8,1,7
+SugarCRM,8,1,7
+Symbian Foundation,8,1,7
+Syndie,8,1,7
+TCExam,8,1,7
+TVPaint,8,1,7
+Tales of Aravorn: Seasons of the Wolf,8,1,7
+Tencent QQ,8,1,7
+The Elder Scrolls Travels,8,1,7
+The Incredibles: When Danger Calls,8,1,7
+Toonz,8,1,7
+Traffic Server,8,1,7
+WeatherBug,8,1,7
+WebWatcher,8,1,7
+WikiMapia,8,1,7
+WinSCP,8,1,7
+Wine (software),8,1,7
+WordPress,8,1,7
+Worms: A Space Oddity,8,1,7
+XBlock,8,1,7
+Armadillo (C++ library),9,2,7
+Blitzkrieg (video game series),9,2,7
+Blitzkrieg (video game),9,2,7
+CURL,9,2,7
+Cygwin,9,2,7
+Cyn.in,9,2,7
+Glest,9,2,7
+"Google Docs, Sheets, and Slides",9,2,7
+Google Earth,9,2,7
+HTTPS Everywhere,9,2,7
+MeshLab,9,2,7
+Openkore,9,2,7
+PuTTY,9,2,7
+ROOT,9,2,7
+Widelands,9,2,7
+7-Zip,10,2,8
+Climacs,10,2,8
+Freedup,10,2,8
+Grady Booch,10,2,8
+HippoDraw,10,2,8
+Hollywood (programming language),10,2,8
+MegaMek,10,2,8
+OGRE,10,2,8
+Opera Mini,10,2,8
+Simple DirectMedia Layer,10,2,8
+Larry Wall,11,3,8
+Lightweight Java Game Library,11,3,8
+OpenFOAM,11,3,8
+Jitsi,12,4,8
+Qt (software),12,4,8
+ND4S,16,8,8
+24SevenOffice,9,1,8
+Adobe Fireworks,9,1,8
+Adobe Flash,9,1,8
+Adobe Illustrator,9,1,8
+AnyLogic,9,1,8
+Asphalt 4: Elite Racing,9,1,8
+Asphalt: Urban GT 2,9,1,8
+Biniax,9,1,8
+BlackBerry,9,1,8
+BlooSee,9,1,8
+Computer Modern,9,1,8
+Corona (software),9,1,8
+Damian Conway,9,1,8
+Delta Drawing,9,1,8
+EXperience112,9,1,8
+Enigma (video game),9,1,8
+Eufloria,9,1,8
+Everlasting Summer,9,1,8
+Firefox for iOS,9,1,8
+Foursquare,9,1,8
+Gangstar 2: Kings of L.A.,9,1,8
+Ganymede (software),9,1,8
+Garshasp: The Monster Slayer,9,1,8
+Grabilla,9,1,8
+Guitar Hero Mobile series,9,1,8
+Headhunter Redemption,9,1,8
+IWork,9,1,8
+Ivar Jacobson,9,1,8
+Jaikoz,9,1,8
+Jean-Raymond Abrial,9,1,8
+John Resig,9,1,8
+Lingoes,9,1,8
+Louis Hodes,9,1,8
+Luis Villa,9,1,8
+MPMC,9,1,8
+MUD,9,1,8
+Mike Lesk,9,1,8
+Mozilla Sunbird,9,1,8
+Nokia 5230,9,1,8
+Nokia 5250,9,1,8
+Nokia C5-00,9,1,8
+Nokia C5-03,9,1,8
+OpenClonk,9,1,8
+PPSSPP,9,1,8
+Portable Document Format,9,1,8
+RSSOwl,9,1,8
+RealPlayer,9,1,8
+RealVNC,9,1,8
+Red Hat,9,1,8
+Rift (video game),9,1,8
+RollerCoaster Tycoon,9,1,8
+Rudder (software),9,1,8
+Sakai (software),9,1,8
+Scorched 3D,9,1,8
+Sleepless Night (visual novel),9,1,8
+Star Wars: Empire at War,9,1,8
+Supreme Commander: Forged Alliance,9,1,8
+Synergy (software),9,1,8
+Tales of Maj'Eyal,9,1,8
+Talvisota: Icy Hell,9,1,8
+The Flower Shop,9,1,8
+The Guild 2,9,1,8
+The Sims 4,9,1,8
+Thomas E. Kurtz,9,1,8
+Topincs,9,1,8
+Toribash,9,1,8
+V-Play Game Engine,9,1,8
+WPS Office,9,1,8
+Wanted: Weapons of Fate,9,1,8
+WeChat,9,1,8
+Web Application Messaging Protocol,9,1,8
+Why the lucky stiff,9,1,8
+YaDICs,9,1,8
+Yukihiro Matsumoto,9,1,8
+Adobe Photoshop,10,1,9
+Agrippa (A Book of the Dead),10,1,9
+AndreaMosaic,10,1,9
+Angry Birds Seasons,10,1,9
+Asphalt 6: Adrenaline,10,1,9
+Audrey Tang,10,1,9
+BOSH (bosh outer shell),10,1,9
+Ballistics (video game),10,1,9
+Beonex Communicator,10,1,9
+Carl Adam Petri,10,1,9
+ClanLib,10,1,9
+Collaber,10,1,9
+Comparison of sites using the LiveJournal codebase,10,1,9
+CouchDB,10,1,9
+DOS Plus,10,1,9
+David Sayre,10,1,9
+Doctor Who: The Adventure Games,10,1,9
+Firefox 2,10,1,9
+Firefox 3,10,1,9
+Firefox 3.5,10,1,9
+Firefox 4,10,1,9
+FlatOut 2,10,1,9
+FreeDOS,10,1,9
+FrostWire,10,1,9
+Fuse (emulator),10,1,9
+GoldenDict,10,1,9
+Heileen,10,1,9
+Here (company),10,1,9
+Homeworld 2,10,1,9
+Jean Ichbiah,10,1,9
+Mark Karpel??s,10,1,9
+Microsoft mobile services,10,1,9
+Nokia 5800 XpressMusic,10,1,9
+Novell DOS,10,1,9
+Oolite (video game),10,1,9
+OpenShift,10,1,9
+Origin (digital distribution software),10,1,9
+Prison Architect,10,1,9
+Red Eclipse,10,1,9
+Richard Burns Rally,10,1,9
+Roy Nutt,10,1,9
+RuneScape,10,1,9
+The Sims 2: Nightlife,10,1,9
+The Sims 4: Get Together,10,1,9
+The Sims 4: Get to Work,10,1,9
+The Sims 4: Outdoor Retreat,10,1,9
+The Sims 4: Spa Day,10,1,9
+This Is Where I Want To Die,10,1,9
+Tim O'Reilly,10,1,9
+Truviso,10,1,9
+UFO: Afterlight,10,1,9
+Ultimate++,10,1,9
+UltraStar,10,1,9
+WASTE,10,1,9
+"Warhammer 40,000: Dawn of War",10,1,9
+Worms 4: Mayhem,10,1,9
+Zimbra,10,1,9
+??Torrent,10,1,9
+Allegro (software),11,2,9
+Bejeweled Twist,11,2,9
+Celestia,11,2,9
+Chromium (web browser),11,2,9
+Heroes of Might and Magic V,11,2,9
+Joomla,11,2,9
+LimeWire,11,2,9
+Marabunta,11,2,9
+NASA World Wind,11,2,9
+NetSurf,11,2,9
+StepMania,11,2,9
+Zaz (video game),11,2,9
+Frozen Bubble,12,3,9
+Pidgin (software),12,3,9
+Software Ideas Modeler,12,3,9
+Source Filmmaker,12,3,9
+Inkscape,13,4,9
+Adium,11,1,10
+Angry Birds Space,11,1,10
+C-Dogs,11,1,10
+C2Call GmbH,11,1,10
+Chamilo,11,1,10
+Collanos,11,1,10
+Date Warp,11,1,10
+Dublin Core,11,1,10
+Escape from Monkey Island,11,1,10
+Firefox 3.6,11,1,10
+Fluentd,11,1,10
+Freedom Force (2002 video game),11,1,10
+Freedom Force vs the 3rd Reich,11,1,10
+Garry's Mod,11,1,10
+GitLab,11,1,10
+Icy Tower,11,1,10
+Line (application),11,1,10
+Line Mode Browser,11,1,10
+Loren the Amazon Princess,11,1,10
+MDK2,11,1,10
+Napoleon: Total War,11,1,10
+OpenDOS,11,1,10
+Patari.pk,11,1,10
+Paul Graham (computer programmer),11,1,10
+PoxNora,11,1,10
+Rocks'n'Diamonds,11,1,10
+Ryzom,11,1,10
+Sailfish OS,11,1,10
+Severance: Blade of Darkness,11,1,10
+Simple and Fast Multimedia Library,11,1,10
+Sphinx and the Cursed Mummy,11,1,10
+Split/Second,11,1,10
+Stolen (video game),11,1,10
+Symbian,11,1,10
+The Royal Trap,11,1,10
+The Temple of Elemental Evil (video game),11,1,10
+Ubuntu One,11,1,10
+Ubuntu Touch,11,1,10
+Universe at War: Earth Assault,11,1,10
+DataViva,12,2,10
+Frets on Fire,12,2,10
+Ayttm,13,3,10
+Google Chrome,13,3,10
+Marble (software),14,4,10
+Age of Wonders III,12,1,11
+Amira (software),12,1,11
+AssaultCube,12,1,11
+Bos Wars,12,1,11
+Cloud Foundry,12,1,11
+Company of Heroes,12,1,11
+Cuban Missile Crisis: The Aftermath,12,1,11
+Digital: A Love Story,12,1,11
+Driver: San Francisco,12,1,11
+Finch (software),12,1,11
+Foldit,12,1,11
+FriendCaller,12,1,11
+Guido van Rossum,12,1,11
+Ib Holm S??rensen,12,1,11
+Jagged Alliance 2,12,1,11
+James Rumbaugh,12,1,11
+Jean E. Sammet,12,1,11
+Legend of Grimrock,12,1,11
+Michael Spivey,12,1,11
+Mike Cowlishaw,12,1,11
+MonetDB,12,1,11
+Mount & Blade: Warband,12,1,11
+Natural Selection 2,12,1,11
+Nginx,12,1,11
+Nicole (video game),12,1,11
+OpenBroadcaster,12,1,11
+Operation Flashpoint: Dragon Rising,12,1,11
+PalmDOS,12,1,11
+Shank 2,12,1,11
+Supreme Commander (video game),12,1,11
+The Fairly OddParents: Shadow Showdown,12,1,11
+Vendetta Online,12,1,11
+"Warhammer 40,000: Dawn of War II",12,1,11
+WhatsApp,12,1,11
+Wolfram Alpha,12,1,11
+Emacs,13,2,11
+Linphone,13,2,11
+MPlayer,13,2,11
+Tox (protocol),13,2,11
+DOSBox,14,3,11
+Embroidermodder,14,3,11
+SciTECO,14,3,11
+The Battle for Wesnoth,14,3,11
+UFO: Alien Invasion,14,3,11
+0 A.D. (video game),13,1,12
+Anghami,13,1,12
+Angry Birds Rio,13,1,12
+Boxee,13,1,12
+DR-DOS,13,1,12
+"Don't Take It Personally, Babe, It Just Ain't Your Story",13,1,12
+FIFA Street 2,13,1,12
+Fable II,13,1,12
+Factorio,13,1,12
+FlexOS,13,1,12
+FlightAware,13,1,12
+Hero of Sparta,13,1,12
+Jump 'n Bump,13,1,12
+Juniper's Knot,13,1,12
+Miner 2049er,13,1,12
+Ninja Gaiden (NES video game),13,1,12
+Phyllis Fox,13,1,12
+Reddit,13,1,12
+Richard P. Gabriel,13,1,12
+Shank (video game),13,1,12
+Star Wars: Battlefront (2004 video game),13,1,12
+Tahoe-LAFS,13,1,12
+Tiki Wiki CMS Groupware,13,1,12
+Tryton,13,1,12
+Yahoo! Messenger,13,1,12
+GNU Emacs,14,2,12
+ILNumerics,14,2,12
+RetroShare,14,2,12
+SeaMonkey,15,3,12
+Gretl,16,4,12
+Eclipse (software),17,5,12
+MATLAB,24,12,12
+Age of Conan,14,1,13
+AggreGate Platform,14,1,13
+ArpON,14,1,13
+Bang! Howdy,14,1,13
+Bionic Commando (2009 video game),14,1,13
+Bionic Commando Rearmed 2,14,1,13
+Bjarne Stroustrup,14,1,13
+Bubble Ghost,14,1,13
+City of Heroes,14,1,13
+Cube 2: Sauerbraten,14,1,13
+Exogenesis: Perils of Rebirth,14,1,13
+Frontier: Elite II,14,1,13
+"Guy L. Steele, Jr.",14,1,13
+Hearts of Iron III,14,1,13
+Lemony Snicket's A Series of Unfortunate Events (video game),14,1,13
+MAME,14,1,13
+Neil J. Gunther,14,1,13
+Niklaus Wirth,14,1,13
+The Great Giana Sisters,14,1,13
+Transport Tycoon,14,1,13
+WordPerfect,14,1,13
+Wunderlist,14,1,13
+Dropbox (service),15,2,13
+OpenTTD,15,2,13
+Spotify,15,2,13
+Vim (text editor),15,2,13
+Google Maps,16,3,13
+Qiqqa,17,4,13
+Adobe Animate,15,1,14
+Bionic Commando Rearmed,15,1,14
+Br??tal Legend,15,1,14
+Diner Dash,15,1,14
+Empire: Total War,15,1,14
+Instagram,15,1,14
+Intel RealSense,15,1,14
+Katawa Shoujo,15,1,14
+Mercenaries: Playground of Destruction,15,1,14
+Mozilla Thunderbird,15,1,14
+Puzzle Pirates,15,1,14
+Robotfindskitten,15,1,14
+Songbird (software),15,1,14
+Star Wars: Battlefront II,15,1,14
+Vampire: The Masquerade ??? Bloodlines,15,1,14
+World of Warcraft,15,1,14
+Gbanga,16,2,14
+Nightingale (software),16,2,14
+GIMP,17,3,14
+Amnesia: The Dark Descent,16,1,15
+Baldur's Gate,16,1,15
+Battlefield 2,16,1,15
+Crusader Kings II,16,1,15
+Far Cry (video game),16,1,15
+I2P,16,1,15
+Jisei (video game series),16,1,15
+Last.fm,16,1,15
+MySociety,16,1,15
+Psychonauts,16,1,15
+Rasmus Lerdorf,16,1,15
+S.T.A.L.K.E.R.: Call of Pripyat,16,1,15
+Tom Clancy's Ghost Recon Advanced Warfighter 2,16,1,15
+Guvera,17,2,15
+DataMelt,18,3,15
+NetBeans,19,4,15
+Brendan Eich,17,1,16
+Brian Kernighan,17,1,16
+Crackdown,17,1,16
+Cut the Rope,17,1,16
+Dennis Ritchie,17,1,16
+Fruit Ninja,17,1,16
+Pipeline Pilot,17,1,16
+S.T.A.L.K.E.R.: Clear Sky,17,1,16
+Saints Row 2,17,1,16
+Saints Row: The Third,17,1,16
+Sonic Unleashed,17,1,16
+Strike Suit Zero,17,1,16
+The Witcher (video game),17,1,16
+Tom Clancy's H.A.W.X,17,1,16
+Warzone 2100,17,1,16
+Plotly,20,4,16
+Avizo (software),18,1,17
+Broken Age,18,1,17
+David Harel,18,1,17
+Firefox,18,1,17
+Grim Fandango,18,1,17
+Hal Abelson,18,1,17
+Mobile soft device,18,1,17
+Painkiller (video game),18,1,17
+Aquaria (video game),19,1,18
+Bejeweled 2,19,1,18
+Elysian Shadows,19,1,18
+Eve Online,19,1,18
+James Gosling,19,1,18
+Opera (web browser),19,1,18
+S.T.A.L.K.E.R.: Shadow of Chernobyl,19,1,18
+Transformers: Dark of the Moon (video game),19,1,18
+Freeciv,20,2,18
+Blender (software),21,3,18
+VLC media player,21,3,18
+Mathematica,25,7,18
+Dark Souls,20,1,19
+Defender (1981 video game),20,1,19
+Don't Starve,20,1,19
+Gerald Jay Sussman,20,1,19
+John Backus,20,1,19
+Need for Speed: Undercover,20,1,19
+Tencent,20,1,19
+EXo Platform,21,2,19
+Civilization IV,21,1,20
+Civilization V,21,1,20
+John G. Kemeny,21,1,20
+L.A. Noire,21,1,20
+ScummVM,21,1,20
+Dysfunctional Systems,22,1,21
+FIFA 10,22,1,21
+One: Kagayaku Kisetsu e,22,1,21
+Puzzle Quest: Challenge of the Warlords,22,1,21
+Saints Row IV,22,1,21
+Tom Clancy's Ghost Recon Advanced Warfighter,22,1,21
+Trine (video game),22,1,21
+Ultima II: The Revenge of the Enchantress,22,1,21
+Angry Birds (video game),23,2,21
+Crysis,23,1,22
+FIFA 09,23,1,22
+FIFA 11,23,1,22
+The Secret World,23,1,22
+Virtuoso Universal Server,29,7,22
+Galaxian,24,1,23
+Mafia II,24,1,23
+R-Type,24,1,23
+Richard Stallman,24,1,23
+Ultima I: The First Age of Darkness,24,1,23
+Ada Lovelace,25,1,24
+Analogue: A Hate Story,25,1,24
+Bomb Jack,25,1,24
+Kune (software),25,1,24
+Skype,26,2,24
+Train Simulator (Dovetail Games),26,1,25
+Facebook,27,1,26
+Angry Birds Star Wars,28,1,27
+FIFA 06,28,1,27
+Grace Hopper,29,1,28
+John McCarthy (computer scientist),30,1,29
+Minecraft,30,1,29
+Lode Runner,31,1,30
+Another World (video game),34,1,33
+Street Fighter II: The World Warrior,35,1,34
+SimCity (1989 video game),37,2,35
+Doom (1993 video game),41,1,40

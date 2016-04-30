@@ -1,0 +1,2 @@
+all other smells either do not have new results, cannot be tested anymore
+or do not have any results now at all.

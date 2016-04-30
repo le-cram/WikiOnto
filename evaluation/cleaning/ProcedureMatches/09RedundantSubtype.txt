@@ -1,0 +1,18 @@
+Data modeling languages,Specification languages,Computer languages
+Functional languages,Declarative programming languages,Programming languages
+Dynamically typed programming languages,Dynamic programming languages,Programming languages
+Unified Modeling Language diagrams,Software modeling language,Specification languages
+Systems Modeling Language,Software modeling language,Specification languages
+C++ programming language family,Class-based programming languages,Object-oriented programming languages
+C++ programming language family,C programming language family,Systems programming languages
+User interface markup languages,XML-based standards,Markup languages
+Page description markup languages,Page description languages,Markup languages
+Microformats,Domain-specific knowledge representation languages,Markup languages
+Troff,Mathematical markup languages,Markup languages
+Prototype-based programming languages,Object-oriented programming languages,Programming languages
+Functional logic programming languages,Functional languages,Declarative programming languages
+Functional logic programming languages,Logic programming languages,Declarative programming languages
+JavaScript programming language family,Prototype-based programming languages,Object-based programming languages
+Pascal programming language family,Structured programming languages,Procedural programming languages
+Pascal programming language family,Algol programming language family,Programming language families
+Discontinued Microsoft BASICs,Discontinued BASICs,BASIC programming language family

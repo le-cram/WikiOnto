@@ -1,0 +1,104 @@
+name
+ALGOL 60
+ALGOL 68
+ActionScript
+Ada (programming language)
+Ajax (programming)
+Atom (standard)
+BibTeX
+C (programming language)
+C POSIX library
+C standard library
+C++
+C++ Standard Library
+COBOL
+CSS frameworks
+Cairo (graphics)
+Calligra Suite
+Cascading Style Sheets
+Clutter (software)
+Common Lisp
+Delphi (programming language)
+Denotational semantics
+DocBook
+Domain theory
+Dylan (programming language)
+Eclipse (software)
+Erlang (programming language)
+FLTK
+Fortran
+Free Pascal
+Freedesktop.org
+GIS file formats
+GNOME
+GNOME Core Applications
+GNOME Games
+GNU GRUB
+GStreamer
+GTK+
+Google Chrome
+HTML
+HTML5
+Haiku (operating system)
+ICL programming languages
+JSON
+Java (programming language)
+JavaScript
+JavaServer Faces
+KDE Education Project
+KDE Software Compilation
+Keyhole Markup Language
+LibreOffice
+Lisp (programming language)
+Lists of programming languages
+Lua (programming language)
+Machine code
+MathML
+Microsoft BASIC
+Mono (software)
+Non-English-based programming languages
+Objective-C
+Office Open XML
+OpenDocument
+PHP
+Pascal (programming language)
+Perl
+Perl 6
+PostScript
+PostgreSQL
+Process.h
+Python (programming language)
+R (programming language)
+RSS
+Resource Description Framework
+Responsive web design
+Ruby (programming language)
+Rust (programming language)
+S60 (software platform)
+SQL
+Scala (programming language)
+Scalable Vector Graphics
+Scheme (programming language)
+Semantic HTML
+Simple DirectMedia Layer
+Social Desktop
+Structured English
+SyncML
+Systems Modeling Language
+TYPO3
+TeX
+Temporal logic
+Text Encoding Initiative
+Tk (software)
+Translatewiki.net
+Troff
+Unified Modeling Language
+Vala (programming language)
+Web Ontology Language
+Web colors
+WxWidgets
+XHTML
+XML
+XTalk
+Z notation
+Zope

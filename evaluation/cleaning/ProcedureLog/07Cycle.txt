@@ -1,0 +1,2 @@
+Data-centric programming languages,
+Persistent programming languages, Remove subtype relation to Data-centric programming languages, Since all persistent programming languages are data-centric but not all data-centric programming languages are persistent programming languages

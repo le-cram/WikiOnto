@@ -1,0 +1,34 @@
+entityname, howMany
+ActionScript,2
+AsciiDoc,2
+BeerXML,2
+Blitz BASIC,2
+Cilk,2
+Coq,2
+ECMAScript,2
+Falcon (programming language),2
+HTML5,2
+Hollywood (programming language),2
+Ithkuil,2
+JScript .NET,2
+Janus (programming language),2
+JavaScript,2
+LaTeX,2
+MATLAB,2
+MLAB,2
+PostScript,2
+Processing (programming language),2
+Pure Data,2
+QML,2
+SQL,2
+TeX,2
+XML,2
+IBM BASIC,3
+Inform,3
+Microsoft Office XML formats,3
+Office Open XML,3
+Portable Document Format,3
+Resource Description Framework,3
+SPICE,3
+Web Ontology Language,3
+OpenDocument,4

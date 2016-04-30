@@ -1,0 +1,4 @@
+typename,toptype1name,toptype2name, measure
+Term-rewriting programming languages,Programming languages,Transformation languages, no issue
+Query languages,Programming languages,Specification languages, Remove Subtype
+Template engines,Programming languages,Specification languages, Remove Subtype

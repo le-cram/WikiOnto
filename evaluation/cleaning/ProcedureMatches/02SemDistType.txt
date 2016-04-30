@@ -1,0 +1,54 @@
+typename,howManyDistantTypes,howManyReachableTypes,difference
+Bibliography file formats,2,1,1
+C standard library,2,1,1
+Discontinued programming languages,2,1,1
+Ecma standards,2,1,1
+Formal specification languages,2,1,1
+Free PDF software,2,1,1
+Geographical databases,2,1,1
+Hardware description languages,2,1,1
+Mathematical markup languages,2,1,1
+Non-English-based programming languages,2,1,1
+PHP frameworks,2,1,1
+POSIX error codes,2,1,1
+Parser generators,2,1,1
+Programming languages by creation date,2,1,1
+Programming languages created in 2009,2,1,1
+Programming languages created in 2011,2,1,1
+Programming languages created in 2012,2,1,1
+Programming languages created in 2013,2,1,1
+Programming languages created in 2014,2,1,1
+Programming languages created in 2015,2,1,1
+Proof assistants,2,1,1
+Query languages,2,1,1
+Software for modeling software,2,1,1
+Software modeling language,2,1,1
+Structured English,2,1,1
+Web syndication formats,2,1,1
+XML markup languages,3,2,1
+Spreadsheet software,4,3,1
+Audio programming languages,3,1,2
+Computer algebra systems,3,1,2
+GIS file formats,3,1,2
+Instant messaging clients programmed in Java,3,1,2
+Java platform software,3,1,2
+PDF software,3,1,2
+Pattern matching programming languages,3,1,2
+Petri nets,3,1,2
+Process termination functions,3,1,2
+Programming languages,3,1,2
+Specification languages,3,1,2
+Concept- and mind-mapping software programmed in Java,4,1,3
+Java platform games,4,1,3
+Programming games,4,1,3
+Discontinued Microsoft BASICs,5,2,3
+XML-based standards,5,2,3
+Hadoop,5,1,4
+KDE software,5,1,4
+Process calculi,5,1,4
+Temporal logic,5,1,4
+Systems Modeling Language,7,2,5
+Unified Modeling Language diagrams,7,2,5
+Microformats,8,2,6
+KDE Frameworks,10,1,9
+KDE Platform,10,1,9

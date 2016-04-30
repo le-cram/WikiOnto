@@ -1,0 +1,443 @@
+AAlib , Abandon Type (rescue none) "Free software programmed in C"
+ACID64 Player , Abandon Type (rescue none) "Software written primarily in assembly language"
+ADOdb , Abandon Type (rescue none) "PHP libraries"
+ARPACK , Abandon Type (rescue none) "Free software programmed in Fortran"
+ASM-One Macro Assembler , Abandon Type (rescue none) "Assemblers"
+Aeolus (software) , Abandon Type (rescue none) "Free software programmed in Ruby"
+Agavi , Abandon Type (rescue none) "Free software programmed in PHP"
+Agilo for Trac , Abandon Type (rescue none) "Free software programmed in Python"
+AmfPHP , Abandon Type (rescue none) "Software by programming language"
+Architecture Design and Assessment System , Abandon Entity
+Autocoder, Abandon Entity
+Axiomatic semantics , Abandon Entity
+BASIC Stamp ,Abandon Type (selective rescue) BASIC programming language, Abandon instances: 'Petit Computer' 'John G. Kemeny' 'Brutus2D' 'Basic-256' 'Blitz Research' 'Thomas E. Kurtz' 'Comparison of Visual Basic and Visual Basic .NET' 'Tymshare SuperBasic' 'BASIC extension';Abandon subtypes:'BASIC interpreters''BASIC compilers';Remove instances:;Remove subtypes:;Collapse Hierarchy
+Babel Middleware , Abandon Entity
+Beagle (software) , Abandon Entity
+Biositemap , Abandon Entity
+Blockly , Abandon Entity
+COLA (software architecture) , Abandon Entity
+CPN-AMI , Abandon Entity
+Cadabra (computer program) , Abandon Type (rescue none) "Computer algebra systems"
+Christmas Tree EXEC ,Abandon Type (selective rescue) REXX (programming language), Abandon instances: 'The Hessling Editor' 'ARexx' 'Mike Cowlishaw' 'VX-REXX' 'KEDIT' 'OoREXX' 'Christmas Tree EXEC' 'XEDIT' 'ZOC (software)' 'MAD (MUD)' 'E (PC DOS)';Abandon subtypes:;Remove instances:;Remove subtypes:;Collapse Hierarchy
+CircuitLogix , Abandon Entity
+Colin Moock , Abandon Entity
+Colwiz , Abandon Entity
+Comparison of C ... , Abandon Entity
+Context management , Abandon Entity
+Deductive classifier , Abandon Entity
+Franz Lisp, Abandon Entity
+Fresh (IDE) , Abandon Entity
+Friendly interactive shell , Abandon Entity
+Fudgets , Abandon Entity
+Fusebox (programming) ,Abandon Type (selective rescue) CFML programming language, Abandon instances: 'Adobe ColdFusion' 'CFScript' 'Mach-II' 'IgniteFusion' 'Model-Glue' 'ColdSpring Framework' 'MXUnit' 'Fusebox (programming)' 'Railo' 'SmithProject' 'ColdBox Platform' 'BlogCFC' 'ContentBox Modular CMS' 'FarCry CMS' 'Adobe ColdFusion Builder' 'ColdFusion on Wheels' 'FusionReactor' 'Mango Blog' 'Template:CFML programming language' 'BlueDragon' 'FusionDebug' 'Lucee' 'Mura CMS' 'CFUnit';Abandon subtypes:'CFML compilers';Remove instances:;Remove subtypes:;
+HERAS-AF , Abandon Entity
+HiAsm , Abandon Entity
+ISO/IEC JTC 1/SC 22 , Abandon Entity
+Incremental compiler , Abandon Entity
+JDOM , Abandon Entity
+Java API for XML Registries , Abandon Entity
+Jupiter Ace , Abandon Entity
+Lambda the Ultimate , Abandon Entity
+MIDletPascal , Abandon Entity
+Managed code , Abandon Entity
+Microsoft Semblio , Abandon Entity
+Moose (analysis) , Abandon Entity
+Multiple buffering , Abandon Entity
+NaviServer , Abandon Type (rescue none) Free software programmed in Tcl
+nofollow , Abandon Entity
+OpenBUGS , Abandon Entity
+OpenLaszlo , Abandon Entity
+Orchidée , Abandon Entity
+Ousterhout's dichotomy , Abandon Entity
+RSS tracking , Abandon Entity
+Refinement calculus , Abandon Entity
+Rule of least power , Abandon Entity
+SIM.JS , Abandon Entity
+SIP (software) , Abandon Entity
+SYS (command) , Abandon Type (rescue none) BASIC commands
+Scientific Time Sharing Corporation , Abandon Entity
+Seaside (software) , Abandon Entity
+SimulationX , Abandon Entity
+Soar (cognitive architecture) , Abandon Entity
+Symbolic data analysis , Abandon Entity
+Telltale Tool , Abandon Entity
+Tracing just-in-time compilation , Abandon Entity
+Web feed , Abandon Entity
+World Programming System , Abandon Entity
+XML Encryption , Abandon Entity
+HPCC , Abandon Entity
+Nevow , Abandon Entity
+PowerBuilder , Abandon Entity
+UBASIC , Abandon Entity 
+Standard ML of New Jersey , Abandon Entity
+.NET DiscUtils , Abandon Type (rescue none) C Sharp software
+AIDA/Web , Abandon Entity
+Address constant , Abandon Entity
+Advanced Distributed Learning , Abandon Entity
+AxKit , Abandon Entity
+C/C++ Users Journal , Abandon Entity
+Categories for the Description of Works of Art , Abandon Entity
+Charles Goldfarb , Abandon Entity
+Consegi declaration , Abandon Entity
+DejaGnu , Abandon Entity
+Delimiter , Abandon Entity
+Function prototype , Abandon Entity
+Functional logic programming , Abandon Entity
+GNU MIX Development Kit , Abandon Entity
+IBATIS , Abandon Entity
+InterSystems_Caché ,Abandon Type (selective rescue) MUMPS programming language, Abandon instances: 'MUMPS users' 'MUMPS syntax';Abandon subtypes:'MUMPS implementations';Remove instances:;Remove subtypes:;Collapse Hierarchy
+IronPython , Abandon Entity
+jMusic , Abandon Entity
+Lpod , Abandon Entity
+MTConnect , Abandon Entity
+Mallard BASIC , Abandon Entity
+MetaWeblog , Abandon Entity
+mod_ruby , Abandon Entity
+Morfik , Abandon Entity
+Operational semantics , Abandon Entity
+PocketStudio , Abandon Entity
+Prince (software) , Abandon Entity
+Programming Languages: Application and Interpretation , Abandon Entity
+Run BASIC , Abandon Entity
+SPSS , Abandon Entity
+SWIG , Abandon Entity
+Scilab Image Processing , Abandon Entity
+Semantics (computer science) , Abandon Entity
+SharpMusique , Abandon Entity
+SiSU , Abandon Entity
+SimPy , Abandon Entity
+Simulation software , Abandon Entity
+Symbolic Sound Corporation , Abandon Entity
+SymbolicWeb , Abandon Entity
+Transterpreter , Abandon Entity
+VSXu , Abandon Entity
+Virtual environment software , Abandon Entity
+Windows App Studio , Abandon Entity
+Wolfram SystemModeler , Abandon Entity
+Comparison of C Sharp and Visual Basic .NET , Abandon Entity
+NS Basic , Abandon Entity
+QuickBASIC , Abandon Entity
+sed , Abandon Entity
+ASP.NET , Abandon Entity
+Advice taker , Abandon Entity
+App Inventor for Android , Abandon Entity
+Apple Media Tool , Abandon Entity
+BASIC Programming , Abandon Entity
+Bistro Framework , Abandon Entity
+CPAchecker , Abandon Entity
+CompCert , Abandon Entity
+Comparison of audio synthesis environments , Abandon Entity
+Comparison of database access , Abandon Entity
+const (computer programming) , Abandon Entity
+Deutsch limit , Abandon Entity
+ESC/Java , Abandon Entity
+Easytrade , Abandon Entity
+High- and low-level , Abandon Entity
+HyperCard , Abandon Entity
+JFugue , Abandon Entity
+MEDITECH , Abandon Entity
+Multimodal Architecture and Interfaces , Abandon Entity
+OZ Virtual , Abandon Entity
+PHPRunner , Abandon Entity
+Standard Business Reporting , Abandon Entity
+Super Expander , Abandon Entity
+Tk (software) , Abandon Entity
+Tuple space , Abandon Entity
+Vibe.d , Abandon Entity
+Web3D Consortium , Abandon Entity
+XQuery API for Java , Abandon Entity
+Yuri Rubinsky , Abandon Entity
+JModelica.org , Abandon Entity
+Matita , Abandon Entity
+Procedural reasoning system , Abandon Entity
+CakePHP , Abandon Entity
+CodeCharge Studio , Abandon Entity
+DASK , Abandon Entity
+DONKEY.BAS , Abandon Entity
+Denotational semantics , Abandon Entity
+GNU Guile , Abandon Entity
+GNU Prolog , Abandon Entity
+Hazaar MVC , Abandon Entity
+iMacros , Abandon Entity
+JScheme , Abandon Entity
+Kawa (Scheme implementation) , Abandon Entity
+KnowledgeMan , Abandon Entity
+LabWindows/CVI , Abandon Entity
+Lithium (PHP framework) , Abandon Entity
+Nato.0+55+3d , Abandon Entity
+R:Base , Abandon Entity
+Redirection (computing) , Abandon Entity
+Seed (programming) , Abandon Entity
+Sound Object (SndObj) Library , Abandon Entity
+WIRIS , Abandon Entity
+Widget Workshop , Abandon Entity
+JHepWork , Abandon Entity
+SHAZAM (software) , Abandon Entity
+Base One Foundation Component Library , Abandon Entity
+Clozure CL , Abandon Entity
+Construction and Analysis of Distributed Processes , Abandon Entity
+Gorillas (video game) , Abandon Entity
+Intel Array Building Blocks , Abandon Entity
+Intel Parallel Studio , Abandon Entity
+libxml2 , Abandon Entity
+Paradiseo , Abandon Entity
+SciPy , Abandon Entity
+XULRunner , Abandon Entity
+ZK (framework) , Abandon Entity
+Genius (mathematics software) , Abandon Entity
+Programming with Big Data in R , Abandon Entity
+Euler (software) , Abandon Entity
+Galaksija BASIC , Abandon Entity
+Open Firmware , Abandon Entity
+org-mode , Abandon Entity
+PottersWheel , Abandon Entity
+QB64 , Abandon Entity
+TIS-100 , Abandon Entity
+Microsoft Access , Abandon Entity
+Extempore (software) , Abandon Entity
+BBj , Abandon Entity
+FASM , Abandon Entity
+Frama-C , Abandon Entity
+GoldSim , Abandon Entity
+Greenfoot , Abandon Entity
+Sun Web Developer Pack , Abandon Entity
+SAS (software) , Abandon Entity
+dBase , Abandon Entity
+H2O (software) , Abandon Entity
+Carl Adam Petri , Abandon Entity
+DADiSP , Abandon Entity
+IBM VisualAge , Abandon Entity
+DataViva , Abandon Entity
+BlueJ , Abandon Entity
+ILNumerics.Net , Abandon Entity
+Free Pascal , Abandon Entity
+gretl , Abandon Entity
+DataMelt , Abandon Entity
+Mathematica , Abandon Entity
+Qiqqa, Abandon Entity
+James Clark (programmer), Abandon Entity
+Mike Lesk, Abandon Entity
+MLDonkey, Abandon Entity
+Delta Drawing, Abandon Entity
+ANIMAL (image processing), Abandon Entity
+Actor-Lab, Abandon Entity
+B-Method, Abandon Entity
+Barrow Area Information Database, Abandon Entity
+CSS box model, Abandon Entity
+Comparison of Pascal and Delphi, Abandon Entity
+Comparison of programming languages (object-oriented programming), Abandon Entity
+Controlled image base, Abandon Entity
+CoreASM, Abandon Entity
+CosmicOS, Abandon Entity
+DTED, Abandon Entity
+Digital Geographic Exchange Standard, Abandon Entity
+Digital Linear Tape, Abandon Entity
+Digital line graph, Abandon Entity
+Digital raster graphic, Abandon Entity
+Emios, Abandon Entity
+EndNote, Abandon Entity
+EventScripts, Abandon Entity
+Flowcode, Abandon Entity
+GPUdb, Abandon Entity
+GeneXus, Abandon Entity
+Generic Eclipse Modeling System, Abandon Entity
+GeoSPARQL, Abandon Entity
+Geotagged photograph, Abandon Entity
+Glasgow Haskell Compiler, Abandon Entity
+Groff (software), Abandon Entity
+HBasic, Abandon Entity
+HOL Light, Abandon Entity
+Healthcare Services Specification Project, Abandon Entity
+HyperNext, Abandon Entity
+IBM Business System 12, Abandon Entity
+IBM Intelligent Printer Data Stream (IPDS), Abandon Entity
+IEEE 1164, Abandon Entity
+ISO 9660, Abandon Entity
+ISO/IEC 2022, Abandon Entity
+Information Presentation Facility, Abandon Entity
+Interactive C, Abandon Entity
+International Conference on Functional Programming, Abandon Entity
+International Conference on Logic Programming, Abandon Entity
+International Symposium on Memory Management, Abandon Entity
+Internet Open Trading Protocol, Abandon Entity
+JSyn, Abandon Entity
+JavaServer Pages, Abandon Entity
+Ladder logic, Abandon Entity
+Landmap, Abandon Entity
+LibreLogo, Abandon Entity
+Linear Tape-Open, Abandon Entity
+Linear temporal logic to Büchi automaton, Abandon Entity
+MTASC, Abandon Entity
+NIEM conformance, Abandon Entity
+Nofollow, Abandon Entity
+Nomad software, Abandon Entity
+Onward!, Abandon Entity
+Oracle Media Objects, Abandon Entity
+Parallel programming model, Abandon Entity
+PowerDEVS, Abandon Entity
+Predicative programming, Abandon Entity
+Programming Language Design and Implementation, Abandon Entity
+QtScript, Abandon Entity
+QuickCheck, Abandon Entity
+RAISE, Abandon Entity
+Reaktor, Abandon Entity
+RoboLogix, Abandon Entity
+SOAP with Attachments, Abandon Entity
+SOAP-over-UDP, Abandon Entity
+SPLASH (conference), Abandon Entity
+ScientificPython, Abandon Entity
+Semantic query, Abandon Entity
+Spatial database, Abandon Entity
+Symposium on Principles of Programming Languages, Abandon Entity
+Take Command Console, Abandon Entity
+Temporal logic in finite-state verification, Abandon Entity
+Topologically Integrated Geographic Encoding and Referencing, Abandon Entity
+Txt2tags, Abandon Entity
+UBot Studio, Abandon Entity
+W3C MMI, Abandon Entity
+WS-Policy, Abandon Entity
+WS-Security, Abandon Entity
+WizFolio, Abandon Entity
+Workshop on Generic Programming, Abandon Entity
+XGMML, Abandon Entity
+XML Object Model, Abandon Entity
+XML for Analysis, Abandon Entity
+Xindy, Abandon Entity
+Yi (editor), Abandon Entity
+Advanced Stream Redirector, Abandon Entity
+Bidule, Abandon Entity
+CALS Table Model, Abandon Entity
+CCTRL, Abandon Entity
+Gforth, Abandon Entity
+Jython, Abandon Entity
+KaXUL, Abandon Entity
+Max (software), Abandon Entity
+TREE-META, Abandon Entity
+Twelf, Abandon Entity
+Unison (file synchronizer), Abandon Entity
+XDXF, Abandon Entity
+Global information management Metrics eXchange, Abandon Entity
+Music Encoding Initiative, Abandon Entity
+AS4, Abandon Entity
+Action semantics, Abandon Entity
+Algebraic semantics (computer science), Abandon Entity
+Alt-Ergo, Abandon Entity
+Application Programming Interface for Windows, Abandon Entity
+Aubit-4GL, Abandon Entity
+Bibliography and Index of Geology, Abandon Entity
+COCOA (digital humanities), Abandon Entity
+Common Language Infrastructure, Abandon Entity
+Common Lisp Music, Abandon Entity
+Darcs, Abandon Entity
+FAT12, Abandon Entity
+FAT16, Abandon Entity
+FAT16B, Abandon Entity
+FFTW, Abandon Entity
+Formal methods, Abandon Entity
+GADM, Abandon Entity
+GEOBASE, Abandon Entity
+GeoNames, Abandon Entity
+GeoRef, Abandon Entity
+Gitit (software), Abandon Entity
+Holographic Versatile Disc, Abandon Entity
+IBM High Level Assembler, Abandon Entity
+ISO 13490, Abandon Entity
+Integer BASIC, Abandon Entity
+JMusic, Abandon Entity
+Korn shell, Abandon Entity
+LOLITA, Abandon Entity
+MakeIndex, Abandon Entity
+OMG standard, Abandon Entity
+OOPSLA, Abandon Entity
+OxMetrics, Abandon Entity
+PDF/E, Abandon Entity
+PDF/UA, Abandon Entity
+PDF/VT, Abandon Entity
+PRODML, Abandon Entity
+Pandoc, Abandon Entity
+Placenames Database of Ireland, Abandon Entity
+SAP NetWeaver Visual Composer, Abandon Entity
+SRID, Abandon Entity
+Sightsmap, Abandon Entity
+Super Expander 64, Abandon Entity
+TECO (text editor), Abandon Entity
+Visual IRC, Abandon Entity
+WS-Discovery, Abandon Entity
+XBLite, Abandon Entity
+XKMS, Abandon Entity
+Xmonad, Abandon Entity
+ASCEND, Abandon Entity
+Alice (software), Abandon Entity
+Bourne shell, Abandon Entity
+Dc (computer program), Abandon Entity
+GAUSS (software), Abandon Entity
+GeneWeb, Abandon Entity
+Scratch Jr, Abandon Entity
+Stencyl, Abandon Entity
+XML and MIME, Abandon Entity
+Sed, Abandon Entity
+Text Encoding Initiative, Abandon Entity
+ASP.NET Razor view engine, Abandon Entity
+Array programming, Abandon Entity
+Automator (software), Abandon Entity
+EMSO simulator, Abandon Entity
+Ganeti, Abandon Entity
+NavPix, Abandon Entity
+OMA Device Management, Abandon Entity
+PDF/A, Abandon Entity
+PDF/X, Abandon Entity
+Robot Battle, Abandon Entity
+SCUMM, Abandon Entity
+Scsh, Abandon Entity
+Shyster (expert system), Abandon Entity
+Spatiotemporal database, Abandon Entity
+Stan (software), Abandon Entity
+Turbo Basic, Abandon Entity
+Universal Disk Format, Abandon Entity
+XML Interface for Network Services, Abandon Entity
+DAISY Digital Talking Book, Abandon Entity
+Jasmin (software), Abandon Entity
+Magma (computer algebra system), Abandon Entity
+Marionnet, Abandon Entity
+Observations and Measurements, Abandon Entity
+Pig (programming tool), Abandon Entity
+Prototype Verification System, Abandon Entity
+Simulink, Abandon Entity
+Metacompiler, Abandon Entity
+LabVIEW, Abandon Entity
+Open Roberta, Abandon Entity
+Agricultural Ontology Service, Abandon Entity
+European Soil Database, Abandon Entity
+GDAL, Abandon Entity
+Geographic Names Information System, Abandon Entity
+Glade Interface Designer, Abandon Entity
+IMacros, Abandon Entity
+Joe Ossanna, Abandon Entity
+Kodu Game Lab, Abandon Entity
+LeJOS, Abandon Entity
+Libxslt, Abandon Entity
+Paperpile, Abandon Entity
+Universal Media Disc, Abandon Entity
+Xojo, Abandon Entity
+SuperCollider, Abandon Entity
+CD-ROM, Abandon Entity
+Libxml2, Abandon Entity
+Near field communication, Abandon Entity
+Turing tarpit, Abandon Entity
+Hamilton C shell, Abandon Entity
+NumPy, Abandon Entity
+Clinical Data Interchange Standards Consortium, Abandon Entity
+FIXatdl, Abandon Entity
+File Allocation Table, Abandon Entity
+HipHop Virtual Machine, Abandon Entity
+Illumination Software Creator, Abandon Entity
+Org-mode, Abandon Entity
+Design of the FAT file system, Abandon Entity
+Works Records System, Abandon Entity
+Maple (software), Abandon Entity
+DBase, Abandon Entity
+Delta Drawing, Abandon Entity
+MUD, Abandon Entity
+POV-Ray, Abandon Entity
+ILNumerics, Abandon Entity
+Docear, Abandon Entity

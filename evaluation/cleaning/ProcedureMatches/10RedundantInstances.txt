@@ -1,0 +1,610 @@
+entityname,subtypename,typename
+ALGOL,ALGOL 60 dialect,Algol programming language family
+Concurrent Pascal,Pascal programming language family,Algol programming language family
+Vector Pascal,Pascal programming language family,Algol programming language family
+NELIAC,ALGOL 58 dialect,Algol programming language family
+Structured English,Structured English,Algorithm description languages
+Natural language programming,Structured English,Algorithm description languages
+Fortran,Fortran programming language family,Array programming languages
+Fortress (programming language),Fortran programming language family,Array programming languages
+FreeBASIC,Free software programmed in BASIC,BASIC programming language family
+Gambas,Free software programmed in BASIC,BASIC programming language family
+Turbo-Basic XL,Discontinued BASICs,BASIC programming language family
+IBM BASIC,Discontinued Microsoft BASICs,BASIC programming language family
+Atari ST BASIC,Discontinued BASICs,BASIC programming language family
+Vilnius BASIC,Discontinued BASICs,BASIC programming language family
+MSX BASIC,Discontinued Microsoft BASICs,BASIC programming language family
+GW-BASIC,Discontinued Microsoft BASICs,BASIC programming language family
+Dartmouth BASIC,Discontinued BASICs,BASIC programming language family
+Atari BASIC,Discontinued BASICs,BASIC programming language family
+QBasic,Discontinued Microsoft BASICs,BASIC programming language family
+MacBASIC,Discontinued BASICs,BASIC programming language family
+YS MegaBasic,BASIC extensions,BASIC programming language family
+Commodore BASIC,Discontinued Microsoft BASICs,BASIC programming language family
+Beta BASIC,BASIC extensions,BASIC programming language family
+AmigaBASIC,Discontinued Microsoft BASICs,BASIC programming language family
+Phoenix Object Basic,Discontinued BASICs,BASIC programming language family
+Gnome Basic,Discontinued BASICs,BASIC programming language family
+Color BASIC,Discontinued Microsoft BASICs,BASIC programming language family
+MBASIC,Discontinued Microsoft BASICs,BASIC programming language family
+Applesoft BASIC,Discontinued Microsoft BASICs,BASIC programming language family
+Altair BASIC,Discontinued Microsoft BASICs,BASIC programming language family
+Atari Microsoft BASIC,Discontinued Microsoft BASICs,BASIC programming language family
+IBM Cassette BASIC,Discontinued Microsoft BASICs,BASIC programming language family
+IBM Disk BASIC,Discontinued Microsoft BASICs,BASIC programming language family
+IBM Advanced BASIC,Discontinued Microsoft BASICs,BASIC programming language family
+Spec Sharp,C Sharp programming language family,C programming language family
+C??,C Sharp programming language family,C programming language family
+Polyphonic C Sharp,C Sharp programming language family,C programming language family
+C++,C++ programming language family,Class-based programming languages
+Embedded C++,C++ programming language family,Class-based programming languages
+MetaQuotes Language MQL4/MQL5,C++ programming language family,Class-based programming languages
+Query language,Query languages,Computer languages
+ThingLab,Visual programming languages,Computer languages
+Limnor,Visual programming languages,Computer languages
+Tersus,Visual programming languages,Computer languages
+Scriptol,Object-oriented programming languages,Computer languages
+SAS language,Statistical programming languages,Computer languages
+SQL,Data modeling languages,Computer languages
+SQL,Query languages,Computer languages
+Specification language,Specification languages,Computer languages
+ThinBasic,BASIC programming language family,Computer languages
+FortranM,Procedural programming languages,Computer languages
+FortranM,Array programming languages,Computer languages
+FortranM,Numerical programming languages,Computer languages
+FortranM,Object-oriented programming languages,Computer languages
+Object Query Language,Query languages,Computer languages
+Architecture Analysis & Design Language,Software modeling language,Computer languages
+RobotML,Robot programming languages,Computer languages
+SPARQL,Data modeling languages,Computer languages
+SPARQL,Query languages,Computer languages
+SPARQL,Knowledge representation languages,Computer languages
+.QL,Query languages,Data modeling languages
+XML schema,XML-based standards,Data modeling languages
+TREX,XML-based standards,Data modeling languages
+XSIL,XML-based standards,Data modeling languages
+Extensible Forms Description Language,XML markup languages,Data modeling languages
+Regular Language description for XML,XML-based standards,Data modeling languages
+RELAX NG,XML-based standards,Data modeling languages
+Document Schema Definition Languages,XML-based standards,Data modeling languages
+SQLf,Query languages,Data modeling languages
+Document Structure Description,XML-based standards,Data modeling languages
+Binary Format Description language,XML-based standards,Data modeling languages
+Java Persistence Query Language,Query languages,Data modeling languages
+EbXML,XML markup languages,Data modeling languages
+EbXML,XML-based standards,Data modeling languages
+SDEP,XML markup languages,Data modeling languages
+Schematron,XML-based standards,Data modeling languages
+SQL,Query languages,Data modeling languages
+Mallard (documentation),Document-centric XML-based standards,Data modeling languages
+QTI,XML-based standards,Data modeling languages
+Darwin Information Typing Architecture,Document-centric XML-based standards,Data modeling languages
+Darwin Information Typing Architecture,XML-based standards,Data modeling languages
+Resource Description Framework,XML-based standards,Data modeling languages
+EXtensible Server Pages,User interface markup languages,Data modeling languages
+Office Open XML,Document-centric XML-based standards,Data modeling languages
+Vector Markup Language,User interface markup languages,Data modeling languages
+Vector Markup Language,XML-based standards,Data modeling languages
+Schema for Object-Oriented XML,XML-based standards,Data modeling languages
+Klip,XML-based standards,Data modeling languages
+Open XML Paper Specification,Document-centric XML-based standards,Data modeling languages
+Open XML Paper Specification,XML-based standards,Data modeling languages
+SPARQL,Query languages,Data modeling languages
+MUMPS,Persistent programming languages,Data-centric programming languages
+JADE (programming language),Persistent programming languages,Data-centric programming languages
+Dependent ML,ML programming language family,Declarative programming languages
+Dependent ML,Functional languages,Declarative programming languages
+ATS (programming language),Functional languages,Declarative programming languages
+Atom (programming language),Functional languages,Declarative programming languages
+Wolfram Language,Functional languages,Declarative programming languages
+Curl (programming language),Functional languages,Declarative programming languages
+Prolog,Logic programming languages,Declarative programming languages
+Prolog,Prolog programming language family,Declarative programming languages
+SequenceL,Functional languages,Declarative programming languages
+Erlang (programming language),Functional languages,Declarative programming languages
+Gofer (programming language),Haskell programming language family,Declarative programming languages
+Gofer (programming language),Free Haskell implementations,Declarative programming languages
+Gofer (programming language),Functional languages,Declarative programming languages
+Absys,Logic programming languages,Declarative programming languages
+Absys,Prolog programming language family,Declarative programming languages
+Miranda (programming language),Functional languages,Declarative programming languages
+Prolog syntax and semantics,Prolog programming language family,Declarative programming languages
+Transaction logic,Logic programming languages,Declarative programming languages
+Prova,Logic programming languages,Declarative programming languages
+HiLog,Logic programming languages,Declarative programming languages
+Datalog,Logic programming languages,Declarative programming languages
+F-logic,Logic programming languages,Declarative programming languages
+HyperTalk,XTalk,Domain-specific programming languages
+HyperTalk,Educational programming languages,Domain-specific programming languages
+HyperTalk,Scripting languages,Domain-specific programming languages
+Bash (Unix shell),Scripting languages,Domain-specific programming languages
+Command language,Scripting languages,Domain-specific programming languages
+QuakeC,Scripting languages,Domain-specific programming languages
+Rebol,Dynamically typed programming languages,Dynamic programming languages
+Perl,Dynamically typed programming languages,Dynamic programming languages
+Itk,Dynamically typed programming languages,Dynamic programming languages
+Revolution (development environment),Dynamically typed programming languages,Dynamic programming languages
+Common Lisp,Dynamically typed programming languages,Dynamic programming languages
+StarLogo,Logo programming language family,Educational programming languages
+MSWLogo,Logo programming language family,Educational programming languages
+Lisp (programming language),Lisp programming language family,Extensible syntax programming languages
+Common Lisp,Lisp programming language family,Extensible syntax programming languages
+Dylan (programming language),Lisp programming language family,Extensible syntax programming languages
+Racket (programming language),Lisp programming language family,Extensible syntax programming languages
+Adenine (programming language),Lisp programming language family,Extensible syntax programming languages
+Duration calculus,Temporal logic,Formal specification languages
+Stochastic Petri net,Petri nets,Formal specification languages
+Petri net,Petri nets,Formal specification languages
+Nets within Nets,Petri nets,Formal specification languages
+Vector addition system,Petri nets,Formal specification languages
+Property Specification Language,Hardware verification languages,Formal specification languages
+Dependent ML,ML programming language family,Functional languages
+Idris (programming language),Free software programmed in Haskell,Functional languages
+Idris (programming language),Haskell programming language family,Functional languages
+F* (programming language),ML programming language family,Functional languages
+Elm (programming language),Haskell programming language family,Functional languages
+EuLisp,Lisp programming language family,Functional languages
+NewLISP,Lisp programming language family,Functional languages
+MultiLisp,Lisp programming language family,Functional languages
+Ciao (programming language),Functional logic programming languages,Functional languages
+NIL (programming language),Lisp programming language family,Functional languages
+Arc (programming language),Lisp programming language family,Functional languages
+BBN LISP,Lisp programming language family,Functional languages
+Portable Standard Lisp,Lisp programming language family,Functional languages
+Lisp (programming language),Lisp programming language family,Functional languages
+Logo (programming language),Lisp programming language family,Functional languages
+Common Lisp,Lisp programming language family,Functional languages
+*Lisp,Lisp programming language family,Functional languages
+MDL (programming language),Lisp programming language family,Functional languages
+Racket (programming language),Lisp programming language family,Functional languages
+Clean (programming language),Haskell programming language family,Functional languages
+Game Oriented Assembly Lisp,Lisp programming language family,Functional languages
+Allegro Common Lisp,Lisp programming language family,Functional languages
+Gofer (programming language),Haskell programming language family,Functional languages
+Gofer (programming language),Free Haskell implementations,Functional languages
+OCaml,ML programming language family,Functional languages
+OCaml,OCaml software,Functional languages
+ML (programming language),ML programming language family,Functional languages
+Haskell (programming language),Haskell programming language family,Functional languages
+Lazy ML,Haskell programming language family,Functional languages
+Lazy ML,ML programming language family,Functional languages
+Standard ML,ML programming language family,Functional languages
+Clojure,Lisp programming language family,Functional languages
+F Sharp (programming language),ML programming language family,Functional languages
+Pixie (programming language),Lisp programming language family,Functional languages
+Orwell (programming language),Haskell programming language family,Functional languages
+Frege (programming language),Haskell programming language family,Functional languages
+Interlisp,Lisp programming language family,Functional languages
+Mercury (programming language),Functional logic programming languages,Functional languages
+Goo (programming language),Lisp programming language family,Functional languages
+Ur (programming language),ML programming language family,Functional languages
+Timber (programming language),Haskell programming language family,Functional languages
+Template Haskell,Haskell programming language family,Functional languages
+Hume (programming language),Haskell programming language family,Functional languages
+Adenine (programming language),Lisp programming language family,Functional languages
+Agda (programming language),Free software programmed in Haskell,Functional languages
+Agda (programming language),Haskell programming language family,Functional languages
+SystemVerilog,Hardware verification languages,Hardware description languages
+SystemVerilog,System description languages,Hardware description languages
+SpecC,System description languages,Hardware description languages
+SystemC,Hardware verification languages,Hardware description languages
+SystemC,System description languages,Hardware description languages
+Idris (programming language),Free software programmed in Haskell,Haskell programming language family
+Helium (Haskell),Free Haskell implementations,Haskell programming language family
+Gofer (programming language),Free Haskell implementations,Haskell programming language family
+Agda (programming language),Free software programmed in Haskell,Haskell programming language family
+Yesod (web framework),Free software programmed in Haskell,Haskell software
+Snap (web framework),Free software programmed in Haskell,Haskell software
+ECMAScript,JavaScript dialect engines,JavaScript programming language family
+JScript,JavaScript dialect engines,JavaScript programming language family
+OWL 2,Ontology languages,Knowledge representation languages
+OWL RDF/XML Serialization,Ontology languages,Knowledge representation languages
+CycL,Ontology languages,Knowledge representation languages
+CIDOC Conceptual Reference Model,Ontology languages,Knowledge representation languages
+Resource Description Framework,Bibliography file formats,Knowledge representation languages
+RDFa,Domain-specific knowledge representation languages,Knowledge representation languages
+Web Ontology Language,Ontology languages,Knowledge representation languages
+Ciao (programming language),Functional logic programming languages,Logic programming languages
+Oz (programming language),Functional logic programming languages,Logic programming languages
+Prolog,Prolog programming language family,Logic programming languages
+Visual Prolog,Functional logic programming languages,Logic programming languages
+Visual Prolog,Prolog programming language family,Logic programming languages
+Mozart Programming System,Functional logic programming languages,Logic programming languages
+Absys,Prolog programming language family,Logic programming languages
+Algebraic Logic Functional programming language,Functional logic programming languages,Logic programming languages
+Alice (programming language),Functional logic programming languages,Logic programming languages
+Mercury (programming language),Functional logic programming languages,Logic programming languages
+ECLiPSe,Prolog programming language family,Logic programming languages
+SWI-Prolog,Prolog programming language family,Logic programming languages
+??Prolog,Prolog programming language family,Logic programming languages
+Logtalk,Prolog programming language family,Logic programming languages
+Prolog++,Prolog programming language family,Logic programming languages
+SICStus Prolog,Prolog programming language family,Logic programming languages
+OCaml,OCaml software,ML programming language family
+Medical Reality Markup Language,XML markup languages,Markup languages
+Conversation Markup Language,XML markup languages,Markup languages
+DXL,Markup language stubs,Markup languages
+DXL,XML markup languages,Markup languages
+Universal Business Language,XML markup languages,Markup languages
+Lightweight markup language,Markup language comparisons,Markup languages
+Lightweight markup language,Lightweight markup languages,Markup languages
+Extensible Binary Meta Language,Markup language stubs,Markup languages
+YAML,Lightweight markup languages,Markup languages
+SpreadsheetML,XML-based standards,Markup languages
+DARPA Agent Markup Language,Knowledge representation languages,Markup languages
+Classification Markup Language,Markup language stubs,Markup languages
+SGMLguid,Markup language stubs,Markup languages
+AAP DTD,Markup language stubs,Markup languages
+Page description markup language,Page description markup languages,Markup languages
+Comparison of document markup languages,Markup language comparisons,Markup languages
+MXP (computing),Markup language stubs,Markup languages
+Well-known text,GIS file formats,Markup languages
+Unstructured Operation Markup Language,Markup language stubs,Markup languages
+DAML+OIL,Markup language stubs,Markup languages
+DAML+OIL,Knowledge representation languages,Markup languages
+Curl (programming language),Lightweight markup languages,Markup languages
+Mathematical markup language,Mathematical markup languages,Markup languages
+Digital Novel Markup Language,Markup language stubs,Markup languages
+XHTML+RDFa,Knowledge representation languages,Markup languages
+Semantic HTML,Domain-specific knowledge representation languages,Markup languages
+Simple HTML Ontology Extensions,Domain-specific knowledge representation languages,Markup languages
+XML schema,XML-based standards,Markup languages
+Extensible Forms Description Language,XML markup languages,Markup languages
+RELAX NG,XML-based standards,Markup languages
+Document Schema Definition Languages,Markup language stubs,Markup languages
+Document Schema Definition Languages,XML-based standards,Markup languages
+Document Structure Description,Markup language stubs,Markup languages
+Document Structure Description,XML-based standards,Markup languages
+TimeML,Bibliography file formats,Markup languages
+Schematron,XML-based standards,Markup languages
+XML,Bibliography file formats,Markup languages
+Mallard (documentation),Document-centric XML-based standards,Markup languages
+Xs3p,Markup language stubs,Markup languages
+QTI,XML-based standards,Markup languages
+Simple Outline XML,Lightweight markup languages,Markup languages
+Darwin Information Typing Architecture,Document-centric XML-based standards,Markup languages
+Darwin Information Typing Architecture,XML-based standards,Markup languages
+Resource Description Framework,Knowledge representation languages,Markup languages
+Resource Description Framework,Bibliography file formats,Markup languages
+Resource Description Framework,XML-based standards,Markup languages
+XEE (Starlight),Markup language stubs,Markup languages
+EXtensible Server Pages,User interface markup languages,Markup languages
+Office Open XML,Document-centric XML-based standards,Markup languages
+Vector Markup Language,User interface markup languages,Markup languages
+Vector Markup Language,Vector graphics markup languages,Markup languages
+Vector Markup Language,XML-based standards,Markup languages
+Schema for Object-Oriented XML,XML-based standards,Markup languages
+Klip,Web syndication formats,Markup languages
+Klip,XML-based standards,Markup languages
+Open XML Paper Specification,Document-centric XML-based standards,Markup languages
+Open XML Paper Specification,Page description markup languages,Markup languages
+Open XML Paper Specification,XML-based standards,Markup languages
+D3L,Markup language stubs,Markup languages
+Hypertext Application Language,XML markup languages,Markup languages
+Hypertext Application Language,XML-based standards,Markup languages
+XHTML5,XML-based standards,Markup languages
+WDDX,XML-based standards,Markup languages
+GML application schema,XML-based standards,Markup languages
+Speech Application Language Tags,XML-based standards,Markup languages
+Speech Synthesis Markup Language,XML-based standards,Markup languages
+XOMGL,XML-based standards,Markup languages
+XLink,XML-based standards,Markup languages
+XOXO (microformat),Web syndication formats,Markup languages
+XOXO (microformat),XML-based standards,Markup languages
+XOXO (microformat),Microformats,Markup languages
+OMDoc,XML-based standards,Markup languages
+OMDoc,Mathematical markup languages,Markup languages
+Open eBook,XML-based standards,Markup languages
+Microsoft Office XML formats,XML-based standards,Markup languages
+XSLT,XML-based standards,Markup languages
+Segmentation Rules eXchange,XML markup languages,Markup languages
+Segmentation Rules eXchange,XML-based standards,Markup languages
+VoiceXML,XML-based standards,Markup languages
+XHTML,XML-based standards,Markup languages
+XSL,XML-based standards,Markup languages
+Journal Article Tag Suite,XML-based standards,Markup languages
+GPS Exchange Format,XML-based standards,Markup languages
+Directory Services Markup Language,Markup language stubs,Markup languages
+Directory Services Markup Language,XML-based standards,Markup languages
+GuideML,XML-based standards,Markup languages
+RDFa,Knowledge representation languages,Markup languages
+RDFa,XML-based standards,Markup languages
+RDFa,Domain-specific knowledge representation languages,Markup languages
+GeoXACML,Markup language stubs,Markup languages
+GeoXACML,XML-based standards,Markup languages
+HTML5,XML-based standards,Markup languages
+XBL,XML-based standards,Markup languages
+XBL,Declarative markup languages,Markup languages
+Emotion Markup Language,XML-based standards,Markup languages
+Open Scripture Information Standard,XML-based standards,Markup languages
+EXSLT,XML-based standards,Markup languages
+Extensible Application Markup Language,User interface markup languages,Markup languages
+Extensible Application Markup Language,Vector graphics markup languages,Markup languages
+Extensible Application Markup Language,XML-based standards,Markup languages
+Extensible Application Markup Language,Declarative markup languages,Markup languages
+Synchronized Multimedia Integration Language,XML-based standards,Markup languages
+Synchronized Multimedia Integration Language,Declarative markup languages,Markup languages
+Synchronized Multimedia Integration Language,Playlist markup languages,Markup languages
+MPEG-4 Part 17,XML-based standards,Markup languages
+OpenMath,XML-based standards,Markup languages
+OpenMath,Mathematical markup languages,Markup languages
+XProc,XML-based standards,Markup languages
+Nested Context Language,XML-based standards,Markup languages
+S5 (file format),XML-based standards,Markup languages
+XSL Formatting Objects,XML-based standards,Markup languages
+XSL Formatting Objects,Page description languages,Markup languages
+Enterprise Mashup Markup Language,XML markup languages,Markup languages
+Enterprise Mashup Markup Language,User interface markup languages,Markup languages
+Enterprise Mashup Markup Language,XML-based standards,Markup languages
+XFA,XML-based standards,Markup languages
+WordProcessingML,XML-based standards,Markup languages
+OAXAL,XML markup languages,Markup languages
+OAXAL,XML-based standards,Markup languages
+XDuce,XML-based standards,Markup languages
+DataDiagramingML,XML-based standards,Markup languages
+WaterML,XML-based standards,Markup languages
+Water Data Transfer Format,XML-based standards,Markup languages
+Precision Graphics Markup Language,Vector graphics markup languages,Markup languages
+Precision Graphics Markup Language,XML-based standards,Markup languages
+FpML,Industry-specific XML-based standards,Markup languages
+ONIX for Books,Bibliography file formats,Markup languages
+ONIX for Books,Industry-specific XML-based standards,Markup languages
+ONIX (publishing protocol),Industry-specific XML-based standards,Markup languages
+Office Open XML Document,Document-centric XML-based standards,Markup languages
+Chemical Markup Language,Industry-specific XML-based standards,Markup languages
+OpenDocument,Document-centric XML-based standards,Markup languages
+DTBook,Document-centric XML-based standards,Markup languages
+DocBook,Document-centric XML-based standards,Markup languages
+Uniform Office Format,Document-centric XML-based standards,Markup languages
+user interface markup language,User interface markup languages,Markup languages
+User interface markup language,User interface markup languages,Markup languages
+Oz (programming language),Functional logic programming languages,Multi-paradigm programming languages
+C++,C++ programming language family,Multi-paradigm programming languages
+Visual Prolog,Functional logic programming languages,Multi-paradigm programming languages
+Leda (programming language),Functional logic programming languages,Multi-paradigm programming languages
+Fortran,Fortran programming language family,Numerical programming languages
+Fortress (programming language),Fortran programming language family,Numerical programming languages
+Coq,Free software programmed in OCaml,OCaml software
+Ocsigen,Free software programmed in OCaml,OCaml software
+GODI,Free software programmed in OCaml,OCaml software
+JavaScript,Prototype-based programming languages,Object-based programming languages
+Google Apps Script,Prototype-based programming languages,Object-based programming languages
+AmbientTalk,Prototype-based programming languages,Object-based programming languages
+ECMAScript,Prototype-based programming languages,Object-based programming languages
+ECMAScript,JavaScript programming language family,Object-based programming languages
+ECMAScript,JavaScript dialect engines,Object-based programming languages
+JScript,Prototype-based programming languages,Object-based programming languages
+JScript,JavaScript programming language family,Object-based programming languages
+JScript,JavaScript dialect engines,Object-based programming languages
+AtScript,Prototype-based programming languages,Object-based programming languages
+JScript .NET,JavaScript programming language family,Object-based programming languages
+TypeScript,JavaScript programming language family,Object-based programming languages
+Haxe,OCaml software,Object-based programming languages
+Visual Basic,Object-oriented programming languages,Object-based programming languages
+Eiffel (programming language),Class-based programming languages,Object-oriented programming languages
+Potion (programming language),Smalltalk programming language family,Object-oriented programming languages
+Potion (programming language),Class-based programming languages,Object-oriented programming languages
+Cecil (programming language),Prototype-based programming languages,Object-oriented programming languages
+F-Script (programming language),Smalltalk programming language family,Object-oriented programming languages
+F-Script (programming language),Class-based programming languages,Object-oriented programming languages
+Bistro (programming language),Smalltalk programming language family,Object-oriented programming languages
+Bistro (programming language),Class-based programming languages,Object-oriented programming languages
+Lua (programming language),Prototype-based programming languages,Object-oriented programming languages
+Ruby (programming language),Class-based programming languages,Object-oriented programming languages
+PHP,Class-based programming languages,Object-oriented programming languages
+Objective-C,Class-based programming languages,Object-oriented programming languages
+Falcon (programming language),Prototype-based programming languages,Object-oriented programming languages
+Falcon (programming language),Class-based programming languages,Object-oriented programming languages
+Self (programming language),Prototype-based programming languages,Object-oriented programming languages
+J (programming language),Class-based programming languages,Object-oriented programming languages
+ActiveVFP,Class-based programming languages,Object-oriented programming languages
+Lasso (programming language),Class-based programming languages,Object-oriented programming languages
+Neko (programming language),Prototype-based programming languages,Object-oriented programming languages
+Cel (programming language),Prototype-based programming languages,Object-oriented programming languages
+Smalltalk,Smalltalk programming language family,Object-oriented programming languages
+Smalltalk,Class-based programming languages,Object-oriented programming languages
+Common Lisp,Class-based programming languages,Object-oriented programming languages
+Smalltalk YX,Smalltalk programming language family,Object-oriented programming languages
+Smalltalk YX,Class-based programming languages,Object-oriented programming languages
+Urbiscript,Prototype-based programming languages,Object-oriented programming languages
+Python (programming language),Class-based programming languages,Object-oriented programming languages
+Fortran,Fortran programming language family,Object-oriented programming languages
+C++,C++ programming language family,Object-oriented programming languages
+C++,Class-based programming languages,Object-oriented programming languages
+Ioke (programming language),Prototype-based programming languages,Object-oriented programming languages
+Objective-J,JavaScript programming language family,Object-oriented programming languages
+Dart (programming language),JavaScript programming language family,Object-oriented programming languages
+Java (programming language),Class-based programming languages,Object-oriented programming languages
+JADE (programming language),Class-based programming languages,Object-oriented programming languages
+Visual Prolog,Class-based programming languages,Object-oriented programming languages
+Lightweight Java,Class-based programming languages,Object-oriented programming languages
+Oak (programming language),Class-based programming languages,Object-oriented programming languages
+OCaml,OCaml software,Object-oriented programming languages
+C++11,Class-based programming languages,Object-oriented programming languages
+ISO/IEC 14882,Class-based programming languages,Object-oriented programming languages
+C++14,Class-based programming languages,Object-oriented programming languages
+C++03,Class-based programming languages,Object-oriented programming languages
+C++17,Class-based programming languages,Object-oriented programming languages
+Newspeak (programming language),Smalltalk programming language family,Object-oriented programming languages
+Nu (programming language),Class-based programming languages,Object-oriented programming languages
+D (programming language),Class-based programming languages,Object-oriented programming languages
+Boo (programming language),Class-based programming languages,Object-oriented programming languages
+Oxygene (programming language),Class-based programming languages,Object-oriented programming languages
+Clascal,Class-based programming languages,Object-oriented programming languages
+Active Oberon,Class-based programming languages,Object-oriented programming languages
+Pro*C,Class-based programming languages,Object-oriented programming languages
+MetaQuotes Language MQL4/MQL5,C++ programming language family,Object-oriented programming languages
+MetaQuotes Language MQL4/MQL5,Class-based programming languages,Object-oriented programming languages
+Actor (programming language),Smalltalk programming language family,Object-oriented programming languages
+Object REXX,Class-based programming languages,Object-oriented programming languages
+Pike (programming language),Class-based programming languages,Object-oriented programming languages
+Perl,C programming language family,Procedural programming languages
+Fortran,Fortran programming language family,Procedural programming languages
+Pascal (programming language),Structured programming languages,Procedural programming languages
+C (programming language),C programming language family,Procedural programming languages
+ALGOL 60,Structured programming languages,Procedural programming languages
+SuperPascal,Pascal programming language family,Procedural programming languages
+Go (programming language),C programming language family,Procedural programming languages
+ParaSail (programming language),Pascal programming language family,Procedural programming languages
+WATFIV,Fortran programming language family,Procedural programming languages
+PL/C,Structured programming languages,Procedural programming languages
+Rapira,Structured programming languages,Procedural programming languages
+Rapira,Pascal programming language family,Procedural programming languages
+Vilnius BASIC,Discontinued BASICs,Procedural programming languages
+ALGOL,Structured programming languages,Procedural programming languages
+CPL (programming language),Structured programming languages,Procedural programming languages
+Cornell University Programming Language,Structured programming languages,Procedural programming languages
+PL/I,Structured programming languages,Procedural programming languages
+QUIKTRAN,Fortran programming language family,Procedural programming languages
+LEAP (programming language),Structured programming languages,Procedural programming languages
+XPL,Structured programming languages,Procedural programming languages
+BCPL,Structured programming languages,Procedural programming languages
+ALGOL W,Structured programming languages,Procedural programming languages
+PL/M,Structured programming languages,Procedural programming languages
+Plus (programming language),Pascal programming language family,Procedural programming languages
+COMAL,Structured programming languages,Procedural programming languages
+PL/0,Structured programming languages,Procedural programming languages
+D (programming language),C programming language family,Procedural programming languages
+Pascal/MT+,Structured programming languages,Procedural programming languages
+Pascal/MT+,Pascal programming language family,Procedural programming languages
+Prospero Pascal,Structured programming languages,Procedural programming languages
+Prospero Pascal,Pascal programming language family,Procedural programming languages
+GNU Pascal,Structured programming languages,Procedural programming languages
+GNU Pascal,Pascal programming language family,Procedural programming languages
+Concurrent Pascal,Structured programming languages,Procedural programming languages
+Concurrent Pascal,Pascal programming language family,Procedural programming languages
+Vector Pascal,Structured programming languages,Procedural programming languages
+Vector Pascal,Pascal programming language family,Procedural programming languages
+Alphard (programming language),Structured programming languages,Procedural programming languages
+Delphi (programming language),Structured programming languages,Procedural programming languages
+Pic Micro Pascal,Pascal programming language family,Procedural programming languages
+QBasic,Structured programming languages,Procedural programming languages
+QBasic,Discontinued Microsoft BASICs,Procedural programming languages
+MacBASIC,Discontinued BASICs,Procedural programming languages
+Perl,C programming language family,Programming language families
+Scratch (programming language),Educational programming languages,Programming languages
+Scratch (programming language),Smalltalk programming language family,Programming languages
+Scratch (programming language),Visual programming languages,Programming languages
+Embedded style language,Domain-specific programming languages,Programming languages
+Address programming language,Programming languages created by women,Programming languages
+Swift (programming language),Programming languages created in 2014,Programming languages
+Swift (programming language),Statically typed programming languages,Programming languages
+Swift (programming language),Object-oriented programming languages,Programming languages
+Kotlin (programming language),Programming languages created in 2011,Programming languages
+Kotlin (programming language),Statically typed programming languages,Programming languages
+Kotlin (programming language),Java programming language family,Programming languages
+Kotlin (programming language),Object-oriented programming languages,Programming languages
+LFE (programming language),Pattern matching programming languages,Programming languages
+Elixir (programming language),Programming languages created in 2012,Programming languages
+Elixir (programming language),Pattern matching programming languages,Programming languages
+GEORGE (programming language),Stack-oriented programming languages,Programming languages
+Tynker,Educational programming languages,Programming languages
+Tynker,Visual programming languages,Programming languages
+Lisp (programming language),Programming languages created in 1958,Programming languages created in the 1950s
+FLOW-MATIC,Programming languages created in 1955,Programming languages created in the 1950s
+Absys,Programming languages created in 1967,Programming languages created in the 1960s
+Simula,Programming languages created in 1962,Programming languages created in the 1960s
+Smalltalk,Programming languages created in 1972,Programming languages created in the 1970s
+Scheme (programming language),Programming languages created in 1975,Programming languages created in the 1970s
+Prolog,Programming languages created in 1972,Programming languages created in the 1970s
+ML (programming language),Programming languages created in 1973,Programming languages created in the 1970s
+Erlang (programming language),Programming languages created in 1986,Programming languages created in the 1980s
+CoffeeScript,JavaScript programming language family,Prototype-based programming languages
+ECMAScript,JavaScript programming language family,Prototype-based programming languages
+ECMAScript,JavaScript dialect engines,Prototype-based programming languages
+JScript,JavaScript programming language family,Prototype-based programming languages
+JScript,JavaScript dialect engines,Prototype-based programming languages
+SenseTalk,XTalk,Scripting languages
+HyperTalk,XTalk,Scripting languages
+SuperTalk,XTalk,Scripting languages
+XTalk,XTalk,Scripting languages
+ECMAScript,JavaScript programming language family,Scripting languages
+ECMAScript,JavaScript dialect engines,Scripting languages
+JScript,JavaScript programming language family,Scripting languages
+JScript,JavaScript dialect engines,Scripting languages
+TypeScript,JavaScript programming language family,Scripting languages
+ActionScript,JavaScript programming language family,Scripting languages
+Dart (programming language),JavaScript programming language family,Scripting languages
+Message sequence chart,Unified Modeling Language diagrams,Software modeling language
+Systems Modeling Language,Systems Modeling Language,Software modeling language
+Use Case Diagram,Unified Modeling Language diagrams,Software modeling language
+Use Case Diagram,Systems Modeling Language,Software modeling language
+XML Metadata Interchange,Systems Modeling Language,Software modeling language
+Systems Modeling Language,Systems Modeling Language,Specification languages
+Systems Modeling Language,Software modeling language,Specification languages
+UMLsec,Software modeling language,Specification languages
+Umple,Software modeling language,Specification languages
+Unified Modeling Language for Interactive Systems,Software modeling language,Specification languages
+Use Case Diagram,Unified Modeling Language diagrams,Specification languages
+Use Case Diagram,Systems Modeling Language,Specification languages
+Use Case Diagram,Software modeling language,Specification languages
+Object Constraint Language,Formal specification languages,Specification languages
+Object Constraint Language,Software modeling language,Specification languages
+UML-based web engineering,Software modeling language,Specification languages
+Production Rule Representation,Software modeling language,Specification languages
+UXF,Software modeling language,Specification languages
+Executable UML,Software modeling language,Specification languages
+ATLAS Transformation Language,Software modeling language,Specification languages
+XML Metadata Interchange,Systems Modeling Language,Specification languages
+XML Metadata Interchange,Software modeling language,Specification languages
+XML Metadata Interchange,XML-based standards,Specification languages
+Process-data diagram,Software modeling language,Specification languages
+QVT,Software modeling language,Specification languages
+Clock Constraints Specification Language,Software modeling language,Specification languages
+Kermeta,Software modeling language,Specification languages
+ERIL,Data modeling languages,Specification languages
+ERIL,Software modeling language,Specification languages
+Business Process Execution Language,XML-based standards,Specification languages
+Franca IDL,Data modeling languages,Specification languages
+XPDL,XML-based standards,Specification languages
+Interface description language,Data modeling languages,Specification languages
+Unified Modeling Language,Data modeling languages,Specification languages
+Unified Modeling Language,Software modeling language,Specification languages
+BPEL script,XML-based standards,Specification languages
+OGML,Data modeling languages,Specification languages
+Algebraic Petri net,Petri nets,Specification languages
+TLA+,Formal specification languages,Specification languages
+Fundamental modeling concepts,Data modeling languages,Specification languages
+HOOD method,Data modeling languages,Specification languages
+SoaML,Data modeling languages,Specification languages
+SoaML,Software modeling language,Specification languages
+Object-Z,Formal specification languages,Specification languages
+CO-OPN,Petri nets,Specification languages
+Z notation,Formal specification languages,Specification languages
+Forth (programming language),Forth programming language family,Stack-oriented programming languages
+Plus (programming language),Pascal programming language family,Statically typed programming languages
+Pascal/MT+,Pascal programming language family,Statically typed programming languages
+Prospero Pascal,Pascal programming language family,Statically typed programming languages
+GNU Pascal,Pascal programming language family,Statically typed programming languages
+Concurrent Pascal,Pascal programming language family,Statically typed programming languages
+Vector Pascal,Pascal programming language family,Statically typed programming languages
+Rapira,Pascal programming language family,Structured programming languages
+Pascal/MT+,Pascal programming language family,Structured programming languages
+Prospero Pascal,Pascal programming language family,Structured programming languages
+GNU Pascal,Pascal programming language family,Structured programming languages
+Concurrent Pascal,Pascal programming language family,Structured programming languages
+Vector Pascal,Pascal programming language family,Structured programming languages
+C++,C++ programming language family,Systems programming languages
+C (programming language),C programming language family,Systems programming languages
+D (programming language),C programming language family,Systems programming languages
+Embedded C,C programming language family,Systems programming languages
+Pro*C,C programming language family,Systems programming languages
+Stratego/XT,Term-rewriting programming languages,Transformation languages
+RascalMPL,Term-rewriting programming languages,Transformation languages
+Darwin Information Typing Architecture,Document-centric XML-based standards,XML-based standards
+Vector Markup Language,User interface markup languages,XML-based standards
+Open XML Paper Specification,Document-centric XML-based standards,XML-based standards
+XUL,User interface markup languages,XML-based standards
+MXML,User interface markup languages,XML-based standards
+MARIA XML,User interface markup languages,XML-based standards
+EMML (Motorola),User interface markup languages,XML-based standards
+XForms,User interface markup languages,XML-based standards
+DisplayML,User interface markup languages,XML-based standards
+MusicXML,Industry-specific XML-based standards,XML-based standards
+FXML,User interface markup languages,XML-based standards
+Extensible Application Markup Language,User interface markup languages,XML-based standards
+XML Resource,User interface markup languages,XML-based standards
+Enterprise Mashup Markup Language,User interface markup languages,XML-based standards
+XFrames,User interface markup languages,XML-based standards
+
+ Performed query in: 1359ms

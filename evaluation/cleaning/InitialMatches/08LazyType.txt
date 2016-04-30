@@ -1,0 +1,153 @@
+typename,NumberOfEntities,NumberOfSubtypes,howmany
+OCaml programming language family,0,1,1
+Vala software,0,1,1
+3D graphics software that uses GTK+,1,0,1
+ALGOL 60 implementation,1,0,1
+Antivirus software that uses GTK+,1,0,1
+Antivirus software that uses Qt,1,0,1
+Email clients that use Qt,1,0,1
+FP programming language family,1,0,1
+Free audio software that uses SDL,1,0,1
+Free software programmed in THINK C,1,0,1
+Icon programming language family,1,0,1
+Intensional programming languages,1,0,1
+JavaScript-based calendar components,1,0,1
+Process termination functions,1,0,1
+Programming languages created in 1953,1,0,1
+Programming languages created in 1954,1,0,1
+Programming languages created in 1955,1,0,1
+Programming languages created in 1958,1,0,1
+Programming languages created in 1968,1,0,1
+Programming languages created in 1971,1,0,1
+Programming languages created in 1980,1,0,1
+Programming languages created in 1982,1,0,1
+Programming languages created in 1997,1,0,1
+Programming languages created in 1998,1,0,1
+Programming languages created in 2015,1,0,1
+Programming languages created in the 1940s,1,0,1
+SR programming language family,1,0,1
+Scientific software that uses GTK+,1,0,1
+Software that uses JSON-RPC,1,0,1
+Software that was ported from Qt to Mono,1,0,1
+Text editors programmed in Java,1,0,1
+Videoconferencing software programmed in Java,1,0,1
+Voice over IP clients programmed in Java,1,0,1
+XML technology people,1,0,1
+Programming languages by creation date,0,2,2
+Programming languages created in the 21st century,0,2,2
+Cairo (graphics),1,1,2
+Clutter (software),1,1,2
+Haskell implementations,1,1,2
+Vala (programming language),1,1,2
+Archive managers that use GTK+,2,0,2
+Books about C++,2,0,2
+C language contests,2,0,2
+Computer-assisted translation software that uses GTK+,2,0,2
+Concept- and mind-mapping software that uses GTK+,2,0,2
+Concept- and mind-mapping software that uses Qt,2,0,2
+Educational software that uses GTK+,2,0,2
+Formula manipulation languages,2,0,2
+GNOME CD ripping software,2,0,2
+GNU GRUB,2,0,2
+ISO/IEC 19775,2,0,2
+Low-level programming languages,2,0,2
+MUMPS implementations,2,0,2
+MathML,2,0,2
+Motion graphics software that uses GTK+,2,0,2
+Nondeterministic programming languages,2,0,2
+Optical disc-related software that uses Qt,2,0,2
+POSIX error codes,2,0,2
+Programming languages created in 1957,2,0,2
+Programming languages created in 1966,2,0,2
+Programming languages created in 1970,2,0,2
+Programming languages created in 1973,2,0,2
+Programming languages created in 1976,2,0,2
+Programming languages created in 1978,2,0,2
+Programming languages created in 1979,2,0,2
+Programming languages created in 1981,2,0,2
+Programming languages created in 1985,2,0,2
+Programming languages created in 1989,2,0,2
+Programming languages created in 1994,2,0,2
+Programming languages created in 1999,2,0,2
+Programming languages created in 2013,2,0,2
+Programming languages created in 2014,2,0,2
+Rust (programming language),2,0,2
+SETL programming language family,2,0,2
+Secure programming languages,2,0,2
+Tag editors that use GTK+,2,0,2
+TeX editors that use GTK+,2,0,2
+Terminal emulator software that uses Qt,2,0,2
+Translatewiki.net,2,0,2
+Virtualization-related software that uses GTK+,2,0,2
+Web Ontology Language,2,0,2
+FLTK,2,1,3
+GStreamer,2,1,3
+Integrated development environments that use GTK+,2,1,3
+Structured English,2,1,3
+ActionScript,3,0,3
+Agent-oriented programming languages,3,0,3
+Clipboard utilities that use GTK+,3,0,3
+Dictionary software that uses Qt,3,0,3
+DocBook,3,0,3
+Free software programmed in .NET,3,0,3
+Free software programmed in BASIC,3,0,3
+Kdepim,3,0,3
+Mapping software that uses GTK+,3,0,3
+Musical markup languages,3,0,3
+News aggregators that use GTK+,3,0,3
+Note-taking software that uses GTK+,3,0,3
+Operating systems using GNOME,3,0,3
+Operating systems using GPE,3,0,3
+Page description markup languages,3,0,3
+Programming languages created in 1969,3,0,3
+Programming languages created in 1975,3,0,3
+Programming languages created in 1984,3,0,3
+Programming languages created in 1988,3,0,3
+Programming languages created in 1990,3,0,3
+Programming languages created in 1992,3,0,3
+Programming languages created in 2001,3,0,3
+Programming languages created in 2005,3,0,3
+Proprietary software that uses SDL,3,0,3
+Reactive programming languages,3,0,3
+Social Desktop,3,0,3
+Software that uses wxGTK,3,0,3
+System description languages,3,0,3
+Video player software that uses GTK+,3,0,3
+Videoconferencing software that uses GTK+,3,0,3
+Videoconferencing software that uses Qt,3,0,3
+ALGOL 60,2,2,4
+MUMPS programming language,3,1,4
+Scintilla,3,1,4
+Spatial databases,3,1,4
+ALGOL 58 dialect,4,0,4
+Audio player software that uses Qt,4,0,4
+C standard library headers,4,0,4
+Dictionary software that uses GTK+,4,0,4
+Free software programmed in Ada,4,0,4
+Free software programmed in Erlang,4,0,4
+Free software programmed in Go,4,0,4
+GNOME Kids,4,0,4
+GNOME Mobile,4,0,4
+Java decompilers,4,0,4
+JavaScript dialect engines,4,0,4
+Lua-scriptable hardware,4,0,4
+Packet analyzer software that uses GTK+,4,0,4
+Process.h,4,0,4
+Programming languages created in 1959,4,0,4
+Programming languages created in 1962,4,0,4
+Programming languages created in 1967,4,0,4
+Programming languages created in 1977,4,0,4
+Programming languages created in 1983,4,0,4
+Programming languages created in 2002,4,0,4
+Programming languages created in 2004,4,0,4
+Programming languages created in 2008,4,0,4
+Programming languages created in 2009,4,0,4
+Programming languages created in 2012,4,0,4
+Remote desktop software that uses GTK+,4,0,4
+Set theoretic programming languages,4,0,4
+Spreadsheet software for OS X,4,0,4
+SyncML,4,0,4
+TeX software for OS X,4,0,4
+Terminal emulator software that uses GTK+,4,0,4
+Voice over IP clients that use GTK+,4,0,4
+Voice over IP clients that use Qt,4,0,4

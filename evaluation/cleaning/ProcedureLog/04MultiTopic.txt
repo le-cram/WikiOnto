@@ -1,0 +1,35 @@
+ActionScript, Unite Information
+AsciiDoc, Abandon Information, infobox about AsciiDoctor
+BeerXML, Unite Information
+Blitz BASIC, Extract Entity BlitzMax, Add corresponding information and BASIC programming language family and Object-oriented programming languages
+Cilk, Extract Entity 'Cilk Plus', add Concurrent programming languages and C programming language family as types
+Coq, Abandon Information, on Coq (software)
+ECMAScript, Unite Information
+Falcon (programming language), Abandon Information, on License
+HTML5, Extract Entity 'XHTML5', add Markup languages and XML-based standards as types
+Hollywood (programming language), Abandon Information, on Hollywood Designer
+Ithkuil, Extract Entity 'Ilaksh', add type Knowledge representation languages
+JScript .NET, Unite Information
+Janus (programming language), Extract Entity 'Time-reversible Janus (programming language)', add types Concurrent programming languages and Logic programming languages
+JavaScript, Unite Information
+LaTeX, Unite Information
+MATLAB, Abandon Information, on MATLAB System
+MLAB, Abandon Information, on MLAB System
+PostScript, Unite Information
+Processing (programming language), Abandon Information, on Processing Software IDE
+Pure Data, Abandon Information, on Pure Data System
+QML, Unite Information
+SQL, Unite Information
+TeX, Unite Information
+XML, Unite Information
+IBM BASIC, Extract Entity 'IBM Cassette BASIC' 'IBM Disk BASIC' 'IBM Advanced BASIC', add types BASIC programming language family; Discontinued Microsoft BASICs; Programming languages created in the 1980s
+Inform, Abandon Information, on system
+Inform, Extract Entity 'Inform 1-6' 'Inform 7', types: Domain-specific programming languages
+Microsoft Office XML formats, Extract Entity 'WordProcessingML' 'DataDiagramingML' 'SpreadsheetML', add types 'Markup languages' 'XML-based standards' 'Computer file formats'
+Office Open XML, Extract Entity 'Office Open XML Document' 'Office Open XML Presentation' 'Office Open XML Workbook', add types 'Computer file formats' 'Markup languages' 'Document-centric XML-based standards'
+Portable Document Format, Extract Entity 'Forms Data Format (FDF)' 'XML Forms Data Format (XFDF)', add types 'Graphics file formats' 'Page description languages' 'Office document file formats'
+Resource Description Framework, Extract Entity 'RDF 1.1 Turtle serialization' 'RDF/XML serialization', add types 'XML-based standards' 'Knowledge representation languages'
+SPICE, Abandon Entity
+Web Ontology Language, Extract Entity 'OWL 2' 'OWL RDF/XML Serialization', add types 'Ontology languages' 'XML-based standards' 'Knowledge representation languages'
+OpenDocument, Extract Entity 'OpenDocument Text' 'OpenDocument Presentation' 'OpenDocument Spreadsheet' 'OpenDocument Graphics', add types 'Computer file formats' 'Document-centric XML-based standards'
+SpreadsheetML, Unite Information, Created multiple times in the refactoring process

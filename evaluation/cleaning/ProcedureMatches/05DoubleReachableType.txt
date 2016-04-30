@@ -1,0 +1,22 @@
+typename,toptype1name,toptype2name
+XML-based programming languages,Data modeling languages,Programming languages
+Bibliography file formats,Markup languages,Programming languages
+Declarative markup languages,Markup languages,Programming languages
+Domain-specific knowledge representation languages,Markup languages,Programming languages
+Knowledge representation languages,Markup languages,Programming languages
+Microformats,Markup languages,Programming languages
+Ontology languages,Markup languages,Programming languages
+Page description markup languages,Markup languages,Programming languages
+Troff,Markup languages,Programming languages
+XML-based programming languages,Markup languages,Programming languages
+Document-centric XML-based standards,Markup languages,Specification languages
+ISO/IEC 19775,Markup languages,Specification languages
+Industry-specific XML-based standards,Markup languages,Specification languages
+User interface markup languages,Markup languages,Specification languages
+XML markup languages,Markup languages,Specification languages
+XML-based programming languages,Markup languages,Specification languages
+XML-based standards,Markup languages,Specification languages
+Dependently typed languages,Programming languages,Specification languages
+Synchronous programming languages,Programming languages,Specification languages
+XML-based programming languages,Programming languages,Specification languages
+XTalk,Programming languages,Specification languages

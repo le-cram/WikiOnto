@@ -1,0 +1,15 @@
+name,NumberOfEntities,NumberOfSubtypes,howmany, measure
+FP programming language family,1,0,1, Abandon Type (rescue none), all instances have other necessary types
+Icon programming language family,1,0,1, Abandon Type (rescue none), all instances have other necessary types
+Intensional programming languages,1,0,1, Abandon Type (rescue none), all instances have other necessary types
+SR programming language family ,1,0,1, Abandon Type (rescue none), all instances have other necessary types
+Free software programmed in BASIC,2,0,2, Abandon Type (rescue none),
+ISO/IEC 19775,2,0,2, Abandon Type (rescue none)
+SETL programming language family, Abandon Type (rescue all) SETL is the only instance
+Page description markup languages, Abandon Type (rescue all) Markup language should be an additional classifier of the language. Not mixing root subtypes
+Haskell software, Abandon Type (rescue none)
+Free software programmed in OCaml, Abandon Type (rescue none)
+JavaScript dialect engines, Abandon Type (rescue none)
+OCaml software, Abandon Type (rescue none)
+Markup language comparisons, Abandon Type (rescue none)
+Spatial databases, Abandon Type (rescue none)

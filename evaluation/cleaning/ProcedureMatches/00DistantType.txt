@@ -1,0 +1,133 @@
+name,depth
+C POSIX library,6
+Cairo (graphics),6
+Calligra Suite,6
+Clutter (software),6
+Diesel (game engine) games,6
+Enigma Engine games,6
+Free PDF readers,6
+GStreamer,6
+GTK+,6
+KDE Extragear,6
+KDE Software Compilation,6
+Process.h,6
+Silent Storm engine games,6
+Simple DirectMedia Layer,6
+Software that uses FLTK,6
+Software that uses QML,6
+Software that uses Qt,6
+Software that uses Scintilla,6
+Software that uses wxWidgets,6
+Tk (software),6
+3D graphics software that uses Qt,7
+Antivirus software that uses Qt,7
+Audio software that uses Qt,7
+Desktop environments based on GTK+,7
+Dictionary software that uses Qt,7
+Educational software that uses Qt,7
+Email clients that use Qt,7
+Engineering software that uses Qt,7
+File sharing software that uses Qt,7
+File sharing software that uses wxWidgets,7
+Free software that uses SDL,7
+GNOME,7
+GNOME Accessibility,7
+GNOME Mobile,7
+GTK+ language bindings,7
+Graphics software that uses Qt,7
+Instant messaging clients that use Qt,7
+KDE Education Project,7
+KDE games,7
+Kdepim,7
+Operating systems using GPE,7
+Optical disc-related software that uses Qt,7
+Package management software that uses Qt,7
+Proprietary software that uses Qt,7
+Proprietary software that uses SDL,7
+Science software that uses Qt,7
+Software that uses Cairo,7
+Software that uses Clutter,7
+Software that uses GStreamer,7
+Software that uses GTK+,7
+Software that uses Tk,7
+Software that uses wxGTK,7
+Software that uses wxPython,7
+Software that was ported from GTK+ to Qt,7
+Software that was ported from Qt to Mono,7
+Symbian OS,7
+Terminal emulator software that uses Qt,7
+Video software that uses Qt,7
+Videoconferencing software that uses Qt,7
+Voice over IP clients that use Qt,7
+Web browsers that use Qt,7
+3D graphics software that uses GTK+,8
+Antivirus software that uses GTK+,8
+Archive managers that use GTK+,8
+Audio editing software that uses Qt,8
+Audio player software that uses Qt,8
+Audio software that uses GTK+,8
+Clipboard utilities that use GTK+,8
+Computer games that use GTK+,8
+Computer-assisted translation software that uses GTK+,8
+Concept- and mind-mapping software that uses GTK+,8
+Dictionary software that uses GTK+,8
+Educational software that uses GTK+,8
+Email clients that use GTK+,8
+Engineering software that uses GTK+,8
+File managers that use GTK+,8
+File sharing software that uses GTK+,8
+Free audio software that uses SDL,8
+Freedesktop.org,8
+GNOME Applications,8
+GNOME Kids,8
+GNOME Theming,8
+GNOME companies,8
+GNOME developers,8
+GNOME libraries,8
+GNOME obsolete,8
+GNOME stubs,8
+Graphical shells that use GTK+,8
+Graphics software that uses GTK+,8
+Instant messaging clients that use GTK+,8
+Integrated development environments that use GTK+,8
+Mapping software that uses GTK+,8
+Motion graphics software that uses GTK+,8
+News aggregators that use GTK+,8
+Note-taking software that uses GTK+,8
+Office software that uses GTK+,8
+Operating systems using GNOME,8
+Optical disc-related software that uses GTK+,8
+Package management software that uses GTK+,8
+Packet analyzer software that uses GTK+,8
+Remote desktop software that uses GTK+,8
+S60 (software platform),8
+Science software that uses GTK+,8
+Scientific software that uses GTK+,8
+Social Desktop,8
+Software that uses PyGTK,8
+Symbian software,8
+TeX editors that use GTK+,8
+Terminal emulator software that uses GTK+,8
+Text editors that use GTK+,8
+UIQ 3 Phones,8
+Video editing software that uses GTK+,8
+Video software that uses GTK+,8
+Videoconferencing software that uses GTK+,8
+Virtualization-related software that uses GTK+,8
+Voice over IP clients that use GTK+,8
+Web browsers that use GTK+,8
+Window managers that use GTK+,8
+Applications using D-Bus,9
+Audio editing software that uses GTK+,9
+Audio player software that uses GTK+,9
+Freedesktop.org libraries,9
+GNOME CD ripping software,9
+GNOME Developer Tools,9
+GNOME Games,9
+Mono (software),9
+Symbian games,9
+Symbian instant messaging clients,9
+Tag editors that use GTK+,9
+Video player software that uses GTK+,9
+
+ Performed query in: 32ms

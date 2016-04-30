@@ -1,0 +1,324 @@
+Data modeling languages:
+XML validation
+CODASYL
+Data Base Task Group
+
+Markup languages:
+Markup language comparisons
+Markup language stubs
+Use of Ogg formats in HTML5
+XULRunner
+Charles Goldfarb
+SGML entity
+Overlapping markup
+Comparison of document markup languages
+Round-trip format conversion
+DITA Open Toolkit
+Delimiter
+Lpod
+Component content management system
+Yuri Rubinsky
+System identifier
+Web3D Consortium
+
+Programming languages:
+Software by programming language
+Process termination functions
+Programming languages conferences
+Auto-lead Data Format
+Programming with Big Data in R
+Comparison of database access
+KOMPILER
+Programming Languages: Application and Interpretation
+Tracing just-in-time compilation
+Bidirectional transformation
+Multi-adjoint logic programming
+Java technology
+Petit Computer
+Sibernetic
+Concordion
+Bidirectional transformation
+OttoQL
+
+Specification languages:
+Software for modeling software
+Uninterpreted function
+M2M (Eclipse)
+MMT (Eclipse)
+Tefkat
+Model transformation language
+
+Specification language:
+Scientific modeling
+Software engineering
+
+Franca IDL:
+Eclipse (software)
+
+Uninterpreted function:
+Specification languages
+
+
+depth 2 :
+
+Software modeling language:
+MATLAB
+DADiSP
+Vector addition system
+
+Declarative programming languages:
+Declarative markup languages
+
+XML:
+CDuce
+Darwin Information Typing Architecture
+Mallard (documentation)
+Efficient XML Interchange
+DITA Open Toolkit
+Component content management system
+METS
+HyTime
+Resource Description Framework
+Well-formed element
+Numeric character reference
+Tag omission
+OpenSearch
+XML validation
+XML denial-of-service attack
+Valid characters in XML
+CodeSynthesis XSD
+XML namespace
+Legal XML
+XMLHttpRequest
+XFDesigner
+XML database
+XML Schema Editor
+Quark XML Author
+CDATA
+Quark Author
+XML Certification Program
+SpeakRight Framework
+Adobe FrameMaker
+Processing Instruction
+XML appliance
+XEP (software)
+Unique Particle Attribution
+XML data binding
+Root element
+XML Catalog
+VTD-XML
+XML Base
+ECMAScript for XML
+Head￢ﾀﾓbody pattern
+Clusterpoint
+QName
+EXtensible Text Framework
+XML Enabled Directory
+Well-formed document
+Billion laughs
+XML framework
+XML Literals
+Dynamic XML
+Zorba (XQuery processor)
+BaseX
+XML retrieval
+XML editor
+XML tree
+Ajax (programming)
+Java API for XML
+RDF data access
+XML data access
+XML editors
+XML organizations
+XML parsers
+XML software
+XML technology people
+XQuery processors
+XSLT processors
+
+Visual programming languages:
+App Inventor for Android
+Blockly
+DIPS (Digital Image Processing with Sound)
+Flow-based programming
+PottersWheel
+Symbolic Sound Corporation
+TOMVIEW
+Widget Workshop
+Windows App Studio
+Spreadsheet software
+
+GIS file formats:
+GIS file formats
+Comparison of Vector Formats (GIS) 
+Keyhole Markup Language‎ 
+Spatial databases‎
+
+MATLAB:
+Software modeling language
+Computer algebra system software for Linux
+Computer algebra system software for OS X
+Computer algebra system software for Windows
+C software
+
+DADiSP:
+Software modeling language
+C software
+
+SQL:
+Declarative programming languages
+
+SPARQL:
+Declarative programming languages
+RDF data access
+Resource Description Framework
+
+Extensible Application Markup Language:
+Declarative programming languages
+
+XProc:
+Declarative programming languages
+Domain-specific programming languages
+Concurrent programming languages
+XML-based programming languages
+
+XSLT:
+Declarative programming languages
+XML-based programming languages
+
+Synchronized Multimedia Integration Language:
+Declarative programming languages
+XML-based programming languages
+
+CycL:
+Declarative programming languages
+Logic programming languages
+
+LOOM (ontology):
+Declarative programming languages
+Common Lisp software
+
+Web Ontology Language:
+Declarative programming languages
+
+FXML:
+Declarative programming languages
+Java (programming language)
+
+MMXML:
+Declarative programming languages
+
+MetaPost:
+Free TeX software
+PostScript
+
+Metafont:
+Free TeX software
+Declarative programming languages
+
+QML:
+Qt (framework)
+
+GtkBuilder:
+GTK+
+
+SQLf:
+Declarative programming languages
+
+.QL:
+Declarative programming languages
+Logic programming languages
+
+Gofer (programming language):
+Free Haskell implementations
+
+KM programming language:
+Common Lisp software
+
+
+depth 3:
+
+Object-oriented programming languages:
+ActiveVFP
+Class implementation file
+Comparison of programming languages (object-oriented programming)
+Guido van Robot
+Jasmin (software)
+Morfik_FX
+NS_Basic
+RUR-PLE
+RubyMotion
+Turbo51
+
+Query languages:
+Domain-specific_programming_languages
+Persistent_programming_languages
+RDF_data_access
+XML_data_access
+D_(data_language_specification)
+HPCC
+Lucid_(programming_language)
+
+META II:
+Parser generators
+
+OMeta:
+Parser generators
+
+S/SL programming language:
+Parser generators
+
+Compiler Description Language:
+Parser generators
+
+TMG (language):
+Parser generators
+
+Accent (programming language):
+Parser generators
+
+Adenine (programming language):
+RDF_data_access
+
+
+
+depth 4
+
+Industry-specific XML-based standards:
+https://en.wikipedia.org/wiki/Clinical_Data_Interchange_Standards_Consortium
+https://en.wikipedia.org/wiki/Healthcare_Services_Specification_Project
+
+SNOBOL : 
+Software written primarily in assembly language
+
+BasicX:
+BASIC compilers
+
+
+depth=5
+
+AspectJ:
+Eclipse software
+Eclipse (software)
+Eclipse technology
+
+Gambas:
+Software that uses Qt
+BASIC interpreters
+BASIC compilers
+Free software programmed in BASIC
+
+CBASIC:
+BASIC interpreters
+BASIC compilers
+
+GNU Guile:
+Scheme (programming language) interpreters
+Scheme (programming language) implementations
+
+NumPy:
+Python scientific libraries
+
+OpenDocument standardization:
+OpenOffice
+LibreOffice

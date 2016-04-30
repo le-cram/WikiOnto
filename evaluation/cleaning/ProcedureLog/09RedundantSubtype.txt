@@ -1,0 +1,1 @@
+HINT : All redundant subtypes are removed. Thus, look at cleaningSmellResults for removed subtype relations.

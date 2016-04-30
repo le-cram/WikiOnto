@@ -1,0 +1,92 @@
+typename,toptype1name,toptype2name
+Ajax (programming),Data modeling languages,Programming languages
+JSON,Data modeling languages,Programming languages
+Java API for XML,Data modeling languages,Programming languages
+LibreOffice,Data modeling languages,Programming languages
+Office Open XML,Data modeling languages,Programming languages
+OpenOffice,Data modeling languages,Programming languages
+RDF data access,Data modeling languages,Programming languages
+Software that uses JSON-RPC,Data modeling languages,Programming languages
+XML data access,Data modeling languages,Programming languages
+XML-based programming languages,Data modeling languages,Programming languages
+Ajax (programming),Markup languages,Programming languages
+BibTeX,Markup languages,Programming languages
+Bibliography file formats,Markup languages,Programming languages
+Declarative markup languages,Markup languages,Programming languages
+Domain-specific knowledge representation languages,Markup languages,Programming languages
+Free BibTeX software,Markup languages,Programming languages
+Free TeX editors,Markup languages,Programming languages
+Free TeX software,Markup languages,Programming languages
+JSON,Markup languages,Programming languages
+Java API for XML,Markup languages,Programming languages
+JavaScript-based HTML editors,Markup languages,Programming languages
+Knowledge representation languages,Markup languages,Programming languages
+LibreOffice,Markup languages,Programming languages
+Linux TeX software,Markup languages,Programming languages
+Microformats,Markup languages,Programming languages
+Office Open XML,Markup languages,Programming languages
+Ontology languages,Markup languages,Programming languages
+OpenOffice,Markup languages,Programming languages
+Page description markup languages,Markup languages,Programming languages
+RDF data access,Markup languages,Programming languages
+RSS,Markup languages,Programming languages
+Resource Description Framework,Markup languages,Programming languages
+Software that uses JSON-RPC,Markup languages,Programming languages
+TeX,Markup languages,Programming languages
+TeX SourceForge projects,Markup languages,Programming languages
+TeX editors,Markup languages,Programming languages
+TeX editors that use Qt,Markup languages,Programming languages
+TeX software for OS X,Markup languages,Programming languages
+TeX software for Windows,Markup languages,Programming languages
+Triplestores,Markup languages,Programming languages
+Troff,Markup languages,Programming languages
+Web Ontology Language,Markup languages,Programming languages
+XML data access,Markup languages,Programming languages
+XML-based programming languages,Markup languages,Programming languages
+Ajax (programming),Markup languages,Specification languages
+DocBook,Markup languages,Specification languages
+Document-centric XML-based standards,Markup languages,Specification languages
+ISO/IEC 19775,Markup languages,Specification languages
+Industry-specific XML-based standards,Markup languages,Specification languages
+JSON,Markup languages,Specification languages
+Java API for XML,Markup languages,Specification languages
+Keyhole Markup Language,Markup languages,Specification languages
+LibreOffice,Markup languages,Specification languages
+MathML,Markup languages,Specification languages
+Office Open XML,Markup languages,Specification languages
+OpenDocument,Markup languages,Specification languages
+OpenOffice,Markup languages,Specification languages
+RDF data access,Markup languages,Specification languages
+Scalable Vector Graphics,Markup languages,Specification languages
+Software that uses JSON-RPC,Markup languages,Specification languages
+Text Encoding Initiative,Markup languages,Specification languages
+User interface markup languages,Markup languages,Specification languages
+XHTML,Markup languages,Specification languages
+XML,Markup languages,Specification languages
+XML Guild,Markup languages,Specification languages
+XML data access,Markup languages,Specification languages
+XML databases,Markup languages,Specification languages
+XML editors,Markup languages,Specification languages
+XML markup languages,Markup languages,Specification languages
+XML organizations,Markup languages,Specification languages
+XML parsers,Markup languages,Specification languages
+XML software,Markup languages,Specification languages
+XML technology people,Markup languages,Specification languages
+XML-based programming languages,Markup languages,Specification languages
+XML-based standards,Markup languages,Specification languages
+XQuery processors,Markup languages,Specification languages
+XSLT processors,Markup languages,Specification languages
+Ajax (programming),Programming languages,Specification languages
+Dependently typed languages,Programming languages,Specification languages
+JSON,Programming languages,Specification languages
+Java API for XML,Programming languages,Specification languages
+LibreOffice,Programming languages,Specification languages
+Office Open XML,Programming languages,Specification languages
+OpenOffice,Programming languages,Specification languages
+RDF data access,Programming languages,Specification languages
+Software that uses JSON-RPC,Programming languages,Specification languages
+Synchronous programming languages,Programming languages,Specification languages
+XML data access,Programming languages,Specification languages
+XML-based programming languages,Programming languages,Specification languages
+XTalk,Programming languages,Specification languages
+Responsive web design,Programming languages,Stylesheet languages
