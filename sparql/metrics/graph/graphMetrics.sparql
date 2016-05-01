@@ -2,7 +2,7 @@ PREFIX : <http://myCLOnto.de/>
 SELECT 
 ?howManyNodes
 (COUNT(?UnreachableType) as ?howManyUT)  
-(?howManyNodes-?howManyUT as ?howManyReachableTypes)
+(?howManyTypes-?howManyUT as ?howManyReachableTypes)
 ?howManyEntities
 ?howManyTypes 
 (?howManySubtypes+?howManyInstances+?howManyInformation+?howManyProperties+?howManyHasMainEntity as ?howManyEdges) 
