@@ -1,6 +1,5 @@
 package de.ist.clonto;
 
-import java.awt.Container;
 import java.awt.GridBagConstraints;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
@@ -23,7 +22,6 @@ import javax.swing.JScrollPane;
 import javax.swing.JToggleButton;
 
 import com.hp.hpl.jena.query.Dataset;
-import com.hp.hpl.jena.query.ParameterizedSparqlString;
 import com.hp.hpl.jena.query.Query;
 import com.hp.hpl.jena.query.QueryExecution;
 import com.hp.hpl.jena.query.QueryExecutionFactory;
@@ -35,19 +33,18 @@ import com.hp.hpl.jena.query.ResultSetFormatter;
 import com.hp.hpl.jena.query.Syntax;
 import com.hp.hpl.jena.tdb.TDBFactory;
 
-import de.ist.clonto.triplestore.query.QueryProcessor;
 import de.ist.clonto.triplestore.transform.Prune;
 
 public class SemDistGUI extends JFrame {
 
+
+	private static final long serialVersionUID = -6157353956405398414L;
 	private Dataset data;
 	private JToggleButton[] ibuttons;
 	private JToggleButton[] sbuttons;
 	private String[] instances;
 	private String[] subtypes;
-	private JToggleButton[] ributtons;
-	private JToggleButton[] rsbuttons;
-
+	
 	public SemDistGUI(Dataset data) {
 		this.data = data;
 		getDistantEntities();
@@ -136,7 +133,6 @@ public class SemDistGUI extends JFrame {
 		scrollInstances.setViewportView(paneinstances);
 		scrollSubtypes.setViewportView(panesubtypes);
 		ibuttons = new JToggleButton[instances.length];
-		ributtons = new JToggleButton[instances.length];
 		for (int j = 0; j < instances.length; j++) {
 			GridBagConstraints ci = new GridBagConstraints();
 			ci.fill = GridBagConstraints.HORIZONTAL;
@@ -167,7 +163,6 @@ public class SemDistGUI extends JFrame {
 			paneinstances.add(helpbutton, ci);
 		}
 		sbuttons = new JToggleButton[subtypes.length];
-		rsbuttons = new JToggleButton[subtypes.length];
 		for (int j = 0; j < subtypes.length; j++) {
 			GridBagConstraints ci = new GridBagConstraints();
 			ci.fill = GridBagConstraints.HORIZONTAL;

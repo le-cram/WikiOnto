@@ -1,0 +1,3 @@
+A type is not relevant to the
+target domain, but some of its 
+instances and subtypes are.

@@ -1,3 +1,0 @@
-If a type is not relevant to the
-target domain, then it may be removed
-from the ontology.

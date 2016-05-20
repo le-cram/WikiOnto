@@ -1,0 +1,2 @@
+For all redundant instance relations:
+    remove the instance relation

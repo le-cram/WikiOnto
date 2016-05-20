@@ -5,14 +5,6 @@
  */
 package de.ist.clonto.triplestore;
 
-import com.hp.hpl.jena.query.Dataset;
-import com.hp.hpl.jena.query.ReadWrite;
-import com.hp.hpl.jena.rdf.model.Model;
-import com.hp.hpl.jena.rdf.model.Resource;
-import com.hp.hpl.jena.tdb.TDBFactory;
-import de.ist.clonto.webwiki.model.*;
-import de.ist.clonto.webwiki.model.Property;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -21,8 +13,21 @@ import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 import org.apache.commons.io.FileUtils;
 import org.jsoup.Jsoup;
+
+import com.hp.hpl.jena.query.Dataset;
+import com.hp.hpl.jena.query.ReadWrite;
+import com.hp.hpl.jena.rdf.model.Model;
+import com.hp.hpl.jena.rdf.model.Resource;
+import com.hp.hpl.jena.tdb.TDBFactory;
+
+import de.ist.clonto.webwiki.model.Element;
+import de.ist.clonto.webwiki.model.Entity;
+import de.ist.clonto.webwiki.model.Information;
+import de.ist.clonto.webwiki.model.Property;
+import de.ist.clonto.webwiki.model.Type;
 
 /**
  *
@@ -44,7 +49,7 @@ public class CLModelToJena {
     private int propertycount;
 
     public void createTripleStore(Type rootType) throws FileNotFoundException {
-        String directory = "./clontologytdb";
+        String directory = "./cleanedOntology2";
         try {
             FileUtils.cleanDirectory(new File(directory));
         } catch (IOException ex) {

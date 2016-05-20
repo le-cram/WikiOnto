@@ -29,11 +29,6 @@
             <version>1.1</version>
         </dependency>
         <dependency>
-            <groupId>com.jidesoft</groupId>
-            <artifactId>jide-oss</artifactId>
-            <version>3.4.0</version>
-        </dependency>
-        <dependency>
             <groupId>org.apache.jena</groupId>
             <artifactId>apache-jena-libs</artifactId>
             <type>pom</type>

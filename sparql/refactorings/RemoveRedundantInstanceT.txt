@@ -1,3 +1,0 @@
-1. Choose type
-2. Choose entity
-3. Remove has-entity relation

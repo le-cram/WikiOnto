@@ -5,28 +5,33 @@
  */
 package de.ist.clonto.webwiki;
 
-import de.ist.clonto.webwiki.model.*;
-import de.ist.clonto.webwiki.model.Type;
 import info.bliki.api.Page;
+
 import java.io.IOException;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 import org.xml.sax.SAXException;
+
+import de.ist.clonto.webwiki.model.Element;
+import de.ist.clonto.webwiki.model.Entity;
+import de.ist.clonto.webwiki.model.Information;
+import de.ist.clonto.webwiki.model.Type;
 
 /**
  *
  * @author Marcel
  */
-public class MyCrawler implements Runnable {
+public class CategoryCrawler implements Runnable {
 
     private final MyCrawlerManager manager;
 
     private final Type type;
 
-    public MyCrawler(MyCrawlerManager manager, Type type) {
+    public CategoryCrawler(MyCrawlerManager manager, Type type) {
         this.manager = manager;
         this.type = type;
     }
@@ -51,10 +56,10 @@ public class MyCrawler implements Runnable {
         try {
             subcats = WikipediaAPI.getSubCategories(type.getName());
         } catch (SAXException | IOException | InterruptedException ex) {
-            Logger.getLogger(MyCrawler.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(CategoryCrawler.class.getName()).log(Level.SEVERE, null, ex);
         }
         for (String name : subcats) {
-            if (manager.isExcludedCategoryName(name.trim())||name.trim().contains("Wikipedia")||name.trim().contains("Articles with")) {
+            if (manager.isExcludedCategoryName(name.trim())) {
                 continue;
             }
             Type subtype = manager.getTypeFromTypeMap(name);
@@ -75,7 +80,7 @@ public class MyCrawler implements Runnable {
         try {
             entitys = WikipediaAPI.getPages(type.getName());
         } catch (SAXException | IOException | InterruptedException ex) {
-            Logger.getLogger(MyCrawler.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(CategoryCrawler.class.getName()).log(Level.SEVERE, null, ex);
         }
 
         for (String name : entitys) {

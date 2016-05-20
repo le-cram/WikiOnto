@@ -1,8 +1,5 @@
 package de.ist.clonto.evaluation;
 
-import org.apache.commons.io.FileUtils;
-
-import javax.swing.*;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -10,8 +7,11 @@ import java.io.Writer;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+
+import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
+
+import org.apache.commons.io.FileUtils;
 
 /**
  * Created by heinz on 11.9.2015.

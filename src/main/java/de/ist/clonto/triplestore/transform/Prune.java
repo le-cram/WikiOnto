@@ -5,13 +5,14 @@
  */
 package de.ist.clonto.triplestore.transform;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.swing.JOptionPane;
+
 import com.hp.hpl.jena.query.Dataset;
 
 import de.ist.clonto.DissolveGUI;
-
-import java.util.HashMap;
-import java.util.Map;
-import javax.swing.JOptionPane;
 
 /**
  *
@@ -248,13 +249,13 @@ public class Prune {
 
 	public void execute(String pruneName) {
 		switch (pruneName) {
-		case "Abandon Type (selective rescue)":
+		case "Abandon Type (selective)":
 			abandonTypeSelectiveRescue(null);
 			break;
 		case "Abandon Entity":
 			abandonEntity(null);
 			break;
-		case "Abandon Type":
+		case "Abandon Type (no rescue)":
 			abandonType(null);
 			break;
 		case "Abandon Information":

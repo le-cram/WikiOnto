@@ -1,3 +1,0 @@
-1. Choose type
-2. Choose subtype
-3. Remove subtype relation

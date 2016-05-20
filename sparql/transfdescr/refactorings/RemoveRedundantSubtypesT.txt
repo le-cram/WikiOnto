@@ -1,0 +1,2 @@
+For all redundant subtype relations:
+    remove the subtype relation

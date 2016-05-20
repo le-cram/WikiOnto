@@ -10,6 +10,7 @@ import info.bliki.api.Page;
 import info.bliki.api.PageInfo;
 import info.bliki.api.User;
 import info.bliki.api.XMLCategoryMembersParser;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -150,8 +151,29 @@ public class WikipediaAPI {
                 System.out.println("Connection Error, sleeping 1000 ms.");
                 Thread.sleep(1000);
             }
-            rawXmlResponse = connector.queryXML(user, query);
+           rawXmlResponse = connector.queryXML(user, query);
         } while (rawXmlResponse == null && i < 3);
         return rawXmlResponse;
     }
+    
+    public static void main(String[] args) {
+    	 User user = new User("", "", "http://en.wikipedia.org/w/api.php");
+         user.login();
+         String[] valuePairs = { "list", "categorymembers", "cmtitle", "Category:Physics" };
+         Connector connector = new Connector();
+         String rawXmlResponse = connector.queryXML(user, valuePairs);
+         if (rawXmlResponse == null) {
+             System.out.println("Got no XML result for the query");
+         }
+         System.out.println(rawXmlResponse);
+
+         // When more results are available, use "cmcontinue" from last query result
+         // to continue
+         String[] valuePairs2 = { "list", "categorymembers", "cmtitle", "Category:Physics", "cmcontinue", "Awards|" };
+         rawXmlResponse = connector.queryXML(user, valuePairs2);
+         if (rawXmlResponse == null) {
+             System.out.println("Got no XML result for the query");
+         }
+         System.out.println(rawXmlResponse);
+	}
 }

@@ -1,6 +1,5 @@
 package de.ist.clonto;
 
-import java.awt.Container;
 import java.awt.GridBagConstraints;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
@@ -36,9 +35,9 @@ import de.ist.clonto.triplestore.transform.Prune;
 
 public class DissolveGUI extends JFrame {
 
+	private static final long serialVersionUID = 3001863105756982631L;
 	private Dataset data;
 	private String typename;
-	private Container pane;
 	private JToggleButton[] ibuttons;
 	private JToggleButton[] sbuttons;
 	private String[] instances;
@@ -52,7 +51,7 @@ public class DissolveGUI extends JFrame {
 		getInstances();
 		getSubtypes();
 		setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-		pane = getContentPane();
+		getContentPane();
 		displayMembers();
 	}
 

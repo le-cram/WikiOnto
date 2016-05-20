@@ -1,0 +1,7 @@
+Choose a type
+For each subtype
+    if irrelevant subtype
+        abandon subtype
+For each instance
+    if irrelevant instance
+        abandon instance

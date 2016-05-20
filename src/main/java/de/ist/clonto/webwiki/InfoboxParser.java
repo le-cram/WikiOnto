@@ -5,15 +5,15 @@
  */
 package de.ist.clonto.webwiki;
 
-import de.ist.clonto.webwiki.model.Information;
-import de.ist.clonto.webwiki.model.Property;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.commons.validator.routines.UrlValidator;
+
+import de.ist.clonto.webwiki.model.Information;
+import de.ist.clonto.webwiki.model.Property;
 
 /**
  *

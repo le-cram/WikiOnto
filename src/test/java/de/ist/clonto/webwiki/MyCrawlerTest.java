@@ -5,18 +5,23 @@
  */
 package de.ist.clonto.webwiki;
 
-import de.ist.clonto.webwiki.model.Information;
-import de.ist.clonto.webwiki.model.Property;
-import de.ist.clonto.webwiki.model.Type;
-import de.ist.clonto.webwiki.model.Entity;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 import info.bliki.api.Page;
+
 import java.util.List;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import static org.junit.Assert.*;
+
+import de.ist.clonto.webwiki.model.Entity;
+import de.ist.clonto.webwiki.model.Information;
+import de.ist.clonto.webwiki.model.Property;
+import de.ist.clonto.webwiki.model.Type;
 
 /**
  *
@@ -49,7 +54,7 @@ public class MyCrawlerTest {
     @Test
     public void testSuperCategories() {
         System.out.println("supercategories of Category:SQL");
-        MyCrawler instance = new MyCrawler(null, null);
+        CategoryCrawler instance = new CategoryCrawler(null, null);
         Page page = WikipediaAPI.getFirstPage("Category:SQL");
         Entity e = new Entity();
         instance.retrieveSuperCategories(page.toString(), e);
@@ -61,7 +66,7 @@ public class MyCrawlerTest {
     @Test
     public void testSuperCategories1() {
         System.out.println("supercategories of Entity SQL");
-        MyCrawler instance = new MyCrawler(null, null);
+        CategoryCrawler instance = new CategoryCrawler(null, null);
         Page page = WikipediaAPI.getFirstPage("SQL");
         Entity e = new Entity();
         instance.retrieveSuperCategories(page.toString(), e);
@@ -80,7 +85,7 @@ public class MyCrawlerTest {
     @Test
     public void testSuperCategories2() {
         System.out.println("supercategories of Type:Free compilers and interpreters");
-        MyCrawler instance = new MyCrawler(null, null);
+        CategoryCrawler instance = new CategoryCrawler(null, null);
         Page page = WikipediaAPI.getFirstPage("Category:Free_compilers_and_interpreters");
         Entity e = new Entity();
         instance.retrieveSuperCategories(page.toString(), e);
@@ -93,7 +98,7 @@ public class MyCrawlerTest {
     @Test
     public void testSuperCategories3() {
         System.out.println("supercategories of APL (programming language)");
-        MyCrawler instance = new MyCrawler(null, null);
+        CategoryCrawler instance = new CategoryCrawler(null, null);
         Page page = WikipediaAPI.getFirstPage("APL (programming language)");
         Entity e = new Entity();
         instance.retrieveSuperCategories(page.toString(), e);
@@ -111,7 +116,7 @@ public class MyCrawlerTest {
     @Test
     public void testSuperCategories4() {
         System.out.println("supercategories of C++");
-        MyCrawler instance = new MyCrawler(null, null);
+        CategoryCrawler instance = new CategoryCrawler(null, null);
         Page page = WikipediaAPI.getFirstPage("C++");
         Entity e = new Entity();
         instance.retrieveSuperCategories(page.toString(), e);
@@ -130,7 +135,7 @@ public class MyCrawlerTest {
     @Test
     public void testSuperCategories5() {
         System.out.println("supercategories of JSLint");
-        MyCrawler instance = new MyCrawler(null, null);
+        CategoryCrawler instance = new CategoryCrawler(null, null);
         Page page = WikipediaAPI.getFirstPage("JSLint");
         Entity e = new Entity();
         instance.retrieveSuperCategories(page.toString(), e);
@@ -142,7 +147,7 @@ public class MyCrawlerTest {
     @Test
     public void testSuperCategories6() {
         System.out.println("supercategories of Type:LibreOffice");
-        MyCrawler instance = new MyCrawler(null, null);
+        CategoryCrawler instance = new CategoryCrawler(null, null);
         Page page = WikipediaAPI.getFirstPage("Category:LibreOffice");
         Entity e = new Entity();
         instance.retrieveSuperCategories(page.toString(), e);
@@ -296,7 +301,7 @@ public class MyCrawlerTest {
         Page page = WikipediaAPI.getFirstPage("Category:Computer languages");
         Type testcl = new Type();
         testcl.setName("Computer languages");
-        MyCrawler instance = new MyCrawler(null, testcl);
+        CategoryCrawler instance = new CategoryCrawler(null, testcl);
         instance.retrieveMainEntity(page.toString());
         Entity entity = testcl.getMainEntity();
         String ename = entity.getName();
@@ -312,7 +317,7 @@ public class MyCrawlerTest {
         Page page = WikipediaAPI.getFirstPage("Category:XML");
         Type testcl = new Type();
         testcl.setName("XML");
-        MyCrawler instance = new MyCrawler(null, testcl);
+        CategoryCrawler instance = new CategoryCrawler(null, testcl);
         instance.retrieveMainEntity(page.toString());
         Entity entity = testcl.getMainEntity();
         String ename = entity.getName();
@@ -328,7 +333,7 @@ public class MyCrawlerTest {
         Page page = WikipediaAPI.getFirstPage("Category:PostgreSQL");
         Type testcl = new Type();
         testcl.setName("PostgreSQL");
-        MyCrawler instance = new MyCrawler(null, testcl);
+        CategoryCrawler instance = new CategoryCrawler(null, testcl);
         instance.retrieveMainEntity(page.toString());
         Entity entity = testcl.getMainEntity();
         String ename = entity.getName();

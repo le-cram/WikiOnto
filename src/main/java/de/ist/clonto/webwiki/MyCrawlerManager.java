@@ -5,9 +5,6 @@
  */
 package de.ist.clonto.webwiki;
 
-import de.ist.clonto.triplestore.CLModelToJena;
-import de.ist.clonto.webwiki.model.Type;
-import de.ist.clonto.webwiki.model.Entity;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.HashMap;
@@ -18,7 +15,12 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+
 import org.xml.sax.SAXException;
+
+import de.ist.clonto.triplestore.CLModelToJena;
+import de.ist.clonto.webwiki.model.Entity;
+import de.ist.clonto.webwiki.model.Type;
 
 /**
  * Uses Wikipedia API to access Wikipedia categories, entities and their infoboxes
@@ -41,7 +43,6 @@ public class MyCrawlerManager {
         initExclusionSet();
 
         threadcounter = 0;
-
     }
 
     public void crawl() throws SAXException, IOException, InterruptedException {
@@ -52,7 +53,7 @@ public class MyCrawlerManager {
             
             if (!typeQueue.isEmpty()) {
                 incthreadcounter();
-                executor.execute(new MyCrawler(this, popType()));
+                executor.execute(new CategoryCrawler(this, popType()));
             }else{
                 if(threadcounter == 0){
                     System.out.println("Stopping at "+ typeMap.size()+"C, "+entityMap.size()+"E");
@@ -110,7 +111,18 @@ public class MyCrawlerManager {
     }
 
     public boolean isExcludedCategoryName(String name) {
-        return exclusionset.contains(name);
+        return exclusionset.contains(name)
+        		||name.contains("Wikipedia")
+        		||name.contains("Articles")
+        		||name.contains("Programming languages by creation date")
+        		||name.contains("Uncategorized programming languages")
+        		||name.contains("software")
+        		||name.contains("Software that")
+        		||name.contains("Software for")
+        		||name.contains("Software programmed")
+        		||name.contains("Software written")
+        		||name.contains("Software by")
+        		||name.contains("conference");
     }
 
     public synchronized void incthreadcounter() {

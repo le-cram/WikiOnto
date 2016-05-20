@@ -5,14 +5,16 @@
  */
 package de.ist.clonto.triplestore.transform;
 
-import com.hp.hpl.jena.query.Dataset;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Queue;
+
 import javax.swing.JOptionPane;
+
+import com.hp.hpl.jena.query.Dataset;
 
 /**
  *
@@ -209,7 +211,7 @@ public class Refactor {
             }
             infoindices.add(infoindex);
         }
-        Queue<String> propmovequeue = new LinkedList();
+        Queue<String> propmovequeue = new LinkedList<>();
         while (true) {
             String sinfo = JOptionPane.showInputDialog(null, "Specify the information id\n"
                     + "where you want to remove a property:");
@@ -274,40 +276,16 @@ public class Refactor {
         JOptionPane.showMessageDialog(null, "Extracting Entity finished!");
     }
 
-    void removeRedundantInstance() {
-        String entityname = JOptionPane.showInputDialog(null, "Name the entity:");
-        if (null != entityname) {
-            String name2 = JOptionPane.showInputDialog(null,"Name the type:");
-            if (null != name2) {
-                Map<String, String> pmap = new HashMap<>();
-                pmap.put("catname", name2);
-                pmap.put("entityname", entityname);
-                long size = proc.transform("deleteHasInstance.sparql", pmap);
-                JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
-            } else {
-                JOptionPane.showMessageDialog(null, "Transformation failed!");
-            }
-        } else {
-            JOptionPane.showMessageDialog(null, "Transformation failed!");
-        }
+    void removeRedundantInstances() {
+    	HashMap<String, String> pmap = new HashMap<>();
+        long size = proc.transform("removeRedundantInstances.sparql", pmap);
+        JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
     }
 
-    void removeRedundantSubtype() {
-        String supertypename = JOptionPane.showInputDialog(null, "Name the supertype:");
-        if (null != supertypename) {
-            String name2 = JOptionPane.showInputDialog(null,"Name the subtype:");
-            if (null != name2) {
-                Map<String, String> pmap = new HashMap<>();
-                pmap.put("subtypename", name2);
-                pmap.put("oldsupertypename", supertypename);
-                long size = proc.transform("deleteHasSubtype.sparql", pmap);
-                JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
-            } else {
-                JOptionPane.showMessageDialog(null, "Transformation failed!");
-            }
-        } else {
-            JOptionPane.showMessageDialog(null, "Transformation failed!");
-        }
+    void removeRedundantSubtypes() {
+    	HashMap<String, String> pmap = new HashMap<>();
+        long size = proc.transform("removeRedundantSubtypes.sparql", pmap);
+        JOptionPane.showMessageDialog(null, "Transformation successful! \n Model size difference: " + size);
     }
 
     public void execute(String refactorName) {
@@ -336,11 +314,11 @@ public class Refactor {
             case "Extract Entity":
                 extractEntity();
                 break;
-            case "Remove Redundant Instance":
-                removeRedundantInstance();
+            case "Remove Redundant Instances":
+                removeRedundantInstances();
                 break;
-            case "Remove Redundant Subtype":
-                removeRedundantSubtype();
+            case "Remove Redundant Subtypes":
+                removeRedundantSubtypes();
                 break;
         }
     }
