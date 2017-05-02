@@ -12,6 +12,8 @@ import java.util.List;
 /**
  *
  * @author Marcel
+ * 
+ * Not used yet
  */
 public class Information extends NamedElement{
     

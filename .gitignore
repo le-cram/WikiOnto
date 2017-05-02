@@ -11,3 +11,7 @@ src/main/java/de/ist/clonto/triplestore/transform/Cleaner.java
 *.lock
 clonto/
 cleanedOntology2/
+*.idn
+*.dat
+*.jrnl
+*.dat-jrnl

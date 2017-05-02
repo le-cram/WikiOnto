@@ -8,6 +8,8 @@ package de.ist.clonto.webwiki.model;
 /**
  *
  * @author Marcel
+ * 
+ * Not used yet
  */
 public class Property extends NamedElement{
     

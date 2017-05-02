@@ -5,6 +5,7 @@
  */
 package de.ist.clonto.webwiki;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.HashMap;
@@ -15,122 +16,156 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
+import org.apache.commons.io.FileUtils;
 import org.xml.sax.SAXException;
 
-import de.ist.clonto.triplestore.CLModelToJena;
-import de.ist.clonto.webwiki.model.Entity;
-import de.ist.clonto.webwiki.model.Type;
+import de.ist.clonto.triplestore.WikiTaxToJenaTDB;
+import de.ist.clonto.webwiki.model.Classifier;
+import de.ist.clonto.webwiki.model.Instance;
 
 /**
- * Uses Wikipedia API to access Wikipedia categories, entities and their infoboxes
+ * Uses Wikipedia API to access Wikipedia categories, entities and their
+ * infoboxes
  *
  * @author Marcel
  */
 public class MyCrawlerManager {
+	private String rootname;
+	private final Map<String, Classifier> classifierMap;
+	private final Queue<Classifier> classifierQueue;
+	private final Map<String, Instance> instanceMap;
+	private Set<String> exclusionset;
 
-    private final Map<String, Type> typeMap;
-    private final Queue<Type> typeQueue;
-    private final Map<String, Entity> entityMap;
-    private Set<String> exclusionset;
+	private int threadcounter;
 
-    private int threadcounter;
+	public MyCrawlerManager(String root, Set<String> excludedCategories, int maxDepth) {
+		rootname = root;
+		exclusionset = excludedCategories;
+		classifierQueue = new ConcurrentLinkedQueue<>();
+		classifierMap = Collections.synchronizedMap(new HashMap<String, Classifier>());
+		instanceMap = Collections.synchronizedMap(new HashMap<String, Instance>());
+	}
 
-    public MyCrawlerManager() {
-        typeQueue = new ConcurrentLinkedQueue<>();
-        typeMap = Collections.synchronizedMap(new HashMap<String, Type>());
-        entityMap = Collections.synchronizedMap(new HashMap<String, Entity>());
-        initExclusionSet();
+	public void start() throws SAXException, IOException, InterruptedException {
+		initialize(rootname);
+		threadcounter = 0;
+		crawl();
+		WikiTaxToJenaTDB.createTripleStore(classifierMap.get(rootname));
+	}
 
-        threadcounter = 0;
-    }
+	public void crawl() throws SAXException, IOException, InterruptedException {
+		initialize(rootname);
+		int corenr = Runtime.getRuntime().availableProcessors();
+		System.out.println("Starting with " + corenr + " threads!");
+		ExecutorService executor = Executors.newFixedThreadPool(corenr);
+		while (true) {
 
-    public void crawl() throws SAXException, IOException, InterruptedException {
-        int corenr = Runtime.getRuntime().availableProcessors();
-        System.out.println("Starting with "+corenr+" threads!");
-        ExecutorService executor = Executors.newFixedThreadPool(corenr);
-        while (true) {
-            
-            if (!typeQueue.isEmpty()) {
-                incthreadcounter();
-                executor.execute(new CategoryCrawler(this, popType()));
-            }else{
-                if(threadcounter == 0){
-                    System.out.println("Stopping at "+ typeMap.size()+"C, "+entityMap.size()+"E");
-                    break;
-                }
-            }
-        }
+			if (!classifierQueue.isEmpty()) {
+				incthreadcounter();
+				executor.execute(new CategoryCrawler(this, popClassifier()));
+			} else {
+				if (threadcounter == 0) {
+					System.out.println("Stopping at " + classifierMap.size() + "C, " + instanceMap.size() + "E");
+					break;
+				}
+			}
+		}
 
-        executor.shutdown();
-    }
+		executor.shutdown();
 
-    public static void main(String[] args0) throws InterruptedException, SAXException, IOException {
-        Type cl = new Type();
-        cl.setName("Computer languages");
-        MyCrawlerManager manager = new MyCrawlerManager();
-        manager.offerType(cl);
-        manager.crawl();
-        new CLModelToJena().createTripleStore(cl);
-    }
+	}
 
-    private void initExclusionSet() {
-        exclusionset = new HashSet<>();
-        exclusionset.add("Data types");
-        exclusionset.add("Programming language topics");
-        exclusionset.add("Web services");
-        //Google services, Net-centric, Service-oriented architecture-related products, Programming language topic stubs
-        exclusionset.add("User BASIC");
-        exclusionset.add("Lists of computer languages");
-    }
+	private void initialize(String name) {
+		Classifier cl = new Classifier();
+		cl.setName(name);
+		offerClassifier(cl);
+		File dir = new File("./" + name.replaceAll(" ", ""));
+		if (dir.exists()) {
+			try {
+				FileUtils.cleanDirectory(dir);
+			} catch (IOException ex) {
+				Logger.getLogger(WikiTaxToJenaTDB.class.getName()).log(Level.SEVERE, null, ex);
+			}
+		} else {
+			boolean success = dir.mkdirs();
+			if (!success) {
+				System.err.println("Creating target directory failed");
+				System.exit(0);
+			}
+		}
 
-    public void offerType(Type type) {
-        if(typeMap.size() % 100 ==0)
-            System.out.println("#C:"+ typeMap.size()+", #E"+entityMap.size());
-        typeQueue.offer(type);
-    }
+	}
 
-    public Type popType() {
-        return typeQueue.poll();
-    }
+	public static void main(String[] args0) throws InterruptedException, SAXException, IOException {
+		Set<String> exclusionset = new HashSet<>();
+		exclusionset.add("Data types");
+		exclusionset.add("Programming language topics");
+		exclusionset.add("Web services");
+		exclusionset.add("User BASIC");
+		exclusionset.add("Lists of computer languages");
+		exclusionset.add("Programming languages by creation date");
+		exclusionset.add("Uncategorized programming languages");
+		exclusionset.add("Wikipedia");
+		exclusionset.add("Articles");
+		exclusionset.add("software");
+		exclusionset.add("Software that");
+		exclusionset.add("Software for");
+		exclusionset.add("Software programmed");
+		exclusionset.add("Software written");
+		exclusionset.add("Software by");
+		exclusionset.add("conference");
+		MyCrawlerManager manager = new MyCrawlerManager("Computer_languages", exclusionset, 6);
+		manager.start();
+	}
 
-    public Type getTypeFromTypeMap(String title) {
-        return typeMap.get(title);
-    }
+	public void offerClassifier(Classifier classifier) {
+		if (classifierMap.size() % 100 == 0) {
+			System.out.println("#C:" + classifierMap.size() + ", #I" + instanceMap.size());
+		}
+		classifierQueue.offer(classifier);
+	}
 
-    public void putInTypeMap(String name, Type type) {
-        typeMap.put(name, type);
-    }
+	public Classifier popClassifier() {
+		return classifierQueue.poll();
+	}
 
-    public Entity getEntityFromEntityMap(String title) {
-        return entityMap.get(title);
-    }
+	public Classifier getClassifierFromClassifierMap(String name) {
+		return classifierMap.get(name);
+	}
 
-    public void putInEntityMap(String name, Entity entity) {
-        entityMap.put(name, entity);
-    }
+	public void putInClassifierMap(String name, Classifier classifier) {
+		classifierMap.put(name, classifier);
+	}
 
-    public boolean isExcludedCategoryName(String name) {
-        return exclusionset.contains(name)
-        		||name.contains("Wikipedia")
-        		||name.contains("Articles")
-        		||name.contains("Programming languages by creation date")
-        		||name.contains("Uncategorized programming languages")
-        		||name.contains("software")
-        		||name.contains("Software that")
-        		||name.contains("Software for")
-        		||name.contains("Software programmed")
-        		||name.contains("Software written")
-        		||name.contains("Software by")
-        		||name.contains("conference");
-    }
+	public Instance getInstanceFromInstanceMap(String name) {
+		return instanceMap.get(name);
+	}
 
-    public synchronized void incthreadcounter() {
-        threadcounter++;
-    }
+	public void putInInstanceMap(String name, Instance instance) {
+		instanceMap.put(name, instance);
+	}
 
-    public synchronized void decthreadcounter() {
-        threadcounter--;
-    }
-   
+	public boolean isExcludedCategoryName(String name) {
+		boolean result = false;
+		for (String ex : exclusionset) {
+			if (name.contains(ex)) {
+				result = true;
+				break;
+			}
+		}
+		return result;
+
+	}
+
+	public synchronized void incthreadcounter() {
+		threadcounter++;
+	}
+
+	public synchronized void decthreadcounter() {
+		threadcounter--;
+	}
+
 }

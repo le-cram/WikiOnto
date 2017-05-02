@@ -18,10 +18,10 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import de.ist.clonto.webwiki.model.Entity;
+import de.ist.clonto.webwiki.model.Instance;
 import de.ist.clonto.webwiki.model.Information;
 import de.ist.clonto.webwiki.model.Property;
-import de.ist.clonto.webwiki.model.Type;
+import de.ist.clonto.webwiki.model.Classifier;
 
 /**
  *
@@ -56,11 +56,11 @@ public class MyCrawlerTest {
         System.out.println("supercategories of Category:SQL");
         CategoryCrawler instance = new CategoryCrawler(null, null);
         Page page = WikipediaAPI.getFirstPage("Category:SQL");
-        Entity e = new Entity();
+        Instance e = new Instance();
         instance.retrieveSuperCategories(page.toString(), e);
-        assertTrue(e.getTypes().size() == 2);
-        assertTrue(e.getTypes().contains("Database management systems"));
-        assertTrue(e.getTypes().contains("Query languages"));
+        assertTrue(e.getAllClassifiers().size() == 2);
+        assertTrue(e.getAllClassifiers().contains("Database management systems"));
+        assertTrue(e.getAllClassifiers().contains("Query languages"));
     }
 
     @Test
@@ -68,18 +68,18 @@ public class MyCrawlerTest {
         System.out.println("supercategories of Entity SQL");
         CategoryCrawler instance = new CategoryCrawler(null, null);
         Page page = WikipediaAPI.getFirstPage("SQL");
-        Entity e = new Entity();
+        Instance e = new Instance();
         instance.retrieveSuperCategories(page.toString(), e);
-        System.out.println(e.getTypes().size());
-        assertTrue(e.getTypes().size() == 8);
-        assertTrue(e.getTypes().contains("Articles with example SQL code"));
-        assertTrue(e.getTypes().contains("Computer languages"));
-        assertTrue(e.getTypes().contains("Data modeling languages"));
-        assertTrue(e.getTypes().contains("Declarative programming languages"));
-        assertTrue(e.getTypes().contains("Relational database management systems"));
-        assertTrue(e.getTypes().contains("Query languages"));
-        assertTrue(e.getTypes().contains("SQL"));
-        assertTrue(e.getTypes().contains("Requests for audio pronunciation (English)"));
+        System.out.println(e.getAllClassifiers().size());
+        assertTrue(e.getAllClassifiers().size() == 8);
+        assertTrue(e.getAllClassifiers().contains("Articles with example SQL code"));
+        assertTrue(e.getAllClassifiers().contains("Computer languages"));
+        assertTrue(e.getAllClassifiers().contains("Data modeling languages"));
+        assertTrue(e.getAllClassifiers().contains("Declarative programming languages"));
+        assertTrue(e.getAllClassifiers().contains("Relational database management systems"));
+        assertTrue(e.getAllClassifiers().contains("Query languages"));
+        assertTrue(e.getAllClassifiers().contains("SQL"));
+        assertTrue(e.getAllClassifiers().contains("Requests for audio pronunciation (English)"));
     }
 
     @Test
@@ -87,12 +87,12 @@ public class MyCrawlerTest {
         System.out.println("supercategories of Type:Free compilers and interpreters");
         CategoryCrawler instance = new CategoryCrawler(null, null);
         Page page = WikipediaAPI.getFirstPage("Category:Free_compilers_and_interpreters");
-        Entity e = new Entity();
+        Instance e = new Instance();
         instance.retrieveSuperCategories(page.toString(), e);
-        assertTrue(e.getTypes().size() == 3);
-        assertTrue(e.getTypes().contains("Free computer programming tools"));
-        assertTrue(e.getTypes().contains("Compilers"));
-        assertTrue(e.getTypes().contains("Interpreters (computing)"));
+        assertTrue(e.getAllClassifiers().size() == 3);
+        assertTrue(e.getAllClassifiers().contains("Free computer programming tools"));
+        assertTrue(e.getAllClassifiers().contains("Compilers"));
+        assertTrue(e.getAllClassifiers().contains("Interpreters (computing)"));
     }
 
     @Test
@@ -100,17 +100,17 @@ public class MyCrawlerTest {
         System.out.println("supercategories of APL (programming language)");
         CategoryCrawler instance = new CategoryCrawler(null, null);
         Page page = WikipediaAPI.getFirstPage("APL (programming language)");
-        Entity e = new Entity();
+        Instance e = new Instance();
         instance.retrieveSuperCategories(page.toString(), e);
-        assertTrue(e.getTypes().size() == 8);
-        assertTrue(e.getTypes().contains("Array programming languages"));
-        assertTrue(e.getTypes().contains("Functional languages"));
-        assertTrue(e.getTypes().contains("Dynamic programming languages"));
-        assertTrue(e.getTypes().contains("APL programming language family"));
-        assertTrue(e.getTypes().contains(".NET programming languages"));
-        assertTrue(e.getTypes().contains("IBM software"));
-        assertTrue(e.getTypes().contains("Command shells"));
-        assertTrue(e.getTypes().contains("Programming languages created in 1964"));
+        assertTrue(e.getAllClassifiers().size() == 8);
+        assertTrue(e.getAllClassifiers().contains("Array programming languages"));
+        assertTrue(e.getAllClassifiers().contains("Functional languages"));
+        assertTrue(e.getAllClassifiers().contains("Dynamic programming languages"));
+        assertTrue(e.getAllClassifiers().contains("APL programming language family"));
+        assertTrue(e.getAllClassifiers().contains(".NET programming languages"));
+        assertTrue(e.getAllClassifiers().contains("IBM software"));
+        assertTrue(e.getAllClassifiers().contains("Command shells"));
+        assertTrue(e.getAllClassifiers().contains("Programming languages created in 1964"));
     }
 
     @Test
@@ -118,18 +118,18 @@ public class MyCrawlerTest {
         System.out.println("supercategories of C++");
         CategoryCrawler instance = new CategoryCrawler(null, null);
         Page page = WikipediaAPI.getFirstPage("C++");
-        Entity e = new Entity();
+        Instance e = new Instance();
         instance.retrieveSuperCategories(page.toString(), e);
-        assertEquals(9, e.getTypes().size());
-        assertTrue(e.getTypes().contains("C++"));
-        assertTrue(e.getTypes().contains("Algol programming language family"));
-        assertTrue(e.getTypes().contains("C++ programming language family"));
-        assertTrue(e.getTypes().contains("Class-based programming languages"));
-        assertTrue(e.getTypes().contains("Cross-platform software"));
-        assertTrue(e.getTypes().contains("Object-oriented programming languages"));
-        assertTrue(e.getTypes().contains("Programming languages created in 1983"));
-        assertTrue(e.getTypes().contains("Statically typed programming languages"));
-        assertTrue(e.getTypes().contains("Programming languages with an ISO standard"));
+        assertEquals(9, e.getAllClassifiers().size());
+        assertTrue(e.getAllClassifiers().contains("C++"));
+        assertTrue(e.getAllClassifiers().contains("Algol programming language family"));
+        assertTrue(e.getAllClassifiers().contains("C++ programming language family"));
+        assertTrue(e.getAllClassifiers().contains("Class-based programming languages"));
+        assertTrue(e.getAllClassifiers().contains("Cross-platform software"));
+        assertTrue(e.getAllClassifiers().contains("Object-oriented programming languages"));
+        assertTrue(e.getAllClassifiers().contains("Programming languages created in 1983"));
+        assertTrue(e.getAllClassifiers().contains("Statically typed programming languages"));
+        assertTrue(e.getAllClassifiers().contains("Programming languages with an ISO standard"));
     }
 
     @Test
@@ -137,11 +137,11 @@ public class MyCrawlerTest {
         System.out.println("supercategories of JSLint");
         CategoryCrawler instance = new CategoryCrawler(null, null);
         Page page = WikipediaAPI.getFirstPage("JSLint");
-        Entity e = new Entity();
+        Instance e = new Instance();
         instance.retrieveSuperCategories(page.toString(), e);
-        assertEquals(2, e.getTypes().size());
-        assertTrue(e.getTypes().contains("JavaScript programming tools"));
-        assertTrue(e.getTypes().contains("Static program analysis tools"));
+        assertEquals(2, e.getAllClassifiers().size());
+        assertTrue(e.getAllClassifiers().contains("JavaScript programming tools"));
+        assertTrue(e.getAllClassifiers().contains("Static program analysis tools"));
     }
 
     @Test
@@ -149,14 +149,14 @@ public class MyCrawlerTest {
         System.out.println("supercategories of Type:LibreOffice");
         CategoryCrawler instance = new CategoryCrawler(null, null);
         Page page = WikipediaAPI.getFirstPage("Category:LibreOffice");
-        Entity e = new Entity();
+        Instance e = new Instance();
         instance.retrieveSuperCategories(page.toString(), e);
-        assertEquals(5, e.getTypes().size());
-        assertTrue(e.getTypes().contains("Cross-platform free software"));
-        assertTrue(e.getTypes().contains("Free software programmed in C++"));
-        assertTrue(e.getTypes().contains("Office suites for Linux"));
-        assertTrue(e.getTypes().contains("OpenDocument"));
-        assertTrue(e.getTypes().contains("Open-source office suites"));
+        assertEquals(5, e.getAllClassifiers().size());
+        assertTrue(e.getAllClassifiers().contains("Cross-platform free software"));
+        assertTrue(e.getAllClassifiers().contains("Free software programmed in C++"));
+        assertTrue(e.getAllClassifiers().contains("Office suites for Linux"));
+        assertTrue(e.getAllClassifiers().contains("OpenDocument"));
+        assertTrue(e.getAllClassifiers().contains("Open-source office suites"));
     }
 
     /**
@@ -299,11 +299,11 @@ public class MyCrawlerTest {
     public void testMainEntityRetrieval1() {
         System.out.println("Main entity computer languages");
         Page page = WikipediaAPI.getFirstPage("Category:Computer languages");
-        Type testcl = new Type();
+        Classifier testcl = new Classifier();
         testcl.setName("Computer languages");
         CategoryCrawler instance = new CategoryCrawler(null, testcl);
         instance.retrieveMainEntity(page.toString());
-        Entity entity = testcl.getMainEntity();
+        Instance entity = testcl.getDescription();
         String ename = entity.getName();
         assertEquals("Computer language", ename);
     }
@@ -315,11 +315,11 @@ public class MyCrawlerTest {
     public void testMainEntityRetrieval2() {
         System.out.println("Main entity XML");
         Page page = WikipediaAPI.getFirstPage("Category:XML");
-        Type testcl = new Type();
+        Classifier testcl = new Classifier();
         testcl.setName("XML");
         CategoryCrawler instance = new CategoryCrawler(null, testcl);
         instance.retrieveMainEntity(page.toString());
-        Entity entity = testcl.getMainEntity();
+        Instance entity = testcl.getDescription();
         String ename = entity.getName();
         assertEquals("XML", ename);
     }
@@ -331,11 +331,11 @@ public class MyCrawlerTest {
     public void testMainEntityRetrieval3() {
         System.out.println("Main entity PostgreSQL");
         Page page = WikipediaAPI.getFirstPage("Category:PostgreSQL");
-        Type testcl = new Type();
+        Classifier testcl = new Classifier();
         testcl.setName("PostgreSQL");
         CategoryCrawler instance = new CategoryCrawler(null, testcl);
         instance.retrieveMainEntity(page.toString());
-        Entity entity = testcl.getMainEntity();
+        Instance entity = testcl.getDescription();
         String ename = entity.getName();
         assertEquals("PostgreSQL", ename);
     }

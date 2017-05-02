@@ -5,8 +5,6 @@
  */
 package de.ist.clonto.webwiki;
 
-import info.bliki.api.Page;
-
 import java.io.IOException;
 import java.util.List;
 import java.util.logging.Level;
@@ -16,10 +14,10 @@ import java.util.regex.Pattern;
 
 import org.xml.sax.SAXException;
 
+import de.ist.clonto.webwiki.model.Classifier;
 import de.ist.clonto.webwiki.model.Element;
-import de.ist.clonto.webwiki.model.Entity;
-import de.ist.clonto.webwiki.model.Information;
-import de.ist.clonto.webwiki.model.Type;
+import de.ist.clonto.webwiki.model.Instance;
+import info.bliki.api.Page;
 
 /**
  *
@@ -29,9 +27,9 @@ public class CategoryCrawler implements Runnable {
 
     private final MyCrawlerManager manager;
 
-    private final Type type;
+    private final Classifier type;
 
-    public CategoryCrawler(MyCrawlerManager manager, Type type) {
+    public CategoryCrawler(MyCrawlerManager manager, Classifier type) {
         this.manager = manager;
         this.type = type;
     }
@@ -62,15 +60,15 @@ public class CategoryCrawler implements Runnable {
             if (manager.isExcludedCategoryName(name.trim())) {
                 continue;
             }
-            Type subtype = manager.getTypeFromTypeMap(name);
+            Classifier subtype = manager.getClassifierFromClassifierMap(name);
             if (null == subtype) {
-                subtype = new Type();
+                subtype = new Classifier();
                 subtype.setName(name);
-                manager.putInTypeMap(name, subtype);
-                manager.offerType(subtype);
+                manager.putInClassifierMap(name, subtype);
+                manager.offerClassifier(subtype);
             }
             subtype.setMinDepth(type.getMinDepth() + 1);
-            type.addSubtype(subtype);
+            type.addSubclassifier(subtype);
         }
     }
 
@@ -86,25 +84,21 @@ public class CategoryCrawler implements Runnable {
         for (String name : entitys) {
             if(name.contains("List of"))
                 continue;
-            Entity entity = manager.getEntityFromEntityMap(name);
+            Instance entity = manager.getInstanceFromInstanceMap(name);
 
             if (null == entity) {
                 entity = processentity(name);
-                manager.putInEntityMap(name, entity);
+                manager.putInInstanceMap(name, entity);
             }
-            type.addEntity(entity);
+            type.addInstance(entity);
         }
     }
 
-    private Entity processentity(String name) {
-        Entity entity = new Entity();
+    private Instance processentity(String name) {
+        Instance entity = new Instance();
         entity.setName(name);
 
         Page entityPage = WikipediaAPI.getFirstPage(name);
-        List<Information> informationList = retrieveAttributesFromInfobox(entityPage.toString());
-        for(Information information : informationList){
-            entity.addInformation(information);
-        }
 
         retrieveSuperCategories(entityPage.toString(), entity);
         
@@ -120,23 +114,27 @@ public class CategoryCrawler implements Runnable {
             result = result.replaceAll("[\\[\\]\\n]", "");
             result = result.split("\\|")[0];
             result = result.split(":")[1];
-            element.addType(result);
+            element.addClassifier(result);
         }
 
     }
 
+    /**
     List<Information> retrieveAttributesFromInfobox(String entitytext) {
         List<Information> informationList = new InfoboxParser().parse(entitytext);
         
         return informationList;
     }
+    **/
 
     private void processCategory() {
 
         Page page = WikipediaAPI.getFirstPage("Category:" + type.getName());
+        /**This kind of marker is not used
         if(page.toString().contains("{Eponymous}"))
             System.out.println(type.getName());
         retrieveMainEntity(page.toString());
+        **/
         retrieveSuperCategories(page.toString(), type);
     }
     
@@ -146,14 +144,14 @@ public class CategoryCrawler implements Runnable {
         if (categoryMatcher.find()) {
             String result = categoryMatcher.group();
             result = Pattern.compile("(cat|main|more|\\{|\\}|\\|)", Pattern.CASE_INSENSITIVE).matcher(result).replaceAll("").trim(); 
-            Entity mainentity = processentity(result);
-            type.setMainEntity(mainentity);
+            Instance mainentity = processentity(result);
+            type.setDescription(mainentity);
         }
         categoryPattern = Pattern.compile("\\n\\s*\\{\\{cat main\\}\\}", Pattern.CASE_INSENSITIVE);
         categoryMatcher = categoryPattern.matcher(page);
         if (categoryMatcher.find()) {
-            Entity mainentity = processentity(type.getName());
-            type.setMainEntity(mainentity);
+            Instance mainentity = processentity(type.getName());
+            type.setDescription(mainentity);
         }
     }
 

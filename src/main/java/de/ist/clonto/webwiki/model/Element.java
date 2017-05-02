@@ -15,23 +15,23 @@ import java.util.Set;
  */
 public class Element extends NamedElement{
     
-    private final Set<String> types;
+    private final Set<String> allClassifiers;
     
     public Element(){
-        types = new HashSet<>();
+        allClassifiers = new HashSet<>();
     }
 
     /**
      * @return the types
      */
-    public Set<String> getTypes() {
-        return Collections.unmodifiableSet(types);
+    public Set<String> getAllClassifiers() {
+        return Collections.unmodifiableSet(allClassifiers);
     }
     
-    public void addType(String type){
-        if(type.contains("|"))
-            System.err.println(getName()+" flawed with type:"+type);
-        types.add(type);
+    public void addClassifier(String classifier){
+        if(classifier.contains("|"))
+            System.err.println(getName()+" flawed with category:"+classifier);
+        allClassifiers.add(classifier);
     }
     
 }
