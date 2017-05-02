@@ -18,11 +18,11 @@
             <version>1.8.1</version>
         </dependency>
         <dependency>
-            <groupId>info.bliki.wiki</groupId>
-            <artifactId>bliki-core</artifactId>
-            <version>3.0.19</version>
-            <type>jar</type>
+   		 <groupId>info.bliki.wiki</groupId>
+    	 <artifactId>bliki-core</artifactId>
+         <version>3.1.0</version>
         </dependency>
+
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
